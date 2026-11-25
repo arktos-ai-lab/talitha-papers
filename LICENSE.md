@@ -18,7 +18,7 @@ paper's original language reproduces, stays under the licence its authors chose.
 | Original paper | Translation | What you may do | Papers |
 |---|---|---|---|
 | CC BY-NC 4.0 | CC BY-NC 4.0 | Reuse allowed with attribution, non-commercial only. | 9 |
-| CC BY-SA 4.0 | CC BY-SA 4.0 | Reuse allowed with attribution; share adaptations alike. | 10 |
+| CC BY-SA 4.0 | CC BY-SA 4.0 | Reuse allowed with attribution; share adaptations alike. | 24 |
 
 **Authorship.** Copyright in each original paper stays with its authors. The translations are by
 Ernst van Gassen (Arktos AI Lab), 2026. To the extent a translation carries rights of its own, those rights

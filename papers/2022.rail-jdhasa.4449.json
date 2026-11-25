@@ -1,0 +1,45 @@
+{
+ "id": "2022.rail-jdhasa.4449",
+ "title": "Izindaba-Tindzaba: Machine learning news categorisation for Long and Short Text for isiZulu and Siswati",
+ "authors": [
+  "Andani Madodonga",
+  "Vukosi Marivate",
+  "Matthew Adendorff"
+ ],
+ "year": 2022,
+ "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+ "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4449",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "",
+ "original_language": "en",
+ "languages_studied": [
+  {
+   "iso639_3": "ssw",
+   "name": "Swati"
+  },
+  {
+   "iso639_3": "zul",
+   "name": "Zulu"
+  }
+ ],
+ "licence": {
+  "id": "cc-by-sa-4.0",
+  "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ "references": [],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 0,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2022.rail-jdhasa.4449/",
+  "fr": "https://talithapapers.com/fr/papers/2022.rail-jdhasa.4449/",
+  "sw": "https://talithapapers.com/sw/papers/2022.rail-jdhasa.4449/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

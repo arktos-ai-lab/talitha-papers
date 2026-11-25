@@ -1,6 +1,6 @@
 # Talitha
 
-> African language technology research in English, French and Swahili. 19 papers, each in every site language, with a citation graph.
+> African language technology research in English, French and Swahili. 33 papers, each in every site language, with a citation graph.
 > The original paper is the reference version; the other languages are machine translations that no
 > human has reviewed.
 
@@ -19,7 +19,7 @@
 
 ## Licences
 - Paper texts and their translations: the licence of each paper, given in its JSON file and on its page.
-  Papers here: CC BY-NC 4.0 (9), CC BY-SA 4.0 (10). Translations are released under the same licence as the original paper.
+  Papers here: CC BY-NC 4.0 (9), CC BY-SA 4.0 (24). Translations are released under the same licence as the original paper.
 - Citation graph, references and citing works: OpenAlex data, CC0 1.0 (https://openalex.org).
   The paper metadata and language tags in the graph are this site's own and are offered under CC0 1.0 as well.
 - Site design, templates and interface text: all rights reserved.

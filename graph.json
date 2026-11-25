@@ -21,10 +21,40 @@
    "name": "Lese"
   },
   {
+   "id": "lang:mlg",
+   "type": "language",
+   "iso639_3": "mlg",
+   "name": "Malagasy"
+  },
+  {
+   "id": "lang:nbv",
+   "type": "language",
+   "iso639_3": "nbv",
+   "name": "Ngamambo"
+  },
+  {
    "id": "lang:nso",
    "type": "language",
    "iso639_3": "nso",
    "name": "Pedi"
+  },
+  {
+   "id": "lang:sot",
+   "type": "language",
+   "iso639_3": "sot",
+   "name": "Sotho"
+  },
+  {
+   "id": "lang:ssw",
+   "type": "language",
+   "iso639_3": "ssw",
+   "name": "Swati"
+  },
+  {
+   "id": "lang:swa",
+   "type": "language",
+   "iso639_3": "swa",
+   "name": "Swahili"
   },
   {
    "id": "lang:tsn",
@@ -37,6 +67,18 @@
    "type": "language",
    "iso639_3": "tso",
    "name": "Tsonga"
+  },
+  {
+   "id": "lang:xho",
+   "type": "language",
+   "iso639_3": "xho",
+   "name": "Xhosa"
+  },
+  {
+   "id": "lang:zul",
+   "type": "language",
+   "iso639_3": "zul",
+   "name": "Zulu"
   },
   {
    "id": "paper:2020.rail-1.1",
@@ -303,6 +345,202 @@
    "openalex": "W4214835608",
    "match_method": "title",
    "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4437",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4437",
+   "title": "Localising the Mozilla Common Voice platform for South Africa’s official languages",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Febe de Wet, Andiswa Bukula, Willem Karsten, Martin Puttkammer, Erwin Schillack, Roné Wierenga, Roald Eiselen",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4437",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4439",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4439",
+   "title": "A Lexical database of Malagasy adjectives",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Joro Ranaivoarison",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4439",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4440",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4440",
+   "title": "An overview of Sesotho BLARK content",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Johannes Sibeko, Mmasibidi Setaka",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4440",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4441",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4441",
+   "title": "Creating electronic resources for African languages through digitisation: a technical report",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Elsabé Taljard, Danie Prinsloo, Michelle Goosen",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4441",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4442",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4442",
+   "title": "Deriving lexical statistics for psycholinguistic research on isiXhosa",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Robyn Berghoff",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4442",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4443",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4443",
+   "title": "Exploring Afrikaans word embeddings with analogies and nearest neighbours",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Tanja Gaustad, Roald Eiselen",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4443",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4444",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4444",
+   "title": "The Analysis of the Sepedi-English Code-switched Radio News Corpus",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Simon Ramalepe, Thipe I. Modipa, Marelie H. Davel",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4444",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4445",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4445",
+   "title": "Unpacking the Possibilities of a Vernacular Language Archive",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Henry Fagan, Grant McNulty, Carolyn Hamilton, Hussein Suleman",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4445",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4446",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4446",
+   "title": "Textual Augmentation Techniques Applied to Low Resource Machine Translation: Case of Swahili",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Catherine Gitau, Vukosi Marivate",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4446",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4447",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4447",
+   "title": "Topic modelling to support English text selection for translation into South Africa's other official languages",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Jocelyn Mazarura, Febe de Wet",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4447",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4448",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4448",
+   "title": "How to deal with so-called “vowel verbs with variant non-vowel forms” in a bilingual Zulu lexicon? The case for a pragmatic approach.",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Lafon Michel, Bolofo Mongezi",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4448",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4449",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4449",
+   "title": "Izindaba-Tindzaba: Machine learning news categorisation for Long and Short Text for isiZulu and Siswati",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Andani Madodonga, Vukosi Marivate, Matthew Adendorff",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4449",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4450",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4450",
+   "title": "Voicing in Ngamambo: A Descriptive perspective",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Sirih-Nagang Nancy Nyindem, Asongwed Tah",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4450",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2022.rail-jdhasa.4451",
+   "type": "paper",
+   "paper_id": "2022.rail-jdhasa.4451",
+   "title": "GiellaLT: an infrastructure for rule-based language technology tool development",
+   "year": 2022,
+   "venue": "Proceedings of the 3rd Workshop on Resources for African Indigenous Languages (RAIL 2022), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Flammie A Pirinen, Trond Trosterud, Sjur N. Moshagen, Linda Wiechetek",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4451",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
   },
   {
    "id": "work:W103452610",
@@ -4130,6 +4368,71 @@
    "source": "paper:2021.rail-jdhasa.3824",
    "target": "work:W7055622393",
    "type": "cites"
+  },
+  {
+   "source": "paper:2022.rail-jdhasa.4437",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2022.rail-jdhasa.4439",
+   "target": "lang:mlg",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2022.rail-jdhasa.4440",
+   "target": "lang:sot",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2022.rail-jdhasa.4441",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2022.rail-jdhasa.4442",
+   "target": "lang:xho",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2022.rail-jdhasa.4443",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2022.rail-jdhasa.4444",
+   "target": "lang:nso",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2022.rail-jdhasa.4446",
+   "target": "lang:swa",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2022.rail-jdhasa.4447",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2022.rail-jdhasa.4448",
+   "target": "lang:zul",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2022.rail-jdhasa.4449",
+   "target": "lang:ssw",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2022.rail-jdhasa.4449",
+   "target": "lang:zul",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2022.rail-jdhasa.4450",
+   "target": "lang:nbv",
+   "type": "studies_language"
   },
   {
    "source": "work:W3034748831",
