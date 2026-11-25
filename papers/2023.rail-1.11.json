@@ -1,0 +1,43 @@
+{
+ "id": "2023.rail-1.11",
+ "title": "Comparing methods of orthographic conversion for Bàsàá, a language of Cameroon",
+ "authors": [
+  "Alexandra O’neil",
+  "Daniel Swanson",
+  "Robert Pugh",
+  "Francis Tyers",
+  "Emmanuel Ngue Um"
+ ],
+ "year": 2023,
+ "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+ "source_url": "https://aclanthology.org/2023.rail-1.11/",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "",
+ "original_language": "en",
+ "languages_studied": [
+  {
+   "iso639_3": "wes",
+   "name": "Cameroon Pidgin"
+  }
+ ],
+ "licence": {
+  "id": "cc-by-4.0",
+  "name": "Creative Commons Attribution 4.0 International",
+  "url": "https://creativecommons.org/licenses/by/4.0/"
+ },
+ "references": [],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 0,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2023.rail-1.11/",
+  "fr": "https://talithapapers.com/fr/papers/2023.rail-1.11/",
+  "sw": "https://talithapapers.com/sw/papers/2023.rail-1.11/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

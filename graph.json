@@ -15,6 +15,18 @@
    "name": "Amharic"
   },
   {
+   "id": "lang:eth",
+   "type": "language",
+   "iso639_3": "eth",
+   "name": "Ethiopian Sign Language"
+  },
+  {
+   "id": "lang:igl",
+   "type": "language",
+   "iso639_3": "igl",
+   "name": "Igala"
+  },
+  {
    "id": "lang:les",
    "type": "language",
    "iso639_3": "les",
@@ -67,6 +79,18 @@
    "type": "language",
    "iso639_3": "tso",
    "name": "Tsonga"
+  },
+  {
+   "id": "lang:wes",
+   "type": "language",
+   "iso639_3": "wes",
+   "name": "Cameroon Pidgin"
+  },
+  {
+   "id": "lang:wol",
+   "type": "language",
+   "iso639_3": "wol",
+   "name": "Wolof"
   },
   {
    "id": "lang:xho",
@@ -538,6 +562,188 @@
    "authors": "Flammie A Pirinen, Trond Trosterud, Sjur N. Moshagen, Linda Wiechetek",
    "licence": "cc-by-sa-4.0",
    "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/4451",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2023.rail-1.1",
+   "type": "paper",
+   "paper_id": "2023.rail-1.1",
+   "title": "Automatic Spell Checker and Correction for Under-represented Spoken Languages: Case Study on Wolof",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Thierno Ibrahima Cissé, Fatiha Sadat",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.1/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2023.rail-1.10",
+   "type": "paper",
+   "paper_id": "2023.rail-1.10",
+   "title": "Towards a Swahili Universal Dependency Treebank: Leveraging the Annotations of the Helsinki Corpus of Swahili",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Kenneth Steimel, Sandra Kübler",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.10/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2023.rail-1.11",
+   "type": "paper",
+   "paper_id": "2023.rail-1.11",
+   "title": "Comparing methods of orthographic conversion for Bàsàá, a language of Cameroon",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Alexandra O’neil, Daniel Swanson, Robert Pugh, Francis Tyers, Emmanuel Ngue Um",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.11/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2023.rail-1.12",
+   "type": "paper",
+   "paper_id": "2023.rail-1.12",
+   "title": "Vowels and the Igala Language Resources",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Mahmud Momoh",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.12/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2023.rail-1.14",
+   "type": "paper",
+   "paper_id": "2023.rail-1.14",
+   "title": "Natural Language Processing in Ethiopian Languages: Current State, Challenges, and Opportunities",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Atnafu Lambebo Tonja, Tadesse Destaw Belay, Israel Abebe Azime, Abinew Ali Ayele, Moges Ahmed Mehamed, Olga Kolesnikova, Seid Muhie Yimam",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.14/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2023.rail-1.2",
+   "type": "paper",
+   "paper_id": "2023.rail-1.2",
+   "title": "Unsupervised Cross-lingual Word Embedding Representation for English-isiZulu",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Derwin Ngomane, Rooweither Mabuya, Jade Abbott, Vukosi Marivate",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.2/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2023.rail-1.3",
+   "type": "paper",
+   "paper_id": "2023.rail-1.3",
+   "title": "Preparing the Vuk’uzenzele and ZA-gov-multilingual South African multilingual corpora",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Richard Lastrucci, Isheanesu Dzingirai, Jenalea Rajab, Andani Madodonga, Matimba Shingange, Daniel Njini, Vukosi Marivate",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.3/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2023.rail-1.4",
+   "type": "paper",
+   "paper_id": "2023.rail-1.4",
+   "title": "SpeechReporting Corpus: annotated corpora of West African traditional narratives",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Katya Aplonova, Izabela Jordanoska, Timofey Arkhangelsky, Tatiana Nikitina",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.4/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2023.rail-1.5",
+   "type": "paper",
+   "paper_id": "2023.rail-1.5",
+   "title": "A Corpus-Based List of Frequently Used Words in Sesotho",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Johannes Sibeko, Orphée De Clercq",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.5/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2023.rail-1.6",
+   "type": "paper",
+   "paper_id": "2023.rail-1.6",
+   "title": "Deep learning and low-resource languages: How much data is enough? A case study of three linguistically distinct South African languages",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Roald Eiselen, Tanja Gaustad",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.6/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2023.rail-1.7",
+   "type": "paper",
+   "paper_id": "2023.rail-1.7",
+   "title": "IsiXhosa Intellectual Traditions Digital Archive: Digitizing isiXhosa texts from 1870-1914",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Jonathan Schoots, Amandla Ngwendu, Jacques De Wet, Sanjin Muftic",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.7/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2023.rail-1.8",
+   "type": "paper",
+   "paper_id": "2023.rail-1.8",
+   "title": "Analyzing political formation through historical isiXhosa text analysis: Using frequency analysis to examine emerging African Nationalism in South Africa",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Jonathan Schoots",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.8/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2023.rail-1.9",
+   "type": "paper",
+   "paper_id": "2023.rail-1.9",
+   "title": "Evaluating the Sesotho rule-based syllabification system on Sepedi and Setswana words",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Johannes Sibeko, Mmasibidi Setaka",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.9/",
    "openalex": "",
    "match_method": "",
    "match_confidence": 0
@@ -4432,6 +4638,101 @@
   {
    "source": "paper:2022.rail-jdhasa.4450",
    "target": "lang:nbv",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.1",
+   "target": "lang:wol",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.10",
+   "target": "lang:swa",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.11",
+   "target": "lang:wes",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.12",
+   "target": "lang:igl",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.14",
+   "target": "lang:eth",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.2",
+   "target": "lang:zul",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.2",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2023.rail-1.3",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.3",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2023.rail-1.4",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.5",
+   "target": "lang:sot",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.6",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.6",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2023.rail-1.7",
+   "target": "lang:xho",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.8",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.8",
+   "target": "lang:xho",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.9",
+   "target": "lang:nso",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.9",
+   "target": "lang:sot",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2023.rail-1.9",
+   "target": "lang:tsn",
    "type": "studies_language"
   },
   {

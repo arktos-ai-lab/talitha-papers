@@ -1,0 +1,14 @@
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+
+The translations in this folder (French, Swahili) are derivatives of:
+
+  Alexandra O’neil, Daniel Swanson, Robert Pugh, Francis Tyers, Emmanuel Ngue Um. "Comparing methods of orthographic conversion for Bàsàá, a language of Cameroon." Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023) (2023).
+  https://aclanthology.org/2023.rail-1.11/
+  Licensed under Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/).
+
+Translation by Ernst van Gassen (Arktos AI Lab), 2026. The translations are released under the same licence as the original, never a more restrictive one. Copyright in the original stays with its authors; to the extent the translations carry rights of their own, those rights are held by Ernst van Gassen and licensed under the same terms.
+
+To reuse a translation, credit both: the original authors and paper as above, and "translation by Ernst van Gassen (Arktos AI Lab)", with a link to the licence and a note of any changes.
+
+Changes made: the English text was extracted from the PDF, split into sentences and machine-translated with open models (glossary, MADLAD-400 7B (google/madlad400-7b-mt, Apache 2.0), Mistral Small 3.2 24B (Apache 2.0), OPUS-MT (Helsinki-NLP; opus-mt-tc-big-en-fr CC BY 4.0, opus-mt-en-sw Apache 2.0), Qwen 3.6 27B (Apache 2.0), DeepSeek-V4-Pro (MIT), low-confidence sentences only); one candidate per sentence was chosen by automatic quality estimation and checks. Not reviewed by a human. Layout, figures and tables are not reproduced; the original PDF is the reference version. The original authors have not reviewed or endorsed these translations.

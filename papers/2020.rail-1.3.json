@@ -188,7 +188,10 @@
   }
  ],
  "cited_by_internal": [
-  "2021.rail-jdhasa.3822"
+  "2021.rail-jdhasa.3822",
+  "2023.rail-1.2",
+  "2023.rail-1.3",
+  "2023.rail-1.6"
  ],
  "cited_by_count_openalex": 55,
  "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
