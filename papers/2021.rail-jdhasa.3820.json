@@ -1,0 +1,140 @@
+{
+ "id": "2021.rail-jdhasa.3820",
+ "title": "Investigating the feasibility of harvesting broadcast speech data to develop resources for South African languages",
+ "authors": [
+  "Jaco Badenhorst",
+  "Febe de Wet"
+ ],
+ "year": 2021,
+ "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+ "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3820",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W4214915629",
+ "original_language": "en",
+ "languages_studied": [
+  {
+   "iso639_3": "afr",
+   "name": "Afrikaans"
+  }
+ ],
+ "licence": {
+  "id": "cc-by-sa-4.0",
+  "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ "references": [
+  {
+   "id": "W148837159",
+   "doi": "",
+   "title": "The NCHLT Speech Corpus of the South African languages",
+   "year": 2014,
+   "first_author": "Etienne Barnard",
+   "venue": "Boloka Institutional Repository (North-west University)",
+   "internal_id": ""
+  },
+  {
+   "id": "W1524333225",
+   "doi": "",
+   "title": "The Kaldi Speech Recognition Toolkit",
+   "year": 2011,
+   "first_author": "Daniel Povey",
+   "venue": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2192412620",
+   "doi": "10.1371/journal.pone.0144610",
+   "title": "pyAudioAnalysis: An Open-Source Python Library for Audio Signal Analysis",
+   "year": 2015,
+   "first_author": "Θεόδωρος Γιαννακόπουλος",
+   "venue": "PLoS ONE",
+   "internal_id": ""
+  },
+  {
+   "id": "W2971222421",
+   "doi": "10.3390/info10090268",
+   "title": "The Usefulness of Imperfect Speech Data for ASR Development in Low-Resource Languages",
+   "year": 2019,
+   "first_author": "Jaco Badenhorst",
+   "venue": "Information",
+   "internal_id": ""
+  },
+  {
+   "id": "W2975262669",
+   "doi": "10.1007/978-3-030-31372-2_20",
+   "title": "Tuning of Acoustic Modeling and Adaptation Technique for a Real Speech Recognition Task",
+   "year": 2019,
+   "first_author": "Jan Vaněk",
+   "venue": "Lecture notes in computer science",
+   "internal_id": ""
+  },
+  {
+   "id": "W3000562670",
+   "doi": "10.1016/j.dib.2020.105146",
+   "title": "Dataset for comparable evaluation of machine translation between 11 South African languages",
+   "year": 2020,
+   "first_author": "Cindy A. McKellar",
+   "venue": "Data in Brief",
+   "internal_id": ""
+  },
+  {
+   "id": "W3022117922",
+   "doi": "",
+   "title": "NCHLT Afrikaans Text Corpora",
+   "year": 2014,
+   "first_author": "Martin J. Puttkammer",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W3025521026",
+   "doi": "10.1109/coginfocom47531.2019.9089928",
+   "title": "A Comparative Analysis of Domain Adaptation Techniques for Recognition of Accented Speech",
+   "year": 2019,
+   "first_author": "Gyurgy Szaszaak",
+   "venue": "IEEE International Conference on Cognitive Infocommunications",
+   "internal_id": ""
+  },
+  {
+   "id": "W3092996096",
+   "doi": "10.1007/s10772-020-09757-0",
+   "title": "Hindi speech recognition using time delay neural network acoustic modeling with i-vector adaptation",
+   "year": 2020,
+   "first_author": "Ankit Kumar",
+   "venue": "International Journal of Speech Technology",
+   "internal_id": ""
+  },
+  {
+   "id": "W4229521928",
+   "doi": "10.1109/coginfocom47531.2019",
+   "title": "2019 10th IEEE International Conference on Cognitive Infocommunications (CogInfoCom)",
+   "year": 2019,
+   "first_author": "",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W4234389704",
+   "doi": "10.1109/asru34931.2015",
+   "title": "2015 IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU)",
+   "year": 2015,
+   "first_author": "",
+   "venue": "",
+   "internal_id": ""
+  }
+ ],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 3,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2021.rail-jdhasa.3820/",
+  "fr": "https://talithapapers.com/fr/papers/2021.rail-jdhasa.3820/",
+  "sw": "https://talithapapers.com/sw/papers/2021.rail-jdhasa.3820/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

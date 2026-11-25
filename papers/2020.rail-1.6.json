@@ -1,0 +1,121 @@
+{
+ "id": "2020.rail-1.6",
+ "title": "Mobilizing Metadata: Open Data Kit (ODK) for Language Resource Development in East Africa",
+ "authors": [
+  "Richard Griscom"
+ ],
+ "year": 2020,
+ "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+ "source_url": "https://aclanthology.org/2020.rail-1.6/",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W3089061015",
+ "original_language": "en",
+ "languages_studied": [
+  {
+   "iso639_3": "afr",
+   "name": "Afrikaans"
+  }
+ ],
+ "licence": {
+  "id": "cc-by-nc-4.0",
+  "name": "Creative Commons Attribution-NonCommercial 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+ },
+ "references": [
+  {
+   "id": "W96509486",
+   "doi": "",
+   "title": "Research Models, Community Engagement, and Linguistic Fieldwork: Reflections on Working within Canadian Indigenous Communities",
+   "year": 2009,
+   "first_author": "Ewa Czaykowska-Higgins",
+   "venue": "Americanae (AECID Library)",
+   "internal_id": ""
+  },
+  {
+   "id": "W1956762213",
+   "doi": "10.1590/s1984-63982011000200005",
+   "title": "Corpora from a sociolinguistic perspective",
+   "year": 2011,
+   "first_author": "Tyler S. Kendall",
+   "venue": "Revista Brasileira de Lingüística Aplicada",
+   "internal_id": ""
+  },
+  {
+   "id": "W2014840417",
+   "doi": "10.1515/ling.1998.36.1.161",
+   "title": "Documentary and descriptive linguistics",
+   "year": 1998,
+   "first_author": "Nikolaus P. Himmelmann",
+   "venue": "Linguistics",
+   "internal_id": ""
+  },
+  {
+   "id": "W2062572449",
+   "doi": "10.1111/j.1749-818x.2008.00051.x",
+   "title": "On the History and Future of Sociolinguistic Data",
+   "year": 2008,
+   "first_author": "Tyler S. Kendall",
+   "venue": "Language and Linguistics Compass",
+   "internal_id": ""
+  },
+  {
+   "id": "W2319850727",
+   "doi": "10.1021/acs.jpclett.5b00285",
+   "title": "Open Source and Open Data Should Be Standard Practices",
+   "year": 2015,
+   "first_author": "J. Daniel Gezelter",
+   "venue": "The Journal of Physical Chemistry Letters",
+   "internal_id": ""
+  },
+  {
+   "id": "W2492911723",
+   "doi": "",
+   "title": "Valuing technology: Finding the linguist’s place in a new technological universe",
+   "year": 2011,
+   "first_author": "Jeff Good",
+   "venue": "John Benjamins eBooks",
+   "internal_id": ""
+  },
+  {
+   "id": "W2547919451",
+   "doi": "",
+   "title": "A Gentle Introduction to Metadata",
+   "year": 2003,
+   "first_author": "Jeff Good",
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2917246411",
+   "doi": "10.1007/978-3-030-14401-2_28",
+   "title": "Creating CMDI-Profiles for Textbook Resources",
+   "year": 2019,
+   "first_author": "Francesca Fallucchi",
+   "venue": "Communications in computer and information science",
+   "internal_id": ""
+  },
+  {
+   "id": "W6968519878",
+   "doi": "10.5281/zenodo.3819218",
+   "title": "rgriscom/Open-Data-Kit-Linguistic-Metadata-Method: Open Data Kit Linguistic Metadata Method 1.1.0",
+   "year": 2020,
+   "first_author": "Griscom, Richard T.",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "internal_id": ""
+  }
+ ],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 4,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2020.rail-1.6/",
+  "fr": "https://talithapapers.com/fr/papers/2020.rail-1.6/",
+  "sw": "https://talithapapers.com/sw/papers/2020.rail-1.6/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

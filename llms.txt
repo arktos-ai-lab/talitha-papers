@@ -1,0 +1,30 @@
+# Talitha
+
+> African language technology research in English, French and Swahili. 19 papers, each in every site language, with a citation graph.
+> The original paper is the reference version; the other languages are machine translations that no
+> human has reviewed.
+
+## Pages
+- https://talithapapers.com/en/, https://talithapapers.com/fr/, https://talithapapers.com/sw/: listings per language
+- https://talithapapers.com/en/papers/<paper id>/ (also fr, sw): one paper; the original text on the page of its original language
+- https://talithapapers.com/sitemap.xml
+
+## Data files
+- https://talithapapers.com/papers/<paper id>.json: one paper. Title, authors, year, venue, DOI, OpenAlex id, original language,
+  languages studied (ISO 639-3), licence, links to the en/fr/sw pages, references (OpenAlex id, DOI, and the
+  id on this site when the cited paper is here), ids of papers on this site that cite it.
+- https://talithapapers.com/graph.json and https://talithapapers.com/graph.csv: the citation graph of the papers on this site. Nodes: papers,
+  languages, external works. Edges: `cites` and `studies_language`.
+- https://talithapapers.com/translations/<licence>/<paper id>/: plain-text translations with a LICENSE file.
+
+## Licences
+- Paper texts and their translations: the licence of each paper, given in its JSON file and on its page.
+  Papers here: CC BY-NC 4.0 (9), CC BY-SA 4.0 (10). Translations are released under the same licence as the original paper.
+- Citation graph, references and citing works: OpenAlex data, CC0 1.0 (https://openalex.org).
+  The paper metadata and language tags in the graph are this site's own and are offered under CC0 1.0 as well.
+- Site design, templates and interface text: all rights reserved.
+
+## Notes for automated readers
+- Titles of references stay in their original language. A reference with an `internal_id` is a paper
+  that is also here, in the same languages.
+- Translations are machine output; cite the original paper, and the translation if you use it.

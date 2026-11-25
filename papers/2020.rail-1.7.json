@@ -1,0 +1,34 @@
+{
+ "id": "2020.rail-1.7",
+ "title": "A Computational Grammar of Ga",
+ "authors": [
+  "Lars Hellan"
+ ],
+ "year": 2020,
+ "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+ "source_url": "https://aclanthology.org/2020.rail-1.7/",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W3087953279",
+ "original_language": "en",
+ "languages_studied": [],
+ "licence": {
+  "id": "cc-by-nc-4.0",
+  "name": "Creative Commons Attribution-NonCommercial 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+ },
+ "references": [],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 2,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2020.rail-1.7/",
+  "fr": "https://talithapapers.com/fr/papers/2020.rail-1.7/",
+  "sw": "https://talithapapers.com/sw/papers/2020.rail-1.7/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

@@ -1,0 +1,280 @@
+{
+ "id": "2020.rail-1.5",
+ "title": "Comparing Neural Network Parsers for a Less-resourced and Morphologically-rich Language: Amharic Dependency Parser",
+ "authors": [
+  "Binyam Ephrem Seyoum",
+  "Yusuke Miyao",
+  "Baye Yimam Mekonnen"
+ ],
+ "year": 2020,
+ "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+ "source_url": "https://aclanthology.org/2020.rail-1.5/",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W3088148744",
+ "original_language": "en",
+ "languages_studied": [
+  {
+   "iso639_3": "amh",
+   "name": "Amharic"
+  },
+  {
+   "iso639_3": "les",
+   "name": "Lese"
+  }
+ ],
+ "licence": {
+  "id": "cc-by-nc-4.0",
+  "name": "Creative Commons Attribution-NonCommercial 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+ },
+ "references": [
+  {
+   "id": "W2105847779",
+   "doi": "10.1162/coli.07-056-r1-07-027",
+   "title": "Algorithms for Deterministic Incremental Dependency Parsing",
+   "year": 2008,
+   "first_author": "Joakim Nivre",
+   "venue": "Computational Linguistics",
+   "internal_id": ""
+  },
+  {
+   "id": "W2109000768",
+   "doi": "",
+   "title": "Statistical Parsing of Morphologically Rich Languages (SPMRL) What, How and Whither",
+   "year": 2010,
+   "first_author": "Reut Tsarfaty",
+   "venue": "Dublin City University Open Access Institutional Repository (Dublin City University)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2114887620",
+   "doi": "",
+   "title": "Transition-based Dependency Parsing with Rich Non-local Features",
+   "year": 2011,
+   "first_author": "Yue Zhang",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W2116410915",
+   "doi": "10.3115/1219840.1219852",
+   "title": "Online large-margin training of dependency parsers",
+   "year": 2005,
+   "first_author": "Ryan McDonald",
+   "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+   "internal_id": ""
+  },
+  {
+   "id": "W2134036914",
+   "doi": "10.3115/v1/p15-1033",
+   "title": "Transition-Based Dependency Parsing with Stack Long Short-Term Memory",
+   "year": 2015,
+   "first_author": "Chris Dyer",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W2147272182",
+   "doi": "10.1007/978-3-031-02139-8",
+   "title": "Introduction to Arabic Natural Language Processing",
+   "year": 2010,
+   "first_author": "Nizar Y. Habash",
+   "venue": "Synthesis lectures on human language technologies",
+   "internal_id": ""
+  },
+  {
+   "id": "W2250861254",
+   "doi": "10.3115/v1/d14-1082",
+   "title": "A Fast and Accurate Dependency Parser using Neural Networks",
+   "year": 2014,
+   "first_author": "Danqi Chen",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2251648400",
+   "doi": "10.3115/v1/p14-5003",
+   "title": "Open-Source Tools for Morphology, Lemmatization, POS Tagging and Named Entity Recognition",
+   "year": 2014,
+   "first_author": "Jana Straková",
+   "venue": "Annual Meeting of the Association for Computational Linguistics: System Demonstrations (ACL Demo)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2289899728",
+   "doi": "10.18653/v1/n16-1024",
+   "title": "Recurrent Neural Network Grammars",
+   "year": 2016,
+   "first_author": "Chris Dyer",
+   "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2301095666",
+   "doi": "10.1162/tacl_a_00101",
+   "title": "Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations",
+   "year": 2016,
+   "first_author": "Eliyahu Kiperwasser",
+   "venue": "Transactions of the Association for Computational Linguistics",
+   "internal_id": ""
+  },
+  {
+   "id": "W2311132329",
+   "doi": "10.18653/v1/p16-1231",
+   "title": "Globally Normalized Transition-Based Neural Networks",
+   "year": 2016,
+   "first_author": "Daniel Andor",
+   "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+   "internal_id": ""
+  },
+  {
+   "id": "W2552110825",
+   "doi": "10.48550/arxiv.1611.01734",
+   "title": "Deep Biaffine Attention for Neural Dependency Parsing",
+   "year": 2016,
+   "first_author": "Dozat, Timothy",
+   "venue": "arXiv (Cornell University)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2574640638",
+   "doi": "10.63317/2q6bwb9anobz",
+   "title": "UDPipe: Trainable Pipeline for Processing CoNLL-U Files Performing Tokenization, Morphological Analysis, POS Tagging and Parsing",
+   "year": 2016,
+   "first_author": "Milan Straka",
+   "venue": "Language Resources and Evaluation Conference (LREC)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2577569078",
+   "doi": "10.4000/books.aaccademia.1790",
+   "title": "Comparing State-of-the-art Dependency Parsers on the Italian Stanford Dependency Treebank",
+   "year": 2016,
+   "first_author": "Alberto Lavelli",
+   "venue": "Accademia University Press eBooks",
+   "internal_id": ""
+  },
+  {
+   "id": "W2606089314",
+   "doi": "10.1007/978-3-031-02165-7",
+   "title": "Neural Network Methods for Natural Language Processing",
+   "year": 2017,
+   "first_author": "Yoav Goldberg",
+   "venue": "Synthesis lectures on human language technologies",
+   "internal_id": ""
+  },
+  {
+   "id": "W2739827909",
+   "doi": "10.18653/v1/k17-3002",
+   "title": "Stanford's Graph-based Neural Dependency Parser at the CoNLL 2017 Shared Task",
+   "year": 2017,
+   "first_author": "Timothy Dozat",
+   "venue": "CoNLL Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies",
+   "internal_id": ""
+  },
+  {
+   "id": "W2740285126",
+   "doi": "10.18653/v1/k17-3022",
+   "title": "From Raw Text to Universal Dependencies - Look, No Tags!",
+   "year": 2017,
+   "first_author": "Miryam de Lhoneux",
+   "venue": "CoNLL Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies",
+   "internal_id": ""
+  },
+  {
+   "id": "W2788784374",
+   "doi": "10.63317/2dwkd5xar3i5",
+   "title": "Learning Word Vectors for 157 Languages",
+   "year": 2018,
+   "first_author": "Édouard Grave",
+   "venue": "Language Resources and Evaluation Conference (LREC)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2798517054",
+   "doi": "10.18653/v1/p18-1246",
+   "title": "Morphosyntactic Tagging with a Meta-BiLSTM Model over Context Sensitive Token Encodings",
+   "year": 2018,
+   "first_author": "Bernd Bohnet",
+   "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+   "internal_id": ""
+  },
+  {
+   "id": "W2805699599",
+   "doi": "10.63317/59idak9jiu75",
+   "title": "Universal Dependencies for Amharic",
+   "year": 2018,
+   "first_author": "Binyam Ephrem Seyoum",
+   "venue": "Language Resources and Evaluation Conference (LREC)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2889197485",
+   "doi": "10.18653/v1/d18-1291",
+   "title": "An Investigation of the Interactions Between Pre-Trained Word Embeddings, Character Models and POS Tags in Dependency Parsing",
+   "year": 2018,
+   "first_author": "Aaron Smith",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2898796642",
+   "doi": "10.18653/v1/k18-2013",
+   "title": "",
+   "year": 2018,
+   "first_author": "Jenna Kanerva",
+   "venue": "Proceedings of the",
+   "internal_id": ""
+  },
+  {
+   "id": "W2914096745",
+   "doi": "",
+   "title": "Dependency Parsing",
+   "year": 2009,
+   "first_author": "Sandra Kübler",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W2949917295",
+   "doi": "10.18653/v1/k18-2005",
+   "title": "Towards Better",
+   "year": 2018,
+   "first_author": "Wanxiang Che",
+   "venue": "Proceedings of the",
+   "internal_id": ""
+  },
+  {
+   "id": "W2988304195",
+   "doi": "",
+   "title": "CoNLL 2018 Shared Task : Multilingual Parsing from Raw Text to Universal Dependencies",
+   "year": 2018,
+   "first_author": "Daniel Zeman",
+   "venue": "Conference on Computational Natural Language Learning",
+   "internal_id": ""
+  },
+  {
+   "id": "W3121547375",
+   "doi": "",
+   "title": "",
+   "year": null,
+   "first_author": "",
+   "venue": "",
+   "internal_id": ""
+  }
+ ],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 2,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2020.rail-1.5/",
+  "fr": "https://talithapapers.com/fr/papers/2020.rail-1.5/",
+  "sw": "https://talithapapers.com/sw/papers/2020.rail-1.5/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

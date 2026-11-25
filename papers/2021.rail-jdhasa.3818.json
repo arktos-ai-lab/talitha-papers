@@ -1,0 +1,126 @@
+{
+ "id": "2021.rail-jdhasa.3818",
+ "title": "Canonical Segmentation and Syntactic Morpheme Tagging of Four Resource- scarce Nguni Languages",
+ "authors": [
+  "Jakobus S. Du Toit",
+  "Martin J. Puttkammer"
+ ],
+ "year": 2021,
+ "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+ "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3818",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W4214807560",
+ "original_language": "en",
+ "languages_studied": [],
+ "licence": {
+  "id": "cc-by-sa-4.0",
+  "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ "references": [
+  {
+   "id": "W1485957917",
+   "doi": "",
+   "title": "",
+   "year": null,
+   "first_author": "",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W2035994018",
+   "doi": "10.4102/lit.v29i1.99",
+   "title": "Die ontwikkeling van ’n woordafbreker en kompositumanaliseerder vir Afrikaans",
+   "year": 2008,
+   "first_author": "Suléne Pilon",
+   "venue": "Literator",
+   "internal_id": ""
+  },
+  {
+   "id": "W2105378193",
+   "doi": "10.3115/1034678.1034726",
+   "title": "Memory-based morphological analysis",
+   "year": 1999,
+   "first_author": "Antal P. J. van den Bosch",
+   "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+   "internal_id": ""
+  },
+  {
+   "id": "W2181487071",
+   "doi": "10.53228/njas.v11i2.359",
+   "title": "TOWARDS AN 11 X 11 ARRAY FOR THE DEGREE OF CONJUNCTIVISM / DISJUNCTIVISM OF THE SOUTH AFRICAN LANGUAGES",
+   "year": 2002,
+   "first_author": "Danie J. Prinsloo",
+   "venue": "Nordic journal of African studies",
+   "internal_id": ""
+  },
+  {
+   "id": "W2250471514",
+   "doi": "10.18653/v1/d13-1032",
+   "title": "Efficient Higher-Order CRFs for Morphological Tagging",
+   "year": 2013,
+   "first_author": "Thomas Mueller",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2251670681",
+   "doi": "",
+   "title": "Supervised Morphological Segmentation in a Low-Resource Learning Setting using Conditional Random Fields",
+   "year": 2013,
+   "first_author": "Teemu Ruokolainen",
+   "venue": "Conference on Computational Natural Language Learning",
+   "internal_id": ""
+  },
+  {
+   "id": "W2251689968",
+   "doi": "10.63317/3ra22d4bqjf4",
+   "title": "Developing Text Resources for Ten South African Languages",
+   "year": 2014,
+   "first_author": "Roald Eiselen",
+   "venue": "Language Resources and Evaluation Conference (LREC)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2757376562",
+   "doi": "10.18653/v1/d17-1073",
+   "title": "Don't Throw Those Morphological Analyzers Away Just Yet: Neural Morphological Disambiguation for Arabic",
+   "year": 2017,
+   "first_author": "Nasser Zalmout",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2893191669",
+   "doi": "10.1007/978-3-030-01204-5_1",
+   "title": "Deep Convolutional Networks for Supervised Morpheme Segmentation of Russian Language",
+   "year": 2018,
+   "first_author": "Alexey Andreevich Sorokin",
+   "venue": "Communications in computer and information science",
+   "internal_id": ""
+  },
+  {
+   "id": "W4200285050",
+   "doi": "10.3390/info12120520",
+   "title": "Developing Core Technologies for Resource-Scarce Nguni Languages",
+   "year": 2021,
+   "first_author": "Jakobus S. du Toit",
+   "venue": "Information",
+   "internal_id": ""
+  }
+ ],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 10,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2021.rail-jdhasa.3818/",
+  "fr": "https://talithapapers.com/fr/papers/2021.rail-jdhasa.3818/",
+  "sw": "https://talithapapers.com/sw/papers/2021.rail-jdhasa.3818/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

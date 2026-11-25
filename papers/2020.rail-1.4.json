@@ -1,0 +1,80 @@
+{
+ "id": "2020.rail-1.4",
+ "title": "Complex Setswana Parts of Speech Tagging",
+ "authors": [
+  "Gabofetswe Malema",
+  "Boago Okgetheng",
+  "Bopaki Tebalo",
+  "Moffat Motlhanka",
+  "Goaletsa Rammidi"
+ ],
+ "year": 2020,
+ "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+ "source_url": "https://aclanthology.org/2020.rail-1.4/",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W3088738255",
+ "original_language": "en",
+ "languages_studied": [
+  {
+   "iso639_3": "tsn",
+   "name": "Tswana"
+  }
+ ],
+ "licence": {
+  "id": "cc-by-nc-4.0",
+  "name": "Creative Commons Attribution-NonCommercial 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+ },
+ "references": [
+  {
+   "id": "W201383918",
+   "doi": "10.53228/njas.v15i4.37",
+   "title": "A Comparison of Approaches to Word Class Tagging: Disjunctively vs. Conjunctively Written Bantu Languages",
+   "year": 2006,
+   "first_author": "Elsabé Taljard",
+   "venue": "Nordic journal of African studies",
+   "internal_id": ""
+  },
+  {
+   "id": "W1517055517",
+   "doi": "",
+   "title": "An introduction to Tswana grammar",
+   "year": 1955,
+   "first_author": "Desmond T. Cole",
+   "venue": "Americanae (AECID Library)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2081687495",
+   "doi": "10.3115/974499.974526",
+   "title": "A simple rule-based part of speech tagger",
+   "year": 1992,
+   "first_author": "Eric Brill",
+   "venue": "Conference on Applied Natural Language Processing",
+   "internal_id": ""
+  },
+  {
+   "id": "W2117400858",
+   "doi": "",
+   "title": "Transformation-based error-driven learning and natural language processing: a case study in part-of-speech tagging",
+   "year": 1995,
+   "first_author": "Eric Brill",
+   "venue": "OLAC - Open Language Archives Community",
+   "internal_id": ""
+  }
+ ],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 5,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2020.rail-1.4/",
+  "fr": "https://talithapapers.com/fr/papers/2020.rail-1.4/",
+  "sw": "https://talithapapers.com/sw/papers/2020.rail-1.4/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

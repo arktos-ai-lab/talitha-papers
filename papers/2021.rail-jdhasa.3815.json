@@ -1,0 +1,131 @@
+{
+ "id": "2021.rail-jdhasa.3815",
+ "title": "Development of linguistically annotated parallel language resources for four South African languages",
+ "authors": [
+  "Tanja Gaustad",
+  "Martin Puttkammer"
+ ],
+ "year": 2021,
+ "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+ "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3815",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W4214806708",
+ "original_language": "en",
+ "languages_studied": [
+  {
+   "iso639_3": "afr",
+   "name": "Afrikaans"
+  }
+ ],
+ "licence": {
+  "id": "cc-by-sa-4.0",
+  "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ "references": [
+  {
+   "id": "W1594247117",
+   "doi": "",
+   "title": "Natural Language Annotation for Machine Learning",
+   "year": 2012,
+   "first_author": "James D. Pustejovsky",
+   "venue": "CERN Document Server (European Organization for Nuclear Research)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2006073714",
+   "doi": "10.2989/16073610609486427",
+   "title": "The status of the word in selected conventional writing systems — the case of disjunctive writing",
+   "year": 2006,
+   "first_author": "Louis Jacobus Louwrens",
+   "venue": "Southern African Linguistics and Applied Language Studies",
+   "internal_id": ""
+  },
+  {
+   "id": "W2009999555",
+   "doi": "10.1080/00020185008706801",
+   "title": "Bantu languages, inflexional with a tendency towards agglutination",
+   "year": 1950,
+   "first_author": "Clement M. Doke",
+   "venue": "African Studies",
+   "internal_id": ""
+  },
+  {
+   "id": "W2093686874",
+   "doi": "10.1007/s10579-011-9170-z",
+   "title": "Is it worth the effort? Assessing the benefits of partial automatic pre-labeling for frame-semantic annotation",
+   "year": 2011,
+   "first_author": "Ines Rehbein",
+   "venue": "Language Resources and Evaluation",
+   "internal_id": ""
+  },
+  {
+   "id": "W2144245357",
+   "doi": "10.1136/amiajnl-2013-001837",
+   "title": "Evaluating the impact of pre-annotation on annotation speed and potential bias: natural language processing gold standard development for clinical named entity recognition in clinical trial announcements",
+   "year": 2014,
+   "first_author": "Todd Lingren",
+   "venue": "Journal of the American Medical Informatics Association",
+   "internal_id": ""
+  },
+  {
+   "id": "W2181487071",
+   "doi": "10.53228/njas.v11i2.359",
+   "title": "TOWARDS AN 11 X 11 ARRAY FOR THE DEGREE OF CONJUNCTIVISM / DISJUNCTIVISM OF THE SOUTH AFRICAN LANGUAGES",
+   "year": 2002,
+   "first_author": "Danie J. Prinsloo",
+   "venue": "Nordic journal of African studies",
+   "internal_id": ""
+  },
+  {
+   "id": "W2251689968",
+   "doi": "10.63317/3ra22d4bqjf4",
+   "title": "Developing Text Resources for Ten South African Languages",
+   "year": 2014,
+   "first_author": "Roald Eiselen",
+   "venue": "Language Resources and Evaluation Conference (LREC)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2290964183",
+   "doi": "",
+   "title": "Crowdsourcing annotation for machine learning in natural language processing tasks",
+   "year": 2012,
+   "first_author": "Chris Callison-Burch",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W2597513101",
+   "doi": "",
+   "title": "Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14)",
+   "year": 2014,
+   "first_author": "Rico Sennrich",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W4200285050",
+   "doi": "10.3390/info12120520",
+   "title": "Developing Core Technologies for Resource-Scarce Nguni Languages",
+   "year": 2021,
+   "first_author": "Jakobus S. du Toit",
+   "venue": "Information",
+   "internal_id": ""
+  }
+ ],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 5,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2021.rail-jdhasa.3815/",
+  "fr": "https://talithapapers.com/fr/papers/2021.rail-jdhasa.3815/",
+  "sw": "https://talithapapers.com/sw/papers/2021.rail-jdhasa.3815/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

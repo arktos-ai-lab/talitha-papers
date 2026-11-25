@@ -1,0 +1,312 @@
+{
+ "id": "2021.rail-jdhasa.3819",
+ "title": "New uses for old books: Description of digitised corpora-based on the Setswana language collection in the WITS Cullen Africana Collection",
+ "authors": [
+  "Malebogo Thabong",
+  "Nina Lewin",
+  "Taariq Surtee"
+ ],
+ "year": 2021,
+ "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+ "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3819",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W4214933880",
+ "original_language": "en",
+ "languages_studied": [
+  {
+   "iso639_3": "tsn",
+   "name": "Tswana"
+  }
+ ],
+ "licence": {
+  "id": "cc-by-sa-4.0",
+  "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ "references": [
+  {
+   "id": "W114511930",
+   "doi": "",
+   "title": "Teach Yourself Linguistics",
+   "year": 1987,
+   "first_author": "Jean Aitchison",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W189707994",
+   "doi": "",
+   "title": "English Unassailable but Unattainable: The Dilemma of Language Policy in South African Education.",
+   "year": 1999,
+   "first_author": "Neville Alexander",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W340490638",
+   "doi": "",
+   "title": "Standard in Setswana in Botswana",
+   "year": 2006,
+   "first_author": "Bokang Itumeleng Nfila",
+   "venue": "UpSpace Institutional Repository (University of Pretoria)",
+   "internal_id": ""
+  },
+  {
+   "id": "W1527962679",
+   "doi": "10.1002/9781444395037.ch3",
+   "title": "Lexical‐Functional Grammar: Interactions Between Morphology and Syntax",
+   "year": 2011,
+   "first_author": "Rachel Nordlinger",
+   "venue": "Wiley eBooks",
+   "internal_id": ""
+  },
+  {
+   "id": "W1552656226",
+   "doi": "10.1080/02572117.2005.10587247",
+   "title": "Automatic lemmatization in Setswana: towards a prototype",
+   "year": 2005,
+   "first_author": "Karien Brits",
+   "venue": "South African Journal of African Languages",
+   "internal_id": ""
+  },
+  {
+   "id": "W1989857068",
+   "doi": "10.4102/lit.v29i1.98",
+   "title": "Towards a computational morphological analysis of Setswana compounds",
+   "year": 2008,
+   "first_author": "Laurette Pretorius",
+   "venue": "Literator",
+   "internal_id": ""
+  },
+  {
+   "id": "W1997096837",
+   "doi": "10.4314/marang.v19i1.42819",
+   "title": "Setswana Sports Terms: A Genre Analysis",
+   "year": 2009,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Marang Journal of Language and Literature",
+   "internal_id": ""
+  },
+  {
+   "id": "W2004015781",
+   "doi": "10.1080/10228195.2013.837949",
+   "title": "‘Declaration without implementation’: An investigation into the progress made and challenges faced in implementing the Wits language policy",
+   "year": 2013,
+   "first_author": "Emure Kadenge",
+   "venue": "Language Matters",
+   "internal_id": ""
+  },
+  {
+   "id": "W2007844601",
+   "doi": "10.1075/nlp.7",
+   "title": "Memory-Based Parsing",
+   "year": 2004,
+   "first_author": "Sandra Kübler",
+   "venue": "Natural language processing",
+   "internal_id": ""
+  },
+  {
+   "id": "W2020835585",
+   "doi": "10.5788/19-0-449",
+   "title": "Populating Sub-entries in Dictionaries with Multi-word Unitsfrom Concordance Lines",
+   "year": 2009,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Lexikos",
+   "internal_id": ""
+  },
+  {
+   "id": "W2038248725",
+   "doi": "",
+   "title": "Head-driven phrase structure grammar",
+   "year": 1994,
+   "first_author": "Ivan A. Sag",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W2074952134",
+   "doi": "10.1093/llc/7.1.1",
+   "title": "Corpus Design Criteria",
+   "year": 1992,
+   "first_author": "S. ATKINS",
+   "venue": "Literary and Linguistic Computing",
+   "internal_id": ""
+  },
+  {
+   "id": "W2102750252",
+   "doi": "10.5842/44-0-644",
+   "title": "The sequence and productivity of Setswana verbal suffixes",
+   "year": 2014,
+   "first_author": "Rigardt Pretorius",
+   "venue": "Stellenbosch Papers in Linguistics Plus",
+   "internal_id": ""
+  },
+  {
+   "id": "W2143572684",
+   "doi": "10.5788/23-1-1228",
+   "title": "Introducing Tlhalosi ya Medi ya Setswana: The Design and Compilation of a Monolingual Setswana Dictionary",
+   "year": 2013,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Lexikos",
+   "internal_id": ""
+  },
+  {
+   "id": "W2150435764",
+   "doi": "10.5788/24-1-1267",
+   "title": "Developing a Campus Slang Dictionary for the University of Botswana",
+   "year": 2014,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Lexikos",
+   "internal_id": ""
+  },
+  {
+   "id": "W2165457429",
+   "doi": "10.5788/16-0-653",
+   "title": "Challenges to Issues of Balance and Representativeness in African Lexicography",
+   "year": 2010,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Lexikos",
+   "internal_id": ""
+  },
+  {
+   "id": "W2168088297",
+   "doi": "",
+   "title": "Corpus design for Setswana lexicography",
+   "year": 2008,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "UpSpace Institutional Repository (University of Pretoria)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2168820179",
+   "doi": "10.18419/opus-2556",
+   "title": "The statistics of word cooccurrences : word pairs and collocations",
+   "year": 2005,
+   "first_author": "Stefan Evert",
+   "venue": "OPUS Publication Server of the University of Stuttgart (University of Stuttgart)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2175820907",
+   "doi": "10.5788/25-1-1299",
+   "title": "Treatment of Spelling Variants in Setswana Monolingual Dictionaries",
+   "year": 2015,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Lexikos",
+   "internal_id": ""
+  },
+  {
+   "id": "W2567464248",
+   "doi": "10.1080/02572117.2016.1252008",
+   "title": "The design of Setswana Scrabble",
+   "year": 2016,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "South African Journal of African Languages",
+   "internal_id": ""
+  },
+  {
+   "id": "W2598894966",
+   "doi": "",
+   "title": "Computational Modelling in Bantu Language",
+   "year": 2006,
+   "first_author": "K Getao",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W2787833597",
+   "doi": "",
+   "title": "Grammar writing, testing, and evaluation",
+   "year": 2003,
+   "first_author": "Miriam Butt",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W2887875660",
+   "doi": "",
+   "title": "Computational syntactic analysis of Setswana",
+   "year": 2018,
+   "first_author": "Anna Susanna Berg",
+   "venue": "Boloka Institutional Repository (North-west University)",
+   "internal_id": ""
+  },
+  {
+   "id": "W3022046731",
+   "doi": "10.48550/arxiv.2004.13842",
+   "title": "Low resource language dataset creation, curation and classification: Setswana and Sepedi -- Extended Abstract",
+   "year": 2020,
+   "first_author": "Vukosi N. Marivate",
+   "venue": "arXiv (Cornell University)",
+   "internal_id": ""
+  },
+  {
+   "id": "W3153969171",
+   "doi": "",
+   "title": "Auxiliary verbs as a subcategory of the verb in Tswana",
+   "year": 1997,
+   "first_author": "Rigardt Pretorius",
+   "venue": "Boloka Institutional Repository (North-west University)",
+   "internal_id": ""
+  },
+  {
+   "id": "W3215056996",
+   "doi": "",
+   "title": "Language, Society and Communication: An Introduction",
+   "year": 2014,
+   "first_author": "Zannie Bock",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W4239699010",
+   "doi": "10.1057/978-1-137-01593-8_12",
+   "title": "Setswana",
+   "year": 2017,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Palgrave Macmillan UK eBooks",
+   "internal_id": ""
+  },
+  {
+   "id": "W6604614409",
+   "doi": "",
+   "title": "",
+   "year": null,
+   "first_author": "",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W7047479661",
+   "doi": "",
+   "title": "Head-driven phrase structure grammar",
+   "year": 1996,
+   "first_author": "Carl Pollard",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W7095193677",
+   "doi": "",
+   "title": "Survey of learner corpora",
+   "year": null,
+   "first_author": "Norma A. Pravec",
+   "venue": "",
+   "internal_id": ""
+  }
+ ],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 0,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2021.rail-jdhasa.3819/",
+  "fr": "https://talithapapers.com/fr/papers/2021.rail-jdhasa.3819/",
+  "sw": "https://talithapapers.com/sw/papers/2021.rail-jdhasa.3819/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

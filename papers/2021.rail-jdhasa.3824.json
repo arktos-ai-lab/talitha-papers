@@ -1,0 +1,278 @@
+{
+ "id": "2021.rail-jdhasa.3824",
+ "title": "Wordsmith Tools as an Enabler for Text Analysis",
+ "authors": [
+  "Rooweither Mabuya"
+ ],
+ "year": 2021,
+ "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+ "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3824",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W4214835608",
+ "original_language": "en",
+ "languages_studied": [],
+ "licence": {
+  "id": "cc-by-sa-4.0",
+  "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ "references": [
+  {
+   "id": "W290360069",
+   "doi": "10.1515/9783110228014",
+   "title": "Languages for Special Purposes: An International Handbook",
+   "year": 2018,
+   "first_author": "John Humbley",
+   "venue": "De Gruyter eBooks",
+   "internal_id": ""
+  },
+  {
+   "id": "W565739154",
+   "doi": "",
+   "title": "Language and Computers: A Practical Introduction to the Computer Analysis of Language",
+   "year": 1996,
+   "first_author": "Geoff Barnbrook",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W643706739",
+   "doi": "",
+   "title": "Corpus linguistics and computational linguistics : an overview with special reference to English",
+   "year": 2003,
+   "first_author": "Adriana Teresa Damascelli",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W1483736602",
+   "doi": "",
+   "title": "Automatic Ambiguity Resolution in Natural Language Processing: An Empirical Approach",
+   "year": 1996,
+   "first_author": "Alexander Franz",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W1512777974",
+   "doi": "",
+   "title": "Ukwabelana - An open-source morphological Zulu corpus",
+   "year": 2010,
+   "first_author": "Sebastian Spiegler",
+   "venue": "Explore Bristol Research",
+   "internal_id": ""
+  },
+  {
+   "id": "W1523808037",
+   "doi": "",
+   "title": "Assessing politeness, language and gender in hlonipha.",
+   "year": 2007,
+   "first_author": "Thobekile Patience. Luthuli",
+   "venue": "ResearchSpace (University of KwaZulu-Natal)",
+   "internal_id": ""
+  },
+  {
+   "id": "W1528022241",
+   "doi": "",
+   "title": "Becoming Qualitative Researchers: An Introduction",
+   "year": 1991,
+   "first_author": "Corrine Glesne",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W1570518225",
+   "doi": "10.1007/978-3-642-30910-6_13",
+   "title": "The Construction of a 500-Million-Word Reference Corpus of Contemporary Written Dutch",
+   "year": 2012,
+   "first_author": "Nelleke H. J. Oostdijk",
+   "venue": "Theory and applications of natural language processing",
+   "internal_id": ""
+  },
+  {
+   "id": "W1967461618",
+   "doi": "",
+   "title": "Corpus linguistics : investigating language structure and use",
+   "year": 2006,
+   "first_author": "Douglas Biber",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W1974923579",
+   "doi": "10.2989/16073610609486436",
+   "title": "Communicating through performance:Izigiyo zawomameas gendered protest texts",
+   "year": 2006,
+   "first_author": "Nhlanhla Mathonsi",
+   "venue": "Southern African Linguistics and Applied Language Studies",
+   "internal_id": ""
+  },
+  {
+   "id": "W1998711705",
+   "doi": "10.1080/17447143.2013.806514",
+   "title": "Feminizing linguistic human rights: use ofisihlonipho sabafaziin the courtroom and intra-group linguistic differences",
+   "year": 2013,
+   "first_author": "Busi Makoni",
+   "venue": "Journal of Multicultural Discourses",
+   "internal_id": ""
+  },
+  {
+   "id": "W2016935249",
+   "doi": "10.1353/lit.2006.0022",
+   "title": "Embracing A New Creed: Lexical Patterning and The Encoding Of Ideology",
+   "year": 2006,
+   "first_author": "Oliver, M.A Mason",
+   "venue": "College literature",
+   "internal_id": ""
+  },
+  {
+   "id": "W2033774834",
+   "doi": "10.1075/jlp.4.2.04bak",
+   "title": "A corpus-based approach to discourses of refugees and asylum seekers in UN and newspaper texts",
+   "year": 2005,
+   "first_author": "Paul Baker",
+   "venue": "Journal of Language and Politics",
+   "internal_id": ""
+  },
+  {
+   "id": "W2147074180",
+   "doi": "10.1017/s0267190500200044",
+   "title": "LANGUAGES FOR SPECIFIC PURPOSES",
+   "year": 2000,
+   "first_author": "John M. Swales",
+   "venue": "Annual Review of Applied Linguistics",
+   "internal_id": ""
+  },
+  {
+   "id": "W2174555018",
+   "doi": "10.5788/25-1-1309",
+   "title": "Semi-automatic Term Extraction for an isiZulu Linguistic Terms Dictionary",
+   "year": 2015,
+   "first_author": "Langa Khumalo",
+   "venue": "Lexikos",
+   "internal_id": ""
+  },
+  {
+   "id": "W2186250525",
+   "doi": "",
+   "title": "The Role of Spoken Language Corpora in the Intellectualisation of Indigenous Languages in South Africa",
+   "year": 2010,
+   "first_author": "Mtholeni N. Ngcobo",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W2303744549",
+   "doi": "10.1080/02572117.1982.10586458",
+   "title": "HLONIPHA—THE WOMEN'S LANGUAGE OF AVOIDANCE AMONG THE XHOSA",
+   "year": 1982,
+   "first_author": "Rosalie Finlayson",
+   "venue": "South African Journal of African Languages",
+   "internal_id": ""
+  },
+  {
+   "id": "W2613379905",
+   "doi": "10.1177/0033688217707631",
+   "title": "Practical Corpus Linguistics: An Introduction to Corpus-Based Language Analysis",
+   "year": 2017,
+   "first_author": "Mohsen Shirazizadeh",
+   "venue": "RELC Journal",
+   "internal_id": ""
+  },
+  {
+   "id": "W2735853219",
+   "doi": "",
+   "title": "Isihlonipho sabafazi : the Xhosa women's language of respect : a sociolinguistic exploration",
+   "year": 1988,
+   "first_author": "Tessa Dowling",
+   "venue": "Open University of Cape Town (University of Cape Town)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2752672336",
+   "doi": "",
+   "title": "Corpus, Concordance, Collocation",
+   "year": 1992,
+   "first_author": "Patricio Novoa Green",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W4230784024",
+   "doi": "10.4324/9780203087701",
+   "title": "Introducing Electronic Text Analysis: A Practical Guide for Language and Literary Studies",
+   "year": 2006,
+   "first_author": "Svenja Adolphs",
+   "venue": "Routledge eBooks",
+   "internal_id": ""
+  },
+  {
+   "id": "W4231867583",
+   "doi": "10.1075/scl.12",
+   "title": "How to Use Corpora in Language Teaching",
+   "year": 2004,
+   "first_author": "John Sinclair",
+   "venue": "Studies in corpus linguistics",
+   "internal_id": ""
+  },
+  {
+   "id": "W4249354154",
+   "doi": "10.1002/9781119180180",
+   "title": "Practical Corpus Linguistics: An Introduction to Corpus‐Based Language Analysis",
+   "year": 2015,
+   "first_author": "Martin Weißer",
+   "venue": "Wiley eBooks",
+   "internal_id": ""
+  },
+  {
+   "id": "W6691259201",
+   "doi": "",
+   "title": "",
+   "year": null,
+   "first_author": "",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W6960308769",
+   "doi": "10.13140/rg.2.2.27309.72169",
+   "title": "ACCESSING ALL AREAS: Corpus Analysis methods in inter-disciplinary applications",
+   "year": 2011,
+   "first_author": "Ramesh Krishnamurthy",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W7029718130",
+   "doi": "",
+   "title": "MACHINE LEARNING FOR THE ANALYSIS OF MORPHOLOGICALLY COMPLEX LANGUAGES",
+   "year": 2011,
+   "first_author": "Sebastian Spiegler",
+   "venue": "OpenGrey (Institut de l'Information Scientifique et Technique)",
+   "internal_id": ""
+  },
+  {
+   "id": "W7055622393",
+   "doi": "",
+   "title": "Corpus, concordance, collocation",
+   "year": 1991,
+   "first_author": "John Sinclair",
+   "venue": "",
+   "internal_id": ""
+  }
+ ],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 1,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2021.rail-jdhasa.3824/",
+  "fr": "https://talithapapers.com/fr/papers/2021.rail-jdhasa.3824/",
+  "sw": "https://talithapapers.com/sw/papers/2021.rail-jdhasa.3824/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

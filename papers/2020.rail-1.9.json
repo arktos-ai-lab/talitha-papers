@@ -1,0 +1,61 @@
+{
+ "id": "2020.rail-1.9",
+ "title": "Building Collaboration-based Resources in Endowed African Languages: Case of NTeALan Dictionaries Platform",
+ "authors": [
+  "Elvis Mboning",
+  "Daniel Baleba",
+  "Jean Marc Bassahak",
+  "Ornella Wandji"
+ ],
+ "year": 2020,
+ "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+ "source_url": "https://aclanthology.org/2020.rail-1.9/",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W3088183611",
+ "original_language": "en",
+ "languages_studied": [
+  {
+   "iso639_3": "afr",
+   "name": "Afrikaans"
+  }
+ ],
+ "licence": {
+  "id": "cc-by-nc-4.0",
+  "name": "Creative Commons Attribution-NonCommercial 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+ },
+ "references": [
+  {
+   "id": "W2507609724",
+   "doi": "",
+   "title": "Maninka Reference Corpus: A Presentation",
+   "year": 2016,
+   "first_author": "Valentin Vydrin",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W2795494677",
+   "doi": "",
+   "title": "The SAWA corpus : a parallell corpus English-Swahili",
+   "year": 2009,
+   "first_author": "Guy De Pauw",
+   "venue": "",
+   "internal_id": ""
+  }
+ ],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 4,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2020.rail-1.9/",
+  "fr": "https://talithapapers.com/fr/papers/2020.rail-1.9/",
+  "sw": "https://talithapapers.com/sw/papers/2020.rail-1.9/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

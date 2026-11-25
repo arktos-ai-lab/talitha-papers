@@ -1,0 +1,176 @@
+{
+ "id": "2021.rail-jdhasa.3821",
+ "title": "Using MonoConc Pro to teach and learn lexical collocations in Xitsonga",
+ "authors": [
+  "Respect Mlambo",
+  "Muzi Matfunjwa"
+ ],
+ "year": 2021,
+ "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+ "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3821",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W4214871026",
+ "original_language": "en",
+ "languages_studied": [
+  {
+   "iso639_3": "tso",
+   "name": "Tsonga"
+  }
+ ],
+ "licence": {
+  "id": "cc-by-sa-4.0",
+  "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ "references": [
+  {
+   "id": "W1552922461",
+   "doi": "",
+   "title": "Linguistics : an introduction",
+   "year": 2009,
+   "first_author": "William B. McGregor",
+   "venue": "Bloomsbury Academic eBooks",
+   "internal_id": ""
+  },
+  {
+   "id": "W1968592201",
+   "doi": "10.1093/elt/47.1.56",
+   "title": "Lexical collocations: a contrastive view",
+   "year": 1993,
+   "first_author": "Jens Bahns",
+   "venue": "ELT Journal",
+   "internal_id": ""
+  },
+  {
+   "id": "W2000983314",
+   "doi": "10.2989/16073610709486456",
+   "title": "Analysing the English-Xhosa parallel corpus of technical texts with Paraconc: a case study of term formation processes",
+   "year": 2007,
+   "first_author": "Koliswa Moropa",
+   "venue": "Southern African Linguistics and Applied Language Studies",
+   "internal_id": ""
+  },
+  {
+   "id": "W2041990224",
+   "doi": "10.1080/10228190408566208",
+   "title": "Parallel corpora as tools for developing the indigenous languages of South Africa, with special reference to Venda",
+   "year": 2004,
+   "first_author": "Mbulungeni Madiba",
+   "venue": "Language Matters",
+   "internal_id": ""
+  },
+  {
+   "id": "W2058438565",
+   "doi": "10.4304/tpls.3.1.51-60",
+   "title": "A Corpus-based Approach toward Teaching Collocation of Synonyms",
+   "year": 2013,
+   "first_author": "Ali Akbar Jafarpour",
+   "venue": "Theory and Practice in Language Studies",
+   "internal_id": ""
+  },
+  {
+   "id": "W2085969534",
+   "doi": "10.5788/12-0-760",
+   "title": "Semi-automatic Term Extraction for the African Languages, with Special Reference to Northern Sotho",
+   "year": 2010,
+   "first_author": "Elsabé Taljard",
+   "venue": "Lexikos",
+   "internal_id": ""
+  },
+  {
+   "id": "W2095137560",
+   "doi": "10.1080/14664200208668036",
+   "title": "The Intellectualisation of the Indigenous Languages of South Africa: Challenges and Prospects",
+   "year": 2002,
+   "first_author": "Rosalie Finlayson",
+   "venue": "Current Issues in Language Planning",
+   "internal_id": ""
+  },
+  {
+   "id": "W2118992666",
+   "doi": "",
+   "title": "Introducing the Autshumato Integrated Translation Environment",
+   "year": 2009,
+   "first_author": "Hendrik J. Groenewald",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W2158421367",
+   "doi": "10.22146/jh.v14i1.745",
+   "title": "Grammatical and lexical english Collocations : some possible Problems to indonesian learners Of english.",
+   "year": 2012,
+   "first_author": "Rio Rini Diah Moehkardi",
+   "venue": "Jurnal Humaniora",
+   "internal_id": ""
+  },
+  {
+   "id": "W2291168609",
+   "doi": "",
+   "title": "REVIEW OF MONOCONC PRO AND WORDSMITH TOOLS",
+   "year": 2001,
+   "first_author": "Mike Scot",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W2541358921",
+   "doi": "10.4102/lit.v37i2.1278",
+   "title": "Using ParaConc to extract bilingual terminology from parallel corpora: A case of English and Ndebele",
+   "year": 2016,
+   "first_author": "Ketiwe Ndhlovu",
+   "venue": "Literator",
+   "internal_id": ""
+  },
+  {
+   "id": "W2792736048",
+   "doi": "10.64152/10125/44564",
+   "title": "Review of MonoConc Pro and WordSmith Tools",
+   "year": 2001,
+   "first_author": "Randi Reppen",
+   "venue": "Language learning & technology",
+   "internal_id": ""
+  },
+  {
+   "id": "W2954733819",
+   "doi": "",
+   "title": "Exploring the use of parallel corpora in the complilation of specialised bilingual dictionaries of technical terms: a case study of English and isiXhosa",
+   "year": 2018,
+   "first_author": "Feziwe Shoba",
+   "venue": "Unisa Institutional Repository (University of South Africa)",
+   "internal_id": ""
+  },
+  {
+   "id": "W3157544848",
+   "doi": "10.2989/16073614.2021.1896971",
+   "title": "The extraction of terminology list using ParaConc for creating a quadrilingual dictionary",
+   "year": 2021,
+   "first_author": "Respect Mlambo",
+   "venue": "Southern African Linguistics and Applied Language Studies",
+   "internal_id": ""
+  },
+  {
+   "id": "W4229939117",
+   "doi": "10.1075/z.bbi1(2nd)",
+   "title": "The BBI Dictionary of English Word Combinations: Revised edition",
+   "year": 1997,
+   "first_author": "Morton Benson",
+   "venue": "John Benjamins Publishing Company eBooks",
+   "internal_id": ""
+  }
+ ],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 4,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2021.rail-jdhasa.3821/",
+  "fr": "https://talithapapers.com/fr/papers/2021.rail-jdhasa.3821/",
+  "sw": "https://talithapapers.com/sw/papers/2021.rail-jdhasa.3821/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

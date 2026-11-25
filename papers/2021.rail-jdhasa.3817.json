@@ -1,0 +1,105 @@
+{
+ "id": "2021.rail-jdhasa.3817",
+ "title": "A novel method for redefining language ecology and endangerment in Nigeria : – towards a geospatial solution",
+ "authors": [
+  "Imelda Udoh",
+  "Moses Ekpenyong",
+  "Eno-Abasi Urua",
+  "Harrison Adeniyi",
+  "Greg Obiamalu",
+  "Ayo Yusuff",
+  "Ogbonna Anyanwu",
+  "Ebitare Obikudo"
+ ],
+ "year": 2021,
+ "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+ "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3817",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W4214931693",
+ "original_language": "en",
+ "languages_studied": [],
+ "licence": {
+  "id": "cc-by-sa-4.0",
+  "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ "references": [
+  {
+   "id": "W63070711",
+   "doi": "10.1007/978-3-642-03294-3_23",
+   "title": "Mapping and Analysing the Local Language Areas for Slovenian Linguistic Atlas",
+   "year": 2009,
+   "first_author": "Tomaž Podobnikar",
+   "venue": "Lecture notes in geoinformation and cartography",
+   "internal_id": ""
+  },
+  {
+   "id": "W103452610",
+   "doi": "10.4324/9780203208793-1",
+   "title": "The languages of Africa: macrophyla proposals and implications for archaeological interpretation",
+   "year": 2003,
+   "first_author": "Roger M. Blench",
+   "venue": "Routledge eBooks",
+   "internal_id": ""
+  },
+  {
+   "id": "W805825715",
+   "doi": "",
+   "title": "An atlas of Nigerian languages",
+   "year": 2012,
+   "first_author": "Roger M. Blench",
+   "venue": "MPG.PuRe (Max Planck Society)",
+   "internal_id": ""
+  },
+  {
+   "id": "W1510615537",
+   "doi": "",
+   "title": "Language endangerment in Nigeria: focus on small ethnolinguistic communities in Niger State",
+   "year": 2013,
+   "first_author": "Rafiu K. Adewale",
+   "venue": "Dialectologia",
+   "internal_id": ""
+  },
+  {
+   "id": "W1966926675",
+   "doi": "10.1016/j.sbspro.2011.07.015",
+   "title": "Using GIS for Linguistic Study: A Case of Dialect Change in the Northeastern Region of Thailand",
+   "year": 2011,
+   "first_author": "Sirivilai Teerarojanarat",
+   "venue": "Procedia - Social and Behavioral Sciences",
+   "internal_id": ""
+  },
+  {
+   "id": "W3204110349",
+   "doi": "",
+   "title": "Mother tongue education : the West African experience",
+   "year": 1976,
+   "first_author": "Ayọ̀ Bámgbósé",
+   "venue": "Hodder and Stoughton eBooks",
+   "internal_id": ""
+  },
+  {
+   "id": "W4242681798",
+   "doi": "10.1632/lsda.2013.7",
+   "title": "GIS for Language and Literary Study",
+   "year": 2013,
+   "first_author": "William A. Kretzschmar",
+   "venue": "Modern Language Association of America eBooks",
+   "internal_id": ""
+  }
+ ],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 2,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2021.rail-jdhasa.3817/",
+  "fr": "https://talithapapers.com/fr/papers/2021.rail-jdhasa.3817/",
+  "sw": "https://talithapapers.com/sw/papers/2021.rail-jdhasa.3817/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

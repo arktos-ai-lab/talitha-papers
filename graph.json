@@ -1,0 +1,4460 @@
+{
+ "license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "note": "Citation edges and external works come from OpenAlex (CC0). Paper metadata and language tags are the Talitha corpus metadata.",
+ "nodes": [
+  {
+   "id": "lang:afr",
+   "type": "language",
+   "iso639_3": "afr",
+   "name": "Afrikaans"
+  },
+  {
+   "id": "lang:amh",
+   "type": "language",
+   "iso639_3": "amh",
+   "name": "Amharic"
+  },
+  {
+   "id": "lang:les",
+   "type": "language",
+   "iso639_3": "les",
+   "name": "Lese"
+  },
+  {
+   "id": "lang:nso",
+   "type": "language",
+   "iso639_3": "nso",
+   "name": "Sepedi"
+  },
+  {
+   "id": "lang:tsn",
+   "type": "language",
+   "iso639_3": "tsn",
+   "name": "Tswana"
+  },
+  {
+   "id": "lang:tso",
+   "type": "language",
+   "iso639_3": "tso",
+   "name": "Tsonga"
+  },
+  {
+   "id": "paper:2020.rail-1.1",
+   "type": "paper",
+   "paper_id": "2020.rail-1.1",
+   "title": "Endangered African Languages Featured in a Digital Collection: The Case of the ǂKhomani San, Hugh Brody Collection",
+   "year": 2020,
+   "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+   "authors": "Kerry Jones, Sanjin Muftic",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2020.rail-1.1/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0.0
+  },
+  {
+   "id": "paper:2020.rail-1.2",
+   "type": "paper",
+   "paper_id": "2020.rail-1.2",
+   "title": "Usability and Accessibility of Bantu Language Dictionaries in the Digital Age: Mobile Access in an Open Environment",
+   "year": 2020,
+   "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+   "authors": "Thomas Eckart, Sonja Bosch, Uwe Quasthoff, Erik Körner, Dirk Goldhahn, Simon Kaleschke",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2020.rail-1.2/",
+   "openalex": "W3089100606",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2020.rail-1.3",
+   "type": "paper",
+   "paper_id": "2020.rail-1.3",
+   "title": "Investigating an Approach for Low Resource Language Dataset Creation, Curation and Classification: Setswana and Sepedi",
+   "year": 2020,
+   "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+   "authors": "Vukosi Marivate, Tshephisho Sefara, Vongani Chabalala, Keamogetswe Makhaya, Tumisho Mokgonyane, Rethabile Mokoena, Abiodun Modupe",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2020.rail-1.3/",
+   "openalex": "W3010987228",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2020.rail-1.4",
+   "type": "paper",
+   "paper_id": "2020.rail-1.4",
+   "title": "Complex Setswana Parts of Speech Tagging",
+   "year": 2020,
+   "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+   "authors": "Gabofetswe Malema, Boago Okgetheng, Bopaki Tebalo, Moffat Motlhanka, Goaletsa Rammidi",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2020.rail-1.4/",
+   "openalex": "W3088738255",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2020.rail-1.5",
+   "type": "paper",
+   "paper_id": "2020.rail-1.5",
+   "title": "Comparing Neural Network Parsers for a Less-resourced and Morphologically-rich Language: Amharic Dependency Parser",
+   "year": 2020,
+   "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+   "authors": "Binyam Ephrem Seyoum, Yusuke Miyao, Baye Yimam Mekonnen",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2020.rail-1.5/",
+   "openalex": "W3088148744",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2020.rail-1.6",
+   "type": "paper",
+   "paper_id": "2020.rail-1.6",
+   "title": "Mobilizing Metadata: Open Data Kit (ODK) for Language Resource Development in East Africa",
+   "year": 2020,
+   "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+   "authors": "Richard Griscom",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2020.rail-1.6/",
+   "openalex": "W3089061015",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2020.rail-1.7",
+   "type": "paper",
+   "paper_id": "2020.rail-1.7",
+   "title": "A Computational Grammar of Ga",
+   "year": 2020,
+   "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+   "authors": "Lars Hellan",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2020.rail-1.7/",
+   "openalex": "W3087953279",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2020.rail-1.8",
+   "type": "paper",
+   "paper_id": "2020.rail-1.8",
+   "title": "Navigating Challenges of Multilingual Resource Development for Under-Resourced Languages: The Case of the African Wordnet Project",
+   "year": 2020,
+   "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+   "authors": "Marissa Griesel, Sonja Bosch",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2020.rail-1.8/",
+   "openalex": "W3088594455",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2020.rail-1.9",
+   "type": "paper",
+   "paper_id": "2020.rail-1.9",
+   "title": "Building Collaboration-based Resources in Endowed African Languages: Case of NTeALan Dictionaries Platform",
+   "year": 2020,
+   "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+   "authors": "Elvis Mboning, Daniel Baleba, Jean Marc Bassahak, Ornella Wandji",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2020.rail-1.9/",
+   "openalex": "W3088183611",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2021.rail-jdhasa.3815",
+   "type": "paper",
+   "paper_id": "2021.rail-jdhasa.3815",
+   "title": "Development of linguistically annotated parallel language resources for four South African languages",
+   "year": 2021,
+   "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Tanja Gaustad, Martin Puttkammer",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3815",
+   "openalex": "W4214806708",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2021.rail-jdhasa.3816",
+   "type": "paper",
+   "paper_id": "2021.rail-jdhasa.3816",
+   "title": "Digitising Afrikaans: Establishing a protocol for digitalizing historical sources for Early Afrikaans (1675-1925) as a possible template for indigenous South African languages",
+   "year": 2021,
+   "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Roné Wierenga, Wannie Carstens",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3816",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0.0
+  },
+  {
+   "id": "paper:2021.rail-jdhasa.3817",
+   "type": "paper",
+   "paper_id": "2021.rail-jdhasa.3817",
+   "title": "A novel method for redefining language ecology and endangerment in Nigeria : – towards a geospatial solution",
+   "year": 2021,
+   "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Imelda Udoh, Moses Ekpenyong, Eno-Abasi Urua, Harrison Adeniyi, Greg Obiamalu, Ayo Yusuff, Ogbonna Anyanwu, Ebitare Obikudo",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3817",
+   "openalex": "W4214931693",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2021.rail-jdhasa.3818",
+   "type": "paper",
+   "paper_id": "2021.rail-jdhasa.3818",
+   "title": "Canonical Segmentation and Syntactic Morpheme Tagging of Four Resource- scarce Nguni Languages",
+   "year": 2021,
+   "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Jakobus S. Du Toit, Martin J. Puttkammer",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3818",
+   "openalex": "W4214807560",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2021.rail-jdhasa.3819",
+   "type": "paper",
+   "paper_id": "2021.rail-jdhasa.3819",
+   "title": "New uses for old books: Description of digitised corpora-based on the Setswana language collection in the WITS Cullen Africana Collection",
+   "year": 2021,
+   "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Malebogo Thabong, Nina Lewin, Taariq Surtee",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3819",
+   "openalex": "W4214933880",
+   "match_method": "title",
+   "match_confidence": 0.7
+  },
+  {
+   "id": "paper:2021.rail-jdhasa.3820",
+   "type": "paper",
+   "paper_id": "2021.rail-jdhasa.3820",
+   "title": "Investigating the feasibility of harvesting broadcast speech data to develop resources for South African languages",
+   "year": 2021,
+   "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Jaco Badenhorst, Febe de Wet",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3820",
+   "openalex": "W4214915629",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2021.rail-jdhasa.3821",
+   "type": "paper",
+   "paper_id": "2021.rail-jdhasa.3821",
+   "title": "Using MonoConc Pro to teach and learn lexical collocations in Xitsonga",
+   "year": 2021,
+   "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Respect Mlambo, Muzi Matfunjwa",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3821",
+   "openalex": "W4214871026",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2021.rail-jdhasa.3822",
+   "type": "paper",
+   "paper_id": "2021.rail-jdhasa.3822",
+   "title": "Training Cross-Lingual embeddings for Setswana and Sepedi",
+   "year": 2021,
+   "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Mack Makgatho, Vukosi Marivate, Tshephisho Sefara, Valencia Wagner",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3822",
+   "openalex": "W3213071730",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2021.rail-jdhasa.3823",
+   "type": "paper",
+   "paper_id": "2021.rail-jdhasa.3823",
+   "title": "An Open Source System for Crowd Sourcing an African Language Short Story Corpus",
+   "year": 2021,
+   "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Benson K. Muite, Kichakato Kizito",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3823",
+   "openalex": "W4214880494",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "paper:2021.rail-jdhasa.3824",
+   "type": "paper",
+   "paper_id": "2021.rail-jdhasa.3824",
+   "title": "Wordsmith Tools as an Enabler for Text Analysis",
+   "year": 2021,
+   "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+   "authors": "Rooweither Mabuya",
+   "licence": "cc-by-sa-4.0",
+   "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3824",
+   "openalex": "W4214835608",
+   "match_method": "title",
+   "match_confidence": 0.9
+  },
+  {
+   "id": "work:W103452610",
+   "type": "work",
+   "openalex": "W103452610",
+   "doi": "10.4324/9780203208793-1",
+   "title": "The languages of Africa: macrophyla proposals and implications for archaeological interpretation",
+   "year": 2003,
+   "first_author": "Roger M. Blench",
+   "venue": "Routledge eBooks"
+  },
+  {
+   "id": "work:W114511930",
+   "type": "work",
+   "openalex": "W114511930",
+   "doi": "",
+   "title": "Teach Yourself Linguistics",
+   "year": 1987,
+   "first_author": "Jean Aitchison",
+   "venue": ""
+  },
+  {
+   "id": "work:W140325011",
+   "type": "work",
+   "openalex": "W140325011",
+   "doi": "",
+   "title": "Proceedings of the 12th international conference on World Wide Web",
+   "year": 2003,
+   "first_author": "Gusztáv Hencsey",
+   "venue": ""
+  },
+  {
+   "id": "work:W1483736602",
+   "type": "work",
+   "openalex": "W1483736602",
+   "doi": "",
+   "title": "Automatic Ambiguity Resolution in Natural Language Processing: An Empirical Approach",
+   "year": 1996,
+   "first_author": "Alexander Franz",
+   "venue": ""
+  },
+  {
+   "id": "work:W1485957917",
+   "type": "work",
+   "openalex": "W1485957917",
+   "doi": "",
+   "title": "",
+   "year": null,
+   "first_author": "",
+   "venue": ""
+  },
+  {
+   "id": "work:W148837159",
+   "type": "work",
+   "openalex": "W148837159",
+   "doi": "",
+   "title": "The NCHLT Speech Corpus of the South African languages",
+   "year": 2014,
+   "first_author": "Etienne Barnard",
+   "venue": "Boloka Institutional Repository (North-west University)"
+  },
+  {
+   "id": "work:W1502957213",
+   "type": "work",
+   "openalex": "W1502957213",
+   "doi": "10.18653/v1/d16-1",
+   "title": "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing",
+   "year": 2016,
+   "first_author": "",
+   "venue": ""
+  },
+  {
+   "id": "work:W1510615537",
+   "type": "work",
+   "openalex": "W1510615537",
+   "doi": "",
+   "title": "Language endangerment in Nigeria: focus on small ethnolinguistic communities in Niger State",
+   "year": 2013,
+   "first_author": "Rafiu K. Adewale",
+   "venue": "Dialectologia"
+  },
+  {
+   "id": "work:W1512777974",
+   "type": "work",
+   "openalex": "W1512777974",
+   "doi": "",
+   "title": "Ukwabelana - An open-source morphological Zulu corpus",
+   "year": 2010,
+   "first_author": "Sebastian Spiegler",
+   "venue": "Explore Bristol Research"
+  },
+  {
+   "id": "work:W1517055517",
+   "type": "work",
+   "openalex": "W1517055517",
+   "doi": "",
+   "title": "An introduction to Tswana grammar",
+   "year": 1955,
+   "first_author": "Desmond T. Cole",
+   "venue": "Americanae (AECID Library)"
+  },
+  {
+   "id": "work:W1523808037",
+   "type": "work",
+   "openalex": "W1523808037",
+   "doi": "",
+   "title": "Assessing politeness, language and gender in hlonipha.",
+   "year": 2007,
+   "first_author": "Thobekile Patience. Luthuli",
+   "venue": "ResearchSpace (University of KwaZulu-Natal)"
+  },
+  {
+   "id": "work:W1524333225",
+   "type": "work",
+   "openalex": "W1524333225",
+   "doi": "",
+   "title": "The Kaldi Speech Recognition Toolkit",
+   "year": 2011,
+   "first_author": "Daniel Povey",
+   "venue": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)"
+  },
+  {
+   "id": "work:W1527962679",
+   "type": "work",
+   "openalex": "W1527962679",
+   "doi": "10.1002/9781444395037.ch3",
+   "title": "Lexical‐Functional Grammar: Interactions Between Morphology and Syntax",
+   "year": 2011,
+   "first_author": "Rachel Nordlinger",
+   "venue": "Wiley eBooks"
+  },
+  {
+   "id": "work:W1528022241",
+   "type": "work",
+   "openalex": "W1528022241",
+   "doi": "",
+   "title": "Becoming Qualitative Researchers: An Introduction",
+   "year": 1991,
+   "first_author": "Corrine Glesne",
+   "venue": ""
+  },
+  {
+   "id": "work:W1542713999",
+   "type": "work",
+   "openalex": "W1542713999",
+   "doi": "10.5281/zenodo.2654863",
+   "title": "Improving zero-shot learning by mitigating the hubness problem",
+   "year": 2015,
+   "first_author": "Georgiana Dinu",
+   "venue": "Figshare"
+  },
+  {
+   "id": "work:W1552656226",
+   "type": "work",
+   "openalex": "W1552656226",
+   "doi": "10.1080/02572117.2005.10587247",
+   "title": "Automatic lemmatization in Setswana: towards a prototype",
+   "year": 2005,
+   "first_author": "Karien Brits",
+   "venue": "South African Journal of African Languages"
+  },
+  {
+   "id": "work:W1552922461",
+   "type": "work",
+   "openalex": "W1552922461",
+   "doi": "",
+   "title": "Linguistics : an introduction",
+   "year": 2009,
+   "first_author": "William B. McGregor",
+   "venue": "Bloomsbury Academic eBooks"
+  },
+  {
+   "id": "work:W1570518225",
+   "type": "work",
+   "openalex": "W1570518225",
+   "doi": "10.1007/978-3-642-30910-6_13",
+   "title": "The Construction of a 500-Million-Word Reference Corpus of Contemporary Written Dutch",
+   "year": 2012,
+   "first_author": "Nelleke H. J. Oostdijk",
+   "venue": "Theory and applications of natural language processing"
+  },
+  {
+   "id": "work:W1594247117",
+   "type": "work",
+   "openalex": "W1594247117",
+   "doi": "",
+   "title": "Natural Language Annotation for Machine Learning",
+   "year": 2012,
+   "first_author": "James D. Pustejovsky",
+   "venue": "CERN Document Server (European Organization for Nuclear Research)"
+  },
+  {
+   "id": "work:W1700952868",
+   "type": "work",
+   "openalex": "W1700952868",
+   "doi": "",
+   "title": "Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+   "year": 2012,
+   "first_author": "Bevan Jones",
+   "venue": "The Association for Computational Linguistics"
+  },
+  {
+   "id": "work:W1845951405",
+   "type": "work",
+   "openalex": "W1845951405",
+   "doi": "10.1002/9781119209539.oth1",
+   "title": "GNU General Public License",
+   "year": 2015,
+   "first_author": "Christopher Negus",
+   "venue": "Wiley eBooks"
+  },
+  {
+   "id": "work:W1854884267",
+   "type": "work",
+   "openalex": "W1854884267",
+   "doi": "10.1162/coli_a_00237",
+   "title": "SimLex-999: Evaluating Semantic Models With (Genuine) Similarity Estimation",
+   "year": 2015,
+   "first_author": "Felix Hill",
+   "venue": "Computational Linguistics"
+  },
+  {
+   "id": "work:W189707994",
+   "type": "work",
+   "openalex": "W189707994",
+   "doi": "",
+   "title": "English Unassailable but Unattainable: The Dilemma of Language Policy in South African Education.",
+   "year": 1999,
+   "first_author": "Neville Alexander",
+   "venue": ""
+  },
+  {
+   "id": "work:W1956762213",
+   "type": "work",
+   "openalex": "W1956762213",
+   "doi": "10.1590/s1984-63982011000200005",
+   "title": "Corpora from a sociolinguistic perspective",
+   "year": 2011,
+   "first_author": "Tyler S. Kendall",
+   "venue": "Revista Brasileira de Lingüística Aplicada"
+  },
+  {
+   "id": "work:W1966926675",
+   "type": "work",
+   "openalex": "W1966926675",
+   "doi": "10.1016/j.sbspro.2011.07.015",
+   "title": "Using GIS for Linguistic Study: A Case of Dialect Change in the Northeastern Region of Thailand",
+   "year": 2011,
+   "first_author": "Sirivilai Teerarojanarat",
+   "venue": "Procedia - Social and Behavioral Sciences"
+  },
+  {
+   "id": "work:W1967461618",
+   "type": "work",
+   "openalex": "W1967461618",
+   "doi": "",
+   "title": "Corpus linguistics : investigating language structure and use",
+   "year": 2006,
+   "first_author": "Douglas Biber",
+   "venue": ""
+  },
+  {
+   "id": "work:W1968592201",
+   "type": "work",
+   "openalex": "W1968592201",
+   "doi": "10.1093/elt/47.1.56",
+   "title": "Lexical collocations: a contrastive view",
+   "year": 1993,
+   "first_author": "Jens Bahns",
+   "venue": "ELT Journal"
+  },
+  {
+   "id": "work:W1974923579",
+   "type": "work",
+   "openalex": "W1974923579",
+   "doi": "10.2989/16073610609486436",
+   "title": "Communicating through performance:Izigiyo zawomameas gendered protest texts",
+   "year": 2006,
+   "first_author": "Nhlanhla Mathonsi",
+   "venue": "Southern African Linguistics and Applied Language Studies"
+  },
+  {
+   "id": "work:W1981276685",
+   "type": "work",
+   "openalex": "W1981276685",
+   "doi": "10.1016/s0925-2312(97)90018-7",
+   "title": "Advances in neural information processing systems 7",
+   "year": 1997,
+   "first_author": "Krzysztof J. Cios",
+   "venue": "Neurocomputing"
+  },
+  {
+   "id": "work:W1989857068",
+   "type": "work",
+   "openalex": "W1989857068",
+   "doi": "10.4102/lit.v29i1.98",
+   "title": "Towards a computational morphological analysis of Setswana compounds",
+   "year": 2008,
+   "first_author": "Laurette Pretorius",
+   "venue": "Literator"
+  },
+  {
+   "id": "work:W1997096837",
+   "type": "work",
+   "openalex": "W1997096837",
+   "doi": "10.4314/marang.v19i1.42819",
+   "title": "Setswana Sports Terms: A Genre Analysis",
+   "year": 2009,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Marang Journal of Language and Literature"
+  },
+  {
+   "id": "work:W1998711705",
+   "type": "work",
+   "openalex": "W1998711705",
+   "doi": "10.1080/17447143.2013.806514",
+   "title": "Feminizing linguistic human rights: use ofisihlonipho sabafaziin the courtroom and intra-group linguistic differences",
+   "year": 2013,
+   "first_author": "Busi Makoni",
+   "venue": "Journal of Multicultural Discourses"
+  },
+  {
+   "id": "work:W2000983314",
+   "type": "work",
+   "openalex": "W2000983314",
+   "doi": "10.2989/16073610709486456",
+   "title": "Analysing the English-Xhosa parallel corpus of technical texts with Paraconc: a case study of term formation processes",
+   "year": 2007,
+   "first_author": "Koliswa Moropa",
+   "venue": "Southern African Linguistics and Applied Language Studies"
+  },
+  {
+   "id": "work:W2004015781",
+   "type": "work",
+   "openalex": "W2004015781",
+   "doi": "10.1080/10228195.2013.837949",
+   "title": "‘Declaration without implementation’: An investigation into the progress made and challenges faced in implementing the Wits language policy",
+   "year": 2013,
+   "first_author": "Emure Kadenge",
+   "venue": "Language Matters"
+  },
+  {
+   "id": "work:W2006073714",
+   "type": "work",
+   "openalex": "W2006073714",
+   "doi": "10.2989/16073610609486427",
+   "title": "The status of the word in selected conventional writing systems — the case of disjunctive writing",
+   "year": 2006,
+   "first_author": "Louis Jacobus Louwrens",
+   "venue": "Southern African Linguistics and Applied Language Studies"
+  },
+  {
+   "id": "work:W2006085521",
+   "type": "work",
+   "openalex": "W2006085521",
+   "doi": "10.1006/jaar.1998.0328",
+   "title": "Explaining Global Patterns of Language Diversity",
+   "year": 1998,
+   "first_author": "Daniel Nettle",
+   "venue": "Journal of Anthropological Archaeology"
+  },
+  {
+   "id": "work:W2007844601",
+   "type": "work",
+   "openalex": "W2007844601",
+   "doi": "10.1075/nlp.7",
+   "title": "Memory-Based Parsing",
+   "year": 2004,
+   "first_author": "Sandra Kübler",
+   "venue": "Natural language processing"
+  },
+  {
+   "id": "work:W2009999555",
+   "type": "work",
+   "openalex": "W2009999555",
+   "doi": "10.1080/00020185008706801",
+   "title": "Bantu languages, inflexional with a tendency towards agglutination",
+   "year": 1950,
+   "first_author": "Clement M. Doke",
+   "venue": "African Studies"
+  },
+  {
+   "id": "work:W201383918",
+   "type": "work",
+   "openalex": "W201383918",
+   "doi": "10.53228/njas.v15i4.37",
+   "title": "A Comparison of Approaches to Word Class Tagging: Disjunctively vs. Conjunctively Written Bantu Languages",
+   "year": 2006,
+   "first_author": "Elsabé Taljard",
+   "venue": "Nordic journal of African studies"
+  },
+  {
+   "id": "work:W2014840417",
+   "type": "work",
+   "openalex": "W2014840417",
+   "doi": "10.1515/ling.1998.36.1.161",
+   "title": "Documentary and descriptive linguistics",
+   "year": 1998,
+   "first_author": "Nikolaus P. Himmelmann",
+   "venue": "Linguistics"
+  },
+  {
+   "id": "work:W2016935249",
+   "type": "work",
+   "openalex": "W2016935249",
+   "doi": "10.1353/lit.2006.0022",
+   "title": "Embracing A New Creed: Lexical Patterning and The Encoding Of Ideology",
+   "year": 2006,
+   "first_author": "Oliver, M.A Mason",
+   "venue": "College literature"
+  },
+  {
+   "id": "work:W2020835585",
+   "type": "work",
+   "openalex": "W2020835585",
+   "doi": "10.5788/19-0-449",
+   "title": "Populating Sub-entries in Dictionaries with Multi-word Unitsfrom Concordance Lines",
+   "year": 2009,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Lexikos"
+  },
+  {
+   "id": "work:W2033774834",
+   "type": "work",
+   "openalex": "W2033774834",
+   "doi": "10.1075/jlp.4.2.04bak",
+   "title": "A corpus-based approach to discourses of refugees and asylum seekers in UN and newspaper texts",
+   "year": 2005,
+   "first_author": "Paul Baker",
+   "venue": "Journal of Language and Politics"
+  },
+  {
+   "id": "work:W2035994018",
+   "type": "work",
+   "openalex": "W2035994018",
+   "doi": "10.4102/lit.v29i1.99",
+   "title": "Die ontwikkeling van ’n woordafbreker en kompositumanaliseerder vir Afrikaans",
+   "year": 2008,
+   "first_author": "Suléne Pilon",
+   "venue": "Literator"
+  },
+  {
+   "id": "work:W2038248725",
+   "type": "work",
+   "openalex": "W2038248725",
+   "doi": "",
+   "title": "Head-driven phrase structure grammar",
+   "year": 1994,
+   "first_author": "Ivan A. Sag",
+   "venue": ""
+  },
+  {
+   "id": "work:W2041990224",
+   "type": "work",
+   "openalex": "W2041990224",
+   "doi": "10.1080/10228190408566208",
+   "title": "Parallel corpora as tools for developing the indigenous languages of South Africa, with special reference to Venda",
+   "year": 2004,
+   "first_author": "Mbulungeni Madiba",
+   "venue": "Language Matters"
+  },
+  {
+   "id": "work:W2053921957",
+   "type": "work",
+   "openalex": "W2053921957",
+   "doi": "",
+   "title": "Placing search in context: the concept revisited.",
+   "year": 2002,
+   "first_author": "Lev Finkelstein",
+   "venue": "ACM transactions on office information systems"
+  },
+  {
+   "id": "work:W2058438565",
+   "type": "work",
+   "openalex": "W2058438565",
+   "doi": "10.4304/tpls.3.1.51-60",
+   "title": "A Corpus-based Approach toward Teaching Collocation of Synonyms",
+   "year": 2013,
+   "first_author": "Ali Akbar Jafarpour",
+   "venue": "Theory and Practice in Language Studies"
+  },
+  {
+   "id": "work:W2062572449",
+   "type": "work",
+   "openalex": "W2062572449",
+   "doi": "10.1111/j.1749-818x.2008.00051.x",
+   "title": "On the History and Future of Sociolinguistic Data",
+   "year": 2008,
+   "first_author": "Tyler S. Kendall",
+   "venue": "Language and Linguistics Compass"
+  },
+  {
+   "id": "work:W2064675550",
+   "type": "work",
+   "openalex": "W2064675550",
+   "doi": "10.1162/neco.1997.9.8.1735",
+   "title": "Long Short-Term Memory",
+   "year": 1997,
+   "first_author": "Sepp Hochreiter",
+   "venue": "Neural Computation"
+  },
+  {
+   "id": "work:W2067438047",
+   "type": "work",
+   "openalex": "W2067438047",
+   "doi": "10.1145/371920.372094",
+   "title": "Placing search in context: the concept revisited",
+   "year": 2001,
+   "first_author": "Lev Finkelstein",
+   "venue": "International World Wide Web Conference (WWW)"
+  },
+  {
+   "id": "work:W2074952134",
+   "type": "work",
+   "openalex": "W2074952134",
+   "doi": "10.1093/llc/7.1.1",
+   "title": "Corpus Design Criteria",
+   "year": 1992,
+   "first_author": "S. ATKINS",
+   "venue": "Literary and Linguistic Computing"
+  },
+  {
+   "id": "work:W2081687495",
+   "type": "work",
+   "openalex": "W2081687495",
+   "doi": "10.3115/974499.974526",
+   "title": "A simple rule-based part of speech tagger",
+   "year": 1992,
+   "first_author": "Eric Brill",
+   "venue": "Conference on Applied Natural Language Processing"
+  },
+  {
+   "id": "work:W2085969534",
+   "type": "work",
+   "openalex": "W2085969534",
+   "doi": "10.5788/12-0-760",
+   "title": "Semi-automatic Term Extraction for the African Languages, with Special Reference to Northern Sotho",
+   "year": 2010,
+   "first_author": "Elsabé Taljard",
+   "venue": "Lexikos"
+  },
+  {
+   "id": "work:W2093686874",
+   "type": "work",
+   "openalex": "W2093686874",
+   "doi": "10.1007/s10579-011-9170-z",
+   "title": "Is it worth the effort? Assessing the benefits of partial automatic pre-labeling for frame-semantic annotation",
+   "year": 2011,
+   "first_author": "Ines Rehbein",
+   "venue": "Language Resources and Evaluation"
+  },
+  {
+   "id": "work:W2095137560",
+   "type": "work",
+   "openalex": "W2095137560",
+   "doi": "10.1080/14664200208668036",
+   "title": "The Intellectualisation of the Indigenous Languages of South Africa: Challenges and Prospects",
+   "year": 2002,
+   "first_author": "Rosalie Finlayson",
+   "venue": "Current Issues in Language Planning"
+  },
+  {
+   "id": "work:W2102750252",
+   "type": "work",
+   "openalex": "W2102750252",
+   "doi": "10.5842/44-0-644",
+   "title": "The sequence and productivity of Setswana verbal suffixes",
+   "year": 2014,
+   "first_author": "Rigardt Pretorius",
+   "venue": "Stellenbosch Papers in Linguistics Plus"
+  },
+  {
+   "id": "work:W2105378193",
+   "type": "work",
+   "openalex": "W2105378193",
+   "doi": "10.3115/1034678.1034726",
+   "title": "Memory-based morphological analysis",
+   "year": 1999,
+   "first_author": "Antal P. J. van den Bosch",
+   "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting"
+  },
+  {
+   "id": "work:W2105847779",
+   "type": "work",
+   "openalex": "W2105847779",
+   "doi": "10.1162/coli.07-056-r1-07-027",
+   "title": "Algorithms for Deterministic Incremental Dependency Parsing",
+   "year": 2008,
+   "first_author": "Joakim Nivre",
+   "venue": "Computational Linguistics"
+  },
+  {
+   "id": "work:W2109000768",
+   "type": "work",
+   "openalex": "W2109000768",
+   "doi": "",
+   "title": "Statistical Parsing of Morphologically Rich Languages (SPMRL) What, How and Whither",
+   "year": 2010,
+   "first_author": "Reut Tsarfaty",
+   "venue": "Dublin City University Open Access Institutional Repository (Dublin City University)"
+  },
+  {
+   "id": "work:W2114887620",
+   "type": "work",
+   "openalex": "W2114887620",
+   "doi": "",
+   "title": "Transition-based Dependency Parsing with Rich Non-local Features",
+   "year": 2011,
+   "first_author": "Yue Zhang",
+   "venue": ""
+  },
+  {
+   "id": "work:W2116410915",
+   "type": "work",
+   "openalex": "W2116410915",
+   "doi": "10.3115/1219840.1219852",
+   "title": "Online large-margin training of dependency parsers",
+   "year": 2005,
+   "first_author": "Ryan McDonald",
+   "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting"
+  },
+  {
+   "id": "work:W2117400858",
+   "type": "work",
+   "openalex": "W2117400858",
+   "doi": "",
+   "title": "Transformation-based error-driven learning and natural language processing: a case study in part-of-speech tagging",
+   "year": 1995,
+   "first_author": "Eric Brill",
+   "venue": "OLAC - Open Language Archives Community"
+  },
+  {
+   "id": "work:W2118992666",
+   "type": "work",
+   "openalex": "W2118992666",
+   "doi": "",
+   "title": "Introducing the Autshumato Integrated Translation Environment",
+   "year": 2009,
+   "first_author": "Hendrik J. Groenewald",
+   "venue": ""
+  },
+  {
+   "id": "work:W2134036914",
+   "type": "work",
+   "openalex": "W2134036914",
+   "doi": "10.3115/v1/p15-1033",
+   "title": "Transition-Based Dependency Parsing with Stack Long Short-Term Memory",
+   "year": 2015,
+   "first_author": "Chris Dyer",
+   "venue": ""
+  },
+  {
+   "id": "work:W2143572684",
+   "type": "work",
+   "openalex": "W2143572684",
+   "doi": "10.5788/23-1-1228",
+   "title": "Introducing Tlhalosi ya Medi ya Setswana: The Design and Compilation of a Monolingual Setswana Dictionary",
+   "year": 2013,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Lexikos"
+  },
+  {
+   "id": "work:W2144245357",
+   "type": "work",
+   "openalex": "W2144245357",
+   "doi": "10.1136/amiajnl-2013-001837",
+   "title": "Evaluating the impact of pre-annotation on annotation speed and potential bias: natural language processing gold standard development for clinical named entity recognition in clinical trial announcements",
+   "year": 2014,
+   "first_author": "Todd Lingren",
+   "venue": "Journal of the American Medical Informatics Association"
+  },
+  {
+   "id": "work:W2147074180",
+   "type": "work",
+   "openalex": "W2147074180",
+   "doi": "10.1017/s0267190500200044",
+   "title": "LANGUAGES FOR SPECIFIC PURPOSES",
+   "year": 2000,
+   "first_author": "John M. Swales",
+   "venue": "Annual Review of Applied Linguistics"
+  },
+  {
+   "id": "work:W2147272182",
+   "type": "work",
+   "openalex": "W2147272182",
+   "doi": "10.1007/978-3-031-02139-8",
+   "title": "Introduction to Arabic Natural Language Processing",
+   "year": 2010,
+   "first_author": "Nizar Y. Habash",
+   "venue": "Synthesis lectures on human language technologies"
+  },
+  {
+   "id": "work:W2150435764",
+   "type": "work",
+   "openalex": "W2150435764",
+   "doi": "10.5788/24-1-1267",
+   "title": "Developing a Campus Slang Dictionary for the University of Botswana",
+   "year": 2014,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Lexikos"
+  },
+  {
+   "id": "work:W2153579005",
+   "type": "work",
+   "openalex": "W2153579005",
+   "doi": "10.48550/arxiv.1310.4546",
+   "title": "Distributed Representations of Words and Phrases and their Compositionality",
+   "year": 2013,
+   "first_author": "Tomáš Mikolov",
+   "venue": "neural information processing systems"
+  },
+  {
+   "id": "work:W2157331557",
+   "type": "work",
+   "openalex": "W2157331557",
+   "doi": "10.3115/v1/d14-1179",
+   "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+   "year": 2014,
+   "first_author": "Kyunghyun Cho",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  },
+  {
+   "id": "work:W2157807817",
+   "type": "work",
+   "openalex": "W2157807817",
+   "doi": "10.3115/v1/d14-1012",
+   "title": "Revisiting Embedding Features for Simple Semi-supervised Learning",
+   "year": 2014,
+   "first_author": "Jiang Guo",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  },
+  {
+   "id": "work:W2158421367",
+   "type": "work",
+   "openalex": "W2158421367",
+   "doi": "10.22146/jh.v14i1.745",
+   "title": "Grammatical and lexical english Collocations : some possible Problems to indonesian learners Of english.",
+   "year": 2012,
+   "first_author": "Rio Rini Diah Moehkardi",
+   "venue": "Jurnal Humaniora"
+  },
+  {
+   "id": "work:W2165457429",
+   "type": "work",
+   "openalex": "W2165457429",
+   "doi": "10.5788/16-0-653",
+   "title": "Challenges to Issues of Balance and Representativeness in African Lexicography",
+   "year": 2010,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Lexikos"
+  },
+  {
+   "id": "work:W2168088297",
+   "type": "work",
+   "openalex": "W2168088297",
+   "doi": "",
+   "title": "Corpus design for Setswana lexicography",
+   "year": 2008,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "UpSpace Institutional Repository (University of Pretoria)"
+  },
+  {
+   "id": "work:W2168820179",
+   "type": "work",
+   "openalex": "W2168820179",
+   "doi": "10.18419/opus-2556",
+   "title": "The statistics of word cooccurrences : word pairs and collocations",
+   "year": 2005,
+   "first_author": "Stefan Evert",
+   "venue": "OPUS Publication Server of the University of Stuttgart (University of Stuttgart)"
+  },
+  {
+   "id": "work:W2170240176",
+   "type": "work",
+   "openalex": "W2170240176",
+   "doi": "10.48550/arxiv.1509.01626",
+   "title": "Character-level Convolutional Networks for Text Classification",
+   "year": 2015,
+   "first_author": "Xiang Zhang",
+   "venue": "neural information processing systems"
+  },
+  {
+   "id": "work:W2175820907",
+   "type": "work",
+   "openalex": "W2175820907",
+   "doi": "10.5788/25-1-1299",
+   "title": "Treatment of Spelling Variants in Setswana Monolingual Dictionaries",
+   "year": 2015,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Lexikos"
+  },
+  {
+   "id": "work:W2181487071",
+   "type": "work",
+   "openalex": "W2181487071",
+   "doi": "10.53228/njas.v11i2.359",
+   "title": "TOWARDS AN 11 X 11 ARRAY FOR THE DEGREE OF CONJUNCTIVISM / DISJUNCTIVISM OF THE SOUTH AFRICAN LANGUAGES",
+   "year": 2002,
+   "first_author": "Danie J. Prinsloo",
+   "venue": "Nordic journal of African studies"
+  },
+  {
+   "id": "work:W2186250525",
+   "type": "work",
+   "openalex": "W2186250525",
+   "doi": "",
+   "title": "The Role of Spoken Language Corpora in the Intellectualisation of Indigenous Languages in South Africa",
+   "year": 2010,
+   "first_author": "Mtholeni N. Ngcobo",
+   "venue": ""
+  },
+  {
+   "id": "work:W2192412620",
+   "type": "work",
+   "openalex": "W2192412620",
+   "doi": "10.1371/journal.pone.0144610",
+   "title": "pyAudioAnalysis: An Open-Source Python Library for Audio Signal Analysis",
+   "year": 2015,
+   "first_author": "Θεόδωρος Γιαννακόπουλος",
+   "venue": "PLoS ONE"
+  },
+  {
+   "id": "work:W2250471514",
+   "type": "work",
+   "openalex": "W2250471514",
+   "doi": "10.18653/v1/d13-1032",
+   "title": "Efficient Higher-Order CRFs for Morphological Tagging",
+   "year": 2013,
+   "first_author": "Thomas Mueller",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  },
+  {
+   "id": "work:W2250539671",
+   "type": "work",
+   "openalex": "W2250539671",
+   "doi": "10.3115/v1/d14-1162",
+   "title": "Glove: Global Vectors for Word Representation",
+   "year": 2014,
+   "first_author": "Jeffrey Pennington",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  },
+  {
+   "id": "work:W2250861254",
+   "type": "work",
+   "openalex": "W2250861254",
+   "doi": "10.3115/v1/d14-1082",
+   "title": "A Fast and Accurate Dependency Parser using Neural Networks",
+   "year": 2014,
+   "first_author": "Danqi Chen",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  },
+  {
+   "id": "work:W2251648400",
+   "type": "work",
+   "openalex": "W2251648400",
+   "doi": "10.3115/v1/p14-5003",
+   "title": "Open-Source Tools for Morphology, Lemmatization, POS Tagging and Named Entity Recognition",
+   "year": 2014,
+   "first_author": "Jana Straková",
+   "venue": "Annual Meeting of the Association for Computational Linguistics: System Demonstrations (ACL Demo)"
+  },
+  {
+   "id": "work:W2251658415",
+   "type": "work",
+   "openalex": "W2251658415",
+   "doi": "10.18653/v1/d15-1306",
+   "title": "That's So Annoying!!!: A Lexical and Frame-Semantic Embedding Based Data Augmentation Approach to Automatic Categorization of Annoying Behaviors using #petpeeve Tweets",
+   "year": 2015,
+   "first_author": "William Yang Wang",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  },
+  {
+   "id": "work:W2251670681",
+   "type": "work",
+   "openalex": "W2251670681",
+   "doi": "",
+   "title": "Supervised Morphological Segmentation in a Low-Resource Learning Setting using Conditional Random Fields",
+   "year": 2013,
+   "first_author": "Teemu Ruokolainen",
+   "venue": "Conference on Computational Natural Language Learning"
+  },
+  {
+   "id": "work:W2251689968",
+   "type": "work",
+   "openalex": "W2251689968",
+   "doi": "10.63317/3ra22d4bqjf4",
+   "title": "Developing Text Resources for Ten South African Languages",
+   "year": 2014,
+   "first_author": "Roald Eiselen",
+   "venue": "Language Resources and Evaluation Conference (LREC)"
+  },
+  {
+   "id": "work:W2251939518",
+   "type": "work",
+   "openalex": "W2251939518",
+   "doi": "10.18653/v1/d13-1170",
+   "title": "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank",
+   "year": 2013,
+   "first_author": "Richard Socher",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  },
+  {
+   "id": "work:W2289899728",
+   "type": "work",
+   "openalex": "W2289899728",
+   "doi": "10.18653/v1/n16-1024",
+   "title": "Recurrent Neural Network Grammars",
+   "year": 2016,
+   "first_author": "Chris Dyer",
+   "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)"
+  },
+  {
+   "id": "work:W2290964183",
+   "type": "work",
+   "openalex": "W2290964183",
+   "doi": "",
+   "title": "Crowdsourcing annotation for machine learning in natural language processing tasks",
+   "year": 2012,
+   "first_author": "Chris Callison-Burch",
+   "venue": ""
+  },
+  {
+   "id": "work:W2291168609",
+   "type": "work",
+   "openalex": "W2291168609",
+   "doi": "",
+   "title": "REVIEW OF MONOCONC PRO AND WORDSMITH TOOLS",
+   "year": 2001,
+   "first_author": "Mike Scot",
+   "venue": ""
+  },
+  {
+   "id": "work:W2301095666",
+   "type": "work",
+   "openalex": "W2301095666",
+   "doi": "10.1162/tacl_a_00101",
+   "title": "Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations",
+   "year": 2016,
+   "first_author": "Eliyahu Kiperwasser",
+   "venue": "Transactions of the Association for Computational Linguistics"
+  },
+  {
+   "id": "work:W2303744549",
+   "type": "work",
+   "openalex": "W2303744549",
+   "doi": "10.1080/02572117.1982.10586458",
+   "title": "HLONIPHA—THE WOMEN'S LANGUAGE OF AVOIDANCE AMONG THE XHOSA",
+   "year": 1982,
+   "first_author": "Rosalie Finlayson",
+   "venue": "South African Journal of African Languages"
+  },
+  {
+   "id": "work:W2311132329",
+   "type": "work",
+   "openalex": "W2311132329",
+   "doi": "10.18653/v1/p16-1231",
+   "title": "Globally Normalized Transition-Based Neural Networks",
+   "year": 2016,
+   "first_author": "Daniel Andor",
+   "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting"
+  },
+  {
+   "id": "work:W2319850727",
+   "type": "work",
+   "openalex": "W2319850727",
+   "doi": "10.1021/acs.jpclett.5b00285",
+   "title": "Open Source and Open Data Should Be Standard Practices",
+   "year": 2015,
+   "first_author": "J. Daniel Gezelter",
+   "venue": "The Journal of Physical Chemistry Letters"
+  },
+  {
+   "id": "work:W2337363174",
+   "type": "work",
+   "openalex": "W2337363174",
+   "doi": "10.18653/v1/d16-1163",
+   "title": "Transfer Learning for Low-Resource Neural Machine Translation",
+   "year": 2016,
+   "first_author": "Barret Zoph",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  },
+  {
+   "id": "work:W2489487449",
+   "type": "work",
+   "openalex": "W2489487449",
+   "doi": "10.18653/v1/2020.emnlp-main",
+   "title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "year": 2020,
+   "first_author": "",
+   "venue": ""
+  },
+  {
+   "id": "work:W2492911723",
+   "type": "work",
+   "openalex": "W2492911723",
+   "doi": "",
+   "title": "Valuing technology: Finding the linguist’s place in a new technological universe",
+   "year": 2011,
+   "first_author": "Jeff Good",
+   "venue": "John Benjamins eBooks"
+  },
+  {
+   "id": "work:W2493916176",
+   "type": "work",
+   "openalex": "W2493916176",
+   "doi": "10.1162/tacl_a_00051",
+   "title": "Enriching Word Vectors with Subword Information",
+   "year": 2017,
+   "first_author": "Piotr Bojanowski",
+   "venue": "Transactions of the Association for Computational Linguistics"
+  },
+  {
+   "id": "work:W2507609724",
+   "type": "work",
+   "openalex": "W2507609724",
+   "doi": "",
+   "title": "Maninka Reference Corpus: A Presentation",
+   "year": 2016,
+   "first_author": "Valentin Vydrin",
+   "venue": ""
+  },
+  {
+   "id": "work:W2541358921",
+   "type": "work",
+   "openalex": "W2541358921",
+   "doi": "10.4102/lit.v37i2.1278",
+   "title": "Using ParaConc to extract bilingual terminology from parallel corpora: A case of English and Ndebele",
+   "year": 2016,
+   "first_author": "Ketiwe Ndhlovu",
+   "venue": "Literator"
+  },
+  {
+   "id": "work:W2547919451",
+   "type": "work",
+   "openalex": "W2547919451",
+   "doi": "",
+   "title": "A Gentle Introduction to Metadata",
+   "year": 2003,
+   "first_author": "Jeff Good",
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)"
+  },
+  {
+   "id": "work:W2550821151",
+   "type": "work",
+   "openalex": "W2550821151",
+   "doi": "10.1162/tacl_a_00065",
+   "title": "Google’s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation",
+   "year": 2017,
+   "first_author": "Melvin Johnson",
+   "venue": "Transactions of the Association for Computational Linguistics"
+  },
+  {
+   "id": "work:W2552110825",
+   "type": "work",
+   "openalex": "W2552110825",
+   "doi": "10.48550/arxiv.1611.01734",
+   "title": "Deep Biaffine Attention for Neural Dependency Parsing",
+   "year": 2016,
+   "first_author": "Dozat, Timothy",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W2567464248",
+   "type": "work",
+   "openalex": "W2567464248",
+   "doi": "10.1080/02572117.2016.1252008",
+   "title": "The design of Setswana Scrabble",
+   "year": 2016,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "South African Journal of African Languages"
+  },
+  {
+   "id": "work:W2573062194",
+   "type": "work",
+   "openalex": "W2573062194",
+   "doi": "10.63317/3xtxb975en3d",
+   "title": "LORELEI Language Packs: Data, Tools, and Resources for Technology Development in Low Resource Languages",
+   "year": 2016,
+   "first_author": "Stephanie M. Strassel",
+   "venue": "Language Resources and Evaluation Conference (LREC)"
+  },
+  {
+   "id": "work:W2574640638",
+   "type": "work",
+   "openalex": "W2574640638",
+   "doi": "10.63317/2q6bwb9anobz",
+   "title": "UDPipe: Trainable Pipeline for Processing CoNLL-U Files Performing Tokenization, Morphological Analysis, POS Tagging and Parsing",
+   "year": 2016,
+   "first_author": "Milan Straka",
+   "venue": "Language Resources and Evaluation Conference (LREC)"
+  },
+  {
+   "id": "work:W2577569078",
+   "type": "work",
+   "openalex": "W2577569078",
+   "doi": "10.4000/books.aaccademia.1790",
+   "title": "Comparing State-of-the-art Dependency Parsers on the Italian Stanford Dependency Treebank",
+   "year": 2016,
+   "first_author": "Alberto Lavelli",
+   "venue": "Accademia University Press eBooks"
+  },
+  {
+   "id": "work:W2597513101",
+   "type": "work",
+   "openalex": "W2597513101",
+   "doi": "",
+   "title": "Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14)",
+   "year": 2014,
+   "first_author": "Rico Sennrich",
+   "venue": ""
+  },
+  {
+   "id": "work:W2598894966",
+   "type": "work",
+   "openalex": "W2598894966",
+   "doi": "",
+   "title": "Computational Modelling in Bantu Language",
+   "year": 2006,
+   "first_author": "K Getao",
+   "venue": ""
+  },
+  {
+   "id": "work:W2606089314",
+   "type": "work",
+   "openalex": "W2606089314",
+   "doi": "10.1007/978-3-031-02165-7",
+   "title": "Neural Network Methods for Natural Language Processing",
+   "year": 2017,
+   "first_author": "Yoav Goldberg",
+   "venue": "Synthesis lectures on human language technologies"
+  },
+  {
+   "id": "work:W2613379905",
+   "type": "work",
+   "openalex": "W2613379905",
+   "doi": "10.1177/0033688217707631",
+   "title": "Practical Corpus Linguistics: An Introduction to Corpus-Based Language Analysis",
+   "year": 2017,
+   "first_author": "Mohsen Shirazizadeh",
+   "venue": "RELC Journal"
+  },
+  {
+   "id": "work:W2735853219",
+   "type": "work",
+   "openalex": "W2735853219",
+   "doi": "",
+   "title": "Isihlonipho sabafazi : the Xhosa women's language of respect : a sociolinguistic exploration",
+   "year": 1988,
+   "first_author": "Tessa Dowling",
+   "venue": "Open University of Cape Town (University of Cape Town)"
+  },
+  {
+   "id": "work:W2739827909",
+   "type": "work",
+   "openalex": "W2739827909",
+   "doi": "10.18653/v1/k17-3002",
+   "title": "Stanford's Graph-based Neural Dependency Parser at the CoNLL 2017 Shared Task",
+   "year": 2017,
+   "first_author": "Timothy Dozat",
+   "venue": "CoNLL Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies"
+  },
+  {
+   "id": "work:W2740149041",
+   "type": "work",
+   "openalex": "W2740149041",
+   "doi": "10.18653/v1/k17-2010",
+   "title": "Data Augmentation for Morphological Reinflection",
+   "year": 2017,
+   "first_author": "Miikka Silfverberg",
+   "venue": ""
+  },
+  {
+   "id": "work:W2740285126",
+   "type": "work",
+   "openalex": "W2740285126",
+   "doi": "10.18653/v1/k17-3022",
+   "title": "From Raw Text to Universal Dependencies - Look, No Tags!",
+   "year": 2017,
+   "first_author": "Miryam de Lhoneux",
+   "venue": "CoNLL Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies"
+  },
+  {
+   "id": "work:W2741986357",
+   "type": "work",
+   "openalex": "W2741986357",
+   "doi": "10.18653/v1/e17-1088",
+   "title": "Cross-Lingual Word Embeddings for Low-Resource Language Modeling",
+   "year": 2017,
+   "first_author": "Oliver Adams",
+   "venue": "Conference of the European Chapter of the Association for Computational Linguistics"
+  },
+  {
+   "id": "work:W2752672336",
+   "type": "work",
+   "openalex": "W2752672336",
+   "doi": "",
+   "title": "Corpus, Concordance, Collocation",
+   "year": 1992,
+   "first_author": "Patricio Novoa Green",
+   "venue": ""
+  },
+  {
+   "id": "work:W2753392522",
+   "type": "work",
+   "openalex": "W2753392522",
+   "doi": "10.18653/v1/e17-1",
+   "title": "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 1, Long Papers",
+   "year": 2017,
+   "first_author": "",
+   "venue": ""
+  },
+  {
+   "id": "work:W2757376562",
+   "type": "work",
+   "openalex": "W2757376562",
+   "doi": "10.18653/v1/d17-1073",
+   "title": "Don't Throw Those Morphological Analyzers Away Just Yet: Neural Morphological Disambiguation for Arabic",
+   "year": 2017,
+   "first_author": "Nasser Zalmout",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  },
+  {
+   "id": "work:W2762484717",
+   "type": "work",
+   "openalex": "W2762484717",
+   "doi": "10.48550/arxiv.1710.04087",
+   "title": "Word Translation Without Parallel Data",
+   "year": 2017,
+   "first_author": "Alexis Conneau",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W2787481916",
+   "type": "work",
+   "openalex": "W2787481916",
+   "doi": "10.48550/arxiv.1801.09536",
+   "title": "A Survey of Word Embeddings Evaluation Methods",
+   "year": 2018,
+   "first_author": "Amir Bakarov",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W2787833597",
+   "type": "work",
+   "openalex": "W2787833597",
+   "doi": "",
+   "title": "Grammar writing, testing, and evaluation",
+   "year": 2003,
+   "first_author": "Miriam Butt",
+   "venue": ""
+  },
+  {
+   "id": "work:W2788784374",
+   "type": "work",
+   "openalex": "W2788784374",
+   "doi": "10.63317/2dwkd5xar3i5",
+   "title": "Learning Word Vectors for 157 Languages",
+   "year": 2018,
+   "first_author": "Édouard Grave",
+   "venue": "Language Resources and Evaluation Conference (LREC)"
+  },
+  {
+   "id": "work:W2792736048",
+   "type": "work",
+   "openalex": "W2792736048",
+   "doi": "10.64152/10125/44564",
+   "title": "Review of MonoConc Pro and WordSmith Tools",
+   "year": 2001,
+   "first_author": "Randi Reppen",
+   "venue": "Language learning & technology"
+  },
+  {
+   "id": "work:W2793381978",
+   "type": "work",
+   "openalex": "W2793381978",
+   "doi": "10.48550/arxiv.1803.01400",
+   "title": "Concatenated Power Mean Word Embeddings as Universal Cross-Lingual Sentence Representations",
+   "year": 2018,
+   "first_author": "Andreas Rücklé",
+   "venue": "TUbilio (Technical University of Darmstadt)"
+  },
+  {
+   "id": "work:W2795494677",
+   "type": "work",
+   "openalex": "W2795494677",
+   "doi": "",
+   "title": "The SAWA corpus : a parallell corpus English-Swahili",
+   "year": 2009,
+   "first_author": "Guy De Pauw",
+   "venue": ""
+  },
+  {
+   "id": "work:W2798517054",
+   "type": "work",
+   "openalex": "W2798517054",
+   "doi": "10.18653/v1/p18-1246",
+   "title": "Morphosyntactic Tagging with a Meta-BiLSTM Model over Context Sensitive Token Encodings",
+   "year": 2018,
+   "first_author": "Bernd Bohnet",
+   "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting"
+  },
+  {
+   "id": "work:W2798908575",
+   "type": "work",
+   "openalex": "W2798908575",
+   "doi": "10.18653/v1/p18-1073",
+   "title": "A robust self-learning method for fully unsupervised cross-lingual mappings of word embeddings",
+   "year": 2018,
+   "first_author": "Mikel Artetxe",
+   "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting"
+  },
+  {
+   "id": "work:W2805699599",
+   "type": "work",
+   "openalex": "W2805699599",
+   "doi": "10.63317/59idak9jiu75",
+   "title": "Universal Dependencies for Amharic",
+   "year": 2018,
+   "first_author": "Binyam Ephrem Seyoum",
+   "venue": "Language Resources and Evaluation Conference (LREC)"
+  },
+  {
+   "id": "work:W2808481912",
+   "type": "work",
+   "openalex": "W2808481912",
+   "doi": "10.24963/ijcai.2018/566",
+   "title": "Improving Low Resource Named Entity Recognition using Cross-lingual Knowledge Transfer",
+   "year": 2018,
+   "first_author": "Xiaocheng Feng",
+   "venue": "International Joint Conference on Artificial Intelligence"
+  },
+  {
+   "id": "work:W2887875660",
+   "type": "work",
+   "openalex": "W2887875660",
+   "doi": "",
+   "title": "Computational syntactic analysis of Setswana",
+   "year": 2018,
+   "first_author": "Anna Susanna Berg",
+   "venue": "Boloka Institutional Repository (North-west University)"
+  },
+  {
+   "id": "work:W2889197485",
+   "type": "work",
+   "openalex": "W2889197485",
+   "doi": "10.18653/v1/d18-1291",
+   "title": "An Investigation of the Interactions Between Pre-Trained Word Embeddings, Character Models and POS Tags in Dependency Parsing",
+   "year": 2018,
+   "first_author": "Aaron Smith",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  },
+  {
+   "id": "work:W2893191669",
+   "type": "work",
+   "openalex": "W2893191669",
+   "doi": "10.1007/978-3-030-01204-5_1",
+   "title": "Deep Convolutional Networks for Supervised Morpheme Segmentation of Russian Language",
+   "year": 2018,
+   "first_author": "Alexey Andreevich Sorokin",
+   "venue": "Communications in computer and information science"
+  },
+  {
+   "id": "work:W2896457183",
+   "type": "work",
+   "openalex": "W2896457183",
+   "doi": "10.48550/arxiv.1810.04805",
+   "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+   "year": 2018,
+   "first_author": "Jacob Devlin",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W2898796642",
+   "type": "work",
+   "openalex": "W2898796642",
+   "doi": "10.18653/v1/k18-2013",
+   "title": "",
+   "year": 2018,
+   "first_author": "Jenna Kanerva",
+   "venue": "Proceedings of the"
+  },
+  {
+   "id": "work:W290360069",
+   "type": "work",
+   "openalex": "W290360069",
+   "doi": "10.1515/9783110228014",
+   "title": "Languages for Special Purposes: An International Handbook",
+   "year": 2018,
+   "first_author": "John Humbley",
+   "venue": "De Gruyter eBooks"
+  },
+  {
+   "id": "work:W2905749056",
+   "type": "work",
+   "openalex": "W2905749056",
+   "doi": "10.1162/tacl_a_00288",
+   "title": "Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond",
+   "year": 2019,
+   "first_author": "Mikel Artetxe",
+   "venue": "Transactions of the Association for Computational Linguistics"
+  },
+  {
+   "id": "work:W2912172494",
+   "type": "work",
+   "openalex": "W2912172494",
+   "doi": "10.3115/981131",
+   "title": "Proceedings of the 24th annual meeting on Association for Computational Linguistics -",
+   "year": 1986,
+   "first_author": "Alan W. Biermann",
+   "venue": ""
+  },
+  {
+   "id": "work:W2912924812",
+   "type": "work",
+   "openalex": "W2912924812",
+   "doi": "10.1162/tacl_a_00276",
+   "title": "Natural Questions: A Benchmark for Question Answering Research",
+   "year": 2019,
+   "first_author": "Tom Kwiatkowski",
+   "venue": "Transactions of the Association for Computational Linguistics"
+  },
+  {
+   "id": "work:W2914096745",
+   "type": "work",
+   "openalex": "W2914096745",
+   "doi": "",
+   "title": "Dependency Parsing",
+   "year": 2009,
+   "first_author": "Sandra Kübler",
+   "venue": ""
+  },
+  {
+   "id": "work:W2917246411",
+   "type": "work",
+   "openalex": "W2917246411",
+   "doi": "10.1007/978-3-030-14401-2_28",
+   "title": "Creating CMDI-Profiles for Textbook Resources",
+   "year": 2019,
+   "first_author": "Francesca Fallucchi",
+   "venue": "Communications in computer and information science"
+  },
+  {
+   "id": "work:W2949303037",
+   "type": "work",
+   "openalex": "W2949303037",
+   "doi": "10.18653/v1/p19-1310",
+   "title": "JW300: A Wide-Coverage Parallel Corpus for Low-Resource Languages",
+   "year": 2019,
+   "first_author": "Żeljko Agić",
+   "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting"
+  },
+  {
+   "id": "work:W2949736877",
+   "type": "work",
+   "openalex": "W2949736877",
+   "doi": "10.1109/cvpr.2019.00020",
+   "title": "AutoAugment: Learning Augmentation Strategies From Data",
+   "year": 2019,
+   "first_author": "Ekin D. Cubuk",
+   "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings"
+  },
+  {
+   "id": "work:W2949917295",
+   "type": "work",
+   "openalex": "W2949917295",
+   "doi": "10.18653/v1/k18-2005",
+   "title": "Towards Better",
+   "year": 2018,
+   "first_author": "Wanxiang Che",
+   "venue": "Proceedings of the"
+  },
+  {
+   "id": "work:W2950635152",
+   "type": "work",
+   "openalex": "W2950635152",
+   "doi": "10.48550/arxiv.1406.1078",
+   "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation",
+   "year": 2014,
+   "first_author": "Kyunghyun Cho",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W2951165112",
+   "type": "work",
+   "openalex": "W2951165112",
+   "doi": "10.48550/arxiv.1906.05685",
+   "title": "A Focus on Neural Machine Translation for African Languages",
+   "year": 2019,
+   "first_author": "Laura Martinus",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W2953887001",
+   "type": "work",
+   "openalex": "W2953887001",
+   "doi": "10.48550/arxiv.1906.10511",
+   "title": "Benchmarking Neural Machine Translation for Southern African Languages",
+   "year": 2019,
+   "first_author": "Laura Martinus",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W2953958347",
+   "type": "work",
+   "openalex": "W2953958347",
+   "doi": "10.18653/v1/n19-5004",
+   "title": "Transfer Learning in Natural Language Processing",
+   "year": 2019,
+   "first_author": "Sebastian Ruder",
+   "venue": ""
+  },
+  {
+   "id": "work:W2954733819",
+   "type": "work",
+   "openalex": "W2954733819",
+   "doi": "",
+   "title": "Exploring the use of parallel corpora in the complilation of specialised bilingual dictionaries of technical terms: a case study of English and isiXhosa",
+   "year": 2018,
+   "first_author": "Feziwe Shoba",
+   "venue": "Unisa Institutional Repository (University of South Africa)"
+  },
+  {
+   "id": "work:W2961125888",
+   "type": "work",
+   "openalex": "W2961125888",
+   "doi": "10.1007/978-3-030-57321-8_21",
+   "title": "Improving Short Text Classification Through Global Augmentation Methods",
+   "year": 2020,
+   "first_author": "Vukosi N. Marivate",
+   "venue": "Lecture notes in computer science"
+  },
+  {
+   "id": "work:W2963118869",
+   "type": "work",
+   "openalex": "W2963118869",
+   "doi": "",
+   "title": "Word translation without parallel data",
+   "year": 2018,
+   "first_author": "Guillaume Lample",
+   "venue": "International Conference on Learning Representations"
+  },
+  {
+   "id": "work:W2963545917",
+   "type": "work",
+   "openalex": "W2963545917",
+   "doi": "10.18653/v1/n18-2072",
+   "title": "Contextual Augmentation: Data Augmentation by Words with Paradigmatic Relations",
+   "year": 2018,
+   "first_author": "Sosuke Kobayashi",
+   "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)"
+  },
+  {
+   "id": "work:W2971222421",
+   "type": "work",
+   "openalex": "W2971222421",
+   "doi": "10.3390/info10090268",
+   "title": "The Usefulness of Imperfect Speech Data for ASR Development in Low-Resource Languages",
+   "year": 2019,
+   "first_author": "Jaco Badenhorst",
+   "venue": "Information"
+  },
+  {
+   "id": "work:W2971296908",
+   "type": "work",
+   "openalex": "W2971296908",
+   "doi": "10.18653/v1/d19-1670",
+   "title": "EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks",
+   "year": 2019,
+   "first_author": "Jason Wei",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  },
+  {
+   "id": "work:W2975262669",
+   "type": "work",
+   "openalex": "W2975262669",
+   "doi": "10.1007/978-3-030-31372-2_20",
+   "title": "Tuning of Acoustic Modeling and Adaptation Technique for a Real Speech Recognition Task",
+   "year": 2019,
+   "first_author": "Jan Vaněk",
+   "venue": "Lecture notes in computer science"
+  },
+  {
+   "id": "work:W2982180741",
+   "type": "work",
+   "openalex": "W2982180741",
+   "doi": "10.18653/v1/2020.acl-main.421",
+   "title": "On the Cross-lingual Transferability of Monolingual Representations",
+   "year": 2020,
+   "first_author": "Mikel Artetxe",
+   "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting"
+  },
+  {
+   "id": "work:W2988304195",
+   "type": "work",
+   "openalex": "W2988304195",
+   "doi": "",
+   "title": "CoNLL 2018 Shared Task : Multilingual Parsing from Raw Text to Universal Dependencies",
+   "year": 2018,
+   "first_author": "Daniel Zeman",
+   "venue": "Conference on Computational Natural Language Learning"
+  },
+  {
+   "id": "work:W2995253144",
+   "type": "work",
+   "openalex": "W2995253144",
+   "doi": "10.1109/access.2019.2960263",
+   "title": "Hierarchical Data Augmentation and the Application in Text Classification",
+   "year": 2019,
+   "first_author": "Shujuan Yu",
+   "venue": "IEEE Access"
+  },
+  {
+   "id": "work:W3000562670",
+   "type": "work",
+   "openalex": "W3000562670",
+   "doi": "10.1016/j.dib.2020.105146",
+   "title": "Dataset for comparable evaluation of machine translation between 11 South African languages",
+   "year": 2020,
+   "first_author": "Cindy A. McKellar",
+   "venue": "Data in Brief"
+  },
+  {
+   "id": "work:W3022046731",
+   "type": "work",
+   "openalex": "W3022046731",
+   "doi": "10.48550/arxiv.2004.13842",
+   "title": "Low resource language dataset creation, curation and classification: Setswana and Sepedi -- Extended Abstract",
+   "year": 2020,
+   "first_author": "Vukosi N. Marivate",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W3022117922",
+   "type": "work",
+   "openalex": "W3022117922",
+   "doi": "",
+   "title": "NCHLT Afrikaans Text Corpora",
+   "year": 2014,
+   "first_author": "Martin J. Puttkammer",
+   "venue": ""
+  },
+  {
+   "id": "work:W3025521026",
+   "type": "work",
+   "openalex": "W3025521026",
+   "doi": "10.1109/coginfocom47531.2019.9089928",
+   "title": "A Comparative Analysis of Domain Adaptation Techniques for Recognition of Accented Speech",
+   "year": 2019,
+   "first_author": "Gyurgy Szaszaak",
+   "venue": "IEEE International Conference on Cognitive Infocommunications"
+  },
+  {
+   "id": "work:W3031473890",
+   "type": "work",
+   "openalex": "W3031473890",
+   "doi": "10.48550/arxiv.1912.02481",
+   "title": "Massive vs. Curated Word Embeddings for Low-Resourced Languages. The Case of Yorùbá and Twi",
+   "year": 2019,
+   "first_author": "Jesujoba Oluwadara Alabi",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W3034748831",
+   "type": "work",
+   "openalex": "W3034748831",
+   "doi": "10.48550/arxiv.2006.07264",
+   "title": "Low-resource Languages: A Review of Past Work and Future Challenges",
+   "year": 2020,
+   "first_author": "Alexandre Magueresse",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W3092996096",
+   "type": "work",
+   "openalex": "W3092996096",
+   "doi": "10.1007/s10772-020-09757-0",
+   "title": "Hindi speech recognition using time delay neural network acoustic modeling with i-vector adaptation",
+   "year": 2020,
+   "first_author": "Ankit Kumar",
+   "venue": "International Journal of Speech Technology"
+  },
+  {
+   "id": "work:W3112535338",
+   "type": "work",
+   "openalex": "W3112535338",
+   "doi": "10.23962/10539/30361",
+   "title": "Artificial Intelligence (AI) Deployments in Africa: Benefits, Challenges and Policy Dimensions",
+   "year": 2020,
+   "first_author": "Authur Gwagwa",
+   "venue": "The African Journal of Information and Communication (AJIC)"
+  },
+  {
+   "id": "work:W3121547375",
+   "type": "work",
+   "openalex": "W3121547375",
+   "doi": "",
+   "title": "",
+   "year": null,
+   "first_author": "",
+   "venue": ""
+  },
+  {
+   "id": "work:W3134114820",
+   "type": "work",
+   "openalex": "W3134114820",
+   "doi": "10.1080/03080188.2020.1840225",
+   "title": "Can artificial intelligence be decolonized?",
+   "year": 2021,
+   "first_author": "Rachel Adams",
+   "venue": "Interdisciplinary Science Reviews"
+  },
+  {
+   "id": "work:W3142640075",
+   "type": "work",
+   "openalex": "W3142640075",
+   "doi": "10.48550/arxiv.2103.16712",
+   "title": "Collaborative construction of lexicographic and parallel datasets for African languages: first assessment",
+   "year": 2021,
+   "first_author": "Elvis Mboning",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W3153969171",
+   "type": "work",
+   "openalex": "W3153969171",
+   "doi": "",
+   "title": "Auxiliary verbs as a subcategory of the verb in Tswana",
+   "year": 1997,
+   "first_author": "Rigardt Pretorius",
+   "venue": "Boloka Institutional Repository (North-west University)"
+  },
+  {
+   "id": "work:W3155116954",
+   "type": "work",
+   "openalex": "W3155116954",
+   "doi": "10.1109/ictas50802.2021.9394996",
+   "title": "Transformer-based Machine Translation for Low-resourced Languages embedded with Language Identification",
+   "year": 2021,
+   "first_author": "Tshephisho Joseph Sefara",
+   "venue": "Conference on Information Communications Technology and Society (ICTAS)"
+  },
+  {
+   "id": "work:W3156712187",
+   "type": "work",
+   "openalex": "W3156712187",
+   "doi": "10.18653/v1/2021.eacl-main.186",
+   "title": "Building Representative Corpora from Illiterate Communities: A Reviewof Challenges and Mitigation Strategies for Developing Countries",
+   "year": 2021,
+   "first_author": "Stephanie A. Hirmer",
+   "venue": "Conference of the European Chapter of the Association for Computational Linguistics"
+  },
+  {
+   "id": "work:W3157544848",
+   "type": "work",
+   "openalex": "W3157544848",
+   "doi": "10.2989/16073614.2021.1896971",
+   "title": "The extraction of terminology list using ParaConc for creating a quadrilingual dictionary",
+   "year": 2021,
+   "first_author": "Respect Mlambo",
+   "venue": "Southern African Linguistics and Applied Language Studies"
+  },
+  {
+   "id": "work:W3158986179",
+   "type": "work",
+   "openalex": "W3158986179",
+   "doi": "10.57754/fdat.mbknv-5s175",
+   "title": "New York Times Annotated Corpus",
+   "year": 2012,
+   "first_author": "Evan Sandhaus",
+   "venue": "FDAT"
+  },
+  {
+   "id": "work:W3167716537",
+   "type": "work",
+   "openalex": "W3167716537",
+   "doi": "10.48550/arxiv.2106.04995",
+   "title": "Crosslingual Embeddings are Essential in UNMT for Distant Languages: An English to IndoAryan Case Study",
+   "year": 2021,
+   "first_author": "Tamali Banerjee",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W3173162544",
+   "type": "work",
+   "openalex": "W3173162544",
+   "doi": "10.1145/3567592",
+   "title": "Neural Machine Translation for Low-resource Languages: A Survey",
+   "year": 2023,
+   "first_author": "Surangika Ranathunga",
+   "venue": "ACM Computing Surveys"
+  },
+  {
+   "id": "work:W3187029459",
+   "type": "work",
+   "openalex": "W3187029459",
+   "doi": "10.18653/v1/2021.nlp4posimpact-1.4",
+   "title": "Guiding Principles for Participatory Design-inspired Natural Language Processing",
+   "year": 2021,
+   "first_author": "Tommaso Caselli",
+   "venue": "Workshop on NLP for Positive Impact (NLP4PI)"
+  },
+  {
+   "id": "work:W3196022520",
+   "type": "work",
+   "openalex": "W3196022520",
+   "doi": "10.3384/ecp184169",
+   "title": "Ry/Rk-Lex: A Computational Lexicon for Runyankore and Rukiga Languages",
+   "year": 2021,
+   "first_author": "David Sabiiti Bamutura",
+   "venue": "Linköping electronic conference proceedings"
+  },
+  {
+   "id": "work:W3197782487",
+   "type": "work",
+   "openalex": "W3197782487",
+   "doi": "10.1017/9781139061773.020",
+   "title": "Transfer Learning in Natural Language Processing",
+   "year": 2020,
+   "first_author": "Qiang Yang",
+   "venue": "Cambridge University Press eBooks"
+  },
+  {
+   "id": "work:W3204110349",
+   "type": "work",
+   "openalex": "W3204110349",
+   "doi": "",
+   "title": "Mother tongue education : the West African experience",
+   "year": 1976,
+   "first_author": "Ayọ̀ Bámgbósé",
+   "venue": "Hodder and Stoughton eBooks"
+  },
+  {
+   "id": "work:W3213589022",
+   "type": "work",
+   "openalex": "W3213589022",
+   "doi": "10.5281/zenodo.3668480",
+   "title": "African Pre-Trained Embeddings [NLP]",
+   "year": 2020,
+   "first_author": "Vukosi N. Marivate",
+   "venue": "Figshare"
+  },
+  {
+   "id": "work:W3215056996",
+   "type": "work",
+   "openalex": "W3215056996",
+   "doi": "",
+   "title": "Language, Society and Communication: An Introduction",
+   "year": 2014,
+   "first_author": "Zannie Bock",
+   "venue": ""
+  },
+  {
+   "id": "work:W340490638",
+   "type": "work",
+   "openalex": "W340490638",
+   "doi": "",
+   "title": "Standard in Setswana in Botswana",
+   "year": 2006,
+   "first_author": "Bokang Itumeleng Nfila",
+   "venue": "UpSpace Institutional Repository (University of Pretoria)"
+  },
+  {
+   "id": "work:W4200285050",
+   "type": "work",
+   "openalex": "W4200285050",
+   "doi": "10.3390/info12120520",
+   "title": "Developing Core Technologies for Resource-Scarce Nguni Languages",
+   "year": 2021,
+   "first_author": "Jakobus S. du Toit",
+   "venue": "Information"
+  },
+  {
+   "id": "work:W4225831823",
+   "type": "work",
+   "openalex": "W4225831823",
+   "doi": "10.1109/ictas53252.2022",
+   "title": "2022 Conference on Information Communications Technology and Society (ICTAS)",
+   "year": 2022,
+   "first_author": "",
+   "venue": ""
+  },
+  {
+   "id": "work:W4229521928",
+   "type": "work",
+   "openalex": "W4229521928",
+   "doi": "10.1109/coginfocom47531.2019",
+   "title": "2019 10th IEEE International Conference on Cognitive Infocommunications (CogInfoCom)",
+   "year": 2019,
+   "first_author": "",
+   "venue": ""
+  },
+  {
+   "id": "work:W4229939117",
+   "type": "work",
+   "openalex": "W4229939117",
+   "doi": "10.1075/z.bbi1(2nd)",
+   "title": "The BBI Dictionary of English Word Combinations: Revised edition",
+   "year": 1997,
+   "first_author": "Morton Benson",
+   "venue": "John Benjamins Publishing Company eBooks"
+  },
+  {
+   "id": "work:W4230784024",
+   "type": "work",
+   "openalex": "W4230784024",
+   "doi": "10.4324/9780203087701",
+   "title": "Introducing Electronic Text Analysis: A Practical Guide for Language and Literary Studies",
+   "year": 2006,
+   "first_author": "Svenja Adolphs",
+   "venue": "Routledge eBooks"
+  },
+  {
+   "id": "work:W4231867583",
+   "type": "work",
+   "openalex": "W4231867583",
+   "doi": "10.1075/scl.12",
+   "title": "How to Use Corpora in Language Teaching",
+   "year": 2004,
+   "first_author": "John Sinclair",
+   "venue": "Studies in corpus linguistics"
+  },
+  {
+   "id": "work:W4234389704",
+   "type": "work",
+   "openalex": "W4234389704",
+   "doi": "10.1109/asru34931.2015",
+   "title": "2015 IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU)",
+   "year": 2015,
+   "first_author": "",
+   "venue": ""
+  },
+  {
+   "id": "work:W4239699010",
+   "type": "work",
+   "openalex": "W4239699010",
+   "doi": "10.1057/978-1-137-01593-8_12",
+   "title": "Setswana",
+   "year": 2017,
+   "first_author": "Thapelo Joseph Otlogetswe",
+   "venue": "Palgrave Macmillan UK eBooks"
+  },
+  {
+   "id": "work:W4242681798",
+   "type": "work",
+   "openalex": "W4242681798",
+   "doi": "10.1632/lsda.2013.7",
+   "title": "GIS for Language and Literary Study",
+   "year": 2013,
+   "first_author": "William A. Kretzschmar",
+   "venue": "Modern Language Association of America eBooks"
+  },
+  {
+   "id": "work:W4249354154",
+   "type": "work",
+   "openalex": "W4249354154",
+   "doi": "10.1002/9781119180180",
+   "title": "Practical Corpus Linguistics: An Introduction to Corpus‐Based Language Analysis",
+   "year": 2015,
+   "first_author": "Martin Weißer",
+   "venue": "Wiley eBooks"
+  },
+  {
+   "id": "work:W4280494215",
+   "type": "work",
+   "openalex": "W4280494215",
+   "doi": "10.48550/arxiv.2205.03983",
+   "title": "Building Machine Translation Systems for the Next Thousand Languages",
+   "year": 2022,
+   "first_author": "Ankur Bapna",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W4285287896",
+   "type": "work",
+   "openalex": "W4285287896",
+   "doi": "10.18653/v1/2022.findings-acl.87",
+   "title": "Listening to Affected Communities to Define Extreme Speech: Dataset and Experiments",
+   "year": 2022,
+   "first_author": "Antonis Maronikolakis",
+   "venue": "Findings of the Association for Computational Linguistics: ACL (Findings of ACL)"
+  },
+  {
+   "id": "work:W4288457208",
+   "type": "work",
+   "openalex": "W4288457208",
+   "doi": "10.1016/j.jbi.2022.104145",
+   "title": "Language-agnostic deep learning framework for automatic monitoring of population-level mental health from social networks",
+   "year": 2022,
+   "first_author": "Thanapon Noraset",
+   "venue": "Journal of Biomedical Informatics"
+  },
+  {
+   "id": "work:W4301140751",
+   "type": "work",
+   "openalex": "W4301140751",
+   "doi": "10.48550/arxiv.1412.6568",
+   "title": "Improving zero-shot learning by mitigating the hubness problem",
+   "year": 2014,
+   "first_author": "Georgiana Dinu",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W4313247739",
+   "type": "work",
+   "openalex": "W4313247739",
+   "doi": "10.23962/ajic.i30.13906",
+   "title": "A word embedding trained on South African news data",
+   "year": 2022,
+   "first_author": "Martin Canaan Mafunda",
+   "venue": "The African Journal of Information and Communication (AJIC)"
+  },
+  {
+   "id": "work:W4318613665",
+   "type": "work",
+   "openalex": "W4318613665",
+   "doi": "10.55492/dhasa.v4i01.4444",
+   "title": "The Analysis of the Sepedi-English Code-switched Radio News Corpus",
+   "year": 2023,
+   "first_author": "Simon P. Ramalepe",
+   "venue": ""
+  },
+  {
+   "id": "work:W4318613732",
+   "type": "work",
+   "openalex": "W4318613732",
+   "doi": "10.55492/dhasa.v4i01.4449",
+   "title": "Izindaba-Tindzaba: Machine learning news categorisation for Long and Short Text for isiZulu and Siswati",
+   "year": 2023,
+   "first_author": "Andani Madodonga",
+   "venue": ""
+  },
+  {
+   "id": "work:W4318613881",
+   "type": "work",
+   "openalex": "W4318613881",
+   "doi": "10.55492/dhasa.v4i01.4447",
+   "title": "Topic modelling to support English text selection for translation into South Africa's other official languages",
+   "year": 2023,
+   "first_author": "Jocelyn Mazarura",
+   "venue": ""
+  },
+  {
+   "id": "work:W4324149510",
+   "type": "work",
+   "openalex": "W4324149510",
+   "doi": "10.22541/au.167878643.36371140/v1",
+   "title": "Zero-Shot Transfer Learning using Affix and Correlated Cross-Lingual Embeddings.",
+   "year": 2023,
+   "first_author": "Abiodun Modupe",
+   "venue": "Authorea"
+  },
+  {
+   "id": "work:W4361006021",
+   "type": "work",
+   "openalex": "W4361006021",
+   "doi": "10.3390/app13074225",
+   "title": "Fine-Tuning BERT-Based Pre-Trained Models for Arabic Dependency Parsing",
+   "year": 2023,
+   "first_author": "Sharefah Ahmed Al-Ghamdi",
+   "venue": "Applied Sciences"
+  },
+  {
+   "id": "work:W4361275849",
+   "type": "work",
+   "openalex": "W4361275849",
+   "doi": "10.30994/jceh.v6i1.400",
+   "title": "Pelatihan dan Pendampingan Pengumpulan Data Kesehatan dengan Metode Open Data Kit (Odk) berbasis Mobile Data Collecting Using Android Applikasi Kobo Toolbox",
+   "year": 2023,
+   "first_author": "Dewi Puspito Sari",
+   "venue": "JOURNAL OF COMMUNITY ENGAGEMENT IN HEALTH"
+  },
+  {
+   "id": "work:W4376140194",
+   "type": "work",
+   "openalex": "W4376140194",
+   "doi": "10.1007/s41297-023-00196-w",
+   "title": "Decolonisation through Digitalisation? African Languages at South African Universities",
+   "year": 2023,
+   "first_author": "Irina Turner",
+   "venue": "Curriculum Perspectives"
+  },
+  {
+   "id": "work:W4378505287",
+   "type": "work",
+   "openalex": "W4378505287",
+   "doi": "10.48550/arxiv.2305.16307",
+   "title": "IndicTrans2: Towards High-Quality and Accessible Machine Translation Models for all 22 Scheduled Indian Languages",
+   "year": 2023,
+   "first_author": "Jay P. Gala",
+   "venue": "Transactions on machine learning research"
+  },
+  {
+   "id": "work:W4381488486",
+   "type": "work",
+   "openalex": "W4381488486",
+   "doi": "10.21248/jlcl.36.2023.243",
+   "title": "Kencorpus: A Kenyan Language Corpus of Swahili, Dholuo and Luhya for Natural Language Processing Tasks",
+   "year": 2023,
+   "first_author": "Barack Wanjawa",
+   "venue": "LDV-Forum/Journal for language technology and computational linguistics"
+  },
+  {
+   "id": "work:W4381683870",
+   "type": "work",
+   "openalex": "W4381683870",
+   "doi": "10.22214/ijraset.2023.53887",
+   "title": "Universal Language Model Fine-Tuning for Text Classification",
+   "year": 2023,
+   "first_author": "Rajashekar Reddy V",
+   "venue": "International Journal for Research in Applied Science and Engineering Technology"
+  },
+  {
+   "id": "work:W4385422202",
+   "type": "work",
+   "openalex": "W4385422202",
+   "doi": "10.1111/1758-5899.13243",
+   "title": "Inequalities and content moderation",
+   "year": 2023,
+   "first_author": "Giovanni De Gregorio",
+   "venue": "Global Policy"
+  },
+  {
+   "id": "work:W4385570273",
+   "type": "work",
+   "openalex": "W4385570273",
+   "doi": "10.18653/v1/2023.findings-acl.427",
+   "title": "LR-Sum: Summarization for Less-Resourced Languages",
+   "year": 2023,
+   "first_author": "Chester Palen-Michel",
+   "venue": "Findings of the Association for Computational Linguistics: ACL (Findings of ACL)"
+  },
+  {
+   "id": "work:W4385572438",
+   "type": "work",
+   "openalex": "W4385572438",
+   "doi": "10.18653/v1/2023.acl-long.235",
+   "title": "MASSIVE: A 1M-Example Multilingual Natural Language Understanding Dataset with 51 Typologically-Diverse Languages",
+   "year": 2023,
+   "first_author": "Jack FitzGerald",
+   "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting"
+  },
+  {
+   "id": "work:W4386576897",
+   "type": "work",
+   "openalex": "W4386576897",
+   "doi": "10.18653/v1/2023.rail-1",
+   "title": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "year": 2023,
+   "first_author": "",
+   "venue": ""
+  },
+  {
+   "id": "work:W4389077499",
+   "type": "work",
+   "openalex": "W4389077499",
+   "doi": "10.1007/978-3-031-49002-6_9",
+   "title": "Investigating the Extent and Usability of Webtext Available in South Africa’s Official Languages",
+   "year": 2023,
+   "first_author": "Febe de Wet",
+   "venue": "Communications in computer and information science"
+  },
+  {
+   "id": "work:W4389104646",
+   "type": "work",
+   "openalex": "W4389104646",
+   "doi": "10.1007/978-3-031-49002-6_17",
+   "title": "PuoBERTa: Training and Evaluation of a Curated Language Model for Setswana",
+   "year": 2023,
+   "first_author": "Vukosi N. Marivate",
+   "venue": "Communications in computer and information science"
+  },
+  {
+   "id": "work:W4389724198",
+   "type": "work",
+   "openalex": "W4389724198",
+   "doi": "10.1109/prml59573.2023.10348184",
+   "title": "Chunking of Setswana noun and verb phrases",
+   "year": 2023,
+   "first_author": "Gabofetswe Malema",
+   "venue": "IEEE International Conference on Pattern Recognition and Machine Learning (PRML)"
+  },
+  {
+   "id": "work:W4389947148",
+   "type": "work",
+   "openalex": "W4389947148",
+   "doi": "10.3390/systems12010001",
+   "title": "Pre-Trained Transformer-Based Models for Text Classification Using Low-Resourced Ewe Language",
+   "year": 2023,
+   "first_author": "Victor Kwaku Agbesi",
+   "venue": "Systems"
+  },
+  {
+   "id": "work:W4391767064",
+   "type": "work",
+   "openalex": "W4391767064",
+   "doi": "10.48550/arxiv.2402.06619",
+   "title": "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",
+   "year": 2024,
+   "first_author": "Shivalika Singh",
+   "venue": "VBN Forskningsportal (Aalborg Universitet)"
+  },
+  {
+   "id": "work:W4393228430",
+   "type": "work",
+   "openalex": "W4393228430",
+   "doi": "10.1002/ail2.92",
+   "title": "Building Text and Speech Benchmark Datasets and Models for Low‐Resourced East African Languages: Experiences and Lessons",
+   "year": 2024,
+   "first_author": "Joyce Nakatumba Nabende",
+   "venue": "Applied AI Letters"
+  },
+  {
+   "id": "work:W4393735941",
+   "type": "work",
+   "openalex": "W4393735941",
+   "doi": "10.5281/zenodo.3668488",
+   "title": "South African News Data",
+   "year": 2020,
+   "first_author": "Vukosi N. Marivate",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+  },
+  {
+   "id": "work:W4395448128",
+   "type": "work",
+   "openalex": "W4395448128",
+   "doi": "10.1109/ictas59620.2024.10507140",
+   "title": "Datasets Collection Framework for Low-Resourced Languages in South Africa",
+   "year": 2024,
+   "first_author": "Nontokozo M. Magangane",
+   "venue": "Conference on Information Communications Technology and Society (ICTAS)"
+  },
+  {
+   "id": "work:W4396243629",
+   "type": "work",
+   "openalex": "W4396243629",
+   "doi": "10.48550/arxiv.2404.17194",
+   "title": "TIGQA:An Expert Annotated Question Answering Dataset in Tigrinya",
+   "year": 2024,
+   "first_author": "Hailay Kidu Teklehaymanot",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W4399548083",
+   "type": "work",
+   "openalex": "W4399548083",
+   "doi": "10.9734/ajrcos/2024/v17i7473",
+   "title": "Ga-RBP: A Rule-based Parser for the Syntactic Analysis of the Ga Language of Ghana",
+   "year": 2024,
+   "first_author": "Christian Otto",
+   "venue": "Asian Journal of Research in Computer Science"
+  },
+  {
+   "id": "work:W4402655394",
+   "type": "work",
+   "openalex": "W4402655394",
+   "doi": "10.1007/978-3-031-70239-6_16",
+   "title": "The Influence of Iconicity in Transfer Learning for Sign Language Recognition",
+   "year": 2024,
+   "first_author": "Keren Artiaga",
+   "venue": "Lecture notes in computer science"
+  },
+  {
+   "id": "work:W4403617764",
+   "type": "work",
+   "openalex": "W4403617764",
+   "doi": "10.48550/arxiv.2409.05247",
+   "title": "Socially Responsible Data for Large Multilingual Language Models",
+   "year": 2024,
+   "first_author": "Andrew Smart",
+   "venue": "arXiv (Cornell University)"
+  },
+  {
+   "id": "work:W4404038697",
+   "type": "work",
+   "openalex": "W4404038697",
+   "doi": "10.54908/iljs.2023.10.01.005",
+   "title": "Sentiment Lexicon Disambiguation: A Systematic Literature Review",
+   "year": 2023,
+   "first_author": "A. B. ADENIJI",
+   "venue": "Ilorin Journal of Science"
+  },
+  {
+   "id": "work:W4404888584",
+   "type": "work",
+   "openalex": "W4404888584",
+   "doi": "10.1007/978-3-031-78255-8_19",
+   "title": "Pre-training a Transformer-Based Generative Model Using a Small Sepedi Dataset",
+   "year": 2024,
+   "first_author": "Simon P. Ramalepe",
+   "venue": "Communications in computer and information science"
+  },
+  {
+   "id": "work:W4405392896",
+   "type": "work",
+   "openalex": "W4405392896",
+   "doi": "10.46303/repam.2024.33",
+   "title": "The Use of Technology in African Language Pedagogy – A Sociological Approach",
+   "year": 2024,
+   "first_author": "Theophilus Adedayo Adedokun",
+   "venue": "Research in Educational Policy and Management"
+  },
+  {
+   "id": "work:W4405822485",
+   "type": "work",
+   "openalex": "W4405822485",
+   "doi": "10.1111/jwip.12342",
+   "title": "Copyright in the age of artificial intelligence: Navigating access to algorithmic training materials and the three‐step test for text and data mining in Nigeria",
+   "year": 2024,
+   "first_author": "Morris Kingsley Odeh",
+   "venue": "The Journal of World Intellectual Property"
+  },
+  {
+   "id": "work:W4406915118",
+   "type": "work",
+   "openalex": "W4406915118",
+   "doi": "10.4102/lit.v46i1.2049",
+   "title": "Human language technology tools for indigenous South African languages and their potential use",
+   "year": 2025,
+   "first_author": "Respect Mlambo",
+   "venue": "Literator"
+  },
+  {
+   "id": "work:W4407564851",
+   "type": "work",
+   "openalex": "W4407564851",
+   "doi": "10.1007/978-3-031-73639-1_3",
+   "title": "AI-Readiness in Emerging Economies: Metha Synthesis on Data and Infrastructural Layers",
+   "year": 2025,
+   "first_author": "Julio Joaquin Meza Vergara",
+   "venue": "Future of business and finance"
+  },
+  {
+   "id": "work:W4408691765",
+   "type": "work",
+   "openalex": "W4408691765",
+   "doi": "10.12688/wellcomeopenres.23684.1",
+   "title": "Community engagement for artificial intelligence health research in Africa",
+   "year": 2025,
+   "first_author": "Harriet Nankya",
+   "venue": "Wellcome Open Research"
+  },
+  {
+   "id": "work:W4411541867",
+   "type": "work",
+   "openalex": "W4411541867",
+   "doi": "10.1145/3715275.3732153",
+   "title": "Lost in Machine Translation: The Sociocultural Implications of Language Technologies in Nigeria",
+   "year": 2025,
+   "first_author": "Seyi Olojo",
+   "venue": "ACM Conference on Fairness, Accountability, and Transparency (FAccT)"
+  },
+  {
+   "id": "work:W4412346887",
+   "type": "work",
+   "openalex": "W4412346887",
+   "doi": "10.23919/ist-africa67297.2025.11060465",
+   "title": "Detecting COVID-19 Misinformation in Sepedi Short Texts Using Data Augmentation Techniques",
+   "year": 2025,
+   "first_author": "Manyako Manaswe",
+   "venue": "IST-Africa Conference (IST-Africa)"
+  },
+  {
+   "id": "work:W4414028697",
+   "type": "work",
+   "openalex": "W4414028697",
+   "doi": "10.2139/ssrn.5443142",
+   "title": "AI for ESG Governance in South Africa: A Systematic Review of Financial Intelligence Approaches",
+   "year": 2025,
+   "first_author": "Miehleketo Mathebula",
+   "venue": "SSRN Electronic Journal"
+  },
+  {
+   "id": "work:W4414115409",
+   "type": "work",
+   "openalex": "W4414115409",
+   "doi": "10.4018/ijswis.388421",
+   "title": "Out-of-Vocabulary Handling in Part-of-Speech Tagging: A Semantic Web-Driven Systematic Review",
+   "year": 2025,
+   "first_author": "Muhammad Alfian",
+   "venue": "International Journal on Semantic Web and Information Systems"
+  },
+  {
+   "id": "work:W4415094205",
+   "type": "work",
+   "openalex": "W4415094205",
+   "doi": "10.1007/978-3-032-07959-6_18",
+   "title": "Sector-Wise Backpropagation for Low-Resource Text Classification in Deep Models",
+   "year": 2025,
+   "first_author": "José Luis Vázquez Noguera",
+   "venue": "Lecture notes in computer science"
+  },
+  {
+   "id": "work:W4415887512",
+   "type": "work",
+   "openalex": "W4415887512",
+   "doi": "10.18653/v1/2023.gwc-1.37",
+   "title": "Extending the usage of adjectives in the Zulu AfWN",
+   "year": 2023,
+   "first_author": "Laurette Marais",
+   "venue": "Global WordNet Conference (GWC)"
+  },
+  {
+   "id": "work:W4416033737",
+   "type": "work",
+   "openalex": "W4416033737",
+   "doi": "10.18653/v1/2025.wmt-1.85",
+   "title": "SMOL: Professionally Translated Parallel Data for 115 Under-represented Languages",
+   "year": 2025,
+   "first_author": "Isaac Rayburn Caswell",
+   "venue": "Conference on Machine Translation (WMT)"
+  },
+  {
+   "id": "work:W4416389632",
+   "type": "work",
+   "openalex": "W4416389632",
+   "doi": "10.1038/s41598-025-24451-4",
+   "title": "Dataset creation and benchmarking for Kashmiri news snippet classification using fine-tuned transformer and LLM models in a low resource setting",
+   "year": 2025,
+   "first_author": "Deheem U Deyar",
+   "venue": "Scientific Reports"
+  },
+  {
+   "id": "work:W565739154",
+   "type": "work",
+   "openalex": "W565739154",
+   "doi": "",
+   "title": "Language and Computers: A Practical Introduction to the Computer Analysis of Language",
+   "year": 1996,
+   "first_author": "Geoff Barnbrook",
+   "venue": ""
+  },
+  {
+   "id": "work:W63070711",
+   "type": "work",
+   "openalex": "W63070711",
+   "doi": "10.1007/978-3-642-03294-3_23",
+   "title": "Mapping and Analysing the Local Language Areas for Slovenian Linguistic Atlas",
+   "year": 2009,
+   "first_author": "Tomaž Podobnikar",
+   "venue": "Lecture notes in geoinformation and cartography"
+  },
+  {
+   "id": "work:W643706739",
+   "type": "work",
+   "openalex": "W643706739",
+   "doi": "",
+   "title": "Corpus linguistics and computational linguistics : an overview with special reference to English",
+   "year": 2003,
+   "first_author": "Adriana Teresa Damascelli",
+   "venue": ""
+  },
+  {
+   "id": "work:W6604614409",
+   "type": "work",
+   "openalex": "W6604614409",
+   "doi": "",
+   "title": "",
+   "year": null,
+   "first_author": "",
+   "venue": ""
+  },
+  {
+   "id": "work:W6691259201",
+   "type": "work",
+   "openalex": "W6691259201",
+   "doi": "",
+   "title": "",
+   "year": null,
+   "first_author": "",
+   "venue": ""
+  },
+  {
+   "id": "work:W6960308769",
+   "type": "work",
+   "openalex": "W6960308769",
+   "doi": "10.13140/rg.2.2.27309.72169",
+   "title": "ACCESSING ALL AREAS: Corpus Analysis methods in inter-disciplinary applications",
+   "year": 2011,
+   "first_author": "Ramesh Krishnamurthy",
+   "venue": ""
+  },
+  {
+   "id": "work:W6968519878",
+   "type": "work",
+   "openalex": "W6968519878",
+   "doi": "10.5281/zenodo.3819218",
+   "title": "rgriscom/Open-Data-Kit-Linguistic-Metadata-Method: Open Data Kit Linguistic Metadata Method 1.1.0",
+   "year": 2020,
+   "first_author": "Griscom, Richard T.",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+  },
+  {
+   "id": "work:W7029718130",
+   "type": "work",
+   "openalex": "W7029718130",
+   "doi": "",
+   "title": "MACHINE LEARNING FOR THE ANALYSIS OF MORPHOLOGICALLY COMPLEX LANGUAGES",
+   "year": 2011,
+   "first_author": "Sebastian Spiegler",
+   "venue": "OpenGrey (Institut de l'Information Scientifique et Technique)"
+  },
+  {
+   "id": "work:W7047479661",
+   "type": "work",
+   "openalex": "W7047479661",
+   "doi": "",
+   "title": "Head-driven phrase structure grammar",
+   "year": 1996,
+   "first_author": "Carl Pollard",
+   "venue": ""
+  },
+  {
+   "id": "work:W7055622393",
+   "type": "work",
+   "openalex": "W7055622393",
+   "doi": "",
+   "title": "Corpus, concordance, collocation",
+   "year": 1991,
+   "first_author": "John Sinclair",
+   "venue": ""
+  },
+  {
+   "id": "work:W7095193677",
+   "type": "work",
+   "openalex": "W7095193677",
+   "doi": "",
+   "title": "Survey of learner corpora",
+   "year": null,
+   "first_author": "Norma A. Pravec",
+   "venue": ""
+  },
+  {
+   "id": "work:W7117984950",
+   "type": "work",
+   "openalex": "W7117984950",
+   "doi": "10.1007/978-3-032-12313-8_22",
+   "title": "Building the Low-Resource Igbo Language Corpus",
+   "year": 2026,
+   "first_author": "Stanley Chinedum Nwoji",
+   "venue": "Communications in computer and information science"
+  },
+  {
+   "id": "work:W7125411143",
+   "type": "work",
+   "openalex": "W7125411143",
+   "doi": "10.55492/v6i02.6744",
+   "title": "Traditional Readability Approaches in Sesotho and isiZulu: A (First) Overview",
+   "year": 2025,
+   "first_author": "Johannes Sibeko",
+   "venue": "Journal of the Digital Humanities Association of Southern Africa"
+  },
+  {
+   "id": "work:W7128501687",
+   "type": "work",
+   "openalex": "W7128501687",
+   "doi": "10.1108/978-1-83662-778-420261013",
+   "title": "Artificial Intelligence–Driven Knowledge Management for Development in the Global South: Bridging Digital Divides Through Localized Innovation",
+   "year": 2026,
+   "first_author": "Nanette Y. Saes",
+   "venue": "Emerald Group Publishing Limited eBooks"
+  },
+  {
+   "id": "work:W7131778634",
+   "type": "work",
+   "openalex": "W7131778634",
+   "doi": "10.63317/2iyqymd34fup",
+   "title": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "year": 2024,
+   "first_author": "",
+   "venue": "Language Resources and Evaluation Conference (LREC)"
+  },
+  {
+   "id": "work:W7131788112",
+   "type": "work",
+   "openalex": "W7131788112",
+   "doi": "10.63317/3y3hwmppsppm",
+   "title": "The First Universal Dependency Treebank for Tswana: Tswana-Popapolelo",
+   "year": 2024,
+   "first_author": "Tanja Gaustad",
+   "venue": "Language Resources and Evaluation Conference (LREC)"
+  },
+  {
+   "id": "work:W7131901152",
+   "type": "work",
+   "openalex": "W7131901152",
+   "doi": "10.63317/2c62e3cij4ro",
+   "title": "TIGQA: An Expert-Annotated Question-Answering Dataset in Tigrinya",
+   "year": 2024,
+   "first_author": "Hailay Kidu Teklehaymanot",
+   "venue": "Language Resources and Evaluation Conference (LREC)"
+  },
+  {
+   "id": "work:W7151965153",
+   "type": "work",
+   "openalex": "W7151965153",
+   "doi": "10.70675/5341a5b1zf0f8z439fza214z922f46105832",
+   "title": "Mobile technology and artificial intelligence for improving health literacy among underserved communities",
+   "year": 2024,
+   "first_author": "Ismaila Ouédraogo",
+   "venue": "theses.fr (ABES)"
+  },
+  {
+   "id": "work:W7164912255",
+   "type": "work",
+   "openalex": "W7164912255",
+   "doi": "10.26116/9789403901404",
+   "title": "Proceedings of the 26th Annual Conference of the European Association for Machine Translation",
+   "year": 2026,
+   "first_author": "Dimitar Shterionov",
+   "venue": "UEF eRepo (University of Eastern Finland)"
+  },
+  {
+   "id": "work:W7165552336",
+   "type": "work",
+   "openalex": "W7165552336",
+   "doi": "10.2989/16073614.2026.2674593",
+   "title": "Developing a Setswana grammar checker: Advancing language practice and applied linguistics via natural language processing",
+   "year": 2026,
+   "first_author": "Kesegofetse Amon",
+   "venue": "Southern African Linguistics and Applied Language Studies"
+  },
+  {
+   "id": "work:W7215250070",
+   "type": "work",
+   "openalex": "W7215250070",
+   "doi": "",
+   "title": "Fine-tuning Whisper for Kildin Sami, A Low-Resource Endangered Language",
+   "year": 2025,
+   "first_author": "Enzo Gamboni",
+   "venue": "UEF eRepo (University of Eastern Finland)"
+  },
+  {
+   "id": "work:W7222815340",
+   "type": "work",
+   "openalex": "W7222815340",
+   "doi": "10.4324/9781003694014",
+   "title": "Digital Precarity: Platform Power and Posthuman Vulnerability",
+   "year": 2026,
+   "first_author": "Yasmin Ibrahim",
+   "venue": "Routledge eBooks"
+  },
+  {
+   "id": "work:W7225211277",
+   "type": "work",
+   "openalex": "W7225211277",
+   "doi": "",
+   "title": "An Investigation into the role and challenges of machine translation in the process of translating texts from English into Setswana",
+   "year": 2026,
+   "first_author": "H Ramvubela",
+   "venue": "Boloka Institutional Repository (North-west University)"
+  },
+  {
+   "id": "work:W805825715",
+   "type": "work",
+   "openalex": "W805825715",
+   "doi": "",
+   "title": "An atlas of Nigerian languages",
+   "year": 2012,
+   "first_author": "Roger M. Blench",
+   "venue": "MPG.PuRe (Max Planck Society)"
+  },
+  {
+   "id": "work:W96509486",
+   "type": "work",
+   "openalex": "W96509486",
+   "doi": "",
+   "title": "Research Models, Community Engagement, and Linguistic Fieldwork: Reflections on Working within Canadian Indigenous Communities",
+   "year": 2009,
+   "first_author": "Ewa Czaykowska-Higgins",
+   "venue": "Americanae (AECID Library)"
+  }
+ ],
+ "edges": [
+  {
+   "source": "paper:2020.rail-1.1",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "lang:nso",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "lang:tsn",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2006085521",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2153579005",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2170240176",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2251658415",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2337363174",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2493916176",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2550821151",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2573062194",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2740149041",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2793381978",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2949736877",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2961125888",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2963545917",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2971296908",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W2995253144",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W3158986179",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.3",
+   "target": "work:W4393735941",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.4",
+   "target": "lang:tsn",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2020.rail-1.4",
+   "target": "work:W1517055517",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.4",
+   "target": "work:W201383918",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.4",
+   "target": "work:W2081687495",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.4",
+   "target": "work:W2117400858",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "lang:amh",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "lang:les",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2105847779",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2109000768",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2114887620",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2116410915",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2134036914",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2147272182",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2250861254",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2251648400",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2289899728",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2301095666",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2311132329",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2552110825",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2574640638",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2577569078",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2606089314",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2739827909",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2740285126",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2788784374",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2798517054",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2805699599",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2889197485",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2898796642",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2914096745",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2949917295",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W2988304195",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.5",
+   "target": "work:W3121547375",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.6",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2020.rail-1.6",
+   "target": "work:W1956762213",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.6",
+   "target": "work:W2014840417",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.6",
+   "target": "work:W2062572449",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.6",
+   "target": "work:W2319850727",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.6",
+   "target": "work:W2492911723",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.6",
+   "target": "work:W2547919451",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.6",
+   "target": "work:W2917246411",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.6",
+   "target": "work:W6968519878",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.6",
+   "target": "work:W96509486",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.8",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2020.rail-1.9",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2020.rail-1.9",
+   "target": "work:W2507609724",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2020.rail-1.9",
+   "target": "work:W2795494677",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3815",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3815",
+   "target": "work:W1594247117",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3815",
+   "target": "work:W2006073714",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3815",
+   "target": "work:W2009999555",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3815",
+   "target": "work:W2093686874",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3815",
+   "target": "work:W2144245357",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3815",
+   "target": "work:W2181487071",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3815",
+   "target": "work:W2251689968",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3815",
+   "target": "work:W2290964183",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3815",
+   "target": "work:W2597513101",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3815",
+   "target": "work:W4200285050",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3816",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3817",
+   "target": "work:W103452610",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3817",
+   "target": "work:W1510615537",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3817",
+   "target": "work:W1966926675",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3817",
+   "target": "work:W3204110349",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3817",
+   "target": "work:W4242681798",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3817",
+   "target": "work:W63070711",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3817",
+   "target": "work:W805825715",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3818",
+   "target": "work:W1485957917",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3818",
+   "target": "work:W2035994018",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3818",
+   "target": "work:W2105378193",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3818",
+   "target": "work:W2181487071",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3818",
+   "target": "work:W2250471514",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3818",
+   "target": "work:W2251670681",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3818",
+   "target": "work:W2251689968",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3818",
+   "target": "work:W2757376562",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3818",
+   "target": "work:W2893191669",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3818",
+   "target": "work:W4200285050",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "lang:tsn",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W114511930",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W1527962679",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W1552656226",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W189707994",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W1989857068",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W1997096837",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2004015781",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2007844601",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2020835585",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2038248725",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2074952134",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2102750252",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2143572684",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2150435764",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2165457429",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2168088297",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2168820179",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2175820907",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2567464248",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2598894966",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2787833597",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W2887875660",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W3022046731",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W3153969171",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W3215056996",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W340490638",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W4239699010",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W6604614409",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W7047479661",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3819",
+   "target": "work:W7095193677",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3820",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3820",
+   "target": "work:W148837159",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3820",
+   "target": "work:W1524333225",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3820",
+   "target": "work:W2192412620",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3820",
+   "target": "work:W2971222421",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3820",
+   "target": "work:W2975262669",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3820",
+   "target": "work:W3000562670",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3820",
+   "target": "work:W3022117922",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3820",
+   "target": "work:W3025521026",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3820",
+   "target": "work:W3092996096",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3820",
+   "target": "work:W4229521928",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3820",
+   "target": "work:W4234389704",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "lang:tso",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W1552922461",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W1968592201",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W2000983314",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W2041990224",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W2058438565",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W2085969534",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W2095137560",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W2118992666",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W2158421367",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W2291168609",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W2541358921",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W2792736048",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W2954733819",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W3157544848",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3821",
+   "target": "work:W4229939117",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "lang:nso",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "lang:tsn",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W140325011",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W1502957213",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W1542713999",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W1700952868",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W1854884267",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W1981276685",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2053921957",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2064675550",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2067438047",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2153579005",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2157331557",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2157807817",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2250539671",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2251689968",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2251939518",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2489487449",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2493916176",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2741986357",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2753392522",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2762484717",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2787481916",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2798908575",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2808481912",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2896457183",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2905749056",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2912172494",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2912924812",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2949303037",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2950635152",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2951165112",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2953887001",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2953958347",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2961125888",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2963118869",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W2982180741",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W3031473890",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W3155116954",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W3167716537",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W3173162544",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W3197782487",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W3213589022",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W4225831823",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W4301140751",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W4381683870",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3822",
+   "target": "work:W4393735941",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3823",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3823",
+   "target": "work:W1845951405",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W1483736602",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W1512777974",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W1523808037",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W1528022241",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W1570518225",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W1967461618",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W1974923579",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W1998711705",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W2016935249",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W2033774834",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W2147074180",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W2186250525",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W2303744549",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W2613379905",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W2735853219",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W2752672336",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W290360069",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W4230784024",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W4231867583",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W4249354154",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W565739154",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W643706739",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W6691259201",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W6960308769",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W7029718130",
+   "type": "cites"
+  },
+  {
+   "source": "paper:2021.rail-jdhasa.3824",
+   "target": "work:W7055622393",
+   "type": "cites"
+  },
+  {
+   "source": "work:W3034748831",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W3112535338",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W3134114820",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W3142640075",
+   "target": "paper:2020.rail-1.9",
+   "type": "cites"
+  },
+  {
+   "source": "work:W3156712187",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W3187029459",
+   "target": "paper:2020.rail-1.6",
+   "type": "cites"
+  },
+  {
+   "source": "work:W3196022520",
+   "target": "paper:2020.rail-1.8",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4280494215",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4285287896",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4288457208",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4313247739",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4318613665",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4318613732",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4318613881",
+   "target": "paper:2020.rail-1.8",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4324149510",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4361006021",
+   "target": "paper:2020.rail-1.5",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4361275849",
+   "target": "paper:2020.rail-1.6",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4376140194",
+   "target": "paper:2020.rail-1.2",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4376140194",
+   "target": "paper:2020.rail-1.8",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4378505287",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4381488486",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4385422202",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4385570273",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4385572438",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4386576897",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4389077499",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4389104646",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4389724198",
+   "target": "paper:2020.rail-1.4",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4389947148",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4391767064",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4393228430",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4395448128",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4396243629",
+   "target": "paper:2020.rail-1.8",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4396243629",
+   "target": "paper:2020.rail-1.9",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4399548083",
+   "target": "paper:2020.rail-1.7",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4402655394",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4403617764",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4404038697",
+   "target": "paper:2020.rail-1.8",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4404888584",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4405392896",
+   "target": "paper:2020.rail-1.8",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4405822485",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4406915118",
+   "target": "paper:2020.rail-1.4",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4407564851",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4408691765",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4411541867",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4412346887",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4414028697",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4414115409",
+   "target": "paper:2020.rail-1.5",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4415094205",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4415887512",
+   "target": "paper:2020.rail-1.8",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4416033737",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W4416389632",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W7117984950",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W7125411143",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W7128501687",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W7131778634",
+   "target": "paper:2020.rail-1.4",
+   "type": "cites"
+  },
+  {
+   "source": "work:W7131788112",
+   "target": "paper:2020.rail-1.4",
+   "type": "cites"
+  },
+  {
+   "source": "work:W7131901152",
+   "target": "paper:2020.rail-1.8",
+   "type": "cites"
+  },
+  {
+   "source": "work:W7131901152",
+   "target": "paper:2020.rail-1.9",
+   "type": "cites"
+  },
+  {
+   "source": "work:W7151965153",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W7164912255",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W7165552336",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W7215250070",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W7222815340",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  },
+  {
+   "source": "work:W7225211277",
+   "target": "paper:2020.rail-1.3",
+   "type": "cites"
+  }
+ ]
+}

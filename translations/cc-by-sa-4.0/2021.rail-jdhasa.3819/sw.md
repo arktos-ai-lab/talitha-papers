@@ -1,0 +1,212 @@
+> Machine translation (sw) of "New uses for old books: Description of digitised corpora-based on the Setswana language collection in the WITS Cullen Africana Collection" by Malebogo Thabong, Nina Lewin, Taariq Surtee, https://upjournals.up.ac.za/index.php/dhasa/article/view/3819, licensed Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (fix-deepseek-v4-pro, glossary, madlad-7b, opus-mt, qwen3.6-27b, rescue-deepseek-v4-pro); checked against the original by automated review, and sentences with errors were replaced by another open-model translation; not reviewed by a human; changes were made.
+
+## Matumizi mapya ya vitabu vya zamani: Maelezo ya korasi za kidijitali zilizojengwa kutoka mkusanyiko wa lugha ya Setswana katika Mkusanyiko wa Kiafrika wa WITS Cullen
+
+Malebogo Thabong, Nina Lewin, Taariq Surtee
+
+**Taasisi**  
+Rahlao, Malebogo  
+The University of the Witwatersrand, Johannesburg  
+  
+Lewin, Nina  
+The University of the Witwatersrand, Johannesburg  
+  
+Surtee, Taariq  
+The University of the Witwatersrand, Johannesburg  
+
+
+## Muhtasari
+
+Gazeti hili lilieleza juu ya Corpus ya vitabu 104. Vitabu viliorodheshwa katika metadata sanifu ya maktaba na kumbukumbu: Dublin core. Sehemu ya chini ilikuwa digitalized na kusafishwa. Vitabu kisha viligawanywa katika vikundi vidogo vitano na kulinganishwa kati yao na Kopora nzima. Tulikisia kwamba Corpus kwa ujumla ingeweza kutumiwa kama kitabu cha kawaida cha kuandikisha lugha. Mifano mingine pia inatolewa ya sifa za seti za aina. Karatasi inalenga kuwatambulisha watafiti wa uchakataji wa lugha asilia (NLP) kwa Kopora na kuitoa kwa utafiti zaidi.
+
+## 1 Utangulizi
+
+"Kushindwa kuwasiliana na binadamu katika lugha yao wenyewe kunaweza kuwa mojawapo ya vizuizi muhimu zaidi katika kupitisha teknolojia ya habari na mawasiliano katika ulimwengu wa tatu na kuziba pengo la kidijitali" (Getao & Evans, 2000: 128).
+
+Wakati huohuo, NLP ni mojawapo ya matatizo tata zaidi ya hesabu ambayo yamewakabili wanasayansi wa kompyuta. Wito wa hatua za kuunda rasilimali kwa lugha hizi, ikiwezekana kwa njia iliyoratibiwa na ya kimfumo, umejibiwa katika karatasi hii. Watafiti wa NLP katika Kiingereza wamekuwa na faida ya Corpora nyingi kwa utafiti na upimaji. Katika karatasi hii, tunawasilisha mkusanyiko wa lugha ya Afrika: Setswana sub-collection, kwa watafiti wa lugha ya Afrika NLP katika warsha ya 2 juu ya rasilimali kwa ajili ya lugha za asili za Afrika.
+
+## 1.1 Usuli
+
+Mradi huu una historia ndefu, kutoka kuhifadhi vitabu ambavyo vingekuwa vimetupwa kama vilivyopitwa na wakati hadi kuunda Corpus. Tunaona hili kama kufungua rasilimali ambazo vizazi vingi vya wahifadhi kumbukumbu, wakutubi, watafiti, waandishi, na watafsiri wamezihifadhi kwa imani kwamba vitabu hivyo vilikuwa na thamani. Ingawa, watu binafsi waliohusika hawangeweza kufikiria matumizi ya kompyuta katika 1980. Maktaba ya William Cullen: Mkusanyiko wa Africana una kikusanyiko kidogo cha vitabu adimu vya lugha za Afrika vilivyoanzia miaka ya 1800 katika eneo lililofungwa bila ufikiaji wa watafiti. Vitabu hivi awali vilikuwa mikusanyiko ya kibinafsi ya wahadhiri katika idara. Viliongezwa na kuchaguliwa kwa uangalifu na idara ya Lugha za Afrika kama maktaba ya ndani ambayo kisha ikapewa Maktaba ya Africana). Vitabu hivi vinatoa historia ya maendeleo ya lugha mbalimbali na mbinu mbalimbali za kuandika.
+
+## 2 Maandalizi ya Mkusanyiko
+
+Hatua ya kwanza ilikuwa kuorodhesha mkusanyiko. Ilikuwa na orodha iliyopo tayari, lakini ilikuwa kwenye kadi za kimwili na, tuligundua, haikuwa kamili. Tuliondoa vitabu kutoka kwenye rafu na tukafanya orodha ya msingi. Tulijikita katika kuunda katalogi kamili ya vitabu katika lugha za Kusini mwa Afrika. Bado kuna mkusanyiko mkubwa katika Lugha za Afrika nyingine mbalimbali unaosubiri utafiti zaidi. Mkusanyo kamili katika lugha za Kusini mwa Afrika unaelezwa kwingineko. Kisha tukakusanya metadata katika Dublin core (na tukajumuisha baadhi ya vipengele vya kumbukumbu) vya vitabu vya Setswana vyenye lahaja za lugha kutoka Botswana na Afrika Kusini. Orodha ya asili ilitaja vitabu hivi kama wasomaji wa kawaida. Gazeti hili linaelezea mkusanyo wa vitabu 104 vya Setswana. Hivi vinajumuisha Biblia, Agano Jipya na la Kale, vitabu vya nyimbo, vitabu vya sala, hadithi za watoto, vitabu vya sarufi, vitabu vya shule na riwaya.
+
+## 3 Mbinu ya Uwekaji Dijiti
+
+Skana ya kingo za kitabu ya Avision katika Kituo cha Uwekaji Dijiti cha Maktaba ya Chuo Kikuu cha Wits ilibadilisha nyenzo zote kuwa tiffs kwa ubora wa juu. Tulitumia mbinu na mitindo ya kazi za viwango vya kimataifa vilivyokubaliwa na kituo hicho kwa ajili ya skani ya maudhui ya ndani. Baada ya hapo, tiffs zote zilizokusanywa zilipandwa katika nyaraka za Microsoft office 2010. Vipengele vyote vilivyopimwa na kupunguzwa vilihamishiwa kwenye programu ya Abbyy FineReader 12. Programu hii ilifaulu kugawanya tiffs zilizounganishwa, tiffs zilizopinda zilinyooshwa, kurasa tupu ziliondolewa, uchakataji wa awali ulitekelezwa, na hatimaye, zilihifadhiwa katika umbizo la PDF. Hatua inayofuata ilikuwa kutumia utambuzi wa lugha ulioingizwa kwenye programu ya Abbyy FineReader 12 kwa PDF zote zisizotambuliwa kwa kutumia utambuzi wa herufi za optiki (OCR). Zana hii iliruhusu kompyuta kutambua maandishi ya Setswana, ikisonga kutoka kwenye hati za kimwili hadi maandishi yaliyotafsiriwa kama data. Hii inathibitisha kwamba kazi ya kimapinduzi ya Otlogetswe katika Setswana kwa miaka mingi (Otlogetswe, 2020, 2016, 2015, 2013, 2011a, 2011b, 2010, 2009a, 2009b, 2008; Otlogetswe and Chebanne, 2018; Otlogetswe and Ramaeba, 2014) ambayo iliwezesha vipengele hivi vya utambuzi ina ufanisi mkubwa. Utambuzi ulikuwa changamoto kwa sababu maandishi yalikuwa, kama chapisho zote za zamani, magumu, yakijumuisha fonti zisizo za kawaida. Kufuatia mchakato wa OCR, tulihariri maandishi kutoka kwenye hati zilizoskaniwa kwa sababu OCR ilikuwa na ufanisi wa takriban 80% katika Setswana, na maneno machache yasiyotambuliwa. Maneno kama hayo yaligeuzwa kuwa ishara au alama tofauti. Herufi fulani zilitambuliwa vibaya kama herufi nyingine. Kisha tulisafisha data kwa kuondoa alama na herufi hizo, tukizibadilisha na herufi sahihi za Setswana kwa mikono. Picha, mistari ya maandishi, na vitu visivyo vya asili kutoka kwenye mchakato wa skani pia vilipaswa kuondolewa. Kisha bidhaa ya mwisho ikatiwa katika hati za kawaida za neno.
+
+## 4 Maelezo ya Corpora
+
+Corpus iliundwa mjini Voyent (Sinclair & Rockwell, 2016). Majedwali ya msingi ya maelezo pamoja na wingu la maneno la Cirrus (tazama viambatisho) viliundwa. Tuliunda mienendo, kolokesheni na majedwali ya uwiano ya Korasi nzima. Ili kuchunguza aina za kiisimu za Korasi, tunaunda vikundi vidogo vitano: Biblia, Hadithi za Kichawi, Sarufi, Riwaya, na Ushairi kulingana na Aina.
+
+Corpus nzima ina jumla ya maneno 367149 na tokens 23686. Viambatanishi vinaonyesha mfano (wa mistari 10) wa kila moja.
+
+Jedwali la 1: Mfano wa Marudio ya Korasi
+
+p02-01.png
+
+Wastani wa maneno kwa kila sentensi katika vikundi hivi vidogo unaonyesha Ushairi ukiwa wa juu zaidi (24.7) ukifuatiwa na Riwaya (19.4), Biblia (18.0), na Hadithi za Vichimbakazi (16.6), huku Sarufi (10.0) ikiwa ya chini zaidi. Kuna hoja ya kusema kwamba wastani wa Korasi wa 19.3 unaweza kutumika kama wastani wa lugha, lakini hii ingehitaji utafiti zaidi.
+
+Pia tuliangalia istilahi kuu
+
+Jedwali la 2: Mfano wa istilahi kuu
+
+p02-02.png
+
+p03-01.png
+
+## 4.1 Baadhi ya vipengele vya Corpus
+
+Korpusi inaweza kusaidia aina nyingi za utafiti. Yafuatayo yalikuwa baadhi ya vipengele vya awali vya kuvutia ambavyo tulivipata katika uchunguzi wa awali. Korasi bado inawekewa maelezo.
+
+## Tahajia
+
+Kikundi hiki kidogo kinatupa taarifa kuhusu jinsi sauti za usemi zinavyounda mifumo. Tuliweza kufuatilia mabadiliko kwa sababu ya masafa ya tarehe ambayo korasi zetu zinashughulikia. Biblia zetu zote ziliandikwa kwa mwandiko wa zamani wa lahaja ya Serolong & Setlhaping katika ngazi ya fonolojia. . Takwimu zetu pia zinaonyesha kwamba Biblia zetu nyingi kutoka miaka ya 1800 ziliandikwa katika lahaja ya Serolong & Setlhaping, inayojulikana kama herufi za mwanzo za Setswana. Hivyo, tahajia za awali ziliegemezwa katika Serolong & Setlhaping kwani wamisionari walianzisha makazi kati ya Barolong & Batlhaping huko Kudumane mwaka 1821. Katika tahajia ya zamani, herufi [y] ilitumika kwa matamshi sawa na herufi [j] inayotumika katika tahajia ya sasa. Kwa mfano, maneno Yosefe (Joseph,), Yehofa (Jehova) na Yoshue (Joshua) kwa sasa yameandikwa kama Josefa Jehofa na Jošua.
+
+Katika lahaja ya Serolong & Setlhaping, watu hutamka sauti / f / kama [ h ] na / tsh / kama [ tšh ]. Kwa mfano, wao hutamka maneno "ulimwengu' na 'mbandikisho' kama lehatshe na tšhobotssi, badala ya lefashe na tshobotsi.
+
+## Hadithi za Kichawi
+
+Hadithi za kichawi mara nyingi hukusudiwa watoto, huwa na wahusika wa kubuniwa na wa ajabu kama vile vijini, mazimwi, wachawi, na viumbe vya kichawi. Neno hadithi ya "kichawi" linarejelea zaidi mazingira ya ajabu na ya kichawi au athari za kichawi ndani ya hadithi kuliko uwepo wa mhusika kiumbe cha kichawi ndani ya hadithi hiyo. Rejista ya lugha ni sahili kwa sababu mwandishi huzungumza na watoto akiwaonya kwa toni ya kawaida na tulivu kuhusu mlaji watu anayekula watoto, kwa mfano. Msamiati wa hadithi pia ni rahisi kwa watoto kuuelewa. Wahusika katika hadithi za kichawi wanaweza kuwa viumbe vya kichawi au hata wanyama wanaozungumza, wahusika wanaoaminika ambao watoto watawajali kama vile shujaa mwenye moyo mwema, mwovu mwenye hila dimo (mlaji watu), katika mfano wetu hapo juu), msaidizi mwenye hekima, na kadhalika.
+
+Neno dimo (mlaji watu), ni mojawapo ya masafa ya juu zaidi (88) katika utanzu huo. Wanyamazinga hutumika mara nyingi katika hadithi za watoto wa Setswana kuwalazimisha na kuwaonya kuhusu mshujaa mwenye nia mbaya anayekula watoto. Wanyama wengi huonekana mara nyingi katika aina hiyo ya hadithi. Hadithi za watoto za Setswana mara nyingi hujumuisha wanyama wanaozungumza wanaoishi na watu. Katika hali nyingi, mnyama kama nonyane (ndege) yupo kulinda watoto dhidi ya hatari kwa kuwaweka chini ya mabawa yao wakati wa kuruka. Mifano mingine ya wanyama wanaozungumza ni phuduhudu (paa), phokojwe (mbweha), na phiri (mbwa mwitu). Pia kuna mashujaa wa binadamu au washiriki katika hadithi za watoto kama vile Ntswakae, Ntitiagatsana, na Tsetsenyane. Neno ja (kula) linaonekana mara 43 katika aina hiyo ya hadithi kwani watoto mara nyingi huliwa katika hadithi hizi. Ni wazi kwamba rejista ya Korasi ni rasmi zaidi. Hasa, rejista inayotumika katika aina ya kisarufi. Ni kielimu kwa maana kwamba kitabu cha sarufi kinaonyesha mtindo wa kuandika wa lugha ya Setswana.
+
+Tulikuwa na hamu ya kufanyia kazi Korasi hii hasa kwa sababu makusanyo mengine mengi ya lugha hutegemea usemi ulioandikwa kama vile magazeti, redio, au twiti ambazo ni zisizo rasmi kiasi katika rejista. Ingekuwa ya kuvutia kulinganisha hii na (Marivate et al., 2020) Corpus ya gazeti.
+
+## 5 Hitimisho
+
+Mkusanyiko huu ulikaa, kuanzia takriban katikati ya miaka ya 1970, kwenye rafu zenye vumbi katika chumba kilichofungwa. Haikutumiwa kwa sababu maktaba hiyo haikuwa na stadi za lugha za kuiorodhesha, na ilikuwa mkusanyo dhaifu. Hata hivyo, mkusanyiko huu ulichaguliwa na wataalamu wa lugha kwa sababu ya thamani yake kubwa katika lugha mbalimbali za Afrika. Rasilimali za lugha zinazopatikana mara nyingi kwa watafiti wa NLP ni magazeti na aina za mitandao ya kijamii ambazo zina usemi usio rasmi. Mkusanyiko huu una aina za uandishi rasmi zilizoelezewa vizuri. Mara nyingi hudaiwa kwamba hakuna maandishi ya kutosha ya lugha za Kiafrika yanayopatikana kwa ajili ya utafiti. Hata hivyo, kama kazi hii inavyoonyesha, rasilimali hizo zipo lakini zinahitaji kazi ili kugeuzwa katika muundo wa kidijitali.
+
+Majedwali yaliyowekwa ni mifano ili kuamsha mtafiti wa NLP kuchunguza Corpus. Tunaamini kwamba data zetu (ulinganisho, kolokesheni, na mienendo) zinaweza kutumika kama rasilimali ya kuchagua toni. Kuna kazi zaidi zinazohitajika kwa sababu vitabu vingi vya Corpus ni tafsiri. Hii ina maana kwamba mkusanyiko huo unaweza pia, kwa kazi fulani, kutoa tafsiri za mstari kwa mstari kwa seti za data za majaribio.
+
+## Shukrani
+
+Katlego Khoetha mwanachama wa Kamati ya Utafiti wa Mtandao
+
+Chuo Kikuu cha Witwatersrand, Johannesburg
+
+
+
+Katlego alisaidia kutatua matatizo ya tafsiri ya awali na alitoa msaada kutoka kwa mtazamo wa kompyuta.
+
+Stéfan Sinclair
+
+Tungependa kutambua kumbukumbu ya Stéfan Sinclair, Chuo Kikuu cha McGill, ambaye aliwazia, kubuni, na kupanga programu nyingi za Voyant Tools hadi 2020, alipofariki. Angalia habari za kifo.
+
+Peter Duncan
+
+Mkutubi wa Makusanyo Maalum
+
+Maktaba ya William Cullen (aliyestaafu)
+
+Chuo Kikuu cha Witwatersrand, Johannesburg
+
+Peter alisimamia na kutetea mkusanyiko huo kuorodheshwa na kutumika katika kazi yake yote. Mkusanyo huo ulikuja kwenye maktaba hiyo kutokana na mikusanyo ya kibinafsi ya wahadhiri na mkusanyo wa idara za lugha za Kiafrika katika WITS.
+
+## Maelezo
+
+1 Barua pepe ya kibinafsi ya Margaret Atsango 29-30/09/2021
+
+## Marejeleo na Bibliografia
+
+Aitchison, J., 1992. Teach yourself linguistics. Hodder & Stoughton., London.
+
+Alexander, N., 1999. English Unassailable but Unattainable: The Dilemma of Language Policy in South African Education. Individual papers available online at http://www.
+
+Atkins, S., 1991. Corpus design criteria. ICAME Journal 1-31.
+
+Berg, A.S., 2018. Computational syntactic analysis of Setswana (Thesis). North-West University (South Africa), Potchefstroom Campus.
+
+Bock, Z., Mheta, G., 2014. Language, society and communication an introduction.
+
+Brits, K., Pretorius, R., Van Huyssteen, G.B., 2005. Automatic lemmatization in Setswana: towards a prototype. South African Journal of African Languages 25, 37-47.
+
+Butt, M., King, T.H., 2003. Grammar writing, testing, and evaluation, in: Farghaly, A. (Ed.), Handbook for Language Engineers. CSLI, Stanford, California., pp. 129-180.
+
+Evert, S., 2005. The statistics of word cooccurrences : word pairs and collocations (PhD Thesis). Universität Stuttgart, Stuttgart.
+
+Getao, K.W., Miriti, E.K., 2006. Computational Modelling in Bantu Language.
+
+Kubler, S., 2004. Memory-based parsing. J. Benjamins, Amsterdam.
+
+Linguist, n.d. Setswana Scrabble | Sunday Standard [WWW Document]. URL http://www.sundaystandard.info/setswana-scrabble (accessed 7.29.19).
+
+Louwrens, L.J., 1991. Aspects of Northern Sotho grammar. VIA Afrika, Pretoria.
+
+Marivate, V., Sefara, T., Chabalala, V., Makhaya, K., Mokgonyane, T., Mokoena, R., Modupe, A., 2020a. Low resource language dataset creation, curation and classification: Setswana and Sepedi - - Extended Abstract. arXiv e-prints arXiv:2004.13842.
+
+Marivate, V., Sefara, T., Chabalala, V., Makhaya, K., Mokgonyane, T., Mokoena, R., Modupe, A., 2020b. Low resource language dataset creation, curation and classification: Setswana and Sepedi - - Extended Abstract. arXiv:2004.13842 [cs].
+
+Masoke-Kadenge, E., Kadenge, M., 2013. 'Declaration without implementation': An investigation into the progress made and challenges faced in implementing the Wits language policy. Language Matters 44, 33-50. https://doi.org/10.1080/10228195.2013.837949
+
+Mogapi, K., 1998. The teaching of Setswana. Gaborone.
+
+Molosiwa, A., Ratsoma, N., Tsonope, J., 1996. A comprehensive report on the use of Setswana at all levels of Botswana's education system, in: Cross-Border Languages. Reports and Studies. Regional Workshop on Cross-Border Languages, NIED, Okahandja, Namibia. pp. 99-134.
+
+Nfila, B.I., 2006. Standard in Setswana in Botswana (Dissertation). University of Pretoria.
+
+Nordlinger, R., Bresnan, J., 2011. LexicalFunctional Grammar: Interactions Between Morphology and Syntax 112-140.
+
+Otlogetswe, T., 2020. Beef cuts amongst the Bangwaketse: the case of motlhakanelwa. Anthropology Southern Africa 43,233-245. https://doi.org/10.1080/23323256.2020.1836667
+
+Otlogetswe, T., 2016. The design of Setswana Scrabble. South African Journal of African Languages 36,153-161-161.
+
+Otlogetswe, T., 2015. Treatment of Spelling Variants in Setswana Monolingual Dictionaries. LEXI 25. https://doi.org/10.5788/25-1-1299
+
+Otlogetswe, T., 2013. Introducing Tlhalosi ya Medi ya Setswana: The Design and Compilation of a Monolingual Setswana Dictionary. Lex 23. https://doi.org/10.5788/23-1-1228
+
+Otlogetswe, T., 2011a. Challenges to Issues of Balance and Representativeness in African Lexicography. Lex 16. https://doi.org/10.5788/16-0-653
+
+Otlogetswe, T., 2011b. Populating Sub-entries in Dictionaries with Multi-word Unitsfrom Concordance Lines. Lex 19. https://doi.org/10.5788/19-0-449
+
+Otlogetswe, T., 2010. Challenges to issues of balance and representativeness in African lexicography. lex 16. https://doi.org/10.4314/lex.v16i1.51493
+
+Otlogetswe, T., 2009a. Setswana Sports Terms: A Genre Analysis. Marang: Journal of Language and Literature 19. https://doi.org/10.4314/marang.v19i1.42819
+
+Otlogetswe, T., 2009b. Populating sub-entries in dictionaries with multi-word units from concordance lines. lex 19. https://doi.org/10.4314/lex.v19i1.49140
+
+Otlogetswe, T., 2008. Corpus design for Setswana lexicography (Thesis). University of Pretoria.
+
+Otlogetswe, T., Chebanne, A., 2018. Setswana, in: Kamusella, T., Ndhlovu, F. (Eds.), The Social and Political History of Southern Africa's Languages. Palgrave Macmillan UK, London, pp. 187-221. https://doi.org/10.1057/978-1-137-01593-8_12
+
+Otlogetswe, T., Ramaeba, G., 2014. Developing a Campus Slang Dictionary for the University of Botswana. Lex 24. https://doi.org/10.5788/24-1-1267
+
+Pollard, C., Sag, I.A., 1994. Head-Driven Phrase Structure Grammar. University of Chicago Press.
+
+Pravec, N.A., 2002. Survey of learner corpora. ICAME journal 26, 8-14.
+
+Pretorius, R., 2014. The sequence and productivity of Setswana verbal suffixes. Stellenbosch Papers in Linguistics Plus 44, 49-70. https://doi.org/10.5842/44-0-644
+
+Pretorius, R.S., Posthumus, L.C., Kr??ger, C.J.H., Potchefstroom University for Christian Higher Education, 1997. Auxiliary verbs as a subcategory of the verb in Tswana.
+
+Pretorius, R.S., Potchefstroom University for Christian Higher Education, 1997. Auxiliary verbs as a subcategory of the verb in Tswana.
+
+Publications - Namibia Statistics Agency [WWW Document], n.d. URL https://nsa.org.na/page/publications (accessed 11.9.21a).
+
+Publications - Namibia Statistics Agency [WWW Document], n.d. URL https://nsa.org.na/page/publications/ (accessed 11.9.21b).
+
+Speech and Language Processing, 2nd Edition [WWW Document], n.d. URL https://www.pearson.com/content/one-dot-com/one-dot-com/us/en/higher-education/program.html (accessed 11.9.21).
+
+UNIVERSITY OF THE WITWATERSRAND, JOHANNESBURG, 2003. LANGUAGE POLICY.
+
+Viljoen, B., Pretorius, L., Berg, A., Pretorius, R., 2008. Towards a computational morphological analysis of Setswana compounds. Literator : Journal of Literary Criticism, Comparative Linguistics and Literary Studies 29, 1-20.
+
+Viambatisho - Hizi ni jedwali za mfano zinazolengwa kuanzisha aina za data zilizotengenezwa kutoka kwa Corpus.
+
+p07-01.png
+
+Kiambatisho 1 ni mfano wa mienendo ya Biblia. Kuna pointi kumi za usambazaji. Tatu zinawasilishwa hapa.
+
+p07-02.png
+
+## Appendix 3 - Correlation (mfano kutoka mashairi)
+
+p08-01.png
+
+Kiambatisho 4 - Wingu la maneno la Cirrus - likijumuisha maneno 105 yanayotokea mara nyingi zaidi
+
+p08-02.png
+
+Jedwali 2 lilitokana na orodha hii. Tuligundua maneno muhimu yanayotumika mara nyingi zaidi.

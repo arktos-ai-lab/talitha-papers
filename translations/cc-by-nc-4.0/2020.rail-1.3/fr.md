@@ -1,0 +1,200 @@
+> Machine translation (fr) of "Investigating an Approach for Low Resource Language Dataset Creation, Curation and Classification: Setswana and Sepedi" by Vukosi Marivate, Tshephisho Sefara, Vongani Chabalala, Keamogetswe Makhaya, Tumisho Mokgonyane, Rethabile Mokoena, Abiodun Modupe, https://aclanthology.org/2020.rail-1.3/, licensed Creative Commons Attribution-NonCommercial 4.0 International (https://creativecommons.org/licenses/by-nc/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (fix-deepseek-v4-pro, glossary, madlad-7b, mistral-small3.2-24b, opus-mt, rescue-deepseek-v4-pro); checked against the original by automated review, and sentences with errors were replaced by another open-model translation; not reviewed by a human; changes were made.
+
+## Enquêter sur une approche pour la création, la curation et la classification de jeux de données de langues à ressources limitées : le Setswana et le Sepedi
+
+Vukosi Marivate, Tshephisho Sefara, Vongani Chabalala, Keamogetswe Makhaya, Tumisho Mokgonyane, Rethabile Mokoena, Abiodun Modupe
+
+**Affiliations**  
+Vukosi Marivate1,2, Tshephisho Sefara2, Vongani Chabalala3, Keamogetswe Makhaya4,  
+Tumisho Mokgonyane5, Rethabile Mokoena6, Abiodun Modupe7,1  
+University of Pretoria1, CSIR2, University of Zululand3, University of Cape Town4,  
+University of Limpopo5, North-West University6, University of the Witwatersrand7  
+, 
+
+## Résumé
+
+Les récentes avancées en traitement automatique du langage naturel n'ont été bénéfiques que pour les langues bien représentées, négligeant ainsi la recherche sur les langues mondiales moins connues. Cela est en partie dû à la disponibilité de données et de ressources de recherche curatées. L’un des défis actuels concernant les langues à faibles ressources est de disposer de lignes directrices claires sur la collecte, la conservation et la préparation d’ensembles de données pour différents cas d’utilisation. Dans ce travail, nous abordons la tâche de créer deux ensembles de données axés sur les titres d'actualités (c'est-à-dire des textes courts) pour le Setswana et le Sepedi et la création d'une tâche de classification de sujets d'actualités à partir de ces ensembles de données. Dans cette étude, nous documentons notre travail, proposons des lignes de base pour la classification et étudions une approche sur l'augmentation des données mieux adaptée aux langages à faibles ressources afin d'améliorer les performances des classificateurs.
+
+## 1. Introduction
+
+Les problèmes les plus pressants en ce qui concerne les langues à faibles ressources sont le manque de ressources linguistiques suffisantes, comme les fonctionnalités liées à l'automatisation. Dans cette étude, nous présentons une investigation d'une langue à ressources limitées qui permet la formulation et la personnalisation automatiques de nouvelles capacités à partir des capacités existantes. Bien qu'il y ait plus de six mille langues parlées dans le monde, la disponibilité des ressources pour chacune d'entre elles est extraordinairement déséquilibrée (Nettle, 1998). Par exemple, si nous nous concentrons sur les ressources linguistiques annotées dans le domaine public, en novembre 2019, AG corpus a publié environ 496 835 articles de presse liés à la langue anglaise provenant de plus de 200 sources. De plus, le Reuters News Dataset (Lewis, 1997) comprend environ 10 788 textes annotés provenant de l'agence de presse financière Reuters. De plus, le New York Times Annotated Corpus contient plus de 1,8 million d'articles (Sandhaus, 2008). Enfin, Google Translate ne prend en charge qu'environ 100 langues (Johnson et al., 2017). Il existe une quantité importante de connaissances pour seulement un petit nombre de langues, négligeant 17% des catégories de langues du monde étiquetées comme faibles ressources, et il n’existe actuellement aucun token annoté standard dans les langues à faibles ressources (Strassel et Tracey, 2016). Ceci, à son tour, rend difficile le développement de divers mécanismes et outils utilisés pour le traitement du langage naturel (NLP).
+
+En Afrique du Sud, la plupart des sites d'information (privés et publics) sont publiés en anglais, malgré la présence de 11 langues officielles (dont l'anglais). Dans le présent document, nous dressons la liste des journaux premium selon leur tirage au premier trimestre de 2019 (Bureau of Circulations, 2019) (tableau 1). Actuellement, il y a un manque d'information autour de 8 des 11 langues officielles sud-africaines, à l'exception de l'anglais, de l'afrikaans et de l'isiZulu qui contiennent la plupart des ensembles de données rapportés. Dans ce travail, nous visons à fournir un cadre général pour deux des 11 langues sud-africaines, afin de créer une ressource linguistique annotée pour les titres d'actualité en setswana et en sepedi. Dans cette étude, nous avons appliqué des sources de données de titres de journaux de la South African Broadcast Corporation (SABC), leurs flux de médias sociaux et quelques actualités acoustiques. Malheureusement, au moment de cette étude, nous n'avions aucun accès direct aux reportages d'actualité, et nous espérons que cette étude pourra favoriser la collaboration entre le radiodiffuseur national et les chercheurs en TAL.
+
+Tableau 1 : Top journaux en Afrique du Sud avec leurs langues
+
+p01-01.png
+
+Le reste du travail est organisé comme suit. Section 2. discute des travaux antérieurs consacrés à la construction de corpus locaux en Afrique du Sud et de la façon dont ils ont été utilisés. Section 3. présente l'approche proposée pour construire un corpus d'actualités locales et annoter le corpus avec des catégories. À partir de là, nous nous concentrons sur les moyens de rassembler des données pour la vectorisation et la construction d'embeddings de mots (nécessitant un corpus élargi). Nous publions également et mettons à disposition des embeddings de mots pré-entraînés pour 2 langues locales dans le cadre de ce travail (Marivate et Sefara, 2020a). Section 4. examine la construction de modèles de classification pour les actualités en Setswana et en Sepedi et améliore ces classificateurs en utilisant une approche d'augmentation en 2 étapes inspirée des travaux sur les modèles de langage hiérarchiques (Yu et al., 2019). Enfin, la section 5. conclut et propose une voie à suivre pour ce travail.
+
+## 2. Travaux antérieurs
+
+La création de ressources linguistiques importantes pour les langues peu dotées est cruciale pour améliorer les données disponibles pour l'étude (Zoph et al., 2016) et la préservation culturelle. En se concentrant sur le continent africain, nous notons qu'il existe peu de jeux de données annotés qui sont ouvertement disponibles pour les tâches de traitement du langage naturel telles que la classification. En Afrique du Sud, le South African Center for Digital Language Resources (SADiLaR) a travaillé à la conservation de jeux de données de langues sud-africaines locales. Il reste des lacunes, comme l’accès à de grands corpus et à des données provenant de sources telles que les radiodiffuseurs et les organismes de presse, car ils ont des catalogues importants qui doivent encore entrer dans le domaine public. Dans ce travail, nous nous efforçons de combler une telle lacune en collectant, en annotant et en entraînant des modèles de classifieurs pour les titres d'actualité en setswana et en sepedi. Comme les données que nous trouvons publiquement sont encore petites, nous devons également faire face aux défis de l'apprentissage automatique sur de petites données. Les systèmes d'apprentissage automatique obtiennent de mauvais résultats en présence de petits ensembles d'entraînement en raison du surapprentissage. Pour éviter ce problème, l'augmentation des données peut être utilisée. La technique est bien connue dans le domaine du traitement d'image (Cubuk et al., 2019). L'augmentation de données désigne l'enrichissement de l'ensemble d'entraînement avec des exemples d'entraînement artificiels et générés. Cette technique est moins fréquemment utilisée en TAL, mais un certain nombre d'études ont appliqué l'augmentation de données.
+
+Silfverberg et al. (2017) utilisent l'augmentation de données pour contrer le surapprentissage où un Encoder-Decoder de réseau de neurones récurrents (RNN) est mis en œuvre spécifiquement adapté à un contexte de faible ressource. Les auteurs appliquent l'augmentation de données en trouvant des mots qui partagent un radical, par exemple fizzle et fizzling partagent fizzl. Ensuite, les auteurs remplacent un radical par une autre chaîne de caractères.
+
+Zhang et al. (2015) appliquent l'augmentation de données en utilisant des synonymes comme mots de substitution pour les mots originaux. Cependant, Kobayashi (2018) affirme que les synonymes sont très limités et que l’augmentation basée sur les synonymes ne peut pas produire de nombreux modèles différents des textes originaux. Par conséquent, Kobayashi (2018) propose une augmentation des données contextuelles en remplaçant les mots prédits par un modèle de langage compte tenu du contexte entourant les mots originaux à augmenter.
+
+Comme le déclare Wei et Zou (2019), ces techniques sont valides, elles ne sont cependant pas souvent utilisées en pratique car elles ont un coût de mise en œuvre élevé par rapport au gain de performance. Ils proposent une augmentation facile des données comme techniques pour augmenter les performances sur les tâches de classification de texte. Ces techniques impliquent le remplacement par des synonymes, l'insertion aléatoire, l'échange aléatoire et la suppression aléatoire d'un mot. Les auteurs ont observé de bonnes performances lors de l'utilisation d'une fraction du jeu de données (%) : 1, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100. À mesure que la taille des données augmente, la précision augmente également pour les données augmentées et originales. Les données originales ont obtenu la plus grande précision de 88,3% à 100% de la taille des données tandis que les données augmentées ont obtenu une précision de 88,6% à 50% de la taille des données.
+
+## 3. Élaboration de modèles de classification des nouvelles pour Setswana et Sepedi
+
+Dans ce travail, nous étudions le développement d'une méthode d'augmentation de texte en 2 étapes afin d'améliorer les modèles de classification pour Setswana et Sepedi. Pour ce faire, nous avons d'abord dû identifier une source de données appropriée. Collecter les données, puis annoter les jeux de données avec des catégories d'actualités. Après la collecte et l'annotation des données, nous avons ensuite travaillé à créer des modèles de classification à partir des données telles quelles, puis utiliser une approche d'augmentation par embedding de mots et d'embedding de documents. Dans cette section, nous discutons de la manière dont les données ont été collectées ainsi que de l'approche utilisée pour construire des modèles de classification.
+
+## 3.1. Collecte de données, nettoyage et annotation
+
+Avant de pouvoir entraîner des modèles de classification, nous devons d'abord collecter des données pour 2 processus distincts. Tout d'abord, nous présentons notre ensemble de données de nouvelles collectées ainsi que son annotation. Nous discutons ensuite de la façon dont nous avons collecté de plus grands ensembles de données pour une meilleure vectorisation.
+
+## 3.1.1. Collecte et annotation de données d'actualités
+
+Les données d'actualités que nous avons collectées proviennent des pages Facebook de la SABC. La SABC est le diffuseur public pour l'Afrique du Sud. Plus précisément, les données ont été collectées à partir de Motsweding FM (une station de radio setswana de la SABC) et Thobela FM (une station de radio sepedi de la SABC). Nous avons extrait les titres d'actualités publiés sous forme de publications sur les deux pages Facebook. Nous ne revendiquons aucun droit d'auteur sur le contenu, mais avons utilisé les données à des fins de recherche. Nous résumons les ensembles de données dans le Tableau 2. Nous visualisons les distributions de tokens en Setswana et en Sepedi dans les Figures 1 et 2 respectivement.
+
+Tableau 2 : Ensembles de données d'actualités
+
+p02-01.png
+
+p02-02.png
+
+Figure 1 : Nuage de mots en Setswana
+
+p03-01.png
+
+Figure 2 : Nuage de mots Sepedi
+
+Comme on peut le voir, les ensembles de données sont relativement petits et, en tant que tels, nous devons chercher d'autres façons de construire des vectorisateurs qui peuvent mieux généraliser car la diversité des jetons de mots serait très faible.
+
+Nous avons annoté les ensembles de données en catégorisant les titres de l'actualité en: juridique, nouvelles générales, sports, autres, politique, nouvelles de la circulation, activités communautaires, criminalité, affaires et affaires étrangères. L'annotation a été faite après avoir lu les titres et trouvé des catégories qui correspondent aux deux ensembles de données. Nous montrons la distribution des étiquettes dans les ensembles de données Setswana et Sepedi dans les figures 3 et 4 respectivement. Pour ce travail, nous n’explorons que la catégorisation par étiquette unique pour chaque article. Il reste encore du travail à faire pour examiner le cas multilabel. Par conséquent, il peut y avoir du bruit dans les étiquettes. Des exemples du corpus de nouvelles annoté en Sepedi sont présentés ci-dessous :
+
+Tsela ya N1 ka Borwa kgauswi le Mantsole Weighbridge ka mo Limpopo ebe e tswaletswe lebakanyana ka morago ga kotsi yeo e hlagilego. Traffic
+
+Tona ya toka Michael Masutha,ore bahlankedi ba kgoro ya ditirelo tsa tshokollo ya bagolegwa bao ba tateditswego dithieeletsong tsa khomisene ya go nyakisisa mabarebare a go gogwa ga mmuso ka nko,ba swanetse go hlalosa gore ke ka lebaka la eng ba sa swanelwa go fegwa mesomong Legal
+
+L’ensemble de données complet est disponible en ligne (Marivate et Sefara, 2020b) pour une utilisation ultérieure en recherche et des améliorations à l’annotation. Comme discuté précédemment, nous avons utilisé des corpus plus grands pour créer des vectorisateurs de langage pour les tâches NLP en aval. Nous discutons de cela ci-dessous.
+
+## 3.1.2. Vectoriseurs
+
+Avant d'aborder le jeu de données annoté, nous devions créer des vectoriseurs pré-entraînés afin de pouvoir construire ultérieurement des classificateurs plus généralisables. Pour cette raison, nous avons collecté différents corpus pour chaque langue de manière à pouvoir créer des vectoriseurs de type sac de mots, TFIDF, word2vec (Mikolov et al., 2013) et fastText (Bojanowski et al., 2017) (Tableau 3). Nous mettons également ces vectoriseurs à la disposition des autres chercheurs pour qu'ils puissent les utiliser.
+
+p03-02.png
+
+Figure 3 : Distribution des catégories de titres d'actualités en Setswana
+
+p03-03.png
+
+Figure 4 : Distribution des catégories de titres d'actualités en Sepedi
+
+Tableau 3 : Tailles des corpus de vectorisation en nombre de lignes (nombre de jetons)
+
+p03-04.png
+
+## 3.2 Modèles de classification des nouvelles
+
+Nous explorons l'utilisation de quelques algorithmes de classification pour entraîner des modèles de classification d'actualités. Nous entraînons spécifiquement la Régression Logistique, la Classification par Machine à Vecteurs de Support, XGBoost, et le Réseau de Neurones MLP.
+
+Pour relever le défi de la faible quantité de données sur les textes courts, nous utilisons des méthodes d'augmentation de données, spécifiquement une approche d'augmentation basée sur les embeddings de mots (Wang et Yang, 2015), qui a démontré son efficacité sur les textes courts (Marivate et Sefara, 2019). Nous utilisons cette approche car nous ne pouvons pas utiliser d'autres méthodes d'augmentation telles que celles basées sur les synonymes (nécessite des synsets WordNet développés (Kobayashi, 2018)), les modèles de langage (des corpus plus grands sont nécessaires pour l'entraînement) et la rétrotraduction (pas facilement disponible pour les langues sud-africaines). Nous développons et présentons l'utilisation d'embeddings de mots et de documents (en tant que vérification de la qualité de l'augmentation) inspirée d'une approche hiérarchique de l'augmentation (Yu et al., 2019).
+
+## 4. Expériences et résultats
+
+Cette section présente les expériences et les résultats. Comme il s'agit encore d'un travail en cours, nous présentons certaines pistes explorées tant dans l'entraînement des classifieurs que dans leur évaluation pour la tâche de classification de titres d'actualités pour le Setswana et le Sepedi.
+
+## 4.1. Configuration expérimentale
+
+Pour chaque problème de classification, nous effectuons une validation croisée 5 fois. Pour le sac de mots et les vectorisateurs TFIDF, nous utilisons une taille de jeton maximale de 20 000. Pour les embeddings de mots et les embeddings de langue, nous utilisons une taille de 50. Tous les vectorisateurs ont été entraînés sur les grands corpus présentés précédemment.
+
+## 4.1.1 Expériences de base
+
+Nous effectuons les expériences de base avec les données originales en utilisant une validation croisée à 5 fois. Nous montrons la performance (en termes de score pondéré F1) dans les figures 5 et 6. Nous montrons les résultats de base comme orig. Pour les deux méthodes Bag-of-Words (TF) et TFIDF, le MLP fonctionne très bien comparativement aux autres méthodes. En général, le TFIDF fonctionne mieux.
+
+p04-01.png
+
+Figure 5 : Performance du modèle de classification de base pour la catégorisation des titres d'actualités en Setswana
+
+p04-02.png
+
+Figure 6 : Performance du modèle de classification de base pour la catégorisation des titres d'actualités en Sepedi
+
+## 4.1.2. Augmentation
+
+Nous avons appliqué l'augmentation de différentes manières. Tout d'abord pour les embeddings de mots Sepedi et Setswana (word2vec), nous utilisons une augmentation basée sur les embeddings de mots. Nous augmentons chaque ensemble de données 20 fois sur les données d'entraînement tandis que les données de validation sont laissées intactes afin d'être comparables aux lignes de base précédentes. Nous montrons l'effet de l'augmentation dans les figures 5 et 6 (performance étiquetée avec aug).
+
+L'augmentation contextuelle des mots, basée sur word2vec, améliore les performances de la plupart des classificateurs. Si nous introduisons maintenant un contrôle de qualité utilisant doc2vec (Algorithme 1), nous remarquons également l'impact sur les performances pour le Sepedi (Figure 6 aug qual). Nous n'avons pas pu compléter les expériences avec le Setswana pour l'augmentation contextuelle avec un contrôle de qualité, mais nous continuerons à travailler pour mieux comprendre l'impact d'un tel algorithme en général. Par exemple, il reste encore du travail pour étudier les effets de différents seuils de similarité pour l'algorithme sur la performance globale, comment un tel algorithme fonctionne sur les langages à ressources élevées par rapport aux langages à faibles ressources, comment nous pouvons rendre l'algorithme efficace, etc.
+
+Il est également intéressant d'examiner comment les performances des classificateurs qui n'ont été entraînés qu'avec des caractéristiques word2vec se comporteraient. Les réseaux de neurones artificiels profonds ne sont pas utilisés dans ce travail actuel et, par conséquent, nous n'avons pas utilisé de réseaux de neurones récurrents, mais nous pouvons créer des caractéristiques de phrase à partir de word2vec en utilisant soit : la moyenne de tous les vecteurs de mots dans une phrase, la médiane de tous les vecteurs de mots dans une phrase ou les moyennes de puissance concaténées (Rücklé et al., 2018). Nous montrons la performance de l'utilisation de cette approche avec les classificateurs utilisés pour Bag of Words et TFIDF plus tôt dans la Figure 7.
+
+Les performances de cette approche sont légèrement moins bonnes, les meilleurs résultats pour la classification des titres d'actualité en Sepedi étant obtenus avec XGBoost sur les données augmentées. Nous espérons améliorer cette performance en utilisant des vecteurs de caractéristiques word2vec avec des réseaux de neurones récurrents, mais nous pensons actuellement que l'augmentation de la taille des corpus et de la diversité des corpus pour les plongements lexicaux pré-entraînés pourrait donner des résultats encore meilleurs.
+
+p05-01.png
+
+p05-02.png
+
+Figure 7 : Performance basée sur les caractéristiques Word2Vec pour la classification de titres d'actualités
+
+Enfin, nous présentons la matrice de confusion du meilleur modèle en Sepedi sur un ensemble de test dans la Figure 8. Le classificateur catégorise le mieux les titres d'actualités Générales, Politiques et Juridiques. Pour d'autres, il y a plus d'erreur. Un plus grand ensemble de données de titres d'actualités est nécessaire et la performance de classification devra également être comparée à celle des modèles entraînés sur des données d'actualités complètes (avec le corps de l'article). Pour les classificateurs Setswana, la matrice de confusion montre que le biais des données entraîne des modèles qui peuvent principalement catégoriser entre les catégories Actualités Générales et Autres. Nous devons examiner les techniques de ré-échantillonnage pour améliorer cette performance ainsi que l'augmentation de la taille initiale de l'ensemble de données.
+
+p05-03.png
+
+Figure 8 : Matrice de confusion des modèles de classification de titres d'actualités
+
+## 5. Conclusion et travaux futurs
+
+Ce travail a introduit la collecte et l'annotation de données de titres de nouvelles en Setswana et Sepedi. Il reste un défi que, en Afrique du Sud, 9 des 11 langues officielles disposent de peu de données comme celles-ci disponibles pour les chercheurs afin de construire des modèles en aval qui peuvent être utilisés dans différentes applications. Grâce à ce travail, nous espérons fournir un exemple de ce qui peut être possible même lorsque nous avons un ensemble de données annoté limité. Nous exploitons la disponibilité d'autres données de texte libre en Setswana et Sepedi afin de construire des vectorisateurs pré-entraînés pour les langues (qui sont publiés dans le cadre de ce travail) et ensuite entraîner des modèles de classification pour les catégories d'actualités.
+
+Il reste un travail futur pour collecter plus de titres et de textes d'actualités en langues locales afin d'entraîner davantage de modèles. Nous avons identifié d'autres sources d'actualités gouvernementales qui peuvent être utilisées. Sur l'entraînement de modèles de plongement lexical avec les données que nous avons collectées, d'autres études sont nécessaires pour examiner comment l'augmentation à l'aide des modèles de plongement lexical améliore la qualité de l'augmentation.
+
+## Notes
+
+1 http://groups.di.unipi.it/˜gulli
+
+2 http://www.sabc.co.za/
+
+3 www.sadilar.org
+
+4 http://www.sabc.co.za/
+
+5 https://www.facebook.com/MotswedingFM/
+
+6 https://www.facebook.com/thobelafmyaka/
+
+7 https://zenodo.org/record/3668495
+
+## 6. Références bibliographiques
+
+Bojanowski, P., Grave, E., Joulin, A., and Mikolov, T. (2017). Enriching word vectors with subword information. Transactions of the Association for Computational Linguistics, 5:135-146.
+
+Bureau of Circulations, A. (2019). Newspaper circulation statistics for the period January-March 2019 (ABC Q1 2019).
+
+Cubuk, E. D., Zoph, B., Mane, D., Vasudevan, V., and Le, Q. V. (2019). Autoaugment: Learning augmentation strategies from data. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 113-123.
+
+Johnson, M., Schuster, M., Le, Q. V., Krikun, M., Wu, Y., Chen, Z., Thorat, N., Viégas, F., Wattenberg, M., Corrado, G., et al. (2017). Google's multilingual neural machine translation system: Enabling zero-shot translation. Transactions of the Association for Computational Linguistics, 5:339-351.
+
+Kobayashi, S. (2018). Contextual augmentation: Data augmentation by words with paradigmatic relations. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers), volume 2, pages 452-457.
+
+Lewis, D. D. (1997). Reuters-21578 text categorization collection data set.
+
+Marivate, V. and Sefara, T. (2019). Improving short text classification through global augmentation methods. arXiv preprint arXiv:1907.03752.
+
+Marivate, V. and Sefara, T. (2020a). African embeddings [nlp]. https://doi.org/10.5281/zenodo.3668481, February.
+
+Marivate, V. and Sefara, T. (2020b). South African news data dataset. https://doi.org/10.5281/zenodo.3668489.
+
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S., and Dean, J. (2013). Distributed representations of words and phrases and their compositionality. In Advances in neural information processing systems, pages 3111-3119.
+
+Nettle, D. (1998). Explaining global patterns of language diversity. Journal of anthropological archaeology, 17(4):354-374.
+
+Rücklé, A., Eger, S., Peyrard, M., and Gurevych, I. (2018). Concatenated power mean word embeddings as universal cross-lingual sentence representations. arXiv preprint arXiv:1803.01400.
+
+Sandhaus, E. (2008). The new york times annotated corpus. Linguistic Data Consortium, Philadelphia, 6(12):e26752.
+
+Silfverberg, M., Wiemerslage, A., Liu, L., and Mao, L. J. (2017). Data augmentation for morphological reinflection. In Proceedings of the CoNLL SIGMORPHON 2017 Shared Task: Universal Morphological Reinflection, pages 90-99.
+
+Strassel, S. and Tracey, J. (2016). Lorelei language packs: Data, tools, and resources for technology development in low resource languages. In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC'16), pages 3273-3280.
+
+Wang, W. Y. and Yang, D. (2015). That's so annoying!!!: A lexical and frame-semantic embedding based data augmentation approach to automatic categorization of annoying behaviors using# petpeeve tweets. In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing, pages 2557-2563.
+
+Wei, J. and Zou, K. (2019). Eda: Easy data augmentation techniques for boosting performance on text classification tasks. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 6383-6389.
+
+Yu, S., Yang, J., Liu, D., Li, R., Zhang, Y., and Zhao, S. (2019). Hierarchical data augmentation and the application in text classification. IEEE Access, 7:185476-185485.
+
+Zhang, X., Zhao, J., and LeCun, Y. (2015). Character-level convolutional networks for text classification. In Advances in neural information processing systems, pages 649-657.
+
+Zoph, B., Yuret, D., May, J., and Knight, K. (2016). Transfer learning for low-resource neural machine translation. arXiv preprint arXiv:1604.02201.

@@ -1,0 +1,50 @@
+{
+ "id": "2021.rail-jdhasa.3823",
+ "title": "An Open Source System for Crowd Sourcing an African Language Short Story Corpus",
+ "authors": [
+  "Benson K. Muite",
+  "Kichakato Kizito"
+ ],
+ "year": 2021,
+ "venue": "Proceedings of the 2nd Workshop on Resources for African Indigenous Languages (RAIL 2021), Journal of the Digital Humanities Association of Southern Africa",
+ "source_url": "https://upjournals.up.ac.za/index.php/dhasa/article/view/3823",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W4214880494",
+ "original_language": "en",
+ "languages_studied": [
+  {
+   "iso639_3": "afr",
+   "name": "Afrikaans"
+  }
+ ],
+ "licence": {
+  "id": "cc-by-sa-4.0",
+  "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ "references": [
+  {
+   "id": "W1845951405",
+   "doi": "10.1002/9781119209539.oth1",
+   "title": "GNU General Public License",
+   "year": 2015,
+   "first_author": "Christopher Negus",
+   "venue": "Wiley eBooks",
+   "internal_id": ""
+  }
+ ],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 0,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2021.rail-jdhasa.3823/",
+  "fr": "https://talithapapers.com/fr/papers/2021.rail-jdhasa.3823/",
+  "sw": "https://talithapapers.com/sw/papers/2021.rail-jdhasa.3823/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

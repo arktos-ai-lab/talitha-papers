@@ -1,0 +1,205 @@
+{
+ "id": "2020.rail-1.3",
+ "title": "Investigating an Approach for Low Resource Language Dataset Creation, Curation and Classification: Setswana and Sepedi",
+ "authors": [
+  "Vukosi Marivate",
+  "Tshephisho Sefara",
+  "Vongani Chabalala",
+  "Keamogetswe Makhaya",
+  "Tumisho Mokgonyane",
+  "Rethabile Mokoena",
+  "Abiodun Modupe"
+ ],
+ "year": 2020,
+ "venue": "Proceedings of the first workshop on Resources for African Indigenous Languages",
+ "source_url": "https://aclanthology.org/2020.rail-1.3/",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "W3010987228",
+ "original_language": "en",
+ "languages_studied": [
+  {
+   "iso639_3": "nso",
+   "name": "Sepedi"
+  },
+  {
+   "iso639_3": "tsn",
+   "name": "Tswana"
+  }
+ ],
+ "licence": {
+  "id": "cc-by-nc-4.0",
+  "name": "Creative Commons Attribution-NonCommercial 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+ },
+ "references": [
+  {
+   "id": "W2006085521",
+   "doi": "10.1006/jaar.1998.0328",
+   "title": "Explaining Global Patterns of Language Diversity",
+   "year": 1998,
+   "first_author": "Daniel Nettle",
+   "venue": "Journal of Anthropological Archaeology",
+   "internal_id": ""
+  },
+  {
+   "id": "W2153579005",
+   "doi": "10.48550/arxiv.1310.4546",
+   "title": "Distributed Representations of Words and Phrases and their Compositionality",
+   "year": 2013,
+   "first_author": "Tomáš Mikolov",
+   "venue": "neural information processing systems",
+   "internal_id": ""
+  },
+  {
+   "id": "W2170240176",
+   "doi": "10.48550/arxiv.1509.01626",
+   "title": "Character-level Convolutional Networks for Text Classification",
+   "year": 2015,
+   "first_author": "Xiang Zhang",
+   "venue": "neural information processing systems",
+   "internal_id": ""
+  },
+  {
+   "id": "W2251658415",
+   "doi": "10.18653/v1/d15-1306",
+   "title": "That's So Annoying!!!: A Lexical and Frame-Semantic Embedding Based Data Augmentation Approach to Automatic Categorization of Annoying Behaviors using #petpeeve Tweets",
+   "year": 2015,
+   "first_author": "William Yang Wang",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2337363174",
+   "doi": "10.18653/v1/d16-1163",
+   "title": "Transfer Learning for Low-Resource Neural Machine Translation",
+   "year": 2016,
+   "first_author": "Barret Zoph",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2493916176",
+   "doi": "10.1162/tacl_a_00051",
+   "title": "Enriching Word Vectors with Subword Information",
+   "year": 2017,
+   "first_author": "Piotr Bojanowski",
+   "venue": "Transactions of the Association for Computational Linguistics",
+   "internal_id": ""
+  },
+  {
+   "id": "W2550821151",
+   "doi": "10.1162/tacl_a_00065",
+   "title": "Google’s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation",
+   "year": 2017,
+   "first_author": "Melvin Johnson",
+   "venue": "Transactions of the Association for Computational Linguistics",
+   "internal_id": ""
+  },
+  {
+   "id": "W2573062194",
+   "doi": "10.63317/3xtxb975en3d",
+   "title": "LORELEI Language Packs: Data, Tools, and Resources for Technology Development in Low Resource Languages",
+   "year": 2016,
+   "first_author": "Stephanie M. Strassel",
+   "venue": "Language Resources and Evaluation Conference (LREC)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2740149041",
+   "doi": "10.18653/v1/k17-2010",
+   "title": "Data Augmentation for Morphological Reinflection",
+   "year": 2017,
+   "first_author": "Miikka Silfverberg",
+   "venue": "",
+   "internal_id": ""
+  },
+  {
+   "id": "W2793381978",
+   "doi": "10.48550/arxiv.1803.01400",
+   "title": "Concatenated Power Mean Word Embeddings as Universal Cross-Lingual Sentence Representations",
+   "year": 2018,
+   "first_author": "Andreas Rücklé",
+   "venue": "TUbilio (Technical University of Darmstadt)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2949736877",
+   "doi": "10.1109/cvpr.2019.00020",
+   "title": "AutoAugment: Learning Augmentation Strategies From Data",
+   "year": 2019,
+   "first_author": "Ekin D. Cubuk",
+   "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+   "internal_id": ""
+  },
+  {
+   "id": "W2961125888",
+   "doi": "10.1007/978-3-030-57321-8_21",
+   "title": "Improving Short Text Classification Through Global Augmentation Methods",
+   "year": 2020,
+   "first_author": "Vukosi N. Marivate",
+   "venue": "Lecture notes in computer science",
+   "internal_id": ""
+  },
+  {
+   "id": "W2963545917",
+   "doi": "10.18653/v1/n18-2072",
+   "title": "Contextual Augmentation: Data Augmentation by Words with Paradigmatic Relations",
+   "year": 2018,
+   "first_author": "Sosuke Kobayashi",
+   "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2971296908",
+   "doi": "10.18653/v1/d19-1670",
+   "title": "EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks",
+   "year": 2019,
+   "first_author": "Jason Wei",
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "internal_id": ""
+  },
+  {
+   "id": "W2995253144",
+   "doi": "10.1109/access.2019.2960263",
+   "title": "Hierarchical Data Augmentation and the Application in Text Classification",
+   "year": 2019,
+   "first_author": "Shujuan Yu",
+   "venue": "IEEE Access",
+   "internal_id": ""
+  },
+  {
+   "id": "W3158986179",
+   "doi": "10.57754/fdat.mbknv-5s175",
+   "title": "New York Times Annotated Corpus",
+   "year": 2012,
+   "first_author": "Evan Sandhaus",
+   "venue": "FDAT",
+   "internal_id": ""
+  },
+  {
+   "id": "W4393735941",
+   "doi": "10.5281/zenodo.3668488",
+   "title": "South African News Data",
+   "year": 2020,
+   "first_author": "Vukosi N. Marivate",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "internal_id": ""
+  }
+ ],
+ "cited_by_internal": [
+  "2021.rail-jdhasa.3822"
+ ],
+ "cited_by_count_openalex": 55,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2020.rail-1.3/",
+  "fr": "https://talithapapers.com/fr/papers/2020.rail-1.3/",
+  "sw": "https://talithapapers.com/sw/papers/2020.rail-1.3/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}
