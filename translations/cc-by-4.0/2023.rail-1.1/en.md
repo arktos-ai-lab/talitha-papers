@@ -102,7 +102,7 @@ By removing words from foreign languages, we aim to ensure that the text being a
 
 Tokenization is a critical step in the automatic spell checking process, as it segments the input text into smaller units referred to as tokens.
 
-There is a range of techniques used for tokenization that vary depending on the language and task at hand. These may include splitting on whites-pace and punctuation, using regular expressions, or utilizing dictionaries and morphological rules (Dalrymple et al., 2006).
+There is a range of techniques used for tokenization that vary depending on the language and task at hand. These may include splitting on whitespace and punctuation, using regular expressions, or utilizing dictionaries and morphological rules (Dalrymple et al., 2006).
 
 The tokenization process results in units that can range from individual characters or words to phrases or even full sentences. However, word tokenization is the most commonly used form of segmentation in spell checking systems, as it separates the text into individual words and provides a solid foundation for the identification of spelling errors (Mosavi Miangah, 2013; Rahman et al., 2021; Abdulrahman and Hassani, 2022).
 
@@ -144,7 +144,7 @@ Taking into consideration the common errors observed in the analysis of Wolof la
 
 In the current system, to generate potential alternatives for misspelled words, we have implemented a lexicographical distance comparison method. This process involves determining the minimum number of edit operations, such as insertion, deletion, transposition, and substitution, necessary to change one word into another (Vienney, 2004). The more significant the disparities between two words, the greater the lexicographical distance between them. Out of various lexicographical distance metrics, the Levenshtein Distance (Levenshtein, 1965) is the most commonly utilized. It quantifies the difference between two strings based on the three fundamental string operations: substitution, insertion, and deletion.
 
-Let Levα,β be the Levenshtein distance between the subsequence formed with the α first characters of a word W1 and the subsequence formed with the β first characters of a word W. The Levenshtein distance between the two subsequences W1 and W2 (of length |W1| and |W2| respectively) can be recursively calculated using Formula 1 (Levenshtein, 1965).
+Let Levα,β be the Levenshtein distance between the subsequence formed with the α first characters of a word W<sub>1</sub> and the subsequence formed with the β first characters of a word W. The Levenshtein distance between the two subsequences W<sub>1</sub> and W<sub>2</sub> (of length |W<sub>1</sub>| and |W<sub>2</sub>| respectively) can be recursively calculated using Formula 1 (Levenshtein, 1965).
 
 p05-02.png
 
@@ -180,7 +180,7 @@ Table 5: Edit distance of misspellings against their corrections
 
 ## 4.2 Selection of the Evaluation Metrics
 
-There are various factors to consider in evaluating spelling checkers. Conventional metrics, including recall and precision, have been widely used for a considerable time to gauge the linguistic proficiency of such tools. nevertheless, from a usagec ntered approach, these evaluation parameters have limitations due to the absence of certain variables intrinsic to the evaluation of spelling checkers in these metrics.
+There are various factors to consider in evaluating spelling checkers. Conventional metrics, including recall and precision, have been widely used for a considerable time to gauge the linguistic proficiency of such tools. nevertheless, from a usage-centered approach, these evaluation parameters have limitations due to the absence of certain variables intrinsic to the evaluation of spelling checkers in these metrics.
 
 To determine the reliability of our spell checker, we employed the metrics proposed in (Starlander and Popescu-Belis, 2002), (Voorhees and Garofolo, 2000), (Paggio and Music, 1998), (Paggio and Underwood, 1998), (King, 1999) as well as the following measures:
 
@@ -196,37 +196,37 @@ Despite their age, these metrics remain widely used in the current state of the 
 
 The other used metrics in these evlautions, are described as follows:
 
-## 4.2.1 Lexical Recall or Rc
+## 4.2.1 Lexical Recall or R<sub>c</sub>
 
 It is determined by calculating the ratio of correctly recognized valid words in the text by the spell checker, to the total number of accurate words in the same text, as shown in Formula 2 (Starlander and Popescu-Belis, 2002).
 
 p07-01.png
 
-## 4.2.2 Error Recall or Ri
+## 4.2.2 Error Recall or R<sub>i</sub>
 
 It is expressed as the fraction of incorrect words in the text detected by the spell checker, compared to the overall number of incorrect words in the text, as shown in Formula 3 (Starlander and Popescu-Belis, 2002).
 
 p07-02.png
 
-## 4.2.3 Lexical Precision or Pc
+## 4.2.3 Lexical Precision or P<sub>c</sub>
 
 It is calculated by dividing the total number of valid words accurately recognized by the spelling checker by the sum of valid words recognized by the spell checker and the quantity of invalid words that were not identified by the spell checker as incorrect, as shown in Formula 4 (Starlander and Popescu-Belis, 2002).
 
 p07-03.png
 
-## 4.2.4 Error Precision or Pi
+## 4.2.4 Error Precision or P<sub>i</sub>
 
 It is determined by dividing the number of accurate flags made by the spell checker by the total number of flags issued by the system, as shown in Formula 5 (Starlander and Popescu-Belis, 2002).
 
 p07-04.png
 
-## 4.2.5 Lexical F-measure or F mc
+## 4.2.5 Lexical F-measure or F m<sub>c</sub>
 
 It enables the calculation of the harmonic mean between lexical recall and lexical precision, as shown in Formula 6 (Starlander and Popescu-Belis, 2002).
 
 p07-05.png
 
-## 4.2.6 Error F-measure or F mi
+## 4.2.6 Error F-measure or F m<sub>i</sub>
 
 The Error F-measure is calculated by computing the harmonic mean of lexical recall and lexical precision, as shown in Formula 7 (Starlander and Popescu-Belis, 2002).
 
@@ -246,7 +246,7 @@ p07-08.png
 
 ## 4.2.9 Mean Reciprocal Rank or MRR
 
-As previously stated, our spell checker systematically selects the first word in the list of recommendations as the most likely substitution for the misspelled word. However, as selecting the initial option in the recommended list may not always be the appropriate choice, we will utilize the MRR metric to assess the ranking methodology. Let N be the total number of incorrect words and Ranki,c be the position of the correct suggestion in the list of suggestion for the ith misspelled word in N. The MRR is computed using the Formula 10 (Voorhees and Garofolo, 2000).
+As previously stated, our spell checker systematically selects the first word in the list of recommendations as the most likely substitution for the misspelled word. However, as selecting the initial option in the recommended list may not always be the appropriate choice, we will utilize the MRR metric to assess the ranking methodology. Let N be the total number of incorrect words and Rank<sub>i,c</sub> be the position of the correct suggestion in the list of suggestion for the ith misspelled word in N. The MRR is computed using the Formula 10 (Voorhees and Garofolo, 2000).
 
 p08-01.png
 
@@ -260,9 +260,9 @@ p08-02.png
 
 Table 6: Performance measures of the spell checker
 
-The recall score of 95.16% (Rc) and 100% (Ri) depicts the comprehensive nature of the lexicon utilized by the spell checker, as well as its relatively unspoiled status.
+The recall score of 95.16% (R<sub>c</sub>) and 100% (R<sub>i</sub>) depicts the comprehensive nature of the lexicon utilized by the spell checker, as well as its relatively unspoiled status.
 
-The spell checker exhibits an exceptional level of precision, with a score of 100% (Pc) and 97.46% (Pi), indicating its reliability in accurately identifying spelling errors as well as valid words. The F-measure scores of 97.52% (F mc) and 98.71% (F mi) demonstrate the spell checker's avoidance of simplistic strategies, thereby ensuring its efficiency.
+The spell checker exhibits an exceptional level of precision, with a score of 100% (P<sub>c</sub>) and 97.46% (P<sub>i</sub>), indicating its reliability in accurately identifying spelling errors as well as valid words. The F-measure scores of 97.52% (F mc) and 98.71% (F mi) demonstrate the spell checker's avoidance of simplistic strategies, thereby ensuring its efficiency.
 
 The spell checker's suggestion accuracy (SA) score of 93.33% attests to the suitability and veracity of the most probable alternative to the misspelled word presented to the end-user.
 
@@ -294,7 +294,7 @@ This paper presented a novel spell checker for the Wolof language, that has demo
 
 The findings of this research provide compelling evidence of the viability of the spell checker for the Wolof language, opening avenues for further improvement and exploration.
 
-For future research, it would be of interest to study the effect of increasing the lexicon and Misspelled Word Corpus on the spell checker's performance. Furthermore, a comparison of the spell checker's performance with other spell-checking methods used in low-resource languages, such as the Indigenous African languages, could provide valuable insights into the strengths and weaknesses of the current approach. The integration of stateo -the-art techniques,taking into consideration the context, such as those based on machine learning and Deep Neural Networks, into the spell checker could also be explored to further enhance its capabilities.
+For future research, it would be of interest to study the effect of increasing the lexicon and Misspelled Word Corpus on the spell checker's performance. Furthermore, a comparison of the spell checker's performance with other spell-checking methods used in low-resource languages, such as the Indigenous African languages, could provide valuable insights into the strengths and weaknesses of the current approach. The integration of state-of-the-art techniques, taking into consideration the context, such as those based on machine learning and Deep Neural Networks, into the spell checker could also be explored to further enhance its capabilities.
 
 ## Acknowledgements
 
@@ -314,7 +314,7 @@ We also thank the participants of the Wolof community for giving their time, wis
 
 ## References
 
-Roshna Omer Abdulrahman and Hossein Hassani. 2022. A language model for spell checking of educational texts in kurdish (sorani). 1st Annual Meeting of the ELRA/ISCA Special Interest Group on UnderResourced Languages, SIGUL 2022 - Held in Conjunction with the International Conference on Language Resources and Evaluation, LREC 2022 - Proceedings, pages 189-198.
+Roshna Omer Abdulrahman and Hossein Hassani. 2022. A language model for spell checking of educational texts in kurdish (sorani). 1st Annual Meeting of the ELRA/ISCA Special Interest Group on Under-Resourced Languages, SIGUL 2022 - Held in Conjunction with the International Conference on Language Resources and Evaluation, LREC 2022 - Proceedings, pages 189-198.
 
 Anthony Almudevar. 2001. A dynamic programming algorithm for the optimal control of piecewise deterministic markov processes. SIAM Journal on Control and Optimization, 40(2):525-539.
 
@@ -348,7 +348,7 @@ Yaakov HaCohen-Kerner, Daniel Miller, and Yair Yigal. 2020. The influence of pre
 
 James Cross, Maha Elbayad, and Kenneth Heafield. 2022. No language left behind: Scaling human-centered machine translation.
 
-M King. 1999. Evaluation design: The EAGLES framework. In Proceedings of the Konvens '98: Evaluation of the Linguistic Performance of Machine Translation Systems, Bonn, Germany. Rita Nübel, Uta SeewaldHeeg, Gardezi Verlag, St. Augustin.
+M King. 1999. Evaluation design: The EAGLES framework. In Proceedings of the Konvens '98: Evaluation of the Linguistic Performance of Machine Translation Systems, Bonn, Germany. Rita Nübel, Uta Seewald-Heeg, Gardezi Verlag, St. Augustin.
 
 Donald Knuth. 1998. Art of computer programming, the: Volume 3: Sorting and searching, 2nd edition. edition. Addison-Wesley Professional.
 
@@ -356,7 +356,7 @@ Karen Kukich. 1992. Techniques for automatically correcting words in text. Acm C
 
 Vladimir I. Levenshtein. 1965. Binary codes capable of correcting deletions, insertions, and reversals. Soviet physics. Doklady, 10:707-710.
 
-Alla Lo, Cheikh Bamba Dione, Mathieu Mangeot, Mouhamadou Khoule, Sokhna Bao-Diop, MameThierno Cissé, et al. 2016. Correction orthographique pour la langue wolof: état de l'art et perspectives. In JEP-TALN-RECITAL 2016: Traitement Automatique Des Langues Africaines TALAF 2016.
+Alla Lo, Cheikh Bamba Dione, Mathieu Mangeot, Mouhamadou Khoule, Sokhna Bao-Diop, Mame-Thierno Cissé, et al. 2016. Correction orthographique pour la langue wolof: état de l'art et perspectives. In JEP-TALN-RECITAL 2016: Traitement Automatique Des Langues Africaines TALAF 2016.
 
 Jean-Jacques M'eric. 2014. A spell-checker and thesaurus for Bambara (Bamanankan) (Un v'erificateur orthographique pour la langue bambara) [in French]. TALAf@TALN, pages 141-146.
 
@@ -382,6 +382,6 @@ Marianne Starlander and Andrei Popescu-Belis. 2002. Corpus-based evaluation of a
 
 Pius Ten Hacken and Cornelia Tschichold. 2001. Word Manager and CALL: Structured access to the lexicon as a tool for enriching learners' vocabulary. ReCALL, 13(1):121-131.
 
-S. Vienney. 2004. Correction Automatique : Bilan et Perspectives. Presses universitaires de FrancheComté.
+S. Vienney. 2004. Correction Automatique : Bilan et Perspectives. Presses universitaires de Franche-Comté.
 
 Ellen Voorhees and John Garofolo. 2000. The TREC Spoken Document Retrieval Track. Bulletin of the American Society for Information Science and Technology, 26(5):18-19.

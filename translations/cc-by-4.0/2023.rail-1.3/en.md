@@ -23,9 +23,7 @@ In this paper we highlight the process of gathering, cleaning and making availab
 
 The advancement of Natural Language Processing (NLP) research in Africa is impeded due to the scarcity of data for training models for various NLP tasks (Nekoto et al., 2020) as well as availability of benchmarks and ways to reproduce them (Martinus and Abbott, 2019). For many South African languages there are still challenges finding easily available textual datasets (Marivate et al., 2020) even if there are many speakers for those languages (Ranathunga and de Silva, 2022). There is a need to focus on development of local language (Joshi et al., 2020) NLP resources.
 
-This paper builds upon the work of Autshumato (Groenewald and Fourie, 2009; Groenewald and du Plooy, 2010) by creating automatically aligned parallel corpora from government textual data in the 11 official languages of South Africa. While the
-
-Autshumato project focused on creating Machine Translation tools for five indigenous languages, the resulting corpora lacked information about its origin or context, limiting its usefulness for other NLP tasks such as categorisation, topic modelling over time and other tasks that require contextual information of the content. Our approach provides more comprehensive data that can support a wider range of NLP applications.
+This paper builds upon the work of Autshumato (Groenewald and Fourie, 2009; Groenewald and du Plooy, 2010) by creating automatically aligned parallel corpora from government textual data in the 11 official languages of South Africa. While the Autshumato project focused on creating Machine Translation tools for five indigenous languages, the resulting corpora lacked information about its origin or context, limiting its usefulness for other NLP tasks such as categorisation, topic modelling over time and other tasks that require contextual information of the content. Our approach provides more comprehensive data that can support a wider range of NLP applications.
 
 Our belief is that there is a significant opportunity to create a more user-friendly data collection process that can be easily maintained and provide extraction tools for others. It is essential to preserve the data source and structure it in a way that enables extensions. Our goal is to enhance Neural Machine Translation (NMT) resources in the government data domain by including all indigenous languages and broadening the translation directions beyond English as the source language. Additionally, we recognise the importance of providing aligned data across all South African languages beyond English.
 
@@ -55,7 +53,7 @@ Line 3: Author of article (if available. If not, defaults to Vukuzenzele Unnamed
 
 Line 4: empty line
 
-## · Line 5-end: body of article
+Line 5-end: body of article
 
 The data is easier to analyse and visualise after being manually reviewed. The labour-intensive effort was necessary to provide a comprehensive and meaningful analysis of the magazine's content. The time-consuming process of manual review and extraction was ultimately worth it, as it provides an opportunity to create a deeper understanding of the content within Vuk'uzenzele. As of writing we have 53 editions of the newspaper spanning January 2020 to July 2022. More additions will be added in time by the team. Automations have been built to download and archive the PDFs, however manual effort is still required to extract and identify translated articles. The dataset, code and automated scrapers are available at at https://github.com/dsfsi/vukuzenzele-nlp and Zenodo (Marivate et al., 2023a). We make it available in a format that allows other researchers to extend, remix and add onto it (CC-4.0-BY-SA licence for data and MIT License for code).
 
@@ -143,7 +141,7 @@ p04-02.png
 
 ## 4.3 Postprocessing
 
-For the LASER datasets the source sentence, target sentence, and cosine score for the aligned data was written to a csv file with the naming convention 'aligned-{src_lang_code}- {tgt_lang_code}. csv', i.e. 'aligned-afr-zul.csv'. Refer to the language list in 1 for language codes used in naming the datasets.
+For the LASER datasets the source sentence, target sentence, and cosine score for the aligned data was written to a csv file with the naming convention 'aligned-{src_lang_code}- {tgt_lang_code}.csv', i.e. 'aligned-afr-zul.csv'. Refer to the language list in 1 for language codes used in naming the datasets.
 
 For the simple aligned datasets the source sentence and the target sentence were written to a csv file with the same naming structure as the LASER datasets.
 
@@ -268,8 +266,6 @@ The data statistics for the datasets used for NMT bench-marking are provided in 
 Table 5: Characteristics of the translation data for the Vuk'uzenzele (Vuk.) datasets
 
 p08-01.png
-
-zul→eng zul→eng
 
 Table 6: Characteristics of the translation data for the ZA-gov-multilingual (Gov.) datasets
 

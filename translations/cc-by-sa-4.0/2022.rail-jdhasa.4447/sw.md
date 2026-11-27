@@ -1,4 +1,4 @@
-> Machine translation (sw) of "Topic modelling to support English text selection for translation into South Africa's other official languages" by Jocelyn Mazarura, Febe de Wet, https://upjournals.up.ac.za/index.php/dhasa/article/view/4447, licensed Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (glossary, madlad-7b, opus-mt, qwen3.6-27b, rescue-deepseek-v4-pro); not reviewed by a human; changes were made.
+> Machine translation (sw) of "Topic modelling to support English text selection for translation into South Africa's other official languages" by Jocelyn Mazarura, Febe de Wet, https://upjournals.up.ac.za/index.php/dhasa/article/view/4447, licensed Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (fix-deepseek-v4-pro, fix-qwen3.5-397b, glossary, madlad-7b, opus-mt, qwen3.6-27b, rescue-deepseek-v4-pro); checked against the original by automated review, and sentences with errors were replaced by another open-model translation; not reviewed by a human; changes were made.
 
 ## Uundaji wa mada ili kusaidia uteuzi wa maandishi ya Kiingereza kwa ajili ya tafsiri katika lugha nyingine rasmi za Afrika Kusini
 
@@ -16,21 +16,21 @@ University
 
 ## Muhtasari
 
-Data ya mafunzo ifaayo ni sharti la awali kwa ajili ya ukuzaji wa mbinu za uchakataji wa lugha asilia (NLP). Kiasi kikubwa cha data za lugha kwa kawaida kinahitajika ili kuunda zana za NLP zinazofanya kazi katika kiwango cha kisasa. Rasilimali nyingi kama hizo kwa sasa zinapatikana tu katika lugha chache. Lugha zilizobaki zinapaswa kutafuta njia mbadala ili kuwezeshwa kwa "NLP". Lengo la utafiti unaoripotiwa hapa ni kufanya data zaidi ya lugha ipatikane ili kusaidia maendeleo ya NLP katika lugha rasmi za Afrika Kusini. Katika makala hii tunawasilisha wazo la kuzalisha data za maandishi kwa njia ya tafsiri. Tunapendekeza pia matumizi ya uundaji mada ili kutambua maandishi katika lugha chanzo yenye rasilimali nyingi ambayo yatatoa tafsiri zenye maana katika lugha lengwa zenye rasilimali chache. Kwa undani zaidi, makala hii inaeleza jinsi uigaji wa mada ulivyotumika kutambua makala za Wikipedia ya Kiingereza ambazo zinafaa kutafsiriwa katika lugha nyingine 10 rasmi za Afrika Kusini.
+Data ya mafunzo ifaayo ni sharti la awali kwa ajili ya ukuzaji wa mbinu za uchakataji wa lugha asilia (NLP). Kiasi kikubwa cha data za lugha kwa kawaida kinahitajika ili kuunda zana za NLP zinazofanya kazi katika kiwango cha kisasa. Rasilimali nyingi kama hizo kwa sasa zinapatikana tu katika lugha chache. Lugha zilizobaki zinapaswa kutafuta njia mbadala ili kuwezeshwa kwa "NLP". Lengo la utafiti unaoripotiwa hapa ni kufanya data zaidi ya lugha ipatikane ili kusaidia maendeleo ya NLP katika lugha rasmi za Afrika Kusini. Katika makala hii tunawasilisha wazo la kuzalisha data za maandishi kwa njia ya tafsiri. Tunapendekeza pia matumizi ya uundaji mada ili kutambua maandishi katika lugha chanzo yenye rasilimali nyingi ambayo yatatoa tafsiri zenye maana katika lugha lengwa zenye rasilimali chache. Kwa undani zaidi, makala hii inaeleza jinsi uundaji wa mada ulivyotumika kutambua makala za Wikipedia ya Kiingereza ambazo zinafaa kutafsiriwa katika lugha nyingine 10 rasmi za Afrika Kusini.
 
 ## Maneno Muhimu
 
-DHASA, uigaji wa mada, uteuzi wa maandishi, tafsiri, lugha zenye rasilimali chache
+DHASA, uundaji wa mada, uteuzi wa maandishi, tafsiri, lugha zenye rasilimali chache
 
 ## 1 Utangulizi
 
-Rasilimali zinazohitajika kutekeleza utendaji wa hali ya juu katika programu za uchakataji wa lugha asilia (NLP) kama vile uzalishaji wa maandishi, kujibu maswali, utambuzi longo otomatiki, n.k. kwa sasa zinapatikana tu katika lugha chache zenye rasilimali nyingi. Zile lugha nyingine 6 000 ambazo zinazungumzwa duniani leo ni lazima kutafuta njia za badala za kujiandaa kwa jamii ya kidijitali ya wakati ujao ambayo katika hizo uwezo wa kutayarisha lugha na usemi kwa njia ya moja kwa moja utakuwa wa lazima kwa ajili ya ushiriki. Programu kama vile injini za utafutaji na roboti za mazungumzo hutengenezwa kwa kutumia data ya maandishi huku nyingine, kama mifumo ya kiotomatiki ya kuamrisha, zikihitaji data ya maandishi na ya longo ili kutekelezwa. Utafiti huu wa sasa unalenga hasa kutengeneza rasilimali za maandishi zinazofaa kwa uigaji wa lugha katika lugha rasmi za Afrika Kusini.
+Rasilimali zinazohitajika kutekeleza utendaji wa hali ya juu katika programu za uchakataji wa lugha asilia (NLP) kama vile uzalishaji wa maandishi, kujibu maswali, utambuzi wa usemi wa kiotomatiki, n.k. kwa sasa zinapatikana tu katika lugha chache zenye rasilimali nyingi. Zile lugha nyingine 6 000 ambazo zinazungumzwa duniani leo ni lazima kutafuta njia za badala za kujiandaa kwa jamii ya kidijitali ya wakati ujao ambayo katika hizo uwezo wa kutayarisha lugha na usemi kwa njia ya moja kwa moja utakuwa wa lazima kwa ajili ya ushiriki. Programu kama vile injini za utafutaji na roboti za mazungumzo hutengenezwa kwa kutumia data ya maandishi huku nyingine, kama mifumo ya kiotomatiki ya kuamrisha, zikihitaji data ya maandishi na ya usemi ili kutekelezwa. Utafiti wa sasa unalenga hasa kuendeleza rasilimali za maandishi zinazofaa kwa uundaji wa lugha katika lugha rasmi za Afrika Kusini.
 
-Idadi kadhaa ya rasilimali za maandishi zimetengenezwa wakati wa miradi iliyopita na zinapatikana katika katalogi ya rasilimali za lugha ya Kituo cha Afrika Kusini cha Rasilimali za Lugha za Kidijitali (SADiLaR[1]). Hata hivyo, ukubwa wa mkusanyiko wa maandishi uliopo hautoshi kutekeleza utambuzi longo otomatiki (ASR) wa msamiati mkubwa. Aidha, rasilimali pana zaidi ya maandishi inayopatikana katika lugha zote rasmi, NCHLT Text Corpora (Eiselen & Puttkammer 2014), ilitokana na nyaraka zilizochapishwa kwenye kikoa cha tovuti ya serikali ya Afrika Kusini (*.gov.za). Kwa sababu hiyo, msamiati na matumizi ya lugha ni mahususi kwa kikoa. Lengo la kazi ya sasa ni kuunda rasilimali mpya za maandishi zinazoweza kutumika pamoja na au kwa kuchanganywa na kopa zilizopo. Data mpya inapaswa kwa hakika kuwakilisha utofauti wa vikoa na inapaswa kuchangia katika kupanua leksika zilizopo.
+Idadi kadhaa ya rasilimali za maandishi zimetengenezwa wakati wa miradi iliyopita na zinapatikana katika katalogi ya rasilimali za lugha ya Kituo cha Afrika Kusini cha Rasilimali za Lugha za Kidijitali (SADiLaR[1]). Hata hivyo, ukubwa wa korasi za maandishi zilizopo hautoshi kutekeleza utambuzi wa usemi otomatiki (ASR) wa msamiati mkubwa. Aidha, rasilimali pana zaidi ya maandishi inayopatikana katika lugha zote rasmi, NCHLT Text Corpora (Eiselen & Puttkammer 2014), ilitokana na nyaraka zilizochapishwa kwenye kikoa cha tovuti ya serikali ya Afrika Kusini (*.gov.za). Kwa sababu hiyo, msamiati na matumizi ya lugha ni mahususi kwa kikoa. Lengo la kazi ya sasa ni kuunda rasilimali mpya za maandishi zinazoweza kutumika pamoja na au kwa kuchanganywa na korasi zilizopo. Data mpya inapaswa kwa hakika kuwakilisha utofauti wa vikoa na inapaswa kuchangia katika kupanua leksika zilizopo.
 
 Chanzo kimoja kilicho wazi na chenye uwezekano wa kuwa na utajiri wa data ya maandishi ni wavuti ya ulimwengu. Ingawa lugha nyingi zina angalau uwepo fulani kwenye wavuti, pia kuna nyingi ambazo hazijawakilishwa kwenye intaneti kabisa. Hata hivyo, ukweli kwamba lugha ipo kwenye wavuti hauhakikishii kwamba data inayopatikana inafaa kwa utafiti wa NLP. Maandishi ya wavuti pia si ya ubora mzuri kwa kawaida. Aidha, baadhi ya maandishi ya mtandaoni yanahusu kikoa maalum sana. Hasa kwa lugha zenye rasilimali chache, maandishi ya mtandaoni huwa yanajikita kwenye machapisho ya kidini au nyaraka za serikali.
 
-Mkakati ambao umependekezwa ili kuimarisha uwepo wa mtandaoni wa lugha zisizowakilishwa vya kutosha ni kuunda maandishi kwa, kwa mfano, kuhimiza wazungumzaji wa lugha ya kwanza kuandika makala za Wikipedia (Pretorius & Wolff 2020). Mbinu hiyo imefanikiwa katika baadhi ya matukio na imesababisha michango ya kwanza kabisa kwa Wikipedia katika lugha nyingi. Licha ya faida ya kuzalisha maandishi "asilia", huu ni mchakato wa polepole na, hadi sasa, haujatoa kiasi cha data ya maandishi kinachohitajika na mbinu za Ujifunzajikina zinazotamani data ambazo kwa sasa zinatumika sana katika uwanja wa NLP.
+Mkakati ambao umependekezwa ili kuimarisha uwepo wa mtandaoni wa lugha zisizowakilishwa vya kutosha ni kuunda maandishi kwa, kwa mfano, kuhimiza wazungumzaji wa lugha ya kwanza kuandika makala za Wikipedia (Pretorius & Wolff 2020). Mbinu hiyo imefanikiwa katika baadhi ya matukio na imesababisha michango ya kwanza kabisa kwa Wikipedia katika lugha nyingi. Licha ya faida ya kuzalisha maandishi "asilia", huu ni mchakato wa polepole na, hadi sasa, haujatoa kiasi cha data ya maandishi kinachohitajika na mbinu za ujifunzaji wa kina zinazohitaji data nyingi ambazo kwa sasa zinatumika sana katika uwanja wa NLP.
 
 Karatasi hii inapendekeza tafsiri kwa kiwango kikubwa kama mbadala wa uzalishaji wa maandishi[2]. Licha ya tofauti kati ya maandishi halisi na yaliyotafsiriwa, tafsiri zinaweza kuziba pengo kati ya kutokuwa na data yoyote inayopatikana kabisa na kuwa na data ya kutosha tu kuanzisha mifumo ya nusu-simamiwa ambayo inaweza kuchangia katika kuendeleza rasilimali zaidi. Kupendekeza tafsiri kama njia ya kuzalisha maandishi katika lugha yenye rasilimali chache pia inamaanisha kuamua ni nini kinachopaswa kutafsiriwa. Majibu mengi ya dhahiri kwa swali hili, kwa mfano makala 100 maarufu zaidi za Wikipedia ya Mandarin, si lazima yatoe maandishi yenye maana katika lugha nyingine. Utafiti unaoripotiwa katika makala hii unawakilisha jaribio la kutafuta njia ya kimfumo ya kutambua maandishi yanayofaa kutafsiriwa na ambayo yangetoa maandishi yenye maana katika lugha lengwa. Kwa undani zaidi, tunaeleza jinsi makala za Wikipedia ya Kiingereza ambazo zinafaa kutafsiriwa katika lugha rasmi nyingine 10 za Afrika Kusini zilivyotambuliwa.
 
@@ -52,13 +52,13 @@ Uundaji wa mada ni mbinu ya uchimbaji wa maandishi inayotumika kufichua mada fic
 
 Ugawaji wa Dirichlet Fichika (LDA) ni mojawapo ya miundo ya mada maarufu zaidi (Blei et al. 2003). Ni mfano wa Bayesian wa ngazi tatu wenye daraja, ambapo kila hati inaigwa kama mchanganyiko wenye kikomo juu ya seti ya mada fiche, ambapo mada inafafanuliwa kama usambazaji juu ya maneno ya msamiati. LDA ni mfano wa kizalishaji wa kitakwimu kwani inaiga dhana kwamba kila hati huundwa kupitia mchakato ufuatao wa kizalishaji:
 
-Tukidhani kuwa korpusi ina mada K, chagua kwa nasibu usambazaji wa mada K, ϕk.
+Chagua kwa nasibu usambazaji wa mada K, ϕ<sub>k</sub>.
 
-2. Kwa kila moja ya hati M katika mkusanyiko, chagua kwa nasibu usambazaji juu ya mada, θm.
+2. Kwa kila moja ya hati M katika korasi, chagua kwa nasibu usambazaji juu ya mada, θ<sub>m</sub>.
 
-3. Tuseme kwamba kila hati ina maneno machafu. Kwa kila neno, wmn, katika hati ya m.
+3. Dhani kwamba kila hati ina maneno n<sub>m</sub>. Kwa kila neno, w<sub>mn</sub>, katika hati ya m.
 
-a. Chagua kwa nasibu mada, kutoka kwa usambazaji juu ya mada kutoka Hatua ya 2, ambapo zmn inaashiria kiashirio cha mada iliyochaguliwa.
+a. Chagua mada kwa nasibu, kutoka kwa usambazaji juu ya mada kutoka Hatua ya 2, ambapo z<sub>mn</sub> inaashiria kiashirio cha mada iliyochaguliwa.
 
 b. Chagua neno bila mpangilio kutoka kwa mada iliyochaguliwa kulingana na usambazaji wake kutoka Hatua ya 1.
 
@@ -76,19 +76,19 @@ Kielelezo 1: Mfano wa kielelezo kwa LDA. Miduara yenye kivuli hutumika kuwakilis
 
 p04-02.png
 
-P (wj) inaashiria uwezekano wa neno wj kutokea katika seti ya mafunzo ya nyaraka. P (wi, wj) inaashiria uwezekano wa maneno wi na wj kutokea pamoja katika seti ya mafunzo na ε inaashiria kigezo cha kulainisha. Uwiano wa jumla kwa modeli ya mada basi huchukuliwa kama wastani wa uwiano wote wa mada. Kwa ujumla, alama ya juu ya uwiano inahitajika kwani inaonyesha uwiano bora wa mada.
+P (wj) inaashiria uwezekano wa neno wj kutokea katika seti ya mafunzo ya nyaraka. P (wi, wj) inaashiria uwezekano wa maneno w<sub>i</sub> na w<sub>j</sub> kutokea pamoja katika seti ya mafunzo na ε inaashiria kigezo cha kulainisha. Uwiano wa jumla kwa modeli ya mada basi huchukuliwa kama wastani wa uwiano wote wa mada. Kwa ujumla, alama ya juu ya uwiano inahitajika kwani inaonyesha uwiano bora wa mada.
 
 ## 5 Mchakato wa uteuzi wa hati
 
-Lengo la utafiti huu ni kuunda mkusanyiko wa sentensi ambao unaweza kutumika kwa utafiti wa NLP katika lugha zenye rasilimali chache, kwa namna ambayo ni ya kimbinu na ya utaratibu. Kwa lengo hili, tunapendekeza kutumia uigaji wa mada kama njia ya uteuzi. Sehemu hii inatoa maelezo ya mchakato wa uteuzi.
+Lengo la utafiti huu ni kuunda mkusanyiko wa sentensi ambao unaweza kutumika kwa utafiti wa NLP katika lugha zenye rasilimali chache, kwa namna ambayo ni ya kimbinu na ya utaratibu. Kwa lengo hili, tunapendekeza kutumia uundaji wa mada kama njia ya uteuzi. Sehemu hii inatoa maelezo ya mchakato wa uteuzi.
 
 ## 5.1 Mafunzo ya mfano wa mada
 
-Kwa kuzingatia lengo la utafiti wetu, tulijitahidi kuunda seti ya data ambayo kwa ujumla inafaa na si mahususi kwa kikoa fulani kwa kuchagua sentensi kutoka makala za Wikipedia. Kwa lengo hili, kwanza tuliunda seti ya mafunzo, kulingana na makala kutoka mada mbalimbali za jumla. Mada hizi za jumla zilichukuliwa kutoka kwa orodha ya maneno linganishi ya SILCAWL iliyoletwa katika Sehemu ya 2. Maneno ya Kiingereza katika orodha yalitumiwa kama istilahi za utafutaji katika Wikipedia na makala zinazohusiana zilipatikana kutoka kwenye wavuti. Baada ya kusafisha data na kuondoa maneno yoyote yanayoweza kukera, mkusanyiko uliotokana ulikuwa na nyaraka 1 698 zenye wastani wa maneno 1 132 kwa kila nyaraka.
+Kwa kuzingatia lengo la utafiti wetu, tulijitahidi kuunda seti ya data ambayo kwa ujumla inafaa na si mahususi kwa kikoa fulani kwa kuchagua sentensi kutoka makala za Wikipedia. Kwa lengo hili, kwanza tuliunda seti ya mafunzo, kulingana na makala kutoka mada mbalimbali za jumla. Mada hizi za jumla zilichukuliwa kutoka kwa orodha ya maneno linganishi ya SILCAWL iliyoletwa katika Sehemu ya 2. Maneno ya Kiingereza katika orodha yalitumiwa kama istilahi za utafutaji katika Wikipedia na makala zinazohusiana zilipatikana kutoka kwenye wavuti. Baada ya kusafisha data na kuondoa maneno yoyote yanayoweza kukera, korasi iliyotokana ilikuwa na hati 1 698 zenye wastani wa maneno 1 132 kwa kila hati.
 
-Kielelezo cha mada kisha kilifunzwa kwenye data hii kwa kutumia gensim. Parameta juu zilijifunzwa kutoka kwa data, lakini kielelezo kiliendeshwa kwa idadi tofauti za mada, K = {100,200, ..., 1000}. Alama ya wastani ya mshikamano kwa kila kielelezo imeonyeshwa katika Kielelezo 2. Inaweza kuonekana kwamba mshikamano hauongezeki kwa kiasi kikubwa zaidi ya K = 800, hivyo K = 800 ilichaguliwa kuwa idadi bora ya mada kwa data ya mafunzo.
+Kielelezo cha mada kisha kilifunzwa kwenye data hii kwa kutumia gensim. Parameta juu zilijifunzwa kutoka kwa data, lakini kielelezo kiliendeshwa kwa idadi tofauti za mada, K = {100,200, ..., 1000}. Kiwango cha wastani cha uwiano kwa kila mfano umeonyeshwa katika Kielelezo 2. Inaweza kuonekana kwamba uwiano hauongezeki kwa kiasi kikubwa zaidi ya K = 800, hivyo K = 800 ilichaguliwa kuwa idadi bora ya mada kwa data ya mafunzo.
 
-Jedwali 1 linaonyesha mada 25 za juu kutoka K = 800 zilizopangwa kwa mpangilio wa mshikamano unaopungua. Ni dhahiri kutoka kwenye jedwali kwamba modeli ya mada iliweza kubaini mada mbalimbali zikiwemo, kwa mfano, umaskini (mada 98), afya (mada 224) na wakati (mada 551). Kumbuka kuwa uchaguzi wa majina ya mada kwa jumla huamuliwa na mtumiaji na hivyo ni wa kibinafsi. Seti kamili ya mada inaweza kupatikana kwenye https://github.com/jrmazarura/wikipedia-sentence-selection.
+Jedwali 1 linaonyesha mada 25 za juu kutoka K = 800 zilizopangwa kwa mpangilio wa uwiano unaopungua. Ni dhahiri kutoka kwenye jedwali kwamba modeli ya mada iliweza kubaini mada mbalimbali zikiwemo, kwa mfano, umaskini (mada 98), afya (mada 224) na wakati (mada 551). Kumbuka kuwa uchaguzi wa majina ya mada kwa jumla huamuliwa na mtumiaji na hivyo ni wa kibinafsi. Seti kamili ya mada inaweza kupatikana kwenye https://github.com/jrmazarura/wikipedia-sentence-selection.
 
 Jedwali 1: Mada 25 bora kutoka seti ya mafunzo.
 
@@ -96,7 +96,7 @@ p05-01.png
 
 p06-01.png
 
-Kielelezo 2: Wastani wa alama ya upatanisho kwa K = {100,200, ..., 1000}.
+Kielelezo 2: Wastani wa alama ya uwiano kwa K = {100,200, ..., 1000}.
 
 ## 5.2 Uchaguzi wa hati kwa kutumia modeli ya mada iliyofunzwa
 
@@ -106,7 +106,7 @@ Hatua iliyofuata katika mchakato wa uchaguzi wa hati ilikuwa kutumia modeli ya m
 
 2. Mada inayotawala inahitajika kuunda angalau robo ya usambazaji wa mada ya makala.
 
-Kikomo cha mada 500 kilichotumika katika #1 kilichaguliwa kwa kutathmini alama za upatanishi. Kulingana na ukaguzi, ufasirikaji wa mada ulionekana kuzorota kwa dhahiri kadiri alama za upatanishi zilivyopungua chini ya -2. Mada 500 za kwanza zilikuwa na alama za upatanishi juu ya thamani hii. Aidha, kikomo cha mada 500 pia kilihakikisha kwamba aina mbalimbali za mada zilishughulikiwa. Kuchagua kikomo cha 25% kilichotumika katika #2 hakukuhakikisha tu kwamba mada ilifanyiza sehemu muhimu ya mada ya makala, bali pia ilikuwa muhimu kuhakikisha kwamba ni baadhi tu ya makala kutoka Wikipedia zilichaguliwa.
+Kikomo cha mada 500 kilichotumika katika #1 kilichaguliwa kwa kutathmini alama za uwiano. Kulingana na ukaguzi, ufasirikaji wa mada ulionekana kuzorota kwa dhahiri kadiri alama za uwiano zilivyopungua chini ya -2. Mada 500 za kwanza zilikuwa na alama za uwiano juu ya thamani hii. Aidha, kikomo cha mada 500 pia kilihakikisha kwamba aina mbalimbali za mada zilishughulikiwa. Kuchagua kikomo cha 25% kilichotumika katika #2 hakukuhakikisha tu kwamba mada ilifanyiza sehemu muhimu ya mada ya makala, bali pia ilikuwa muhimu kuhakikisha kwamba ni baadhi tu ya makala kutoka Wikipedia yalichaguliwa.
 
 Baada ya hatua hii, mkusanyiko wa mwisho wa sentensi ulikusanywa kwa kuchagua kwa nasibu idadi sawa ya makala kutoka kila mada na kisha kuchagua kwa nasibu sentensi moja kutoka kila makala. Kwa mfano, ili kuunda mkusanyiko wa sentensi 5 000, makala 10 zinazohusiana na kila moja ya mada 500 zilichaguliwa kwa nasibu na sentensi moja ilichaguliwa kwa nasibu kutoka kwa kila moja ya makala hizo. Sentensi zenye angalau maneno 15 yanayoundwa na herufi 3 au zaidi pekee ndizo zilizochaguliwa. Hii ilifanyika ili kuepuka kurejesha sentensi ambazo zilikuwa fupi sana na hazikuwa na taarifa nyingi.
 
@@ -120,11 +120,11 @@ Kwa mfano, zingatia Mada ya 218 katika Jedwali la 1. Mada hii inaonekana kuhusia
 
 Mapango ya Hotton ni mapango ya speleothem yaliyoko Wallonia karibu na Hotton nchini Ubelgiji, ambayo yaligunduliwa mwaka 1958 na yana urefu wa takriban kilomita 5 au 6 na kina cha mita 70.
 
-Uchunguzi huu huenda unatokana na muundo wa mada kujaribu kutafuta mgawanyo wa mada kwa zaidi ya makala milioni tano kwa mada 800 pekee. Ni jambo la busara kudhani kwamba mkusanyiko mkubwa kama huo huenda ukawa na mada zaidi ya 800. Aidha, mada kama vile mada ya pango iliyozingatiwa kama mfano, huenda zikawa na mada ndogo nyingi zinazohusiana, k.m. mapango ya Afrika au mapango ya barafu, n.k. Ikiwa kuna mada moja tu inayohusiana na mapango, basi makala zote zitawekwa katika mada moja na hivyo kuunda mkusanyiko wa makala nyingi zinazohusiana na mapango zinazoshughulikia wigo mpana.
+Uchunguzi huu huenda unatokana na muundo wa mada kujaribu kutafuta mgawanyo wa mada kwa zaidi ya makala milioni tano kwa mada 800 pekee. Ni jambo la busara kudhani kwamba korasi kubwa kama hiyo huenda ikawa na mada zaidi ya 800. Aidha, mada kama vile mada ya pango iliyozingatiwa kama mfano, huenda zikawa na mada ndogo nyingi zinazohusiana, k.m. mapango ya Afrika au mapango ya barafu, n.k. Ikiwa kuna mada moja tu inayohusiana na mapango, basi makala zote zitawekwa katika mada moja na hivyo kuunda mkusanyiko wa makala nyingi zinazohusiana na mapango zinazoshughulikia wigo mpana.
 
 ## 7 Majadiliano & kazi ya baadaye
 
-Jaribio letu la kwanza la kutumia uigaji wa mada kutambua makala za Wikipedia ambazo zingefaa kutafsiriwa kutoka Kiingereza hadi Lugha za Afrika nyingine 10 za Kusini lilileta seti mbalimbali sana za sentensi, nyingi zikiwa na maneno ambayo huenda hayajawekwa katika leksika katika lugha lengwa yoyote. Mafunzo ya mifano ya mada juu ya SILCAWL ilikuwa wazi haitoshi ili kuepuka changamoto hii.
+Jaribio letu la kwanza la kutumia uundaji wa mada kutambua makala za Wikipedia ambazo zingefaa kutafsiriwa kutoka Kiingereza hadi lugha nyingine 10 za Afrika Kusini lilileta seti mbalimbali sana za sentensi, nyingi zikiwa na maneno ambayo huenda hayajawekwa katika leksika katika lugha lengwa yoyote. Mafunzo ya mifano ya mada juu ya SILCAWL ilikuwa wazi haitoshi ili kuepuka changamoto hii.
 
 Katika awamu inayofuata ya utafiti tutalenga kupata vigezo vya upogoaji ambavyo vinaweza kutumika "kulenga" mifano ya mada kwenye maudhui ambayo yanafaa zaidi kwa muktadha wa Afrika Kusini. Tungependa pia kuanzisha uhusiano kati ya maandishi yaliyochaguliwa na tafsiri inayotokana katika lugha lengwa ili kuhakikisha kwamba maandishi yanayofaa na yanayoweza kutafsirika yamechaguliwa. Kipimo kama hicho pia kitaruhusu ulinganisho kati ya mbinu iliyopendekezwa ya mfano wa mada kwa uteuzi wa maandishi na msingi wa nasibu kabisa.
 
@@ -134,7 +134,7 @@ Katika awamu inayofuata ya utafiti tutalenga kupata vigezo vya upogoaji ambavyo 
 
 [2] Katika makala hii, uzalishaji wa maandishi unarejelea tu maandishi yaliyotengenezwa na binadamu. Uzalishaji wa maandishi wa kiotomatiki hautazingatiwa kwa sababu mbinu yenyewe inategemea upatikanaji wa data ya maandishi, rasilimali ambayo haipatikani katika mazingira yanayohusiana na utafiti huu.
 
-[3] https://radimrehurek.com/gensim/auto_examples/index.html
+[3] https://radimrehurek.com/gensim/au
 
 [4] Perplexity hupima uwezo wa mfano wa kutabiri data mpya. Alama ya chini ya perplexity inachukuliwa kuashiria utendaji mzuri wa mfano.
 
@@ -145,6 +145,10 @@ p08-01.png
 ## Shukrani
 
 Ujanibishaji wa jukwaa la Mozilla Common Voice nchini Afrika Kusini unasaidiwa na Wizara ya Shirikisho ya Ushirikiano wa Kiuchumi na Maendeleo ya Ujerumani (BMZ), ikiwakilishwa na mradi wa GIZ wa FAIR Forward - Artificial Intelligence for All.
+
+## Maelezo
+
+1 Kwa kudhani kuwa korasi ina mada K,
 
 ## Marejeo
 
@@ -162,7 +166,7 @@ Griesel, M. & Bosch, S. (2020), Navigating challenges of multilingual resource d
 
 Mimno, D., Wallach, H., Talley, E., Leenders, M. & McCallum, A. (2011), Optimizing semantic coherence in topic models, in 'Proceedings of the 2011 conference on empirical methods in natural language processing', pp. 262-272.
 
-NLLB Team, Costa-jussà, M. R., Cross, J., Çelebi, O., Elbayad, M., Heafield, K., Heffernan, K., Kalbassi, E., Lam, J., Licht, D., Maillard, J., Sun, A., Wang, S., Wenzek, G., Youngblood, A., Akula, B., Barrault, L., Gonzalez, G. M., Hansanti, P., Hoffman, J., Jarrett, S., Sadagopan, K. R., Rowe, D., Spruit, S., Tran, C., Andrews, P., Ayan, N. F., Bhosale, S., Edunov, S., Fan, A., Gao, C., Goswami, V., Guzmán, F., Koehn, P., Mourachko, A., Ropers, C., Saleem, S., Schwenk, H. & Wang, J. (2022), 'No language left behind: Scaling human-centered machine translation'.
+NLLB Team, Costa-jussà, M. R., Cross, J., Ç elebi, O., Elbayad, M., Heafield, K., Heffernan, K., Kalbassi, E., Lam, J., Licht, D., Maillard, J., Sun, A., Wang, S., Wenzek, G., Youngblood, A., Akula, B., Barrault, L., Gonzalez, G. M., Hansanti, P., Hoffman, J., Jarrett, S., Sadagopan, K. R., Rowe, D., Spruit, S., Tran, C., Andrews, P., Ayan, N. F., Bhosale, S., Edunov, S., Fan, A., Gao, C., Goswami, V., Guzmán, F., Koehn, P., Mourachko, A., Ropers, C., Saleem, S., Schwenk, H. & Wang, J. (2022), 'No language left behind: Scaling human-centered machine translation'.
 
 Pretorius, L. & Wolff, F. (2020), Wikipedia as a Transformative Multilingual Knowledge Resource, Cambridge University Press, p. 232-246.
 

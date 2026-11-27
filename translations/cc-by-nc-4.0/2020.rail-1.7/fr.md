@@ -47,7 +47,7 @@ Un premier volet de la grammaire suit la Matrice HPSG (Bender et al. 2010), illu
 
 [B] Un attribut donné est déclaré par un seul type (mais se produit avec tous ses sous-types).
 
-Dans un TFS représentant une grammaire, il existe de nombreuses hiérarchies de types, représentant le POS, les temps, les rôles sémantiques, etc. ; certaines de ces hiérarchies n'ont pas d'attributs, tandis que les suivantes en ont. Les types pour les fonctions grammaticales (valeurs de l'attribut "GF") et les actants (participants à la structure d'argument sémantique, représentés par les valeurs de l'attribut "ACTNT") incluent ceux indiqués ci-dessous : les sous-types gramfct déclarent les attributs GF ("SUBJ" et "OBJ") et les sous-types actnt déclarent les attributs de la structure d'argument sémantique ("ACT1" et "ACT2") :
+Dans un TFS représentant une grammaire, il existe de nombreuses hiérarchies de types, représentant les POS, les temps, les rôles sémantiques, etc. ; certaines de ces hiérarchies se passent d'attributs, tandis que les suivantes en possèdent. Les types pour les fonctions grammaticales (valeurs de l'attribut "GF") et les actants (participants à la structure d'argument sémantique, représentés par les valeurs de l'attribut "ACTNT") incluent ceux indiqués ci-dessous : les sous-types gramfct déclarent les attributs GF ("SUBJ" et "OBJ") et les sous-types actnt déclarent les attributs de la structure d'argument sémantique ("ACT1" et "ACT2") :
 
 p02-03.png
 
@@ -133,13 +133,13 @@ p05-04.png
 
 La valence du verbe principal détermine la valence de l'ensemble par rapport à la proposition qui le contient, son sujet est nécessairement le sujet de tous les préverbes ayant le même rôle, et son marquage d'Aspect, de Modalité et de Polarité est entièrement déterminé de gauche à droite. La plupart des préverbes sont intransitifs, seul kɛ est transitif.
 
-Les CVE, qui sont peut-être elles-mêmes des CVS congelées, peuvent jouer le rôle de verbes aussi dans les CVS, ce qui donne une structure complexe d’enchâssements de verbes. Contrairement aux SVCs, dans les EVCs une analyse de complémentation est raisonnable, puisque un préverbe doit être suivi d'un verbe - un autre préverbe, ou le verbe principal. Ces analyses sont présentées dans Dakubu et al. (2007) et Hellan et Dakubu (2010), et incluses dans le formalisme de la grammaire.
+Les EVC, qui sont peut-être elles-mêmes des SVC figées, peuvent jouer le rôle de verbes aussi dans les SVC, ce qui donne une structure complexe de verbes imbriqués. Contrairement aux SVCs, dans les EVCs une analyse de complémentation est raisonnable, puisque un préverbe doit être suivi d'un verbe - un autre préverbe, ou le verbe principal. Ces analyses sont présentées dans Dakubu et al. (2007) et Hellan et Dakubu (2010), et incluses dans le formalisme de la grammaire.
 
 Il faut également mentionner la construction en (15) :
 
 p05-05.png
 
-La phrase tsu mli dans nos ressources est comptée comme une phrase nominale, et agissant comme objet de ba ("viens", qui en plus a des usages intransitif et autres).
+Le syntagme tsu mli dans nos ressources est compté comme un syntagme nominal, et fonctionne comme objet de ba (« venir », qui a en outre des emplois intransitifs et d'autres emplois).
 
 ## 4. Développement des ressources
 
@@ -175,7 +175,7 @@ Figure 3 Entrée de valence en style grammaire Ga
 
 La phrase en (16) est également analysée par la grammaire (en traitant formellement le second VP comme un adjoint, comme indiqué ci-dessus), mais seulement relativement à un cadre transitif pour su correspondant au sens « ensorceler ».
 
-Pour une langue avec de nombreux types de constructions multiverbes, on pourrait essayer d'alimenter des expressions totales comme (5) dans le cadre verbal du premier verbe, et interpréter aussi l'adjunct formel comme "prévu" par le verbe principal, et ainsi séparer le cadre de combinaison technique de ce qui est intuitivement un cadre de valence. Cela, cependant, n'est pas une possibilité que la grammaire actuelle ose explorer.
+Pour une langue avec de nombreux types de constructions multiverbales, on pourrait essayer d'introduire des expressions totales comme (5) dans le cadre verbal du premier verbe, et de considérer également l'adjoint formel comme « prévu » par le verbe tête, séparant ainsi le cadre de combinaison technique de ce qui est intuitivement un cadre de valence. Cela, cependant, n'est pas une possibilité que la grammaire actuelle ose explorer.
 
 Pour avoir une idée de la fréquence à laquelle une expression multiverbale peut être associée à un verbe donné, le tableau suivant indique combien de fois les types SVC (comme « sv »), EVC (comme « ev ») et construction Verbid (comme « trVid » ou « intrVid ») figurent parmi les environnements dans lesquels un verbe peut apparaître (par exemple, 14 lexèmes verbaux peuvent apparaître à la fois dans un environnement intransitif, transitif et SVC), selon la ressource construite sur Dakubu (non publié a) :
 
@@ -219,7 +219,7 @@ Cette méthode maintient une utilisation de 145 phrases au format (20a) servant 
 
 ## 6. Dictionnaire de valence et de construction verbale de Ga
 
-Les ressources du dictionnaire de valence Ga sont représentées dans Dakubu (non publié a) sous forme de conversion à partir de la version enrichie Toolbox décrite dans la section 4, et dans Dakubu (non publié b) sous forme de monographie plus vaste. Le matériel dans Dakubu (non publié a) est également accessible en ligne dans le cadre de MultiVal, une ressource comparative de valence basée sur des lexiques issus de grammaires LKB pour quatre langues.
+Les ressources du dictionnaire de valence Ga sont représentées dans Dakubu (non publié a) comme une conversion de la version enrichie de Toolbox décrite dans la section 4, et dans Dakubu (non publié b) comme une monographie plus volumineuse. Le matériel de Dakubu (non publié a) est également accessible en ligne dans le cadre de MultiVal, une ressource de valence comparative basée sur les lexiques des grammaires LKB pour quatre langues.
 
 Le point où cette ressource s'inscrit dans la perspective de la Figure 5 est, par son utilisation de l'étiquetage CL, marquant sa place au sein d'une comparaison interlinguistique compacte des profils de valence des langues, qui sont des énumérations des cadres de valence et de construction réalisés dans une langue. Des comparaisons préliminaires des profils de valence pour le Ga et l'anglais suggèrent qu'ils ont moins de 20 % de leurs cadres de valence en commun (voir, par exemple, Dakubu et Hellan (2016, 2017)).
 

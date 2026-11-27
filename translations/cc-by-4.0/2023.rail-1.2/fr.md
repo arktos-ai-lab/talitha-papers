@@ -1,4 +1,4 @@
-> Machine translation (fr) of "Unsupervised Cross-lingual Word Embedding Representation for English-isiZulu" by Derwin Ngomane, Rooweither Mabuya, Jade Abbott, Vukosi Marivate, https://aclanthology.org/2023.rail-1.2/, licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (glossary, madlad-7b, mistral-small3.2-24b, opus-mt, rescue-deepseek-v4-pro); not reviewed by a human; changes were made.
+> Machine translation (fr) of "Unsupervised Cross-lingual Word Embedding Representation for English-isiZulu" by Derwin Ngomane, Rooweither Mabuya, Jade Abbott, Vukosi Marivate, https://aclanthology.org/2023.rail-1.2/, licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (fix-deepseek-v4-pro, glossary, madlad-7b, mistral-small3.2-24b, opus-mt, rescue-deepseek-v4-pro); checked against the original by automated review, and sentences with errors were replaced by another open-model translation; not reviewed by a human; changes were made.
 
 ## Représentation interlingue non supervisée de plongements lexicaux pour l'anglais-isiZulu
 
@@ -20,13 +20,13 @@ Dans cette étude, nous examinons l'efficacité de l'utilisation de plongements 
 
 Dans le développement de systèmes égalitaires de traitement automatique des langues (TAL), les plongements lexicaux interlingues gagnent en importance. Selon la théorie de la distribution, les mots qui apparaissent dans des contextes comparables ont des points communs sémantiques (Villegas et al., 2016). En conséquence, les plongements lexicaux ont ouvert la voie à l'avancement des technologies de TAL.
 
-L'utilisation de la représentation par plongements lexicaux a fourni des performances satisfaisantes pour de nombreuses applications de TAL et applications associées (Gutiérrez et Keith, 2018). Les plongements lexicaux ont été utilisés à des fins d'ingénierie des caractéristiques (Tang et al., 2014) et d'apprentissage par transfert (Bataa et Wu, 2019). Les modèles de traduction, les tâches d'analyse de sentiment et les tâches de classification ont tous bénéficié. Ces améliorations ont été principalement dans les langues à ressources élevées, comme l'anglais, en raison de l'abondance de corpus étiquetés dans ces langues. Le manque de corpus étiquetés dans les langues peu dotées a constitué un désavantage pour l'avancement des technologies de TAL dans cet espace.
+L'utilisation de la représentation par plongements lexicaux a fourni des performances satisfaisantes pour de nombreuses applications de TAL et applications associées (Gutiérrez et Keith, 2018). Les plongements lexicaux ont été utilisés à des fins d'ingénierie des caractéristiques (Tang et al., 2014) et d'apprentissage par transfert (Bataa et Wu, 2019). Les modèles de traduction, les tâches d'analyse de sentiment et les tâches de classification ont tous bénéficié. Ces améliorations concernent principalement les langues riches en ressources, comme l’anglais, en raison de l’abondance de corpus étiquetés dans ces langues. Le manque de corpus étiquetés dans les langues peu dotées a constitué un désavantage pour l'avancement des technologies de TAL dans cet espace.
 
 De nombreuses publications d'actualités en Afrique du Sud sont en anglais même si l'Afrique du Sud compte onze langues officielles (Marivate et al., 2020). Selon les résultats du recensement de 2011 de Statistics South Africa (Stats SA), l'isiZulu était la langue la plus parlée à la maison avec 22,7% de la population l'indiquant comme langue à la maison (Statistics South Africa (Stats SA), 2012). L’isiZulu fait partie des nombreuses langues autochtones d’Afrique du Sud et appartient à la famille des langues Nguni (Dube et Suleman, 2019). La famille des langues nguni se caractérise par sa morphologie agglutinante (Keet et Khumalo, 2016).
 
 L'Afrique du Sud est une nation multilingue où la grande majorité de la population possède une langue secondaire qu'elle utilise en plus de ses langues primaires. Au cours des années post-apartheid, le pays a connu une croissance de la population des citoyens qui parlent l'anglais comme langue seconde. Ce comportement est également devenu répandu pour isiZulu, où les citoyens ont ajouté isiZulu comme langue seconde (Posel et Zeller, 2020). Cela souligne l'importance de faire progresser les travaux de TAL pour les langues peu dotées en Afrique du Sud.
 
-Dans ce travail, nous tentons de tirer parti d'un corpus bien doté et d'un corpus peu doté afin d'apprendre des plongements lexicaux interlingues pour l'anglais et l'isiZulu. L'utilisation de plongements lexicaux interlingues nous permettrait d'effectuer un apprentissage par transfert de modèle d'une langue bien dotée vers une langue peu dotée. La tâche pour l'isiZulu est particulièrement difficile en raison de la complexité morphologique de la langue. Par conséquent, nous devons gérer les mots d'une manière qui peut maximiser la représentation syntaxique et sémantique de l'anglais et de l'isiZulu dans l'espace interlingual.
+Dans ce travail, nous tentons de tirer parti d'un corpus bien doté et d'un corpus peu doté afin d'apprendre des plongements lexicaux interlingues pour l'anglais et l'isiZulu. L'utilisation de plongements lexicaux interlingues nous permettrait d'effectuer un apprentissage par transfert de modèle d'une langue bien dotée vers une langue peu dotée. La tâche pour l'isiZulu est particulièrement difficile en raison de la complexité morphologique de la langue. Par conséquent, nous devons traiter les mots de manière à maximiser la représentation syntaxique et sémantique de l'anglais et de l'isiZulu dans l'espace interlingue.
 
 Dans ce travail, nous visons à répondre aux questions de recherche suivantes:
 
@@ -64,7 +64,7 @@ Nous discutons de la méthodologie pour le développement des plongements lexica
 
 ## 3.1 Collecte des données & Pré-traitement
 
-Les données utilisées dans cette étude proviennent du référentiel du Centre sud-africain pour les ressources linguistiques numériques. Nous utilisons ces données aux fins de l'entraînement de notre modèle de plongement interlingue. Les données se composent uniquement de données textuelles pour l'anglais et l'isiZulu. Selon la documentation technique, le corpus monolingue en anglais contient 35 686 791 jetons tandis que le corpus isiZulu contient 451 154 jetons. Nous ne considérerons que les catégories de sources qui sont les mêmes entre les langues.
+Les données utilisées dans cette étude proviennent du dépôt du Centre sud-africain pour les ressources linguistiques numériques. Nous utilisons ces données aux fins de l'entraînement de notre modèle de plongement interlingue. Les données se composent uniquement de données textuelles pour l'anglais et l'isiZulu. Selon la documentation technique, le corpus monolingue en anglais contient 35 686 791 jetons tandis que le corpus isiZulu contient 451 154 jetons. Nous ne considérerons que les catégories de sources qui sont les mêmes entre les langues.
 
 Nous utilisons également le corpus parallèle Umsuka English-isiZulu (Mabuya et al., 2021), qui est un corpus parallèle isiZulu de haute qualité et open-source issu d'un mélange de domaines, prenant en compte à la fois le contexte sud-africain et international. La moitié de l'ensemble de données était un échantillon aléatoire de l'ensemble de données News Crawl qui a ensuite été traduit en isiZulu. L'autre moitié du jeu de données a été échantillonnée à partir de journaux isiZulu (publications Isolezwe, Ilanga et Ezasegagasini Metro), couvrant la période de 2012 à 2016, ainsi que des romans et des nouvelles, qui ont ensuite été traduits en anglais. Des traducteurs professionnels ont été utilisés pour créer l'ensemble de données. Une première étude pilote de 500 phrases a été réalisée avec une assurance qualité effectuée par un linguiste isiZulu pour s'assurer que les exigences de qualité étaient comprises.
 
@@ -74,7 +74,7 @@ p03-01.png
 
 Tableau 1 : Tokens par source et langue
 
-Nous éliminons les stopwords et enlevons la ponctuation dans les corpus originaux. De plus, nous effectuons la lemmatisation sur le corpus anglais en utilisant le lemmatiseur WordNet (Miller, 1995). Nous avons entraîné le classifieur de nouvelles sur des données de nouvelles de la British Broadcasting Corporation (BBC) provenant de Kaggle. Il y a 1 490 articles en anglais pour l'entraînement et 736 articles en anglais à des fins d'évaluation. Nous utilisons des articles de presse de la SABC pour l'évaluation en isiZulu. Deux intervenants isiZulu ont annoté 219 articles de presse de SABC, qui ont été examinés par un linguiste isiZulu. Le tableau 2 présente la répartition des ensembles de données.
+Nous éliminons les stopwords et enlevons la ponctuation dans les corpus originaux. De plus, nous effectuons la lemmatisation sur le corpus anglais en utilisant le lemmatiseur WordNet (Miller, 1995). Nous avons entraîné le classifieur de nouvelles sur des données de nouvelles de la British Broadcasting Corporation (BBC) provenant de Kaggle. Il y a 1 490 articles en anglais pour l'entraînement et 736 articles en anglais à des fins d'évaluation. Nous utilisons des articles de presse de la SABC pour l'évaluation en isiZulu. Deux locuteurs d'isiZulu ont annoté 219 articles de presse de SABC, qui ont été examinés par un linguiste isiZulu. Le tableau 2 présente la répartition des ensembles de données.
 
 p03-02.png
 
@@ -84,15 +84,17 @@ Tableau 2 : Fréquence des catégories
 
 Les corpus traités que nous avons décrits dans la Section 3.1, sont utilisés pour développer des embeddings monolingues en utilisant le module Python Gensim. Nous utilisons l'architecture FastText pour gérer la morphologie agglutinante de l'isiZulu (Bojanowski et al., 2017).
 
-Nous générons des vecteurs de 64 dimensions pour chaque jeton dans le corpus avec une taille de fenêtre de contexte de 3. Ces hyperparamètres ont été choisis en raison de la taille limitée du vocabulaire de nos corpus, et il a été démontré qu'une fenêtre de contexte plus courte capture la représentation syntaxique du mot et qu'une fenêtre de contexte plus grande capture plus de représentation thématique (Levy et Goldberg, 2014). Pour démontrer la représentation apprise du corpus, nous utilisons l'Uniform Manifold Approximation and Projection (UMAP) (McInnes et al., 2018) pour visualiser les 10 mots les plus proches des deux corpus monolingues. Les jetons choisis sont "government" pour l'anglais et la traduction en isiZulu "uhulumeni". Dans la Figure 1, nous observons que les tokens les plus proches de « uhulumeni » sont des synonymes de « uhulumeni ». De même, nous observons également la même chose pour "gouvernement".
+Nous générons des vecteurs de 64 dimensions pour chaque jeton dans le corpus avec une taille de fenêtre de contexte de 3. Ces hyperparamètres ont été choisis en raison de la taille limitée du vocabulaire de nos corpus, et il a été démontré qu'une fenêtre de contexte plus courte capture la représentation syntaxique du mot et qu'une fenêtre de contexte plus grande capture plus de représentation thématique (Levy et Goldberg, 2014). Pour démontrer la représentation apprise du corpus, nous utilisons l'Uniform Manifold Approximation and Projection (UMAP) (McInnes et al., 2018) pour visualiser les 10 mots les plus proches des deux corpus monolingues. Les jetons choisis sont "government" pour l'anglais et la traduction en isiZulu "uhulumeni". Dans la Figure 1, nous observons que les tokens les plus proches de « uhulumeni » sont des synonymes de « uhulumeni ». De même, nous observons également la même chose pour "government".
 
 p04-01.png
 
-a) Représentation du "gouvernement"
+(a) Représentation de "government"
 
 p04-02.png
 
-Figure 1 : Représentation UMAP des embeddings monolingues (b) Représentation de "uhulumeni"
+(b) Représentation de « uhulumeni »
+
+Figure 1 : Représentation UMAP des plongements monolingues
 
 ## 3.3 Classificateur d'articles d'actualités
 
@@ -102,9 +104,9 @@ Les plongements lexicaux interlingues générés sont utilisés pour entraîner 
 
 Dans cette section du document, nous décrivons les expériences et les résultats menés dans un effort pour répondre aux questions de recherche. Nous décrivons les plongements lexicaux interlingues créés et les expériences menées pour développer le classifieur d'articles de presse.
 
-## 4.1 Embeddings de mots multilingues
+## 4.1 Plongements lexicaux interlingues
 
-Nous utilisons la bibliothèque VecMap créée par Artetxe et al. (2018) pour générer les incrustations de mots multilingues. Dans VecMap, nous utilisons la méthode d'apprentissage interlingual non supervisée. La représentation UMAP générée par algorithme des 10 mots les plus proches de « government » et de « uhulumeni » est illustrée à la figure 2. Certains des mots des représentations monolingues fournies à la figure 1 ont été conservés par VecMap. Cependant, l'algorithme a développé un regroupement basé sur la langue, à l'exception de l'identification de "powerfully" comme étant plus proche des mots isiZulu.
+Nous utilisons la bibliothèque VecMap créée par Artetxe et al. (2018) pour générer les plongements lexicaux interlingues. Dans VecMap, nous employons la méthode d'apprentissage interlingue non supervisée. La représentation UMAP générée par algorithme des 10 mots les plus proches de « government » et de « uhulumeni » est illustrée à la figure 2. Certains des mots des représentations monolingues fournies à la figure 1 ont été conservés par VecMap. Cependant, l'algorithme a développé un regroupement basé sur la langue, à l'exception de l'identification de "powerfully" comme étant plus proche des mots isiZulu.
 
 La modularité est le phénomène par lequel un regroupement par langue se produit dans l'espace interlingue (Fujinuma et al., 2019), comme illustré dans la Figure 2. Fujinuma et al. (2019) affirment que les plongements interlingues qui reflètent la modularité ont un effet négatif sur les tâches en aval.
 
@@ -120,7 +122,7 @@ Cette section présente la tâche d'apprentissage par transfert zero-shot consis
 
 Les données d'entrée doivent être converties en leur représentation vectorielle selon les embeddings de mots de VecMap. Puisque chaque jeton a 64 dimensions, nous représentons une phrase comme la moyenne de toutes les représentations vectorielles de jeton. Nous utilisons un vecteur de 64 dimensions nulles pour représenter les tokens qui sont hors vocabulaire.
 
-Nous utilisons 75 % des données pour l'entraînement et 25 % à des fins d'évaluation dans les données BBC en anglais. Afin de sélectionner le meilleur modèle, nous exécutons une évaluation croisée stratifiée répétée 5 fois sur les données d'entraînement. Sur la base de la procédure de validation croisée, le modèle LightGBM surpasse tous les autres modèles.
+Nous utilisons 75 % des données pour l'entraînement et 25 % à des fins d'évaluation dans les données BBC en anglais. Afin de sélectionner le meilleur modèle, nous exécutons une validation croisée stratifiée répétée en 5 plis sur les données d'entraînement. Sur la base de la procédure de validation croisée, le modèle LightGBM surpasse tous les autres modèles.
 
 ## 4.2.2 Résultats
 
@@ -140,7 +142,7 @@ Le modèle a eu des performances insatisfaisantes sur l'ensemble des titres. Cep
 
 ## 5 Conclusion
 
-Dans ce travail, nous utilisons VecMap pour créer des plongements lexicaux interlingues entre l'anglais et l'isiZulu. Nous avons montré que VecMap génère des embeddings de mots modulaires dans l'espace cross-lingual grâce aux embeddings de mots monolingues générés par FastText. Par conséquent, nous générons des embeddings cross-linguals qui sont utilisés pour entraîner un classificateur qui fonctionne bien sur les actualités en anglais. Cependant, nous n'avons pas pu transférer l'apprentissage sur des articles de presse isiZulu non vus.
+Dans ce travail, nous utilisons VecMap pour créer des plongements lexicaux interlingues entre l'anglais et l'isiZulu. Nous avons montré que VecMap génère des plongements lexicaux modulaires dans l'espace interlingue grâce aux plongements lexicaux monolingues générés par FastText. Par conséquent, nous générons des plongements interlingues qui sont utilisés pour entraîner un classifieur qui obtient de bonnes performances sur les actualités en anglais. Cependant, nous n'avons pas pu transférer l'apprentissage sur des articles de presse isiZulu non vus.
 
 Dans les travaux futurs, nous aimerions examiner la performance de VecMap en utilisant un corpus plus grand pour isiZulu. De plus, il serait également avantageux d'appliquer la métrique de modularité pour optimiser les hyperparamètres de FastText afin de générer des embeddings monolingues appropriés pour la tâche.
 
@@ -148,7 +150,7 @@ Dans les travaux futurs, nous aimerions examiner la performance de VecMap en uti
 
 Dans cette section de l'article, nous décrivons les limites de l'étude. Nous avons fait des choix de conception basés sur le corpus et les ressources disponibles pour rendre la recherche possible.
 
-L’œuvre présente un corpus qui est de taille limitée pour isiZulu. Cela est dû au manque de ressources pour la langue. L'autre travail qui a tenté de construire des embeddings de mots monolingues pour l'isiZulu est celui de Dlamini et al. (2021). Cependant, les résultats n'ont pas été publiés dans une ressource accessible au public qui nous permettrait de comparer les embeddings générés par notre travail.
+Le travail présente un corpus de taille limitée pour l'isiZulu. Cela est dû au manque de ressources pour la langue. L'autre travail qui a tenté de construire des embeddings de mots monolingues pour l'isiZulu est celui de Dlamini et al. (2021). Cependant, les résultats n'ont pas été publiés dans une ressource accessible au public qui nous permettrait de comparer les embeddings générés par notre travail.
 
 VecMap ne s'adapte pas bien sans l'utilisation d'un GPU, et donc la recherche hyperparamétrique n'a pas été faite pour ce travail. Cependant, l'utilisation de vecteurs avec 128 dimensions et une taille de fenêtre plus grande de 10 comme suggéré par Ri et Tsuruoka (2020) a entraîné une diminution des performances, même pour les articles de presse anglais.
 
@@ -156,7 +158,7 @@ Nous notons également que le modèle en aval a été entraîné en utilisant de
 
 ## Contributions de l'auteur
 
-Derwin Ngomane: Conservation des données; analyse formelle; enquête; méthodologie; rédaction - projet original; rédaction - révision et édition. Vukosi Marivate : conceptualisation ; préparation des données ; ressources ; supervision ; validation ; révision et édition du texte. Jade Abbott : supervision ; préparation des données ; validation ; révision et édition du texte. Rooweither Mabuya : supervision ; préparation des données ; révision et édition du texte.
+Derwin Ngomane : préparation des données ; analyse formelle ; investigation ; méthodologie ; rédaction de la première version ; révision et édition du texte. Vukosi Marivate : conceptualisation ; préparation des données ; ressources ; supervision ; validation ; révision et édition du texte. Jade Abbott : supervision ; préparation des données ; validation ; révision et édition du texte. Rooweither Mabuya : supervision ; préparation des données ; révision et édition du texte.
 
 ## Remerciements
 
@@ -174,7 +176,7 @@ Nous aimerions remercier le financement de Facebook (Machine Translation Gift), 
 
 5 https://www.durban.gov.za/pages/government/documents
 
-6 Liste des mots clés isiZulu : https://github.com/stopwords-iso/stopwords-zu
+6 Liste de mots vides isiZulu : https://github.com/stopwords-iso/stopwords-zu
 
 7 https://www.kaggle.com/c/learn-ai-bbc
 

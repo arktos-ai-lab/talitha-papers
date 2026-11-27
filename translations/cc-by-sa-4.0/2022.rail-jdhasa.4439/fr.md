@@ -1,4 +1,4 @@
-> Machine translation (fr) of "A Lexical database of Malagasy adjectives" by Joro Ranaivoarison, https://upjournals.up.ac.za/index.php/dhasa/article/view/4439, licensed Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (glossary, madlad-7b, mistral-small3.2-24b, opus-mt, rescue-deepseek-v4-pro); not reviewed by a human; changes were made.
+> Machine translation (fr) of "A Lexical database of Malagasy adjectives" by Joro Ranaivoarison, https://upjournals.up.ac.za/index.php/dhasa/article/view/4439, licensed Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (fix-deepseek-v4-pro, glossary, madlad-7b, mistral-small3.2-24b, opus-mt, rescue-deepseek-v4-pro); checked against the original by automated review, and sentences with errors were replaced by another open-model translation; not reviewed by a human; changes were made.
 
 ## Une base de données lexicale des adjectifs malgaches
 
@@ -29,21 +29,21 @@ La section suivante fournit des informations générales sur les adjectifs en ma
 
 ## 2 Adjectifs en malgache
 
-Les définitions indépendantes de la langue des adjectifs, par exemple "un terme utilisé dans la classification grammaticale des mots pour désigner l'ensemble principal des éléments qui spécifient les attributs des noms" (Crystal, 2008: 11), conviennent au malgache, mais ne sont pas assez précises, par exemple, pour distinguer les adjectifs des verbes avec le préfixe m-. À cet égard, nous suivons Rajaona (1972 : 404) et Ralalaoherivony (1995) qui tracent la ligne en utilisant le critère suivant : les verbes ont des formes à la voix circumstantielle, tandis que les adjectifs n'en ont pas. Voir Rajaona (1972 : 521), Keenan & Polinski (1998 : 609), Dalrymple et al. (2005) sur la voix circumstantielle. Ainsi, mandèha « marcher », mandrày « prendre » sont des verbes parce que les formes circonstancielles andehánana, andráisana sont en usage ; et des éléments comme m-a-kòtroka, màtotra sont des adjectifs parce que les formes circonstancielles *akotróhana, *atórana ne sont pas attestées. (Les accents graphiques en malgache sont facultatifs et indiquent le stress.)
+Les définitions indépendantes de la langue des adjectifs, par exemple "un terme utilisé dans la classification grammaticale des mots pour désigner l'ensemble principal des éléments qui spécifient les attributs des noms" (Crystal, 2008: 11), conviennent au malgache, mais ne sont pas assez précises, par exemple, pour distinguer les adjectifs des verbes avec le préfixe m-. À cet égard, nous suivons Rajaona (1972 : 404) et Ralalaoherivony (1995) qui tracent la ligne en utilisant le critère suivant : les verbes ont des formes à la voix circumstantielle, tandis que les adjectifs n'en ont pas. Voir Rajaona (1972 : 521), Keenan & Polinski (1998 : 609), Dalrymple et al. (2005) sur la voix circumstantielle. Ainsi, mandèha « marcher », mandrày « prendre » sont des verbes parce que les formes circonstancielles andehánana, andráisana sont en usage ; et des éléments comme m-a-kòtroka, màtotra sont des adjectifs parce que les formes circonstancielles *akotróhana, *atórana ne sont pas attestées. Les accents graphiques en malgache sont facultatifs et indiquent l'accent tonique.
 
 Cette section rend compte de l'inflexion des adjectifs et de la distinction entre les adjectifs dérivés et infléchis qui découlent des noms.
 
-## 2.1 Inflection des adjectifs
+## 2.1 Flexion des adjectifs
 
-Comme les verbes, certains adjectifs reçoivent des marqueurs d'inflection de temps grammatical en malgache (cf. Rajaonarimanana, 1995 : 64).
+Comme les verbes, certains adjectifs reçoivent des marqueurs flexionnels de temps grammatical en malgache (cf. Rajaonarimanana, 1995 : 64).
 
 La plupart des adjectifs se combinent avec ho pour exprimer le temps futur, d'où màro « est/était nombreux » / ho màro « sera nombreux », mànta « est/était cru » / ho mànta « sera cru », etc. Ce marqueur du temps futur n'est pas un morphème flexionnel parce qu'il peut être séparé de l'adjectif par d'autres mots.
 
 Cependant, d'autres adjectifs montrent une alternance morphologique associée au temps, par exemple m-a-fàna (PRS-ADJZ-chaleur) « il fait chaud », n-a-fàna (PAST-ADJZ-chaleur) « il faisait chaud » et h-a-fàna (FUT-ADJZ-chaleur) « il fera chaud ». Parmi les quelque 2 115 adjectifs étudiés pour cet article, environ 365 prennent l’alternance m:n:h.
 
-Les grammairiens traditionnels comme Malzac (1950), Rajemisa (1969), et les linguistes comme Rajaona (1972), Rajaonarimanana (1995) considèrent que m-, ma, mi, man-, -ina, -ana sont des affixes formant des adjectifs. Parmi ceux-ci, nous choisissons de segmenter davantage ma-, mi, man- en marqueurs de temps m-, n-, h- et en affixes de formation d'adjectifs a-, i-, an-, chaque fois que l'alternance morphologique mi, ma-, man-/ni, na, nan-/hi, ha, han- est corrélée à la différence de temps.
+Les grammairiens traditionnels comme Malzac (1950), Rajemisa (1969), et les linguistes comme Rajaona (1972), Rajaonarimanana (1995) considèrent que m-, ma-, mi-, man-, -ina, -ana sont des affixes formant des adjectifs. Parmi ceux-ci, nous choisissons de segmenter davantage ma-, mi-, man- en marqueurs de temps m-, n-, h- et en affixes de formation d'adjectifs a-, i-, an-, chaque fois que l'alternance morphologique mi-, ma-, man-/ni-, na-, nan-/hi-, ha-, han- est corrélée à la différence de temps.
 
-Certains adjectifs en malgache prennent des suffixes impératifs (cf. Rajaona, 1972 ; Catz & Catz, 2017) tels que -a dans m-a-heréz-a (PRS-ADJZ-power-IMP) « be powerful » vs. m-à-hery (PRS-ADJZ-power) « powerful », m-a-zoto-a (PRS-ADJZ-diligence-IMP) « be industrious » vs. m-a-zòto (PRS-ADJZ-diligence) « industrious ». Pour l'instant, le mode impératif n'est pas pris en compte dans la ressource.
+Certains adjectifs en malgache prennent des suffixes impératifs (cf. Rajaona, 1972 ; Catz & Catz, 2017) tels que -a dans m-a-heréz-a (PRS-ADJZ-power-IMP) « sois puissant » vs. m-à-hery (PRS-ADJZ-power) « puissant », m-a-zoto-a (PRS-ADJZ-diligence-IMP) « sois industrieux » vs. m-a-zòto (PRS-ADJZ-diligence) « industrieux ». Pour l'instant, le mode impératif n'est pas pris en compte dans la ressource.
 
 ## 2.2 Adjectifs dérivés ou infléchis
 
@@ -61,9 +61,9 @@ Tableau 2 : Formes infléchies avec signification et syntaxe prévisibles
 
 p02-02.png
 
-De telles paires sont si régulières que le processus peut être considéré comme flexionnel, même si la forme de base et la forme dérivée appartiennent à des parties distinctes de la parole. En d'autres termes, ces adjectifs peuvent être considérés comme des formes adjectives fléchies des noms correspondants, tout comme les participes sont des formes adjectives fléchies des verbes en anglais : d'une part, ils peuvent se comporter comme des adjectifs (cf. le terme 'participial adjective' utilisé par exemple par Kennedy & McNally (1999)), mais d'autre part ils appartiennent à la conjugaison des verbes.
+De telles paires sont si régulières que le processus peut être considéré comme flexionnel, même si la forme de base et la forme dérivée appartiennent à des parties du discours distinctes. En d'autres termes, ces adjectifs peuvent être considérés comme des formes adjectives fléchies des noms correspondants, tout comme les participes sont des formes adjectives fléchies des verbes en anglais : d'une part, ils peuvent se comporter comme des adjectifs (cf. le terme 'participial adjective' utilisé par exemple par Kennedy & McNally (1999)), mais d'autre part ils appartiennent à la conjugaison des verbes.
 
-La ressource inclut des adjectifs dérivés tels que m-a-kòtroka (PRS-ADJZ-thunder) « warm », des formes adjectivales fléchies de noms comme m-ànitra (ADJZ-fragrance) « fragrant », et des adjectifs de base comme àvo (ADJ) « high ».
+La ressource inclut des adjectifs dérivés tels que m-a-kòtroka (PRS-ADJZ-tonnerre) « chaud », des formes adjectivales fléchies de noms comme m-ànitra (ADJZ-parfum) « odorant », et des adjectifs de base comme àvo (ADJ) « haut ».
 
 La distinction entre adjectifs dérivés et fléchis est une réalité incontournable du malgache, mais les principaux affixes servent à la fois de dérivationnels et de flexionnels :
 
@@ -73,7 +73,7 @@ quant à a- dans m-a-tètika « fréquent », de tètika « scarification orneme
 
 quant à m- dans m-èndrika « convenable, approprié, digne », de èndrika « visage, ressemblance, image », m- est dérivationnel, mais dans m-ànitra « parfumé », de hànitra « parfum », m- est flexionnel.
 
-Par conséquent, lors de la construction de la ressource, nous sommes confrontés à des décisions difficiles dans la classification des adjectifs dénominaux comme dérivés ou infléchis, surtout lorsque le préfixe formant l'adjectif est m-. Dans de tels cas, nous analysons l'adjectif comme une forme fléchie d'un nom uniquement lorsque nous identifions une paire de constructions syntaxiques telles que Misy hànitra N0 "N0 a une fragrance" = M-ànitra N0 "N0 est parfumé", où mìsy "il y a" ou mànana "avoir" est un verbe support (Ranaivoson, 1996; Lakoarisoa et al., 2011; Jaozandry, 2014; Hamitramalala, 2017), et N0 est un nom sujet accepté. Dans le cas de m-ày "en feu", m-àfy "dur", respectivement de hày "brûlant", hàfy "dureté", il n'y a pas de telles paires de constructions syntaxiques, puisque la construction nominale n'est pas utilisée:
+Par conséquent, lors de la construction de la ressource, nous sommes confrontés à des décisions difficiles dans la classification des adjectifs dénominaux comme dérivés ou infléchis, surtout lorsque le préfixe formant l'adjectif est m-. Dans de tels cas, nous analysons l'adjectif comme une forme fléchie d'un nom uniquement lorsque nous identifions une paire de constructions syntaxiques telles que Misy hànitra N<sub>0</sub> « N0 a une fragrance » = M-ànitra N<sub>0</sub> « N0 est parfumé », où mìsy « il y a » ou mànana « avoir » est un verbe support (Ranaivoson, 1996; Lakoarisoa et al., 2011; Jaozandry, 2014; Hamitramalala, 2017), et N<sub>0</sub> est un nom sujet accepté. Dans le cas de m-ày "en feu", m-àfy "dur", respectivement de hày "brûlant", hàfy "dureté", il n'y a pas de telles paires de constructions syntaxiques, puisque la construction nominale n'est pas utilisée:
 
 p03-patch01.png
 
@@ -109,13 +109,13 @@ Dans l'approche du dictionnaire électronique, les bases lexicales couvrent prin
 
 ## 4 Allomorphie
 
-Cette section fournit des informations sur l'allomorphie interne aux morphèmes et sur la manière dont elle est encodée afin que les variantes lexicales des radicaux puissent être produites automatiquement. Nous listons les phénomènes qui affectent les stems et nous décrivons des graphes qui encodent l'allomorphie.
+Cette section fournit des informations sur l'allomorphie interne aux morphèmes et sur la manière dont elle est encodée afin que les variantes lexicales des radicaux puissent être produites automatiquement. Nous énumérons les phénomènes qui affectent les radicaux et nous décrivons des graphes qui encodent l'allomorphie.
 
 ## 4.1 Phénomènes d'allomorphie
 
 Immédiatement avant ou après les affixes, certains radicaux ne varient pas, comme dans èrika « crachin » / m-èrika « bruineux, brumeux », dìo « propreté, pureté » / m-a-dìo « propre, clair, pur », mais la plupart varient. Elles peuvent subir 5 types de variation :
 
-alternations prosodiques comme dans sòmotra/somór (l'accent passe de la première ò à la seconde ó)
+alternances prosodiques comme dans sòmotra/somór (l'accent passe de la première ò à la seconde ó)
 
 insertion d'une lettre comme dans safòfoka/tsafòfoka (insertion de t avant la racine dans la forme fléchie mantsafòfoka)
 
@@ -131,19 +131,19 @@ Pour une étude approfondie des phénomènes affectant les radicaux en malgache,
 
 ## 4.2 Encodage de l'allomorphie avec des graphes
 
-Pour encoder les variantes lexicales des stems, nous joignons à chaque entrée un code qui identifie avec précision les variations applicables. Ces variations sont encodées sous la forme d'un graphique comme celui de la figure 1, qui produit automatiquement les variantes lexicales de racines comme pànda "taches de rousseur", kilèma "déformation", kìbo "ventre".
+Pour encoder les variantes lexicales des radicaux, nous joignons à chaque entrée un code qui identifie avec précision les variations applicables. Ces variations sont encodées sous la forme d'un graphe comme celui de la Fig. 1, qui produit automatiquement les variantes lexicales de radicaux comme pànda « taches de rousseur », kilèma « déformation », kìbo « ventre ».
 
 p05-01.png
 
 Figure 1 : Graphe d'allomorphie '0v'
 
-Chemin 1 encode pànda > pandá en pandáina « freckled, sunburned » ; chemin 2, kilèma > kilemá en kilemáina « maimed » ; et chemin 3, kìbo > kibó en kibóina « bigbellied ». Cette technique de marquage lexical facilite les mises à jour. L'identifiant '0v' est le nom du graphe et est attaché à ces mots pour encoder ces alternances prosodiques. Ainsi, plusieurs entrées lexicales comme tràtra « poitrine », tsikòko « croûtes » partagent le même mode flexionnel '0v' (identifiant) pour produire automatiquement des variantes lexicales comme tratrá, tsikokó.
+Chemin 1 encode pànda > pandá dans pandáina « taché de rousseur, brûlé par le soleil » ; chemin 2, kilèma > kilemá dans kilemáina « mutilé » ; et chemin 3, kìbo > kibó dans kibóina « ventru ». Cette technique de marquage lexical facilite les mises à jour. L'identifiant '0v' est le nom du graphe et est attaché à ces mots pour encoder ces alternances prosodiques. Ainsi, plusieurs entrées lexicales comme tràtra « poitrine », tsikòko « croûtes » partagent le même mode flexionnel '0v' (identifiant) pour produire automatiquement des variantes lexicales comme tratrá, tsikokó.
 
-D'autres lemma ont des terminaisons -ka, -tra, -na, et leur -a final est absent dans la plupart de leurs allomorphes : les graphes correspondants spécifient la suppression de cette voyelle.
+D'autres lemmes ont des terminaisons -ka, -tra, -na, et leur -a final est absent dans la plupart de leurs allomorphes : les graphes correspondants spécifient la suppression de cette voyelle.
 
 p05-02.png
 
-Figure 2 : Graphie de l'allomorphie '1v' pour les lemmes en -ka.
+Figure 2 : Graphe d'allomorphie '1v' pour les lemmes en -ka.
 
 Par exemple, le graphe '1v' de la Fig. 2 supprime la terminaison -ka et insère une lettre h, en plus des alternances prosodiques et/ou vocaliques, encodant des variations telles que dònika > donéh dans donéhina « souffrant des oreillons », fàsika > faséh dans faséhina « sablonneux », tsèroka > tseróh dans tseróhina « sale, squameux ».
 
@@ -177,23 +177,23 @@ p06-02.png
 
 Figure 4 : Graphe d'affixation « ad1 ».
 
-Dans ce graphique, la case 't1' est un appel à un sous-graphe qui représente l'alternance morphologique m-:n-:h-. La boîte <A+0+ad1> représente la variante pertinente du radical, c'est-à-dire arènina, akàka, entre autres.
+Dans ce graphe, la case « t1 » est un appel à un sous-graphe qui représente l'alternance morphologique m-:n-:h-. La boîte <A+0+ad1> représente la variante pertinente du radical, c'est-à-dire arènina, akàka, entre autres.
 
-Parmi les environ 2 000 entrées d'adjectifs, environ 505 commencent par m, dont environ 300 présentent l'alternance m:n:h. Les adjectifs sans l'alternance m-:n-:h-, tels que mòana « muet » (*nòana et *hòana ne sont pas en usage), forment un futur syntaxique avec ho, comme dans ho mòana « sera muet ».
+Parmi les environ 2 000 entrées d'adjectifs, environ 505 commencent par m, dont environ 300 présentent l'alternance m:n:h. Les adjectifs sans l'alternance m-:n-:h-, tels que mòana « speechless » (*nòana et *hòana ne sont pas en usage), forment un futur syntaxique avec ho, comme dans ho mòana « will be speechless ».
 
-## 5.3 Codes phonétiques et grammaticaux
+## 5.3 Codes flexionnels et grammaticaux
 
 Les codes des parties de discours utilisées dans cette partie de la base de données sont :
 
 A pour adjectif
 
-T pour marqueur de tension
+T pour marqueur de temps
 
 Les codes d'inflexion sont :
 
 r, p, f respectivement pour les temps présent, passé, futur
 
-n pour l'humeur indicative.
+n pour le mode indicatif.
 
 ## 5.4 Principaux morphèmes flexionnels des entrées adjectivales
 
@@ -221,7 +221,7 @@ Nous rapportons dans cette section les ressources pour ces formes : les entrées
 
 ## 6.1 Entrées lexicales
 
-La ressource contient environ 400 entrées de noms (figure 5), dont 115 ont des formes adjectives infléchies. Le code "N" est pour 'nom' et les codes entre parenthèses identifient les graphes d'allomorphie. Les graphes d'allomorphie sont ceux décrits dans la sous-section 4.2. Les codes "A6", "A2" ou "A3" sont destinés aux graphiques d'affixation. Par exemple, les noms avec le code A3, tels que lòto, reçoivent l'alternance morphologique de temps m-: n-: h- et le préfixe de formation d'adjectifs a-, d'où malòto, qui est ainsi segmenté comme m-a-lòto, où le lemme est représenté par le radical nominal lòto. Le graphe 'A3' encode cette segmentation en trois morphèmes et représente formellement a- comme un préfixe flexionnel.
+La ressource contient environ 400 entrées de noms (figure 5), dont 115 ont des formes adjectives infléchies. Le code "N" est pour 'nom' et les codes entre parenthèses identifient les graphes d'allomorphie. Les graphes d'allomorphie sont ceux décrits dans la sous-section 4.2. Les codes « A6 », « A2 » ou « A3 » sont destinés aux graphes d'affixation. Par exemple, les noms avec le code A3, tels que lòto, reçoivent l'alternance morphologique de temps m-: n-: h- et le préfixe de formation d'adjectifs a-, d'où malòto, qui est ainsi segmenté comme m-a-lòto, où le lemme est représenté par le radical nominal lòto. Le graphe 'A3' encode cette segmentation en trois morphèmes et représente formellement a- comme un préfixe flexionnel.
 
 p07-02.png
 
@@ -237,7 +237,7 @@ p07-03.png
 
 Figure 6 : Graphe d'affixation 'A3'.
 
-Le graphique 'A3' (Fig.6) décrit les combinaisons d'affixes qui composent des formes adjectives telles que m-a-dìty "gommage, résineux", m-a-sìra "salé" et leurs propres formes infléchies. La boîte 't1' représente l'alternance morphologique m-:n-:h-, la boîte '333' contient les adjectifs formés par le préfixe a- (PAdj) et la boîte <N+A3> indique à quels noms le graphe s'applique, ici dìty "gomme, résine", sìra "sel", entre autres.
+Le graphe « A3 » (Fig. 6) décrit les combinaisons d'affixes qui composent les formes adjectivales telles que m-a-dìty « gommeux, résineux », m-a-sìra « salé » et leurs propres formes fléchies. La boîte 't1' représente l'alternance morphologique m-:n-:h-, la boîte '333' contient les adjectifs formés par le préfixe a- (PAdj) et la boîte <N+A3> indique à quels noms le graphe s'applique, ici dìty "gomme, résine", sìra "sel", entre autres.
 
 ## 6.3 Codes grammaticaux
 
@@ -257,7 +257,7 @@ Tableau 5 : Morphèmes flexionnels des adjectifs
 
 p08-01.png
 
-Le préfixe adjectivisant d'inflection m- se rencontre dans des mots comme màizina "sombre" à partir de àizina "obscurité", m-ànitra "parfumé" à partir de hànitra "parfum" : dans ces formes, il ne joue pas le rôle de préfixe de temps. Ils forment un avenir syntaxique avec ho.
+Le préfixe adjectivisant d'inflection m- se rencontre dans des mots comme màizina "sombre" à partir de àizina "obscurité", m-ànitra "parfumé" à partir de hànitra "parfum" : dans ces formes, il ne joue pas le rôle de préfixe de temps. Ils forment un futur syntaxique avec ho.
 
 ## 7 Tests
 
@@ -267,13 +267,13 @@ Deux expériences sont présentées dans cette section: la segmentation et la g�
 
 ## 7.1 Segmentation
 
-Dans cette expérience, la plateforme Unitex a utilisé la base de données lexicale et les graphes pour segmenter le texte. La segmentation de l'adjectif dérivé mareforèfo "un peu fragile", qui accepte l'alternation morphologique m-:n-:h-, est présentée dans la Fig. 7.
+Dans cette expérience, la plateforme Unitex a utilisé la base de données lexicale et les graphes pour segmenter le texte. La segmentation de mareforèfo « un peu fragile », un adjectif dérivé qui accepte l'alternance morphologique m-:n-:h-, est présentée dans la Fig. 7.
 
 p08-02.png
 
 Figure 7: Représentation d'un adjectif dérivé avec un marqueur de temps.
 
-Les deux boîtes reliées par une ligne pointillée représentent 1) m-, reconnu comme un marqueur de temps (T) du présent (r), et 2) areforefo, étiqueté A+ad1+0, ce qui signifie qu'il s'agit d'un adjectif et qu'il énumère deux caractéristiques; cette forme est attachée au lemme mareforèfo.
+Les deux boîtes reliées par une ligne discontinue représentent 1) m-, reconnu comme un marqueur de temps (T) du présent (r), et 2) areforefo, étiqueté A+ad1+0, ce qui signifie qu'il s'agit d'un adjectif et liste deux traits ; cette forme est rattachée au lemme mareforèfo.
 
 Une forme adjective fléchie d'un nom est segmentée comme le montre la figure 8.
 
@@ -285,7 +285,7 @@ Dans mpianatra mazòto « étudiant travailleur », mazòto « diligent, travail
 
 ## 7.2 Génération d'adjectifs
 
-Unitex a un générateur de mots qui répertorie les formes fléchies adjectivales spécifiées par la base de données (Fig. 9). Chaque point-virgule commence un nouveau paquet de caractéristiques flexionnelles. Les codes de temps :r, :p et :f sont mutuellement exclusifs car un mot ne peut pas être dans la même interprétation à deux temps grammaticaux différents, mais l'autre code n qualifie la même interprétation que le temps qui les précède. Ainsi, A+A8+na:rn:pn signifie que le bikna « bien formé » peut être dans le présent ou dans le passé, mais dans les deux cas, c'est dans l'indicatif.
+Unitex a un générateur de mots qui répertorie les formes fléchies adjectivales spécifiées par la base de données (Fig. 9). Chaque point-virgule commence un nouveau paquet de caractéristiques flexionnelles. Les codes de temps :r, :p et :f sont mutuellement exclusifs car un mot ne peut pas être dans la même interprétation à deux temps grammaticaux différents, mais l'autre code n qualifie la même interprétation que le temps qui les précède. Ainsi, A+A8+na:rn:pn signifie que bikána « bien formé » peut être au temps présent ou au temps passé, mais dans les deux cas, il est à l'indicatif.
 
 p09-01.png
 
@@ -295,7 +295,7 @@ Figure 9 : Génération d'adjectifs
 
 Nous avons décrit une base de données lexicale des adjectifs malgaches en cours de construction. Le contenu de la ressource est basé sur une analyse linguistique, en tenant compte des garanties méthodologiques pertinentes. Nous faisons une distinction entre les adjectifs au sens habituel et les formes adjectivales de noms. La base de données peut être utilisée par des logiciels de traitement du langage. La ressource permet l'analyse morphologique et la génération d'adjectifs. Il ne se limite pas aux formes adjectivales se produisant dans un corpus de textes, mais tient compte de notre compétence en tant que locuteur natif et de la tradition grammaticale.
 
-Cette recherche a plusieurs applications potentielles. Ses résultats peuvent être utilisés dans les manuels de grammaire pour décrire la flexion des adjectifs malgaches. Les linguistes peuvent les utiliser pour lancer des requêtes pour des configurations grammaticales contenant des adjectifs, par exemple des phrases substantives. Enfin, les bases lexicales éliminent les obstacles à la construction d'applications informatiques pour le traitement des langues.
+Cette recherche a plusieurs applications potentielles. Ses résultats peuvent être utilisés dans les manuels de grammaire pour décrire la flexion des adjectifs malgaches. Les linguistes peuvent les utiliser pour lancer des requêtes pour des configurations grammaticales contenant des adjectifs, par exemple des syntagmes nominaux. Enfin, les bases lexicales éliminent les obstacles à la construction d'applications informatiques pour le traitement des langues.
 
 ## Remerciements
 

@@ -48,7 +48,7 @@ Data: bila data hakuna rasilimali;
 
 Masharti ya awali ya ufafanuzi wa kiisimu: seti za lebo na itifaki, wataalamu wa isimu, zana ya ufafanuzi;
 
-Mchakato wa uainishaji: maelezo ya hatua za usindikaji, ikiwa ni pamoja na udhibiti wa ubora.
+Mchakato wa ufafanuzi: maelezo ya hatua za usindikaji, ikijumuisha udhibiti wa ubora.
 
 Kila kipengele sasa kitaelezewa kwa undani zaidi ikiwa ni pamoja na maamuzi ya muundo tuliyohitaji kufanya.
 

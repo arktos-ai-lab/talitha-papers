@@ -41,7 +41,7 @@ Vivumishi vingi huungana na ho ili kueleza wakati ujao, kwa hiyo màro "ni/iliku
 
 Hata hivyo, vivumishi vingine vinaonyesha mbadala wa kimofolojia unaohusishwa na wakati, k.m. m-a-fàna (PRS-ADJZ-heat) "ni moto" , n-a-fàna (PAST-ADJZ-heat) " ilikuwa moto" na h-a-fàna (FUT-ADJZ-heat) " itakuwa moto" . Miongoni mwa takriban vivumishi 2,115 vilivyochunguzwa kwa ajili ya makala haya, takriban 365 huchukua mbadala wa m:n:h.
 
-Wanasarufi wa jadi kama Malzac (1950), Rajemisa (1969), na wanaisimu kama Rajaona (1972), Rajaonarimanana (1995) wanachukulia kwamba m-, ma, mi, man-, -ina, -ana ni viambishi vinavyounda vivumishi. Miongoni mwa hivi, tunachagua kugawa ma-, mi, man- zaidi kuwa viashiria vya wakati m-, n-, h- na viambishi vinavyounda vivumishi a-, i-, an-, wakati wowote mbadala wa kimofolojia mi, ma-, man-/ni, na, nan-/hi, ha, han- unapohusiana na tofauti ya wakati.
+Wanasarufi wa jadi kama Malzac (1950), Rajemisa (1969), na wanaisimu kama Rajaona (1972), Rajaonarimanana (1995) wanachukulia kwamba m-, ma-, mi-, man-, -ina, -ana ni viambishi vinavyounda vivumishi. Miongoni mwa hivi, tunachagua kugawa ma-, mi-, man- zaidi kuwa viashiria vya wakati m-, n-, h- na viambishi vinavyounda vivumishi a-, i-, an-, wakati wowote mbadala wa kimofolojia mi-, ma-, man-/ni-, na-, nan-/hi-, ha-, han- unapohusiana na tofauti ya wakati.
 
 Baadhi ya vivumishi katika Kimalagasi huchukua viambishi tamati vya amri (cf. Rajaona, 1972; Catz & Catz, 2017) kama vile -a katika m-a-heréz-a (PRS-ADJZ-power-IMP) "kuwa na nguvu" dhidi ya m-à-hery (PRS-ADJZ-power) "mwenye nguvu" , m-a-zoto-a (PRS-ADJZ-diligence-IMP) "kuwa mwenye bidii" dhidi ya m-a-zòto (PRS-ADJZ-diligence) "mwenye bidii" . Kwa sasa, hali ya amri haizingatiwi katika nyenzo hii.
 
@@ -63,7 +63,7 @@ p02-02.png
 
 Jozi kama hizo ni za kawaida sana kiasi kwamba mchakato huo unaweza kuchukuliwa kuwa wa unyambulishaji, hata kama umbo msingi na umbo linalonyambuliwa ni vya aina tofauti za maneno. Kwa maneno mengine, vivumishi hivi vinaweza kuchukuliwa kama maumbo ya vivumishi yaliyonyambulishwa ya nomino zinazolingana, kama vile vivumishi vishirikishi ni maumbo ya vivumishi yaliyonyambulishwa ya vitenzi katika Kiingereza: kwa upande mmoja, vinaweza kufanya kazi kama vivumishi (ling. neno 'kivumishi kishirikishi' linalotumiwa kwa mfano na Kennedy & McNally (1999)), lakini kwa upande mwingine ni sehemu ya unyambulishaji wa vitenzi.
 
-Rasilimali hii inajumuisha vivumishi vilivyotokana kama vile m-a-kòtroka (PRS-ADJZ-thunder) " warm" , maumbo ya vivumishi yaliyonyambuliwa ya nomino kama m-ànitra (ADJZ-fragrance) "fragrant" , na vivumishi vya msingi kama àvo (ADJ) "high" .
+Rasilimali hii inajumuisha vivumishi vilivyotokana kama vile m-a-kòtroka (PRS-ADJZ-thunder) "joto" , maumbo ya vivumishi yaliyonyambuliwa ya nomino kama m-ànitra (ADJZ-fragrance) "yenye harufu nzuri" , na vivumishi vya msingi kama àvo (ADJ) "juu" .
 
 Tofauti kati ya vivumishi vilivyoundwa na vivumishi vilivyonyambulishwa ni ukweli usioepukika wa Kimalagasi, lakini viambishi vikuu hutumika kwa njia zote mbili, yaani kwa uundaji na kwa unyambulishaji:
 
@@ -73,7 +73,7 @@ kuhusu a- katika m-a-tètika "mara kwa mara" , kutoka tètika "uchoraji wa mapam
 
 kuhusu m- katika m-èndrika "inayofaa, sahihi, yenye kustahili", kutoka èndrika "uso, mfano, sura", m- ni ya uundaji wa maneno, lakini katika m-ànitra "yenye harufu nzuri", kutoka hànitra "harufu nzuri", m- ni ya unyambulishaji.
 
-Kwa hiyo, wakati wa ujenzi wa rasilimali, tunakabiliwa na maamuzi magumu katika kuainisha vivumishi vya kimajina kama vilivyonyambuliwa au vilivyonyambulishwa, hasa wakati kiambishi awali kinachounda kivumishi ni m-. Katika hali kama hizo, tunachanganua kivumishi kama umbo lililonyambulishwa la nomino tu wakati tunapotambua jozi ya miundo ya kisintaksia kama vile Misy hànitra N0 "N0 ina harufu" = M-ànitra N0 "N0 ina harufu nzuri" , ambapo mìsy "kuna" au mànana "kuwa na" ni kitenzi saidizi (Ranaivoson, 1996; Lakoarisoa et al., 2011; Jaozandry, 2014; Hamitramalala, 2017), na N0 ni nomino ya kiima inayokubalika. Katika kisa cha m-ày "inawaka moto", m-àfy "ngumu", mtawalia kutoka hày "kuungua", hàfy "ugumu", hakuna jozi kama hizo za miundo ya kisintaksia, kwa kuwa muundo wa nomino hautumiki:
+Kwa hiyo, wakati wa ujenzi wa rasilimali, tunakabiliwa na maamuzi magumu katika kuainisha vivumishi vya kimajina kama vilivyonyambuliwa au vilivyonyambulishwa, hasa wakati kiambishi awali kinachounda kivumishi ni m-. Katika hali kama hizo, tunachanganua kivumishi kama umbo lililonyambulishwa la nomino tu wakati tunapotambua jozi ya miundo ya kisintaksia kama vile Misy hànitra N<sub>0</sub> "N0 ina harufu" = M-ànitra N<sub>0</sub> "N0 ina harufu nzuri" , ambapo mìsy "kuna" au mànana "kuwa na" ni kitenzi saidizi (Ranaivoson, 1996; Lakoarisoa et al., 2011; Jaozandry, 2014; Hamitramalala, 2017), na N<sub>0</sub> ni nomino ya kiima inayokubalika. Katika kisa cha m-ày "inawaka moto", m-àfy "ngumu", mtawalia kutoka hày "kuungua", hàfy "ugumu", hakuna jozi kama hizo za miundo ya kisintaksia, kwa kuwa muundo wa nomino hautumiki:
 
 p03-patch01.png
 
@@ -105,7 +105,7 @@ Kupitia hatua mbili zinazolingana na viwango hivi viwili, umbo lililonyambulishw
 
 Jukwaa huria la Unitex la usindikaji wa lugha (Paumier, 2003) linaendana na rasilimali zilizobuniwa kulingana na mbinu hii na zilizoandikwa katika muundo wa DELA (Gross 1989: 8). Unitex hufanya unyambulishaji, mgandamizo na utafutaji wa hali ya juu (Neme, Paumier, 2019) wa hifadhidata za kileksika zilizosimbwa katika umbizo hili. Kinyume chake, miundo ya usimbaji ya kamusi ya mpango wa Text encoding initiative imeundwa hasa kwa ajili ya kamusi zinazolenga binadamu (TEI Consortium, 2022) na haishughulikii uchakataji wa hifadhidata za kileksika.
 
-Katika mkabala wa kamusi-elektroniki, hifadhidata za kileksika hushughulikia hasa aina za maneno na unyambulishaji. Hii inatofautiana na mkabala wa sarufi-leksikoni, pia uliopendekezwa na Gross (Elia, 1978), ambao pia unachunguza utumikaji wa operesheni za kisintaksia. Kutokana na tofauti hii, utofautishaji wa maana ni wa kina zaidi katika mkabala wa pili (Laporte, 1991).
+Katika mkabala wa kamusi-elektroniki, hifadhidata za kileksika hushughulikia hasa aina za maneno na unyambulishaji. Hii inatofautiana na mkabala wa sarufi-leksikoni, pia uliopendekezwa na Gross (Elia, 1978), ambao pia unachunguza utumikaji wa operesheni za kisintaksia. Kutokana na tofauti hii, utofautishaji wa maana una chembechembe ndogo zaidi katika mkabala wa pili (Laporte, 1991).
 
 ## 4 Alomofia
 
@@ -273,7 +273,7 @@ p08-02.png
 
 Kielelezo 7: Uwakilishaji wa kivumishi kinachotokana chenye kiashiria cha wakati.
 
-Visanduku viwili vilivyounganishwa kwa mstari uliokatika vinawakilisha 1) m-, inayotambuliwa kama kiashiria cha wakati (T) cha wakati uliopo (r), na 2) areforefo, iliyo na lebo A+ad1+0, inayomaanisha kuwa ni kivumishi na inaorodhesha vipengele viwili; umbo hili limeambatishwa kwenye lemma mareforèfo.
+Visanduku viwili vilivyounganishwa kwa mstari uliokatika vinawakilisha 1) m-, inayotambuliwa kama kiashiria cha wakati (T) cha wakati uliopo (r), na 2) areforefo, iliyoandikwa A+ad1+0, inayomaanisha kuwa ni kivumishi na inaorodhesha vipengele viwili; umbo hili limeambatishwa kwenye lemma mareforèfo.
 
 Umbo la kivumishi lenye mnyambuliko la nomino limegawanywa kama inavyoonyeshwa kwenye Kielelezo 8.
 
@@ -285,7 +285,7 @@ Katika mpianatra mazòto "mwanafunzi mwenye bidii", mazòto "mwenye bidii, mweny
 
 ## 7.2 Uzalishaji wa vivumishi
 
-Unitex ina jenereta ya maneno inayoorodhesha maumbo ya kivumishi yaliyonyambulishwa yaliyobainishwa na hifadhidata (Kielelezo 9). Kila nusukoloni huanzisha kifurushi kipya cha sifa za unyambulishaji. Misimbo ya wakati :r, :p na :f inatengana kwa sababu neno haliwezi kuwa katika tafsiri ileile katika nyakati mbili tofauti za kisarufi, lakini msimbo mwingine n unastahilisha tafsiri ileile kama wakati unaozitangulia. Hivyo, A+A8+na:rn:pn inamaanisha kwamba bikána "well formed" inaweza kuwa katika wakati uliopo au uliopita, lakini katika hali zote mbili iko katika hali ya kiashiria.
+Unitex ina jenereta ya maneno inayoorodhesha maumbo ya kivumishi yaliyonyambulishwa yaliyobainishwa na hifadhidata (Kielelezo 9). Kila nusukoloni huanzisha kifurushi kipya cha sifa za unyambulishaji. Misimbo ya wakati :r, :p na :f inatengana kwa sababu neno haliwezi kuwa katika tafsiri ileile katika nyakati mbili tofauti za kisarufi, lakini msimbo mwingine n unastahilisha tafsiri ileile kama wakati unaozitangulia. Hivyo, A+A8+na:rn:pn inamaanisha kwamba bikána "iliyoundwa vizuri" inaweza kuwa katika wakati uliopo au wakati uliopita, lakini katika hali zote mbili iko katika hali ya kiashiria.
 
 p09-01.png
 

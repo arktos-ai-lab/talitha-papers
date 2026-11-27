@@ -21,16 +21,40 @@
    "name": "Ethiopian Sign Language"
   },
   {
+   "id": "lang:gez",
+   "type": "language",
+   "iso639_3": "gez",
+   "name": "Geez"
+  },
+  {
+   "id": "lang:hts",
+   "type": "language",
+   "iso639_3": "hts",
+   "name": "Hadza"
+  },
+  {
    "id": "lang:igl",
    "type": "language",
    "iso639_3": "igl",
    "name": "Igala"
   },
   {
+   "id": "lang:irk",
+   "type": "language",
+   "iso639_3": "irk",
+   "name": "Iraqw"
+  },
+  {
    "id": "lang:les",
    "type": "language",
    "iso639_3": "les",
    "name": "Lese"
+  },
+  {
+   "id": "lang:mas",
+   "type": "language",
+   "iso639_3": "mas",
+   "name": "Masai"
   },
   {
    "id": "lang:mlg",
@@ -49,6 +73,12 @@
    "type": "language",
    "iso639_3": "nso",
    "name": "Pedi"
+  },
+  {
+   "id": "lang:sdj",
+   "type": "language",
+   "iso639_3": "sdj",
+   "name": "Suundi"
   },
   {
    "id": "lang:sot",
@@ -744,6 +774,216 @@
    "authors": "Johannes Sibeko, Mmasibidi Setaka",
    "licence": "cc-by-4.0",
    "source_url": "https://aclanthology.org/2023.rail-1.9/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.1",
+   "type": "paper",
+   "paper_id": "2024.rail-1.1",
+   "title": "Doing Phonetics in the Rift Valley: Sound Systems of Maasai, Iraqw and Hadza",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Alain Ghio, Didier Demolin, Michael Karani, Yohann Meynadier",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.1/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.10",
+   "type": "paper",
+   "paper_id": "2024.rail-1.10",
+   "title": "Early Child Language Resources and Corpora Developed in Nine African Languages by the SADiLaR Child Language Development Node",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Michelle J. White, Frenette Southwood, Sefela Londiwe Yalala",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.10/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.11",
+   "type": "paper",
+   "paper_id": "2024.rail-1.11",
+   "title": "Morphological Synthesizer for Ge’ez Language: Addressing Morphological Complexity and Resource Limitations",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Gebrearegawi Gebremariam, Hailay Teklehaymanot, Gebregewergs Mezgebe",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.11/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.12",
+   "type": "paper",
+   "paper_id": "2024.rail-1.12",
+   "title": "EthioMT: Parallel Corpus for Low-resource Ethiopian Languages",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Atnafu Lambebo Tonja, Olga Kolesnikova, Alexander Gelbukh, Jugal Kalita",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.12/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.14",
+   "type": "paper",
+   "paper_id": "2024.rail-1.14",
+   "title": "Low Resource Question Answering: An Amharic Benchmarking Dataset",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Tilahun Abedissa Taffa, Yaregal Assabie, Ricardo Usbeck",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.14/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.15",
+   "type": "paper",
+   "paper_id": "2024.rail-1.15",
+   "title": "The Annotators Agree to Not Agree on the Fine-grained Annotation of Hate-speech against Women in Algerian Dialect Comments",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Imane Guellil, Yousra Houichi, Sara Chennoufi, Mohamed Boubred, Anfal Yousra Boucetta, Faical Azouaou",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.15/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.16",
+   "type": "paper",
+   "paper_id": "2024.rail-1.16",
+   "title": "Advancing Language Diversity and Inclusion: Towards a Neural Network-based Spell Checker and Correction for Wolof",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Thierno Ibrahima Cissé, Fatiha Sadat",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.16/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.17",
+   "type": "paper",
+   "paper_id": "2024.rail-1.17",
+   "title": "Lateral Inversions, Word Form/Order, Unnamed Grammatical Entities and Ambiguities in the Constituency Parsing and Annotation of the Igala Syntax through the English Language",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Mahmud Mohammed Momoh",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.17/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.2",
+   "type": "paper",
+   "paper_id": "2024.rail-1.2",
+   "title": "Kallaama: A Transcribed Speech Dataset about Agriculture in the Three Most Widely Spoken Languages in Senegal",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Elodie Gauthier, Aminata Ndiaye, Abdoulaye Guissé",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.2/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.3",
+   "type": "paper",
+   "paper_id": "2024.rail-1.3",
+   "title": "Long-Form Recordings to Study Children’s Language Input and Output in Under-Resourced Contexts",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Joseph R. Coffey, Alejandrina Cristia",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.3/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.4",
+   "type": "paper",
+   "paper_id": "2024.rail-1.4",
+   "title": "Developing Bilingual English-Setswana Datasets for Space Domain",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Tebatso G. Moape, Sunday Olusegun Ojo, Oludayo O. Olugbara",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.4/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.5",
+   "type": "paper",
+   "paper_id": "2024.rail-1.5",
+   "title": "Compiling a List of Frequently Used Setswana Words for Developing Readability Measures",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Johannes Sibeko",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.5/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.6",
+   "type": "paper",
+   "paper_id": "2024.rail-1.6",
+   "title": "A Qualitative Inquiry into the South African Language Identifier’s Performance on YouTube Comments.",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Nkazimlo N. Ngcungca, Johannes Sibeko, Sharon Rudman",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.6/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.8",
+   "type": "paper",
+   "paper_id": "2024.rail-1.8",
+   "title": "Adapting Nine Traditional Text Readability Measures into Sesotho",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Johannes Sibeko, Menno van Zaanen",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.8/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.9",
+   "type": "paper",
+   "paper_id": "2024.rail-1.9",
+   "title": "Bootstrapping Syntactic Resources from isiZulu to Siswati",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Laurette Marais, Laurette Pretorius, Lionel Clive Posthumus",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.9/",
    "openalex": "",
    "match_method": "",
    "match_confidence": 0
@@ -4733,6 +4973,86 @@
   {
    "source": "paper:2023.rail-1.9",
    "target": "lang:tsn",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.1",
+   "target": "lang:hts",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.1",
+   "target": "lang:irk",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.1",
+   "target": "lang:mas",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.1",
+   "target": "lang:sdj",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.10",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.11",
+   "target": "lang:gez",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.12",
+   "target": "lang:eth",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.14",
+   "target": "lang:amh",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.16",
+   "target": "lang:wol",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.17",
+   "target": "lang:igl",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.4",
+   "target": "lang:tsn",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.5",
+   "target": "lang:tsn",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.6",
+   "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.8",
+   "target": "lang:sot",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.9",
+   "target": "lang:ssw",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.9",
+   "target": "lang:zul",
    "type": "studies_language"
   },
   {

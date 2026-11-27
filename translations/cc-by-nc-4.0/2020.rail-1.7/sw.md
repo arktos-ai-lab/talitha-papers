@@ -47,7 +47,7 @@ Sehemu ya kwanza ya sarufi hufuata HPSG Matrix (Bender et al. 2010), iliyoonyesh
 
 [B] Sifa fulani inatangazwa na aina moja tu (lakini hutokea na aina zake zote ndogo).
 
-Katika TFS inayowakilisha sarufi, kuna hierarkia nyingi za aina, zinazowakilisha POS, nyakati, majukumu ya semantiki, n.k. ; baadhi ya hierarkia hizi hazina sifa, ilhali zifuatazo zina. Aina za kazi za sarufi (maadili ya sifa "GF") na actants (washiriki katika muundo wa hoja ya semantiki, inayowakilishwa kama maadili ya sifa "ACTNT") ni pamoja na wale walioonyeshwa hapa chini: aina ndogo za gramfct hutangaza sifa za GF ("SUBJ" na "OBJ") na aina ndogo za actnt hutangaza sifa za muundo wa hoja ya semantiki ("ACT1" na "ACT2"):
+Katika TFS inayowakilisha sarufi, kuna hierarkia nyingi za aina, zinazowakilisha POS, nyakati, majukumu ya semantiki, n.k.; baadhi ya hierarkia hizi hazina sifa, ilhali zifuatazo zina. Aina za kazi za sarufi (maadili ya sifa "GF") na actants (washiriki katika muundo wa hoja ya semantiki, inayowakilishwa kama maadili ya sifa "ACTNT") ni pamoja na wale walioonyeshwa hapa chini: aina ndogo za gramfct hutangaza sifa za GF ("SUBJ" na "OBJ") na aina ndogo za actnt hutangaza sifa za muundo wa hoja ya semantiki ("ACT1" na "ACT2"):
 
 p02-03.png
 
@@ -175,7 +175,7 @@ Kielelezo 3 Ingizo la valensi la mtindo wa Sarufi ya Ga
 
 Sentensi katika (16) pia huchanganuliwa na sarufi (ikichukulia rasmi VP cha pili kama kiambatisho, kama ilivyoainishwa hapo juu), lakini tu kuhusiana na fremu ya kitenzi elekezi ya su inayolingana na maana ya "kuroga".
 
-Kwa lugha yenye aina nyingi za miundo ya vitenzi vingi, inaweza kujaribiwa kuingiza vielezi kamili kama (5) kwenye fremu ya kitenzi cha kwanza, na kufasiri pia kiambatanisho rasmi kama "kilichotabiriwa" na kitenzi kikuu, na hivyo kutenganisha fremu ya kiufundi ya mchanganyiko na kile ambacho kwa hisia ni fremu ya valensi. Hii, hata hivyo, si uwezekano ambao sarufi hii ya sasa inajitosa kuuchunguza.
+Kwa lugha yenye aina nyingi za miundo ya vitenzi vingi, inaweza kujaribiwa kuingiza misemo kamili kama (5) kwenye fremu ya kitenzi cha kwanza, na kufasiri pia kiambatisho rasmi kama "kilichotabiriwa" na kitenzi kikuu, na hivyo kutenganisha fremu ya kiufundi ya mchanganyiko na kile ambacho kwa hisia ni fremu ya valensi. Hii, hata hivyo, si uwezekano ambao sarufi hii ya sasa inajitosa kuuchunguza.
 
 Ili kupata taswira ya jinsi msemo wa vitenzi vingi unavyoweza kuhusishwa na kitenzi fulani, jedwali lifuatalo linaonyesha mara ngapi aina za SVC (kama "sv"), EVC (kama "ev") na muundo wa Verbid (kama "trVid" au "intrVid") zipo miongoni mwa mazingira ambayo kitenzi kinaweza kutokea (kwa mfano, leksimu 14 za kitenzi zinaweza kutokea katika mazingira ya kisichopitisha, kinachopitisha na SVC), kulingana na rasilimali iliyojengwa kwenye Dakubu (isichapishwa a):
 
@@ -219,7 +219,7 @@ Mbinu hii inadumisha matumizi ya sentensi 145 katika muundo wa (20a) zikifanya k
 
 ## 6. Kamusi ya valensi ya Kiga na miundo ya vitenzi
 
-Rasilimali za kamusi ya valensi ya Kiga zinawakilishwa kama Dakubu (haijachapishwa a) kama ubadilishaji kutoka kwenye toleo lililoongezwa la Toolbox linaloelezwa katika sehemu 4, na katika Dakubu (haichapishwi b) kama monografia kubwa zaidi. Nyenzo katika Dakubu (haijachapishwa a) pia inapatikana mtandaoni kama sehemu ya MultiVal, rasilimali ya ulinganifu inayotegemea kamusi kutoka kwenye sarufi za LKB kwa lugha nne.
+Rasilimali za kamusi ya valensi ya Kiga zinawakilishwa kama Dakubu (haijachapishwa a) kama ubadilishaji kutoka toleo la Toolbox lililoboreshwa lililoelezwa katika sehemu ya 4, na katika Dakubu (haijachapishwa b) kama monografia kubwa zaidi. Nyenzo katika Dakubu (haijachapishwa a) pia zinapatikana mtandaoni kama sehemu ya MultiVal, rasilimali linganishi ya valensi inayotegemea leksimu kutoka sarufi za LKB kwa lugha nne.
 
 Mahali ambapo rasilimali hii inalingana na mtazamo wa Kielelezo 5 ni, kupitia matumizi yake ya uwekaji lebo wa CL, ikiashiria nafasi yake ndani ya ulinganisho fupi wa lugha mbalimbali wa wasifu wa valensi za lugha, ambao ni hesabu za mifumo ya valensi na miundo inayotekelezwa katika lugha. Ulinganisho wa awali wa wasifu wa valensi kwa Kiga na Kiingereza unapendekeza kuwa zina chini ya 20% ya mifumo yao ya valensi inayofanana (tazama, k.m., Dakubu na Hellan (2016, 2017)).
 

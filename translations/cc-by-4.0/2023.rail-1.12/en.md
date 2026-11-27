@@ -20,15 +20,13 @@ vowels, Igala, Language, Resources
 
 ## 1. Introduction
 
-The Igala language is mainly spoken in the East Senatorial District of Kogi State, Nigeria (Oguagha, 1980) within a geographical coordinate lying between 6 30 and 80 north of latitude and 6 30 and 7 40east of longitude (Saleh and Yunusa, 2013). The people occupy an area that is roughly around 4,982 miles of the Niger-Benue rivers bypass numbering over 2 million speakers of the language (Saleh and Yunusa, 2013). Wikipedia.com pointed out that; “the Igala is Yoruboid branch of the Volta–Niger language family, spoken by the Igala, Agatu, Idoma, and Bassa people”. In the same vein Obayemi, (1980) recognized Igala as being, “among the more conspicuous entities in the Niger-Benue confluence area.
+The Igala language is mainly spoken in the East Senatorial District of Kogi State, Nigeria (Oguagha, 1980) within a geographical coordinate lying between 6 3° and 8° north of latitude and 6 3° and 7 4° east of longitude (Saleh and Yunusa, 2013). The people occupy an area that is roughly around 4,982 miles of the Niger-Benue rivers bypass numbering over 2 million speakers of the language (Saleh and Yunusa, 2013). Wikipedia.com pointed out that; “the Igala is Yoruboid branch of the Volta–Niger language family, spoken by the Igala, Agatu, Idoma, and Bassa people”. In the same vein Obayemi, (1980) recognized Igala as being, “among the more conspicuous entities in the Niger-Benue confluence area.
 
 In this study, the key priority is to point out some important vowels and lexicons applicable to day-to-day communication in Igala land. It should be emphasized that the words indicated in this work are by no means ‘self-exhaustive’, for this is but just a drop out of the ocean of words in existence within the Igala lexicographical system. The Latin letters with their associated phonetic symbols and sound were used as reference points.
 
 ## 2 Vowels and Words in Igala Language
 
-The Oxford Advanced Learner’s Dictionary of English defined lexicon as; “all the words and phrases used in a particular language or subject;
-
-all the words and phrases used and known by a particular person or group of people” (Hornby, 2015). With respect to the Igala as with other languages, lexical formation begins with conjoining strings of phones or alphabets to form morphemes from which words are created. Currently, no known homemade or standard alphabetical or orthographical system exists for writing the Igala language except for the esoteric signs and markings; usually on the floor, used by traditional witchdoctors, which is not known to the vast majority of the people and that also did not serve formal purposes within society. In the midst of this foibles induced by this lack of inbred phonemes, writers beginning from the modern era, are known to either select the Latin phonetic symbols or the Arabic phonemes to replicate or transcribe words of Igala origin, what is at times referred to in West Africa as a’jami or ajami (Mc Laughlin, 2017).
+The Oxford Advanced Learner’s Dictionary of English defined lexicon as; “all the words and phrases used in a particular language or subject; all the words and phrases used and known by a particular person or group of people” (Hornby, 2015). With respect to the Igala as with other languages, lexical formation begins with conjoining strings of phones or alphabets to form morphemes from which words are created. Currently, no known homemade or standard alphabetical or orthographical system exists for writing the Igala language except for the esoteric signs and markings; usually on the floor, used by traditional witchdoctors, which is not known to the vast majority of the people and that also did not serve formal purposes within society. In the midst of this foibles induced by this lack of inbred phonemes, writers beginning from the modern era, are known to either select the Latin phonetic symbols or the Arabic phonemes to replicate or transcribe words of Igala origin, what is at times referred to in West Africa as a’jami or ajami (Mc Laughlin, 2017).
 
 Notwithstanding the fact that Igala is a tone-based language (Rodriguez, 2014; Dawson et al. 2015; Adeniyi, 2016), while attempting to study the structure of the Igala language, most of the attention of scholars has been on parts of speech, without much effort been dedicated towards tones and sounds with the result that without a prior knowledge of the language words written are hard to pronounce, in some cases not even with the English translation of these provided, and as for those categories of writers who tried to express tones using diacritic orthographies, without a prior knowledge of diacritic by the readers, it is still hard for the readers to decipher what was written, besides, through occasional failures of writers to provide double slash transcription boxes or oral parenthesis of sounds represented by orthographic symbols in their works, the fact that these symbols produce certain sounds from place to place and from one writer to the other makes it very hard for readers to grasp with the sound frame being inferred by these writers.
 
@@ -120,7 +118,7 @@ While there is very little effort towards developing the Igala language into a f
 
 1 https://en.wikipedia.org/wiki/igala
 
-htpps://kigalaonline.wordpress.com/2017 /
+2 htpps://kigalaonline.wordpress.com/2017/
 
 3 https://en.wiktionary.org/wiki/Igalaa
 
@@ -160,7 +158,9 @@ Karshima D.T. 2012. Comprehensive Tiv Orthography. Dor- Ter Books Publication, M
 
 Lappere, Eline. 2020. “There is no such Thing as Standard English”. Retrieved on March 19, 2023, from https://www.cambridge.org/elt/
 
-Mc Laughlin Fiona. 2017. “Ajami Writing Practices in Atlantic-Speaking Africa”. In The Atlantic Languages (Oxford Guide to the World’s Languages). Oxford University Press, Oxford, UK. Retrieved on March 25, 2023, from https://people.clas.ufl.edu/fmcl/files/AjamiCIRCRED.pdf Malema G. Tebalo, Okgetheng B., Motlhanka B., and Rammidi M. G. 2020. “Complex Setswana Parts of Speech Tagging”. In Proceedings of the First Workshop on Resources for African Indigenous Languages (RAIL), pages 21-24, Marseilles. European Language Resource Association (ELRA).
+Mc Laughlin Fiona. 2017. “Ajami Writing Practices in Atlantic-Speaking Africa”. In The Atlantic Languages (Oxford Guide to the World’s Languages). Oxford University Press, Oxford, UK. Retrieved on March 25, 2023, from https://people.clas.ufl.edu/fmcl/files/AjamiCIRCRED.pdf
+
+Malema G. Tebalo, Okgetheng B., Motlhanka B., and Rammidi M. G. 2020. “Complex Setswana Parts of Speech Tagging”. In Proceedings of the First Workshop on Resources for African Indigenous Languages (RAIL), pages 21-24, Marseilles. European Language Resource Association (ELRA).
 
 Miachi Tom. Armstrong Robert. 1986. Igala Orthography. In Orthographies of Nigerian Languages IV. Pages 32-34, Lagos. National Language Center.
 
@@ -196,9 +196,7 @@ Sunday S. Emah, and Sunday Ojonugwa. 2020. “Igala Proverbs as Correctional too
 
 Unubi S. Abraham. 2017. “The Used of Conjunction in English and Igala: A Contrastive Analysis”. International Journal of Advanced Multidisciplinary Research, 4(8): 34-62.
 
-Unubi S. Abraham. 2019. “A Contrastive Study of English and Igala Segmental Phonemes: Implication for ESL Teaches and Learners”.
-
-Journal of Biomedical Engineering and medical Imaging, 6(6): 31-41.
+Unubi S. Abraham. 2019. “A Contrastive Study of English and Igala Segmental Phonemes: Implication for ESL Teaches and Learners”. Journal of Biomedical Engineering and medical Imaging, 6(6): 31-41.
 
 Webster’s II New College Dictionary. 1999 Boston; New York Houghton Mifflin Company, Boston; New York: USA, pages 1-100.
 

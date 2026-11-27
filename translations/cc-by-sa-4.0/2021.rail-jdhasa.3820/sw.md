@@ -34,11 +34,11 @@ Sehemu ya 2 ya karatasi hii inaelezea mchakato wa kukusanya data na changamoto z
 
 Hapo awali, ilitarajiwa kwamba data za utangazaji kutoka vituo mbalimbali vya redio zingetiririshwa kwa seva. Hata hivyo, wakati wa mchakato wa kutambua vyanzo vinavyowezekana vya data, chaguzi nyingine pia ziliibuka. Kwa mfano, baadhi ya vituo vya redio vilijitolea kutoa nakala halisi za maudhui yao huku vingine vikiwa tayari kuhamisha data kupitia kiungo maalum. Uwezekano mwingine uliotambuliwa ulikuwa kuhamisha data kutoka kwa huduma ya mwenyeji wa maudhui. Maelezo mafupi ya hali hizi tatu za kukamata data ni kama ifuatavyo:
 
-1. 1. Kutiririsha data kutoka kwa wingu hadi kwenye hifadhi ya ndani
+1. Kutiririsha data kutoka wingu hadi hifadhi ya ndani
 
-2. 2. Kuhamisha data kutoka kwa wakandarasi binafsi
+2. Kuhamisha data kutoka kwa wakandarasi binafsi
 
-3. 3. Kuhamisha data kutoka kwa huduma ya kupangisha.
+3. Kuhamisha data kutoka huduma ya upangishaji.
 
 Kwa kuongezea, seti mbalimbali za data za utangazaji zingeweza kupatikana kutoka kwa kila hali ya kunasa data. Kwa mfano, baadhi ya matangazo huwa na taarifa za habari zilizoandikwa kwa usahihi zenye ubora wa juu wa sauti, lakini kwa idadi ndogo tu ya wasomaji wa habari. Matangazo ya habari yaliyoandikwa yalipatikana tu chini ya hali ya kukamata data 2. Pia kuna kiasi kikubwa zaidi cha data ya sauti isiyoandikwa inayopatikana. Huduma za upangishaji za Afrika Kusini hutoa podikasti nyingi za vipindi vya redio katika lugha zote. Ukusanyaji wa matangazo kutoka kwa wakandarasi binafsi uliathiriwa vikali na janga la Covid-19. Shughuli katika vituo vidogo vya redio zilipungua kwa kuwa vituo hivyo vilikabili magumu mengi mapya. Kituo kimoja chenye makao yake chuo kikuu kililazimika hata kujiondoa kwenye mradi. Kukubaliana juu ya mikataba ya kushiriki data pia kulikuwa mchakato wa polepole sana na unaotumia muda mwingi.
 
@@ -64,7 +64,7 @@ p03-01.png
 
 ## 4 Uboreshaji wa mfumo
 
-Mifumo ya unukuzi iliyoboreshwa iliundwa ili kuwezesha unukuzi wa kiotomatiki wa maudhui yaliyochaguliwa yaliyotambulishwa katika Sehemu ya 2.1. Katika karatasi hii, sisi ripoti matokeo kwa ajili ya aina zifuatazo tatu za mifumo: 1) Baseline, 2) Text-msingi iliyosafishwa na 3) Mifumo iliyorekebishwa kiakustika. Mifumo ya msingi ilitumia miundo ya awali ya NCHLT TDNN-F (Badenhorst & de Wet 2019) pamoja na muundo wa lugha tambarare wa ARPA unaojumuisha uni-gramu za fonimu zenye uwezekano sawa. Mifumo iliyorekebishwa kulingana na maandishi ilitumia uundaji wa mfumo wa lugha kulingana na korpusi ndogo za maandishi zinazopatikana katika lugha na mifumo iliyobadilishwa kwa sauti ilijengwa kwa kurekebisha mifumo ya sauti ndani ya mipangilio hiyo kwa kutumia data iliyowasilishwa kwa kiotomatiki. Zana ya Kaldi ilitumika kuunda miundo yote ya kiakustika iliyotumika katika utafiti huu. Pia, ilitumiwa kutengeneza pingili na vifaa vya kukuza sauti.
+Mifumo ya unukuzi iliyoboreshwa iliundwa ili kuwezesha unukuzi wa kiotomatiki wa maudhui yaliyochaguliwa yaliyotambulishwa katika Sehemu ya 2.1. Katika makala haya, tunaripoti matokeo kwa aina tatu zifuatazo za mifumo: 1) Msingi, 2) Uboreshaji unaotegemea maandishi na 3) Mifumo iliyorekebishwa kwa kutumia sauti. Mifumo ya msingi ilitumia miundo ya awali ya NCHLT TDNN-F (Badenhorst & de Wet 2019) pamoja na muundo wa lugha tambarare wa ARPA unaojumuisha uni-gramu za fonimu zenye uwezekano sawa. Mifumo iliyoboreshwa kwa msingi wa maandishi ilitumia uundaji wa modeli ya lugha kutokana na korasi ndogo za maandishi zinazopatikana katika lugha hizo na mifumo iliyorekebishwa kiakustika ilijengwa kwa kusasisha modeli za kiakustika ndani ya mipangilio iliyotajwa hapo juu kwa kutumia data iliyonakiliwa kiotomatiki. Zana ya Kaldi ilitumika kuunda miundo yote ya kiakustika iliyotumika katika utafiti huu. Pia, ilitumiwa kutengeneza pingili na vifaa vya kukuza sauti.
 
 ## 4.1 Uboreshaji unaotegemea maandishi
 
@@ -100,15 +100,15 @@ Kama ilivyosemwa katika Sehemu ya 2.1, uvunaji wa data kwa kawaida unahitaji uga
 
 Ili kutambua mwanzo wa habari (baada ya sauti ya habari), tulitumia algoriti ya heuristiki. Heuristiki iliyotumika ilitumia utekelezaji usio na usimamizi wa kutambua wasemaji, kama ilivyotekelezwa katika maktaba ya Python ya chanzo wazi kwa uchambuzi wa ishara za sauti (Giannakopoulos 2015). Kutumia utambuzi wa wasemaji kwenye kurekodi kila moja na kuweka idadi iliyobainishwa awali ya makundi kuwa na lebo za wasemaji watatu na wanne, mtawalia, ilisababisha makundi yanayoweza kutengwa. Thamani nyingine za vigezo zilizochaguliwa za heuristic zilifahamishwa na uchambuzi mfupi uliofanywa hapo awali kwenye sehemu za seti ya majaribio ya habari za Ven zilizogawanywa kwa mikono. Kama ilivyotangazwa kwenye Jedwali 1, vipengele vya msomaji wa Habari za Ven vilikuwa na muda wa jumla wa takriban dakika 33 na wastani na wastani wa muda wa vipengele ulikuwa takriban sekunde 38. Hilo lilimaanisha kwamba sehemu ya kawaida ya magazeti ya habari yaweza kuwa karibu sekunde 40 au zaidi. Baadaye, vitambulisho vya makundi ya wasemaji wa kurekodi mpya vilithibitishwa ili kuangalia kama sehemu hizo ndefu ziligunduliwa ndani ya sekunde 120 za kwanza za kila kurekodi. Kwa 44% ya kurekodi, hakukuwa na ugunduzi wowote, kwa hivyo muda wa chini wa kipengele ulipunguzwa hadi sekunde 20 badala yake. Hii ilipunguza zaidi kiwango cha kutokugundua hadi 12% ya kurekodi. Kwa kuzingatia matokeo haya, hatua zifuatazo za heuristiki ziliendeshwa kuchagua kipengele cha kwanza cha habari mwanzoni mwa kurekodi:
 
-1. 1. Chagua tu vipande vinavyoanza angalau sekunde mbili baada ya kuanza kurekodi, kwani ukaguzi ulionyesha kuwa vipande marefu vinavyoanza wakati wa sekunde sifuri kwa kawaida vilikuwa na muziki.
+1. Chagua tu sehemu zinazoanza angalau sekunde mbili baada ya kuanza kwa rekodi, kwa kuwa ukaguzi ulibaini kuwa sehemu ndefu zinazoanza katika muda wa sekunde sifuri kwa kawaida zilikuwa na muziki.
 
-2. 2. Chagua sehemu zenye muda wa chini wa sekunde 25 pekee.
+2. Chagua tu sehemu zenye muda wa chini wa sekunde 25.
 
-3. 3. Kokotoa mwingiliano wa muda kati ya sehemu zilizoundwa na diarisation ya lebo za wasemaji watatu na wanne kwa sekunde 180 za kwanza za sauti.
+3. Kokotoa mwingiliano wa muda kati ya sehemu zilizoundwa na diarisation ya lebo za wasemaji watatu na wanne kwa sekunde 180 za kwanza za sauti.
 
-4. 4. Kwa vipande vyovyote vinavyogongana vilivyotambuliwa wakati wa Hatua ya 3, weka muda wa kuanza kuwa ule wa kipande cha kwanza chenye mgongano wa 50% au zaidi.
+4. Kwa sehemu zozote zinazopishana zilizotambuliwa wakati wa Hatua ya 3, weka muda wa kuanza kuwa ule wa sehemu ya kwanza yenye mwingiliano wa 50% au zaidi.
 
-5. 5. Kata faili za sauti ili kila faili ianze kwenye muda uliosasishwa wa kuanza.
+5. Kata faili za sauti ili kila faili ianze katika muda wa kuanza uliosasishwa.
 
 Kutumia hatua zilizo hapo juu kulihakikisha kwamba kwa 90% ya rekodi nyakati za kuanza kwa habari zinaweza kutambuliwa. Uchunguzi wa eneo ulithibitisha kuwa habari za kuaminika zinaanza.
 
@@ -124,7 +124,7 @@ p06-01.png
 
 ## 6 Matokeo
 
-Ili kujaribu utendaji wa uandishi, kila moja ya seti za data za majaribili ziliandikwa na mifumo ya uandishi iliyoelezwa katika Sehemu 4.1. Viwango vya makosa ya fonimu vilivyofuata (PERs) vilihesabiwa vikijumuisha tu lebo za fonimu za usemi wakati wa ukadiriaji. Jedwali 4 inaonyesha utendaji uliopatikana kwa ajili ya aina mbili za mifumo: 1) unukuzi wa muundo wa lugha wa ARPA unaotegemea fonimu tambarare na 2) mifumo inayotumia modeli za lugha za ARPA za 6-gram zinazotegemea fonimu ikipewa data ya maandishi. Katika mkakati wa kurudia, mifumo tofauti inayotegemea ARPA ilijengwa kwa mchanganyiko wa data ya maandishi. Thamani za PER katika Jedwali 4 zinaakisi mifumo bora ya 6-gram pamoja na modeli za sauti za NCHLT. Mifumo bora tu ya maandishi ya 6-gram iliyorekebishwa katika kila lugha ilichaguliwa. Hii ilimaanisha kwamba mfano wa lugha ya gramu 6 ulitokana na maandishi ya TTS kwa mifumo ya Afr na kutoka kwa mchanganyiko wa TTS na NCHLT Text corpus katika kesi ya Ven.
+Ili kujaribu utendaji wa uandishi, kila moja ya seti za data za majaribili ziliandikwa na mifumo ya uandishi iliyoelezwa katika Sehemu 4.1. Viwango vya makosa ya fonimu vilivyofuata (PERs) vilihesabiwa vikijumuisha tu lebo za fonimu za usemi wakati wa ukadiriaji. Jedwali 4 inaonyesha utendaji uliopatikana kwa ajili ya aina mbili za mifumo: 1) unukuzi wa muundo wa lugha wa ARPA unaotegemea fonimu tambarare na 2) mifumo inayotumia miundo ya lugha ya ARPA yenye n-gramu 6 inayotegemea fonimu kutokana na data ya maandishi. Katika mkakati wa kurudia, mifumo tofauti inayotegemea ARPA ilijengwa kwa mchanganyiko wa data ya maandishi. Thamani za PER katika Jedwali 4 zinaakisi mifumo bora ya 6-gram pamoja na modeli za sauti za NCHLT. Mifumo bora tu ya maandishi ya 6-gram iliyorekebishwa katika kila lugha ilichaguliwa. Hii ilimaanisha kwamba mfano wa lugha ya gramu 6 ulitokana na maandishi ya TTS kwa mifumo ya Afr na kutoka kwa mchanganyiko wa TTS na NCHLT Text corpus katika kesi ya Ven.
 
 Kwa kutumia mifano ya lugha ya 6-gram, mifumo ilizalisha PERs chini sana kwa seti zote za data za majaribio za Afr na Ven. Vivyo hivyo, matokeo ya mchanganyiko wa TTS na korasi ya maandishi ya NCHLT yanawasilishwa kwa Ven. Matokeo yanaonyesha PER za juu zaidi (zaidi ya 40%) kwa data ya Drama ikilinganishwa na data ya News. Katika kesi yoyote, mifumo ya ARPA ya 6-gram hutoa uboreshaji ikilinganishwa na kutumia tu mfumo wa transkripsheni wa ARPA usio na mstari.
 

@@ -75,7 +75,7 @@ Kielelezo 2 kinaonyesha mfano wa ufafanuzi (kutoka kamusi ya lugha mbili ya Dual
 
 Jukwaa huru ni jukwaa la REST API linalotegemea wavuti. Inaweza pia kuitwa hifadhidata ya usimamizi wa rasilimali za kileksikografia. Tovuti hii imejengwa ili kuwa rahisi na rahisi kupatikana, programu hii ya mtandao inahifadhi na kusambaza rasilimali zote za leksikografia zinazotokana na kazi ya ushirikiano iliyofanywa na wanachama wa jamii ya NTeALan na wachangishi wa nje.
 
-Muundo huru hutumia zana zetu za ndani za NLP kusimamia muundo wa faili ya XND ili kuwapa watumiaji ufikiaji rahisi wa michango yao (angalia sehemu ya 4.). Shughuli zilizoorodheshwa kwenye jedwali 3.1. zinaidhinishwa kwa ufikiaji wazi kwa kila aina ya mtumiaji.
+Muundo huru hutumia zana zetu za ndani za NLP kusimamia muundo wa faili ya XND ili kuwapa watumiaji ufikiaji rahisi wa michango yao (angalia sehemu ya 4.). Shughuli zilizoorodheshwa kwenye jedwali 3.1. zimeidhinishwa kwa ufikiaji wazi kwa kila aina ya mtumiaji.
 
 p03-01.png
 
@@ -85,7 +85,7 @@ Muundo huu unahifadhiwa kwenye https://apis.ntealan.net/ntealan/dictionaries na 
 
 ## 3.2. Miundombinu inayotegemea
 
-Miundombinu tegemezi ni majukwaa ya wavuti yanayotumia data iliyohifadhiwa katika hifadhidata ya REST API ya pamoja (jukwaa huru), ambayo huimarishwa na washiriki. Pia wanaweza kufanya shughuli zilizoelezwa kwenye jedwali 3.1. kupitia kiolesura chao cha wavuti.
+Miundombinu tegemezi ni majukwaa ya wavuti yanayotumia data iliyohifadhiwa katika hifadhidata ya REST API ya pamoja (jukwaa huru), ambayo huimarishwa na washiriki. Wanaweza pia kufanya shughuli zilizoelezwa kwenye jedwali 3.1. kupitia kiolesura chao cha wavuti.
 
 ## 3.2.1. Jukwaa la usimamizi wa kamusi
 
@@ -111,7 +111,7 @@ Rasilimali zetu nyingi za kamusi ni kamusi za lugha mbili za zamani (kutoka kwen
 
 ## 4.1. Kamusi za rasilimali za lugha za Afrika
 
-Kwa sasa tunapangisha na kushiriki kamusi 7 za lugha mbili kwenye API yetu ya REST. Ingawa idadi ya vifungu hadi sasa bado ni ndogo (kutoka 3 hadi 11,500), jumuiya inayokua inashiriki kila siku katika kujaza. Jedwali 4.1. inaonyesha takwimu za sasa za rasilimali zinazosimamiwa na API yetu.
+Kwa sasa tunapangisha na kushiriki kamusi 7 za lugha mbili kwenye API yetu ya REST. Ingawa idadi ya vifungu hadi sasa bado ni ndogo (kutoka 3 hadi 11,500), jumuiya inayokua inashiriki kila siku katika kujaza. Jedwali 4.1 linaonyesha takwimu za sasa za rasilimali zinazosimamiwa na API yetu.
 
 p04-01.png
 

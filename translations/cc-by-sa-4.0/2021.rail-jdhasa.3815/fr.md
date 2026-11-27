@@ -48,7 +48,7 @@ Données: sans données pas de ressources;
 
 Prérequis pour l'annotation linguistique : ensembles d'étiquettes et protocoles, experts linguistiques, outil(s) d'annotation ;
 
-Processus d'annotation: description des étapes de traitement, incl. contrôle de qualité.
+Processus d'annotation : description des étapes de traitement, y compris le contrôle qualité.
 
 Chaque composant sera maintenant décrit plus en détail, y compris les choix de conception que nous devions faire.
 
@@ -186,7 +186,7 @@ p07-01.png
 
 Nous avons également appris qu'il est important d'avoir des boucles de rétroaction rapides entre les corrections effectuées sur une couche d'annotation et le QC effectué sur les données. Cela aide à atteindre un bon niveau de qualité dès le début de la phase d'annotation et minimise la nécessité de réannotation et/ou de correction supplémentaire des données déjà annotées.
 
-Une chose à souligner est qu'il est très difficile de trouver des experts linguistiques pour les langues d'Afrique du Sud qui sont disponibles et qualifiés pour faire des annotations pour un projet comme le nôtre. À l'avenir, nous pourrions avoir besoin d'entraîner de nouveaux experts linguistiques, ce qui influencera certainement le calendrier ainsi que les budgets globaux des projets d'annotation. Une conclusion à tirer de ceci est que les langues bantoues d'Afrique du Sud ne sont pas seulement sous-équipées en termes de données, mais que le développement du capital humain est également un aspect important du développement des ressources pour ces langues.
+Une chose à souligner est qu'il est très difficile de trouver des experts linguistiques pour les langues d'Afrique du Sud qui sont disponibles et qualifiés pour faire des annotations pour un projet comme le nôtre. À l'avenir, nous pourrions avoir besoin d'assurer la formation de nouveaux experts linguistiques, ce qui influencera certainement le calendrier ainsi que les budgets globaux des projets d'annotation. Une conclusion à tirer de ceci est que les langues bantoues d'Afrique du Sud ne sont pas seulement sous-équipées en termes de données, mais que le développement du capital humain est également un aspect important du développement des ressources pour ces langues.
 
 Nous espérons que ces corpus parallèles linguistiquement annotés s’avéreront intéressants pour les chercheurs de différents horizons et aideront à mieux comprendre le fonctionnement de ces quatre langues Nguni, qu’il s’agisse de processus morphologiques, de questions de lemmatisation ou de structures syntaxiques.
 

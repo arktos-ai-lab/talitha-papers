@@ -1,4 +1,4 @@
-> Machine translation (sw) of "Unsupervised Cross-lingual Word Embedding Representation for English-isiZulu" by Derwin Ngomane, Rooweither Mabuya, Jade Abbott, Vukosi Marivate, https://aclanthology.org/2023.rail-1.2/, licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (glossary, madlad-7b, opus-mt, qwen3.6-27b, rescue-deepseek-v4-pro); not reviewed by a human; changes were made.
+> Machine translation (sw) of "Unsupervised Cross-lingual Word Embedding Representation for English-isiZulu" by Derwin Ngomane, Rooweither Mabuya, Jade Abbott, Vukosi Marivate, https://aclanthology.org/2023.rail-1.2/, licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (fix-deepseek-v4-pro, glossary, madlad-7b, qwen3.6-27b, rescue-deepseek-v4-pro); checked against the original by automated review, and sentences with errors were replaced by another open-model translation; not reviewed by a human; changes were made.
 
 ## Uwakilishi wa Upachikaji wa Neno Kati ya Lugha Bila Usimamiaji kwa Kiingereza-isiZulu
 
@@ -18,19 +18,19 @@ Katika utafiti huu, tunachunguza ufanisi wa kutumia upachikaji wa neno kati ya l
 
 ## 1 Utangulizi
 
-Katika uundaji wa mifumo ya uchakataji wa lugha asilia (NLP) yenye usawa, upachikaji wa neno kati ya lugha unazidi kupata umaarufu. Kulingana na nadharia ya usambazaji, maneno yanayotokea katika miktadha inayolingana yana mambo ya pamoja ya semantiki (Villegas et al., 2016). Kwa sababu hiyo, embeddings za maneno zimewezesha maendeleo ya teknolojia ya NLP.
+Katika uundaji wa mifumo ya uchakataji wa lugha asilia (NLP) yenye usawa, upachikaji wa neno kati ya lugha unazidi kupata umaarufu. Kulingana na nadharia ya usambazaji, maneno yanayotokea katika miktadha inayolingana yana mambo ya pamoja ya semantiki (Villegas et al., 2016). Kwa sababu hiyo, upachikaji wa maneno umewezesha maendeleo ya teknolojia ya NLP.
 
-Matumizi ya uwakilishi wa embedding ya neno yametoa utendaji wa kuridhisha kwa matumizi mengi ya NLP na matumizi yanayohusiana (Gutiérrez na Keith, 2018). Embeddings za maneno zimetumika kwa uhandisi wa sifa (Tang et al., 2014) na madhumuni ya Ujifunzaji hamishi (Bataa na Wu, 2019). Mifano ya tafsiri, kazi za uchambuzi wa hisia na kazi za uainishaji zote zimefaidika. Maboresho haya yamekuwa hasa katika lugha zenye rasilimali nyingi, kama vile Kiingereza, kutokana na wingi wa kumbukumbu zilizo na lebo katika lugha hizi. Ukosefu wa kumbukumbu zilizo na lebo katika lugha zenye rasilimali chache umekuwa hasara katika kuendeleza teknolojia za NLP ndani ya nafasi hii.
+Matumizi ya uwakilishi wa upachikaji wa maneno yametoa utendaji wa kuridhisha kwa matumizi mengi ya NLP na matumizi yanayohusiana (Gutiérrez na Keith, 2018). Upachikaji wa maneno umetumika kwa uhandisi wa sifa (Tang et al., 2014) na madhumuni ya Ujifunzaji hamishi (Bataa na Wu, 2019). Mifano ya tafsiri, kazi za uchambuzi wa hisia na kazi za uainishaji zote zimefaidika. Maboresho haya yamekuwa hasa katika lugha zenye rasilimali nyingi, kama vile Kiingereza, kutokana na wingi wa korasi zilizo na lebo katika lugha hizi. Ukosefu wa korasi zilizo na lebo katika lugha zenye rasilimali chache umekuwa hasara katika kuendeleza teknolojia za NLP ndani ya nafasi hii.
 
 Machapisho mengi ya habari nchini Afrika Kusini yako kwa Kiingereza ingawa Afrika Kusini ina lugha rasmi kumi na moja (Marivate et al., 2020). Kulingana na matokeo ya Sensa ya 2011 ya Statistics South Africa (Stats SA), isiZulu kilikuwa lugha ya nyumbani iliyozungumzwa zaidi ikiwa na 22.7% ya idadi ya watu wakiitaja kama lugha ya nyumbani (Statistics South Africa (Stats SA), 2012). IsiZulu ni sehemu ya lugha nyingi za kiasili nchini Afrika Kusini, na ni ya familia ya lugha za Nguni (Dube na Suleman, 2019). Familia ya lugha ya Nguni ina sifa ya mofolojia yao ya kiambishi-aglutinati (Keet na Khumalo, 2016).
 
 Afrika Kusini ni taifa la lugha nyingi ambapo idadi kubwa ya watu wana lugha ya pili wanayoitumia juu ya lugha zao za msingi. Katika miaka ya baada ya ubaguzi wa rangi, nchi imeona ongezeko la idadi ya watu wa raia wanaozungumza Kiingereza kama lugha ya pili. Tabia hii pia imeenea kwa isiZulu, ambapo raia wameongeza isiZulu kama lugha ya pili (Posel na Zeller, 2020). Hii inasisitiza umuhimu wa kuendeleza kazi ya NLP kwa lugha zenye rasilimali chache nchini Afrika Kusini.
 
-Katika kazi hii tunajaribu kutumia fursa ya korasi yenye rasilimali nyingi na korasi yenye rasilimali chache ili kujifunza embeddings za maneno kati ya lugha kwa Kiingereza na isiZulu. Matumizi ya viambatanisho vya maneno kati ya lugha yangeturuhusu kufanya ujifunzaji hamishi wa modeli kutoka lugha yenye rasilimali nyingi hadi lugha yenye rasilimali chache. Jitihada kwa isiZulu ni ngumu hasa kutokana na uchangamano wa kimofolojia wa lugha hiyo. Kwa hiyo, tunapaswa kushughulikia maneno kwa namna inayoweza kuongeza uwakilishi wa kisintaksia na wa semantiki wa Kiingereza na isiZulu katika nafasi kati ya lugha.
+Katika kazi hii tunajaribu kutumia fursa ya korasi yenye rasilimali nyingi na korasi yenye rasilimali chache ili kujifunza upachikaji wa maneno kati ya lugha kwa Kiingereza na isiZulu. Matumizi ya upachikaji wa maneno kati ya lugha yangeturuhusu kufanya ujifunzaji hamishi wa modeli kutoka lugha yenye rasilimali nyingi hadi lugha yenye rasilimali chache. Jitihada kwa isiZulu ni ngumu hasa kutokana na uchangamano wa kimofolojia wa lugha hiyo. Kwa hiyo, tunapaswa kushughulikia maneno kwa namna inayoweza kuongeza uwakilishi wa kisintaksia na wa semantiki wa Kiingereza na isiZulu katika nafasi kati ya lugha.
 
 Katika kazi hii, tunalenga kujibu maswali yafuatayo ya utafiti:
 
-Je, tunaweza kutumia viambatanisho vya maneno vya lugha moja kwa Kiingereza na isiZulu kuunda vekta za uambatanishaji wa semantiki kati ya lugha kwa lugha zote mbili?
+Je, tunaweza kutumia upachikaji wa maneno wa lugha moja kwa Kiingereza na isiZulu kuunda vekta za upachikaji wa kisemantiki kati ya lugha kwa lugha zote mbili?
 
 Je, tunaweza kutumia ujifunzaji hamishi wa zero-shot katika nafasi kati ya lugha kutumia kiainishaji cha makala ya habari za Kiingereza kuainisha makala za isiZulu?
 
@@ -42,31 +42,31 @@ Seti ya data ya uainishaji wa habari za Afrika Kusini ya isiZulu iliyopatikana k
 
 Sehemu iliyobaki ya kazi imepangwa kama ifuatavyo: Sehemu ya 2 itajadili usuli na kazi za awali. Sehemu ya 3 inaeleza mbinu iliyotumika kwa maktaba ya VecMap na kiainishaji cha kujifunza bila mifano (zero-shot learning). Sehemu ya 4 inajadili majaribio na matokeo. Hatimaye, maelezo ya kuhitimisha na hatua zinazowezekana za baadaye kwa utafiti wa siku zijazo zinajadiliwa katika Sehemu ya 5.
 
-## 2 Historia na Kazi zinazohusiana
+## 2 Usuli na Kazi Husika
 
-Mbinu maarufu ambazo zimetumika kuwakilisha tokeni kama vekta zimekuwa Mfuko wa Maneno (BoW), Marudio ya Neno-Marudio Kinyume ya Hati (TF-IDF) na Taarifa za Kuheshimiana kwa Pointi (PMI). Hata hivyo, mbinu hizi huunda matriki machache na makubwa na pia huunda vekta ambazo hazinasi semantiki (Villegas et al., 2016).
+Mbinu maarufu ambazo zimetumika kuwakilisha tokeni kama vekta zimekuwa Mfuko wa Maneno (BoW), TF-IDF na Taarifa za Pamoja za Pointi (PMI). Hata hivyo, mbinu hizi huunda matriki yenye vijenzi vingi vya sifuri na makubwa na pia huunda vekta ambazo hazinasi semantiki (Villegas et al., 2016).
 
 Maendeleo ya kibunifu yamesababisha kuibuka kwa mbinu mpya zinazotumia mitandao ya neva. Mbinu hizi zinajumuisha miundo maarufu ya Word2Vec (Mikolov et al., 2013) na miundo inayotegemea uangalifu (Vaswani et al., 2017). Miundo hii imepata utendaji wa hali ya juu kwenye kazi za urekebishaji na Ujifunzaji hamishi katika NLP (Devlin et al., 2018).
 
 Hasara ya upachikaji wa maneno wa lugha moja ni kwamba wanatatizika kuhamisha kati ya lugha ambazo hazifanani (Ruder et al., 2019b). Upachikaji wa maneno wa lugha nyingi uliofunzwa kwa lugha nyingi pia umeonyesha kufanya vibaya kwa lugha zenye rasilimali chache (Wu and Dredze, 2020).
 
-Mbinu za ujifunzaji wa uwakilishi kati ya lugha zimependekezwa kushughulikia suala hili (Ruder et al., 2019a). Kuna aina mbili za mbinu za upachikaji wa maneno kati ya lugha: mbinu za ramani na mbinu za baada ya ukweli (Ruder et al., 2019a). Mbinu za awali za ramani zilihitaji matumizi ya kamusi ya ramani ya lugha mbili kati ya lugha zinazochunguzwa, lakini maboresho ya hivi karibuni yameanzisha mbinu za kishindani. Mbinu za kishindani hudhania kwamba nafasi za lugha moja za pembejeo zina umbo sawa na hivyo kupunguza hitaji la kamusi ya uchoraji wa lugha mbili (Ruder et al., 2019a). Hata hivyo, imeonyeshwa kwamba mbinu za kishindani hufanya vibaya wakati viambatanisho vya lugha moja havina umbo sawa (Søgaard et al., 2018).
+Mbinu za ujifunzaji wa uwakilishi kati ya lugha zimependekezwa kushughulikia suala hili (Ruder et al., 2019a). Kuna aina mbili za mbinu za upachikaji wa maneno kati ya lugha: mbinu za ramani na mbinu za baada ya ukweli (Ruder et al., 2019a). Mbinu za awali za ramani zilihitaji matumizi ya kamusi ya ramani ya lugha mbili kati ya lugha zinazochunguzwa, lakini maboresho ya hivi karibuni yameanzisha mbinu za kishindani. Mbinu za kishindani hudhania kwamba nafasi za lugha moja za pembejeo zina umbo sawa na hivyo kupunguza hitaji la kamusi ya uchoraji wa lugha mbili (Ruder et al., 2019a). Hata hivyo, imeonyeshwa kwamba mbinu za kishindani hufanya vibaya wakati upachikaji wa lugha moja hauna umbo sawa (Søgaard et al., 2018).
 
-Kazi za NLP za mkondo wa chini zimethibitishwa kunufaika kutokana na viambatanisho vya maneno kati ya lugha. Kwa mfano, viambatanisho vya maneno kati ya lugha vimeongeza utendaji wa tafsiri ya mashine (Conneau and Lample, 2019) na kazi za kuweka lebo za aina za maneno (POS) (Kim et al., 2017) kama mkakati wa Ujifunzaji hamishi.
+Kazi za NLP za mkondo wa chini zimethibitishwa kunufaika kutokana na upachikaji wa maneno kati ya lugha. Kwa mfano, upachikaji wa maneno kati ya lugha umeongeza utendaji wa tafsiri ya mashine (Conneau and Lample, 2019) na kazi za kuweka lebo za aina za maneno (POS) (Kim et al., 2017) kama mkakati wa Ujifunzaji hamishi.
 
-VecMap imetumika kuunda uchoraji kati ya Kiingereza na Kiwelshi na viambatanisho vilivyotokana vilitumika kufunza kiainishaji cha hisia cha Kiwelshi cha kujifunza bila mifano na kwa mifano michache (Espinosa-Anke et al., 2021). Katika muktadha wa Afrika Kusini, VecMap ilitumika kutengeneza kiambatanisho cha maneno kati ya lugha cha Sepedi-Setswana na kupitisha mbinu ya tathmini ya semantiki kuchanganua ufanano kati ya jozi za istilahi za Setswana na Sepedi (Makgatho et al., 2021) na kutumika katika changamoto ya kujibu maswali yenye kelele na ya lugha nyingi kufunza modeli ya uainishaji ya LSTM (Daniel et al., 2019).
+VecMap imetumika kuunda ramani kati ya Kiingereza na Kiwelshi na upachikaji uliotokana ulitumika kufunza kiainishaji cha hisia cha Kiwelshi cha kujifunza bila mifano na kwa mifano michache (Espinosa-Anke et al., 2021). Katika muktadha wa Afrika Kusini, VecMap ilitumika kutengeneza upachikaji wa maneno kati ya lugha wa Sepedi-Setswana na kupitisha mbinu ya tathmini ya semantiki kuchanganua ufanano kati ya jozi za istilahi za Setswana na Sepedi (Makgatho et al., 2021) na kutumika katika changamoto ya kujibu maswali yenye kelele na ya lugha nyingi kufunza modeli ya uainishaji ya LSTM (Daniel et al., 2019).
 
-Ujifunzaji hamishi bila mifano haujatumika sana kwa uainishaji wa habari za Afrika Kusini. Marivate et al. (2020) walitumia mkusanyiko wa maandishi wenye maelezo wa vipengee vya habari za ndani kuunda kiainishaji cha habari kwa Setswana na Sepedi. Badala ya kutumia upachikaji wa maneno tuli kama ule unaotumiwa na VecMap, kutumia upachikaji wa maneno wa kimuktadha kutoka kwa modeli ya BERT iliyorekebishwa vizuri kumepata matokeo ya kuvutia kwa kazi ya kujifunza bila mifano ya Utambuzi wa Vyombo Vilivyopewa Majina (NER) kwa isiZulu (Wang et al., 2020). Hata hivyo, kazi hii ingehitaji kompyuta kubwa na haijatumika kwa uainishaji wa habari. Kwa ufahamu wetu, hii ni kazi ya kwanza inayotumia upachikaji wa maneno kati ya lugha unaozalishwa kutoka VecMap kuunda kiainishaji cha makala ya habari kutoka Kiingereza hadi isiZulu.
+Ujifunzaji hamishi bila mifano haujatumika sana kwa uainishaji wa habari za Afrika Kusini. Marivate et al. (2020) walitumia korasi yenye maelezo ya vipengee vya habari za ndani kuunda kiainishaji cha habari kwa Setswana na Sepedi. Badala ya kutumia upachikaji wa maneno tuli kama ule unaotumiwa na VecMap, kutumia upachikaji wa maneno wa kimuktadha kutoka kwa modeli ya BERT iliyorekebishwa vizuri kumepata matokeo ya kuvutia kwa kazi ya kujifunza bila mifano ya Utambuzi wa Majina ya Watu, Mahali na Mashirika (NER) kwa isiZulu (Wang et al., 2020). Hata hivyo, kazi hii ingehitaji kompyuta kubwa na haijatumika kwa uainishaji wa habari. Kwa ufahamu wetu, hii ni kazi ya kwanza inayotumia upachikaji wa maneno kati ya lugha unaozalishwa kutoka VecMap kuunda kiainishaji cha makala ya habari kutoka Kiingereza hadi isiZulu.
 
 ## 3 Mbinu
 
 Tunajadili mbinu ya ukuzaji wa upachikaji wa maneno kati ya lugha na kiainishaji cha mkondo wa chini kwa uainishaji wa habari.
 
-## 3.1 Ukusanyaji wa data & Preprocessing
+## 3.1 Ukusanyaji wa data & Uchakataji wa Awali
 
-Data iliyotumiwa katika utafiti huu inatoka kwenye hazina ya Kituo cha Afrika Kusini cha Rasilimali za Lugha za Kidijitali. Tunatumia data hii kwa madhumuni ya kufunza modeli yetu ya upachikaji kati ya lugha. Data inajumuisha data ya maandishi pekee kwa Kiingereza na isiZulu. Kwa mujibu wa nyaraka za kiufundi, mkusanyiko wa maandishi wa Kiingereza wa lugha moja una tokeni 35 686 791 huku mkusanyiko wa maandishi wa Kizulu ukiwa na tokeni 451 154. Tutazingatia tu kategoria za chanzo ambazo ni sawa kati ya lugha hizo.
+Data iliyotumiwa katika utafiti huu inatoka kwenye hazina ya Kituo cha Afrika Kusini cha Rasilimali za Lugha za Kidijitali. Tunatumia data hii kwa madhumuni ya kufunza modeli yetu ya upachikaji kati ya lugha. Data inajumuisha data ya maandishi pekee kwa Kiingereza na isiZulu. Kwa mujibu wa nyaraka za kiufundi, korasi ya Kiingereza ya lugha moja ina tokeni 35 686 791 huku korasi ya Kizulu ikiwa na tokeni 451 154. Tutazingatia tu kategoria za chanzo ambazo ni sawa kati ya lugha hizo.
 
-Pia tunatumia mkusanyiko wa maandishi sambamba wa Kiingereza-Kizulu wa Umsuka (Mabuya et al., 2021) ambao ni mkusanyiko wa maandishi sambamba wa Kizulu wa Programu huria, wenye ubora wa juu kutoka mchanganyiko wa vikoa, ukizingatia muktadha wa Kusini mwa Afrika na kimataifa. Nusu ya seti ya data ilikuwa sampuli nasibu ya seti ya data ya News Crawl ambayo kisha ilitafsiriwa katika Kizulu. Nusu nyingine ya seti ya data ilichukuliwa sampuli kutoka magazeti ya Kizulu (machapisho ya Isolezwe, Ilanga na Ezasegagasini Metro), kuanzia 2012 hadi 2016, pamoja na riwaya na hadithi fupi, ambazo kisha zilitafsiriwa katika Kiingereza. Watafsiri wa kitaalamu walitumiwa kuunda seti ya data. Utafiti wa awali wa majaribio wa sentensi 500 ulifanywa na uhakikisho wa ubora ukifanywa na mwanaisimu wa Kizulu ili kuhakikisha kwamba mahitaji ya ubora yanaeleweka.
+Pia tunatumia korasi sambamba ya Kiingereza-Kizulu ya Umsuka (Mabuya et al., 2021) ambayo ni korasi sambamba ya Kizulu ya Programu huria, yenye ubora wa juu kutoka mchanganyiko wa vikoa, ikizingatia muktadha wa Kusini mwa Afrika na kimataifa. Nusu ya seti ya data ilikuwa sampuli nasibu ya seti ya data ya News Crawl ambayo kisha ilitafsiriwa katika Kizulu. Nusu nyingine ya seti ya data ilichukuliwa sampuli kutoka magazeti ya Kizulu (machapisho ya Isolezwe, Ilanga na Ezasegagasini Metro), kuanzia 2012 hadi 2016, pamoja na riwaya na hadithi fupi, ambazo kisha zilitafsiriwa katika Kiingereza. Watafsiri wa kitaalamu walitumiwa kuunda seti ya data. Utafiti wa awali wa majaribio wa sentensi 500 ulifanywa na uhakikisho wa ubora ukifanywa na mwanaisimu wa Kizulu ili kuhakikisha kwamba mahitaji ya ubora yanaeleweka.
 
 Jedwali la 1 linawasilisha vyanzo vilivyotumika na idadi ya tokeni. Kwa jumla, tuna tokeni 1 320 393 na 2 121 127 kwa isiZulu na Kiingereza mtawalia.
 
@@ -74,17 +74,17 @@ p03-01.png
 
 Jedwali la 1: Tokeni kwa Chanzo na Lugha
 
-Tunaondoa maneno ya kusitisha na kuondoa alama ya uakifishaji katika kumbukumbu asili. Zaidi ya hayo, tunafanya ulemishaji kwenye kumbukumbu ya Kiingereza kwa kutumia kilemishaji cha WordNet (Miller, 1995). Tulifunza kiainishaji cha habari kwa data ya habari ya British Broadcasting Corporation (BBC) iliyopatikana kutoka Kaggle. Kuna makala 1 490 za Kiingereza kwa ajili ya mafunzo na makala 736 za Kiingereza kwa madhumuni ya tathmini. Tunatumia makala ya habari ya SABC kwa tathmini ya isiZulu. Wasemaji wawili wa isiZulu walichora alama kwenye makala 219 za habari za SABC, ambazo ziliangaliwa na mtaalamu wa lugha ya isiZulu. Jedwali la 2 linawasilisha usambazaji wa seti za data.
+Tunaondoa maneno ya kawaida na kuondoa alama ya uakifishaji katika korasi asili. Zaidi ya hayo, tunafanya ulemishaji kwenye korasi ya Kiingereza kwa kutumia kilemishaji cha WordNet (Miller, 1995). Tulifunza kiainishaji cha habari kwa data ya habari ya British Broadcasting Corporation (BBC) iliyopatikana kutoka Kaggle. Kuna makala 1 490 za Kiingereza kwa ajili ya mafunzo na makala 736 za Kiingereza kwa madhumuni ya tathmini. Tunatumia makala ya habari ya SABC kwa tathmini ya isiZulu. Wasemaji wawili wa isiZulu walichora alama kwenye makala 219 za habari za SABC, ambazo ziliangaliwa na mtaalamu wa lugha ya isiZulu. Jedwali la 2 linawasilisha usambazaji wa seti za data.
 
 p03-02.png
 
 Jedwali la 2: Marudio ya kategoria
 
-## 3.2 Uwekaji wa Maneno wa Lugha Moja
+## 3.2 Upachikaji wa Maneno wa Lugha Moja
 
-Kopora zilizochakatwa ambazo tumezieleza katika Sehemu ya 3.1, zinatumika kutengeneza uwekaji wa lugha moja kwa kutumia moduli ya Python ya Gensim. Tunatumia usanifu wa FastText kushughulikia mofolojia ya kiambishi cha isiZulu (Bojanowski et al., 2017).
+Korasi zilizochakatwa ambazo tumezieleza katika Sehemu ya 3.1, zinatumika kutengeneza upachikaji wa lugha moja kwa kutumia moduli ya Python ya Gensim. Tunatumia usanifu wa FastText kushughulikia mofolojia ya kiambishi cha isiZulu (Bojanowski et al., 2017).
 
-Tunazalisha vekta za vipimo 64 kwa kila tokeni katika kopora kwa ukubwa wa dirisha la muktadha wa 3. Parameta hizi juu zilichaguliwa kwa sababu ya ukubwa mdogo wa msamiati wa kopora zetu, na imeonyeshwa kuwa dirisha fupi la muktadha hunasa uwakilishi wa kisintaksia wa neno na dirisha kubwa la muktadha hunasa uwakilishi zaidi wa mada (Levy and Goldberg, 2014). Ili kuonyesha uwakilishi uliojifunza wa kopora tunatumia Uniform Manifold Approximation and Projection (UMAP) (McInnes et al., 2018) kuibua maneno 10 ya karibu zaidi kutoka kopora zote mbili za lugha moja. Tokeni zilizochaguliwa ni "government" kwa Kiingereza na tafsiri ya isiZulu "uhulumeni". Katika Kielelezo 1, tunaona kwamba tokeni zilizo karibu zaidi na "uhulumeni" ni visawe vya "uhulumeni". Vilevile, pia tunaona hali hiyo hiyo kwa "government".
+Tunazalisha vekta za vipimo 64 kwa kila tokeni katika korasi kwa ukubwa wa dirisha la muktadha wa 3. Vigezo hivi vya juu vilichaguliwa kwa sababu ya ukubwa mdogo wa msamiati wa korasi zetu, na imeonyeshwa kuwa dirisha fupi la muktadha hunasa uwakilishi wa kisintaksia wa neno na dirisha kubwa la muktadha hunasa uwakilishi zaidi wa mada (Levy and Goldberg, 2014). Ili kuonyesha uwakilishi uliojifunza wa korasi tunatumia Uniform Manifold Approximation and Projection (UMAP) (McInnes et al., 2018) kuibua maneno 10 ya karibu zaidi kutoka korasi zote mbili za lugha moja. Tokeni zilizochaguliwa ni "government" kwa Kiingereza na tafsiri ya isiZulu "uhulumeni". Katika Kielelezo 1, tunaona kwamba tokeni zilizo karibu zaidi na "uhulumeni" ni visawe vya "uhulumeni". Vilevile, pia tunaona hali hiyo hiyo kwa "government".
 
 p04-01.png
 
@@ -92,33 +92,35 @@ p04-01.png
 
 p04-02.png
 
-Kielelezo 1: Uwakilishi wa UMAP wa embeddings za lugha moja (b) Uwakilishi wa "uhulumeni"
+(b) Uwakilishi wa "uhulumeni"
 
-## 3.3 Habari Makala Classifier
+Kielelezo 1: Uwakilishi wa UMAP wa upachikaji wa lugha moja
 
-Embeddings za maneno kati ya lugha zilizozalishwa zinatumika kufunza kiainishaji kwenye corpus ya Kiingereza. Tunalinganisha algoriti nne na kutathmini utendakazi wake kwa kutumia uthibitishaji mtambuka. Mifano tunayoifunza ni Naive Bayes, Support Vector Machines, Logistic Regression, na Gradient Boosted Machines. Mfano bora zaidi kisha hutumika kuainisha makala za habari za isiZulu zisizoonekana katika nafasi ya upachikaji kati ya lugha.
+## 3.3 Kiainishaji cha Makala ya Habari
+
+Upachikaji wa maneno kati ya lugha uliozalishwa unatumika kufunza kiainishaji kwenye korasi ya Kiingereza. Tunalinganisha algoriti nne na kutathmini utendakazi wake kwa kutumia uthibitishaji mtambuka. Mifano tunayoifunza ni Naive Bayes, Support Vector Machines, Logistic Regression, na Gradient Boosted Machines. Mfano bora zaidi kisha hutumika kuainisha makala za habari za isiZulu zisizoonekana katika nafasi ya upachikaji kati ya lugha.
 
 ## 4 Majaribio na Matokeo
 
-Katika sehemu hii ya karatasi tunaeleza majaribio na matokeo yaliyofanywa katika jitihada za kujibu maswali ya utafiti. Tunaeleza upachikaji wa maneno kati ya lugha ulioundwa na majaribio yaliyofanywa ili kuunda kiainishaji cha makala za habari.
+Katika sehemu hii ya makala tunaeleza majaribio na matokeo yaliyofanywa katika jitihada za kujibu maswali ya utafiti. Tunaeleza upachikaji wa maneno kati ya lugha ulioundwa na majaribio yaliyofanywa ili kuunda kiainishaji cha makala za habari.
 
 ## 4.1 Upachikaji wa Maneno Kati ya Lugha
 
 Tunatumia maktaba ya VecMap iliyoundwa na Artetxe et al. (2018) kuzalisha upachikaji wa maneno kati ya lugha. Katika VecMap, tunatumia mbinu ya kujifunza kati ya lugha isiyo na usimamiaji. Uwakilishi wa UMAP uliotengenezwa na algoriti wa maneno 10 yaliyo karibu zaidi na "government" na "uhulumeni" umeonyeshwa katika Kielelezo 2. Baadhi ya maneno kutoka kwa uwakilishi wa lugha moja uliotolewa katika Kielelezo 1 yalihifadhiwa na VecMap. Hata hivyo, algoriti ilitengeneza mkusanyiko unaotegemea lugha isipokuwa kwa kutambua "powerfully" kuwa karibu zaidi na maneno ya Kizulu.
 
-Modularity ni jambo ambalo mkusanyiko wa lugha hutokea katika nafasi ya kati ya lugha (Fujinuma et al., 2019), kama inavyoonyeshwa katika Kielelezo 2. Fujinuma et al. (2019) wanadai kwamba embeddings za kati ya lugha zinazoakisi modularity zina athari hasi kwenye kazi za mkondo wa chini.
+Umoduli ni jambo ambalo mkusanyiko wa lugha hutokea katika nafasi ya kati ya lugha (Fujinuma et al., 2019), kama inavyoonyeshwa katika Kielelezo 2. Fujinuma et al. (2019) wanadai kwamba upachikaji kati ya lugha unaoakisi umoduli una athari hasi kwenye kazi za mkondo wa chini.
 
 p04-03.png
 
-Kielelezo 2: Uwakilishi wa UMAP wa embeddings za kati ya lugha za VecMap
+Kielelezo 2: Uwakilishi wa UMAP wa upachikaji kati ya lugha wa VecMap
 
 ## 4.2 Ujifunzaji hamishi wa zero-shot
 
-Sehemu hii inawasilisha kazi ya ujifunzaji hamishi wa zero-shot ya kutambua vichwa vya habari vya Kizulu kutoka kwa kiainishaji cha habari cha Kiingereza. Awali tunafunza modeli yetu kwenye makala ya habari ya Kiingereza yaliyo na lebo kwa kutumia viwakilishi vya maneno vya kati ya lugha vilivyozalishwa awali kutoka sehemu iliyotangulia.
+Sehemu hii inawasilisha kazi ya ujifunzaji hamishi wa zero-shot ya kutambua vichwa vya habari vya Kizulu kutoka kwa kiainishaji cha habari cha Kiingereza. Awali tunafunza modeli yetu kwenye makala ya habari ya Kiingereza yaliyo na lebo kwa kutumia upachikaji wa maneno wa kati ya lugha uliozalishwa awali kutoka sehemu iliyotangulia.
 
-## 4.2.1 Jaribio Setup
+## 4.2.1 Mpangilio wa Jaribio
 
-Data ya pembejeo inahitaji kubadilishwa kuwa uwakilishi wake wa vekta kulingana na viwakilishi vya maneno kutoka VecMap. Kwa kuwa kila tokeni ina vipimo 64, tunawakilisha sentensi kama wastani wa uwakilishi wote wa vekta za tokeni. Tunatumia vekta ya sifuri yenye vipimo 64 kuwakilisha tokeni ambazo hazipo katika msamiati.
+Data ya pembejeo inahitaji kubadilishwa kuwa uwakilishi wake wa vekta kulingana na upachikaji wa maneno kutoka VecMap. Kwa kuwa kila tokeni ina vipimo 64, tunawakilisha sentensi kama wastani wa uwakilishi wote wa vekta za tokeni. Tunatumia vekta ya sifuri yenye vipimo 64 kuwakilisha tokeni ambazo hazipo katika msamiati.
 
 Tunatumia 75% ya data kwa mafunzo na 25% kwa madhumuni ya tathmini katika data ya Kiingereza ya BBC. Ili kuchagua modeli bora, tunaendesha tathmini mtambuka iliyorudiwa ya mara 5 yenye matabaka kwenye data ya mafunzo. Kulingana na utaratibu wa uthibitishaji mtambuka, modeli ya LightGBM inazishinda modeli nyingine zote.
 
@@ -136,21 +138,21 @@ p05-02.png
 
 Jedwali 3: Utendaji wa mfano kwenye habari za SABC isiZulu
 
-Mfano ulifanya kazi kwa njia isiyoridhisha katika vichwa vyote. Hata hivyo, kama inavyoonyeshwa katika Jedwali 3 mfano unaonekana kufanya vizuri zaidi kwa vichwa vinavyohusiana na siasa na kupata alama ya F1 ya 0.51. Siasa ina ukubwa wa sampuli kubwa zaidi katika data yetu ya isiZulu. Vichwa vingine vilikuwa na utendaji wa chini, ambayo inaweza kuelezewa na moduli, ambapo viambatanisho vya kati ya lugha vinavyojikusanya kwa lugha huwa na utendaji duni kwa kazi za chini ya mkondo (Fujinuma et al., 2019).
+Mfano ulifanya kazi kwa njia isiyoridhisha katika vichwa vyote. Hata hivyo, kama inavyoonyeshwa katika Jedwali 3 mfano unaonekana kufanya vizuri zaidi kwa vichwa vinavyohusiana na siasa na kupata alama ya F1 ya 0.51. Siasa ina ukubwa wa sampuli kubwa zaidi katika data yetu ya isiZulu. Vichwa vingine vilikuwa na utendaji wa chini, jambo ambalo linaweza kuelezewa na umoduli, ambapo upachikaji kati ya lugha unaojikusanya kwa lugha huwa na utendaji duni kwa kazi za chini ya mkondo (Fujinuma et al., 2019).
 
 ## 5 Hitimisho
 
-Katika kazi hii tunatumia VecMap kuunda viambatanisho vya maneno vya kati ya lugha kati ya Kiingereza na isiZulu. Tumeonyesha kuwa VecMap inazalisha viambatanisho vya maneno vya moduli katika nafasi ya kati ya lugha kutokana na viambatanisho vya maneno vya lugha moja vinavyozalishwa na FastText. Kwa hivyo, tunazalisha viambatanisho vya kati ya lugha vinavyotumika kufunza kiainishaji kinachofanya vizuri kwenye habari za Kiingereza. Hata hivyo, hatukuweza kuhamisha ujifunzaji kwenye makala ya habari ya isiZulu ambayo hayajaonekana.
+Katika kazi hii tunatumia VecMap kuunda upachikaji wa maneno kati ya lugha kati ya Kiingereza na isiZulu. Tumeonyesha kuwa VecMap inazalisha upachikaji wa maneno wa moduli katika nafasi ya kati ya lugha kutokana na upachikaji wa maneno wa lugha moja unaozalishwa na FastText. Kwa hivyo, tunazalisha upachikaji kati ya lugha unaotumika kufunza kiainishaji kinachofanya vizuri kwenye habari za Kiingereza. Hata hivyo, hatukuweza kuhamisha ujifunzaji kwenye makala ya habari ya isiZulu ambayo hayajaonekana.
 
-Katika kazi ya baadaye, tungependa kuchunguza utendaji wa VecMap kwa kutumia mkusanyiko mkubwa zaidi wa isiZulu. Zaidi ya hayo, ingekuwa na faida pia kutumia kipimo cha moduli ili kuboresha Parameta juu za FastText ili kuzalisha viambatanisho vya lugha moja vinavyofaa kwa kazi hiyo.
+Katika kazi ya baadaye, tungependa kuchunguza utendaji wa VecMap kwa kutumia korasi kubwa zaidi ya isiZulu. Zaidi ya hayo, ingekuwa na faida pia kutumia kipimo cha umoduli ili kuboresha vigezo vya juu vya FastText ili kuzalisha upachikaji wa lugha moja unaofaa kwa kazi hiyo.
 
 ## Mapungufu
 
-Katika sehemu hii ya makala tunaelezea vikwazo vya makala hii. Tulifanya maamuzi ya kubuni kulingana na mkusanyiko wa maandishi na rasilimali zilizopo ili kufanya utafiti huu uwezekane.
+Katika sehemu hii ya makala tunaelezea vikwazo vya makala hii. Tulifanya maamuzi ya kubuni kulingana na korasi na rasilimali zilizopo ili kufanya utafiti huu uwezekane.
 
-Kazi hii inawasilisha mkusanyiko wa maandishi wenye ukubwa mdogo kwa isiZulu. Hii inatokana na ukosefu wa rasilimali kwa lugha hii. Kazi nyingine iliyojaribu kujenga viambatanisho vya maneno vya lugha moja kwa isiZulu ni ile ya Dlamini et al. (2021). Hata hivyo, matokeo hayakuchapishwa katika rasilimali inayopatikana kwa umma ambayo ingetuwezesha kulinganisha viambatanisho vilivyozalishwa na kazi yetu.
+Kazi hii inawasilisha korasi yenye ukubwa mdogo kwa isiZulu. Hii inatokana na ukosefu wa rasilimali kwa lugha hii. Kazi nyingine iliyojaribu kujenga upachikaji wa maneno wa lugha moja kwa isiZulu ni ile ya Dlamini et al. (2021). Hata hivyo, matokeo hayakuchapishwa katika rasilimali inayopatikana kwa umma ambayo ingetuwezesha kulinganisha upachikaji uliozalishwa na kazi yetu.
 
-VecMap hailingani vizuri bila matumizi ya GPU, na hivyo utafutaji wa Parameta juu haukufanywa kwa kazi hii. Hata hivyo, kutumia vekta zenye vipimo 128 na ukubwa mkubwa wa dirisha wa 10 kama ilivyopendekezwa na Ri na Tsuruoka (2020) kulisababisha kupungua kwa utendaji, hata kwa makala ya habari ya Kiingereza.
+VecMap haikabiliani vizuri na mzigo mkubwa bila matumizi ya GPU, na hivyo utafutaji wa vigezo vya juu haukufanywa kwa kazi hii. Hata hivyo, kutumia vekta zenye vipimo 128 na ukubwa mkubwa wa dirisha wa 10 kama ilivyopendekezwa na Ri na Tsuruoka (2020) kulisababisha kupungua kwa utendaji, hata kwa makala ya habari ya Kiingereza.
 
 Pia tunabainisha kuwa modeli ya chini ya mkondo ilifunzwa kwa kutumia vichwa vya habari vya makala ya habari za Ulaya na hilo linaweza kuwa na athari kwenye utendaji wa kutambua matukio ambayo ni ya kipekee kwa habari za Afrika Kusini.
 
@@ -174,7 +176,7 @@ Tungependa kutambua ufadhili kutoka Facebook (Zawadi ya Tafsiri ya Mashine), Uen
 
 5 https://www.durban.gov.za/pages/government/documents
 
-6 Orodha ya maneno ya kusimamisha ya isiZulu: https://github.com/stopwords-iso/stopwords-zu
+6 Orodha ya maneno ya kawaida ya isiZulu yanayoondolewa: https://github.com/stopwords-iso/stopwords-zu
 
 7 https://www.kaggle.com/c/learn-ai-bbc
 

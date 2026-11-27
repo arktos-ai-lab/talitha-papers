@@ -75,7 +75,7 @@ The isiZulu news data was collected from Isolezwe, which is a Zulu-language loca
 
 Post data collection process, we worked to categorise the news items using the International Press Telecommunications Council (IPTC) News Categories (or codes)[1]. The categories used were: 1. disaster, accident and emergency incident, 2. economy, business and finance, 3. education, 4. environment, 5. health, 6. human interest, 7. labour, 8. lifestyle and leisure, 9. politics, 10. religion and belief, 11. science and technology, 12. society, 13. sport, 14. weather, 15. arts, culture, entertainment and media, 16. crime, law and justice, 17. conflict, war and peace. We make available the data, and annotations and data statement[2] [3]. An example of an annotated isiZulu article is shown below:
 
-## Politics
+Politics
 
 UMENGAMELI we-ANC uMnuz Cyril Ramaphosa ugqugquzele abantu basePort Shepstone nezindawo ezakhele leli dolobha ukuthi bagcwalise iMoses Mabhida Stadium lapho ezothula khona umyalezo wakhe weJanuary 8 ngoMgqibelo aphinde athule nomhlahlandela weqembu wokuheha abavoti njengoba kuyiwa okhethweni. URamaphosa ehambisana nabanye abaholi be-ANC esifundazweni uhambele kule ndawo izolo enxenxa abantu ukuthi batheleke ngobuningi kulo mgubho weqembu. Uphinde wathembisa ukuthi uzothula uhlelo lwakhe lokuthuthukisa izwe.
 
@@ -103,9 +103,7 @@ There were some characters/words that were not ASCII encoded then those characte
 
 Special characters refer characters such as &%$ and they are not accepted by the models. Hence they were also removed.
 
-The data contained combination of letters that don't make any existing isiZulu/Siswati word. Words such as 'udkt','unksz','unkk'
-
-. Based on these criteria, they were also removed to streamline the corpus, and as a result, improve the analysis.
+The data contained combination of letters that don't make any existing isiZulu/Siswati word. Words such as 'udkt','unksz','unkk'. Based on these criteria, they were also removed to streamline the corpus, and as a result, improve the analysis.
 
 Since the datasets are noise-free, each letter in the datasets was set to lowercase, resulting in clean datasets to be used in machine learning models building.
 
@@ -193,7 +191,9 @@ The Pipeline obtained from this work was summarised and presented in figure 3 be
 
 If the data size is large and contains long-text then Contextual Data Augmentation is recommended over SMOTE, and LSTM is likely to perform better.
 
-p09-01.png
+If the data size is large and contains short-text then SMOTE is recommended over Contextual Data Augmentation, and XGBoost is likely to perform better.
+
+If the data size is small and contains short-text then Contextual Data Augmentation is recommended over SMOTE, and XGBoost is likely to perform better
 
 The Above generalisation is limited to Word2vec word embedding since it is the one that produced outstanding results from all the datasets as compared to TFIDF and Bag-Of-Words. It remains a task to further investigate the poor performance from TFIDF and Bag-Of-Words, possibly the parameter change in classification could lead to good results.
 
@@ -221,7 +221,7 @@ In addition, it is also worth investigating the poor performance of TFIDF and Ba
 
 [2] https://github.com/dsfsi/za-isizulu-siswati-news-2022
 
-[3] https://doi.org/10.5281/zenodo. 7193346
+[3] https://doi.org/10.5281/zenodo.7193346
 
 ## References
 
@@ -279,6 +279,6 @@ Whyatt, B. & Pavlović, N. (2019), 'Languages of low diffusion and low resources
 
 Xu, P. & Fung, P. (2013), 'Cross-lingual language modeling for low-resource speech recognition', IEEE transactions on audio, speech, and language processing 21(6), 1134-1144.
 
-Zhang, X., Zhao, J. & LeCun, Y. (2015), 'Characterlevel convolutional networks for text classification', Advances in neural information processing systems 28,649-657.
+Zhang, X., Zhao, J. & LeCun, Y. (2015), 'Character-level convolutional networks for text classification', Advances in neural information processing systems 28,649-657.
 
 Zoph, B., Yuret, D., May, J. & Knight, K. (2016), 'Transfer learning for low-resource neural machine translation', arXiv preprint arXiv:1604.02201.

@@ -26,7 +26,7 @@ Makala hii inawasilisha tathmini ya mfumo wa ugawaji wa silabi wa Kisotho unaote
 
 Kulingana na sensa ya 2011, kulikuwa na angalau wasemaji 4 618 577 wa lugha ya kwanza ya Sepedi, wasemaji 3 849 562 wa lugha ya kwanza ya Sesotho na wasemaji 4 067 248 wa lugha ya kwanza ya Setswana nchini Afrika Kusini pekee (Lehohla, 2011). Sesotho pia ni lugha rasmi nchini Lesotho na Zimbabwe. Setswana pia ni mojawapo ya lugha rasmi za Botswana. Tafiti za South African Human Language Technologies zinaonyesha kwamba kuna uhaba wa utafiti katika mifumo ya ugawaji wa silabi kwa lugha za kiasili za Afrika Kusini (Grover et al., 2010, 2011; Barnard et al., 2014; Moors et al., 2018a,b). Kwa kiasi tunachojua, Sesotho kwa sasa ni lugha pekee ya asili ya Afrika Kusini yenye mfumo wa syllabification kulingana na kanuni unaopatikana kwa umma. Hata hivyo, kulingana na Sibeko na Setaka (2022), kuna mifumo miwili ya syllabification katika Sesotho. Mfumo wa uchoraji ruwaza unaotegemea TEX wa ujifunzaji wa mashine unategemea korasi za kiwango cha dhahabu zenye ufafanuzi wa silabi uliotolewa kama mifano. Mfumo wa silabi wa Sesotho TEX ulitumia orodha ya kiwango cha dhahabu ya maneno na silabi zao. Kwa kusikitisha, hatujui orodha kama hizo za Sepedi na Setswana. Kwa hiyo, hatuwezi kutathmini mfumo huu wa kujifunza kwa mashine katika makala hii.
 
-Nukuu hii inalenga kuonyesha uwezo wa mfumo wa kanuni za Sesotho katika kutambua misemo katika kikundi kikubwa cha lugha za Sotho-Tswana za Afrika Kusini. Tunatoa maelezo mafupi sana ya historia ya nyakati za lugha za Afrika Kusini na aina za mistari zinazotarajiwa katika Sepedi na Setswana katika sehemu 2. Kisha tunaeleza mbinu yetu ya ukusanyaji wa data katika sehemu 3. Hatimaye, tunajadili matokeo yetu katika sehemu 4 na kumaliza na majadiliano katika sehemu 5.
+Makala hii inalenga kuonyesha uwezo wa mfumo wa kanuni za Sesotho katika kutambua silabi katika kikundi kikubwa cha lugha za Sotho-Tswana za Afrika Kusini. Tunatoa usuli mfupi sana wa othografia za Lugha za Afrika Kusini na aina za silabi zinazotarajiwa katika Sepedi na Setswana katika sehemu ya 2. Kisha tunaeleza mbinu yetu ya ukusanyaji wa data katika sehemu ya 3. Hatimaye, tunajadili matokeo yetu katika sehemu ya 4 na kumalizia kwa majadiliano katika sehemu ya 5.
 
 ## 2 Usuli
 
@@ -44,7 +44,7 @@ Watoto+hao wao+wanakimbia. - Kiingereza
 
 Kama ilivyoonyeshwa hapo juu, lugha kama zile za Sotho-Tswana zenye mifumo ya uandishi yenye kutenganisha hutenga maneno huku lugha zenye mifumo ya uandishi unaounganisha [kwa mfano, isiZulu] zikiunganisha baadhi ya sehemu za usemi kama vile wakati uliopo na kiashirio cha kiima cha wingi katika neno bayagijima. Hata hivyo, lugha za Sotho-Tswana ni rahisi kulinganisha kwa kuwa zinafuata imla ya fonemiki ileile ambapo uwakilishi saba wa fonemiki ni wa kawaida kwa pamoja [ɑ, e, i, o, u, ɛ, na ɔ] (Dickens, 1978; Matlosa, 2017).
 
-Sesotho ina orthographies mbili zinazotambuliwa, yaani, (i) orthography ya Sesotho ya Afrika Kusini (SAS) na (ii) Lesotho Sesotho (LS) orthography. Mojawapo ya tofauti kuu kati ya orthographies za SAS na LS ni matumizi ya diacritics katika orthography ya LS. Kwa mfano, tazama mifano (c) na (d) hapa chini:
+Sesotho ina tahajia mbili zinazotambuliwa, yaani, (i) tahajia ya Sesotho ya Afrika Kusini (SAS) na (ii) tahajia ya Sesotho ya Lesotho (LS). Mojawapo ya tofauti kuu kati ya tahajia za SAS na LS ni matumizi ya alama za kidiakritiki katika tahajia ya LS. Kwa mfano, tazama mifano (c) na (d) hapa chini:
 
 (c) Tshepiso. - SAS orthography
 

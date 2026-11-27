@@ -47,7 +47,7 @@ A first installment of the grammar follows the HPSG Matrix (Bender et al. 2010),
 
 [B] A given attribute is declared by one type only (but occurs with all of its subtypes).
 
-In a TFS representing a grammar, there are many type hierarchies, representing POS, tenses, semantic roles, etc. ; some of these hierarchies do without attributes, while the following ones do. Types for grammatical functions (values of the attribute "GF") and actants (participants in semantic argument structure, represented as values of the attribute "ACTNT") include those indicated below: the gramfct subtypes declare the GF attributes ("SUBJ" and "OBJ") and the actnt subtypes declare the semantic argument structure attributes ("ACT1" and "ACT2"):
+In a TFS representing a grammar, there are many type hierarchies, representing POS, tenses, semantic roles, etc.; some of these hierarchies do without attributes, while the following ones do. Types for grammatical functions (values of the attribute "GF") and actants (participants in semantic argument structure, represented as values of the attribute "ACTNT") include those indicated below: the gramfct subtypes declare the GF attributes ("SUBJ" and "OBJ") and the actnt subtypes declare the semantic argument structure attributes ("ACT1" and "ACT2"):
 
 p02-03.png
 

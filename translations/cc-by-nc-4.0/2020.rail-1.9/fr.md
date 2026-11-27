@@ -75,7 +75,7 @@ La figure 2 montre un exemple d'annotation (issu du dictionnaire bilingue Duala-
 
 La plateforme indépendante est une plateforme REST API basée sur le Web. On peut aussi l'appeler base de données de gestion des ressources lexicographiques. Conçue pour être simple et accessible, cette application web stocke et distribue toutes les ressources lexicographiques issues du travail collaboratif réalisé par les membres des communautés de NTeALan et les contributeurs externes.
 
-L’architecture indépendante utilise nos outils NLP internes pour gérer le format de fichier XND afin de donner aux utilisateurs un accès facile à leurs contributions (voir section 4). Les opérations énumérées dans le tableau 3.1. sont autorisés en libre accès pour chaque type d'utilisateur.
+L’architecture indépendante utilise nos outils NLP internes pour gérer le format de fichier XND afin de donner aux utilisateurs un accès facile à leurs contributions (voir section 4). Les opérations énumérées dans le tableau 3.1 sont autorisées en libre accès pour chaque type d'utilisateur.
 
 p03-01.png
 
@@ -85,7 +85,7 @@ Cette architecture est hébergée à l'adresse https://apis.ntealan.net/ntealan/
 
 ## 3.2 Architectures dépendantes
 
-Les architectures dépendantes sont des plateformes web qui utilisent les données stockées dans la base de données API REST commune (plateforme indépendante), ces dernières étant enrichies par les contributeurs. Elles peuvent également effectuer les opérations décrites dans le tableau 3.1. via leur interface web.
+Les architectures dépendantes sont des plateformes web qui utilisent les données stockées dans la base de données API REST commune (plateforme indépendante), ces dernières étant enrichies par les contributeurs. Elles peuvent également effectuer les opérations décrites dans le tableau 3.1 via leur interface web.
 
 ## 3.2.1. Plateforme de gestion des dictionnaires
 
@@ -111,7 +111,7 @@ La plupart de nos ressources de dictionnaires sont de vieux dictionnaires biling
 
 ## 4.1. Dictionnaires de ressources de langues africaines
 
-Nous hébergeons et partageons actuellement 7 dictionnaires bilingues sur notre API REST. Bien que le nombre d'entrées à ce jour soit encore relativement limité (de 3 à 11 500 entrées), une communauté croissante participe quotidiennement à leur remplissage. Tableau 4.1. montre les statistiques actuelles sur les ressources gérées par notre API.
+Nous hébergeons et partageons actuellement 7 dictionnaires bilingues sur notre API REST. Bien que le nombre d'entrées à ce jour soit encore relativement limité (de 3 à 11 500 entrées), une communauté croissante participe quotidiennement à leur remplissage. Tableau 4.1. présente les statistiques actuelles sur les ressources gérées par notre API.
 
 p04-01.png
 

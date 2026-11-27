@@ -66,6 +66,13 @@ Each of these languages does need its own keyboard setup. When language technolo
 
 In order to meet this challenge, the GiellaLT infrastructure comes with a pipeline for making keyboards and installing them and their corresponding language technology tools on different platforms. The core of the pipeline is the kbdgen tool, with which one can easily specify a keyboard layout in a YAML file, mimicking the actual layout of the keyboard. The listing below shows the definition of the Android mobile keyboard layout for Lule Sámi. The tool takes this definition and a bit of metadata combines it with code for an Android keyboard app, compiles everything, signs the built artefact and uploads it to the Google Play Store, ready for testing.
 
+modes:
+    android:
+        default: |
+            á w e r t y u i o p å
+            a s d f g h j k l ø æ
+            z x c v b n m ŋ
+
 kbdgen supports generating keyboard apps or installer packages for Android, iOS, macOS, Windows, Linux (X11 and m17n) and Chrome OS. There is experimental support for generating Common Language Data Repository (CLDR) XML files, Scalable Vector Graphics (SVG) files for fast layout debugging, and finite state transducers for neighbour key mistyping error models. The Windows installer includes a tool to register unknown languages, so that even languages never seen on a Windows computer will be properly registered, thus making it ready to support proofing tools and other language processing tools.
 
 p04-01.png
@@ -154,6 +161,4 @@ Pretorius, L. & Bosch, S. (2009b), Exploiting cross-linguistic similarities in Z
 
 Treviso, M., Ji, T., Lee, J.-U., van Aken, B., Cao, Q., Ciosici, M. R., Hassid, M., Heafield, K., Hooker, S., Martins, P. H., Martins, A. F. T., Milder, P., Raffel, C., Simpson, E., Slonim, N., Balasubramanian, N., Derczynski, L. & Schwartz, R. (n.d.). URL: https: // arxiv. org/ abs/ 2209. 00099
 
-Wiechetek, L. (2012), Constraint Grammar based correction of grammatical errors for North Sámi, in G. D.
-
-Pauw, G.-M. de Schryver, M. Forcada, K. Sarasola, F. Tyers & P. Wagacha, eds, 'Proceedings of the Workshop on Language Technology for Normalisation of Less-Resourced Languages (SALTMIL 8/AFLAT 2012)', European Language Resources Association (ELRA), Istanbul, Turkey, pp. 35-40.
+Wiechetek, L. (2012), Constraint Grammar based correction of grammatical errors for North Sámi, in G. D. Pauw, G.-M. de Schryver, M. Forcada, K. Sarasola, F. Tyers & P. Wagacha, eds, 'Proceedings of the Workshop on Language Technology for Normalisation of Less-Resourced Languages (SALTMIL 8/AFLAT 2012)', European Language Resources Association (ELRA), Istanbul, Turkey, pp. 35-40.

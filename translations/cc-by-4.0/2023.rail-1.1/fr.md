@@ -1,4 +1,4 @@
-> Machine translation (fr) of "Automatic Spell Checker and Correction for Under-represented Spoken Languages: Case Study on Wolof" by Thierno Ibrahima Cissé, Fatiha Sadat, https://aclanthology.org/2023.rail-1.1/, licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (glossary, madlad-7b, mistral-small3.2-24b, opus-mt, rescue-deepseek-v4-pro); not reviewed by a human; changes were made.
+> Machine translation (fr) of "Automatic Spell Checker and Correction for Under-represented Spoken Languages: Case Study on Wolof" by Thierno Ibrahima Cissé, Fatiha Sadat, https://aclanthology.org/2023.rail-1.1/, licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (fix-deepseek-v4-pro, glossary, madlad-7b, mistral-small3.2-24b, opus-mt, rescue-deepseek-v4-pro); checked against the original by automated review, and sentences with errors were replaced by another open-model translation; not reviewed by a human; changes were made.
 
 ## Vérification orthographique et correction automatiques pour les langues parlées sous-représentées : étude de cas sur le wolof
 
@@ -14,9 +14,9 @@ Université du Québec à Montréal
 
 ## Résumé
 
-Cet article présente un correcteur orthographique et un outil de correction spécialement conçus pour le wolof, un langage parlé sous-représenté en Afrique. Le correcteur orthographique proposé tire parti d'une combinaison d'une structure de données trie, de la programmation dynamique et de la distance de Levenshtein pondérée pour générer des suggestions pour les mots mal orthographiés. Nous avons créé de nouvelles ressources linguistiques pour le wolof, telles qu'un lexique et un corpus de mots mal orthographiés, en utilisant une approche semi-automatique qui combine des méthodes d'annotation manuelle et automatique. Malgré les données limitées disponibles pour la langue wolof, les performances du correcteur orthographique ont montré une précision prédictive de 98,31 % et une précision de suggestion de 93,33 %.
+Cet article présente un correcteur orthographique et un outil de correction spécialement conçus pour le wolof, une langue parlée sous-représentée en Afrique. Le correcteur orthographique proposé tire parti d'une combinaison d'une structure de données trie, de la programmation dynamique et de la distance de Levenshtein pondérée pour générer des suggestions pour les mots mal orthographiés. Nous avons créé de nouvelles ressources linguistiques pour le wolof, telles qu'un lexique et un corpus de mots mal orthographiés, en utilisant une approche semi-automatique qui combine des méthodes d'annotation manuelle et automatique. Malgré les données limitées disponibles pour la langue wolof, les performances du correcteur orthographique ont montré une précision prédictive de 98,31 % et une précision de suggestion de 93,33 %.
 
-Notre objectif principal reste la revitalisation et la préservation du wolof en tant que langue autochtone et langage parlé en Afrique, en soutenant nos efforts pour développer de nouvelles ressources linguistiques. Ce travail représente une contribution précieuse à la croissance des outils et ressources informatiques pour la langue wolof et fournit une base solide pour les futures études dans le domaine de la vérification et de la correction orthographique automatique.
+Notre objectif principal reste la revitalisation et la préservation du wolof en tant que langue autochtone et langue parlée en Afrique, à l'appui de nos efforts pour développer de nouvelles ressources linguistiques. Ce travail représente une contribution précieuse à la croissance des outils et ressources informatiques pour la langue wolof et fournit une base solide pour les futures études dans le domaine de la vérification et de la correction orthographique automatique.
 
 ## 1 Introduction
 
@@ -52,13 +52,13 @@ Plusieurs études sur les fautes d'orthographe ont été faites, avec une contri
 
 Erreurs lexicales : Résultat de fautes appliquées à des mots individuels, indépendamment de leur contexte au sein d'une phrase (Ten Hacken and Tschichold, 2001).
 
-Erreurs grammaticales : inclure à la fois les erreurs morphologiques et syntaxiques. Les erreurs morphologiques impliquent des déficiences dans des éléments linguistiques tels que la dérivation, la flexion, les prépositions, les articles, les pronoms personnels, les verbes auxiliaires et les déterminants. Les erreurs syntaxiques résultent de problèmes dans les composantes linguistiques, notamment la voix passive, le temps, les syntagmes nominaux, les verbes auxiliaires, l'accord sujet-verbe et les déterminants (Gayo and Widodo, 2018).
+Erreurs grammaticales : comprennent à la fois les erreurs morphologiques et syntaxiques. Les erreurs morphologiques impliquent des déficiences dans des éléments linguistiques tels que la dérivation, la flexion, les prépositions, les articles, les pronoms personnels, les verbes auxiliaires et les déterminants. Les erreurs syntaxiques résultent de problèmes dans les composantes linguistiques, notamment la voix passive, le temps, les syntagmes nominaux, les verbes auxiliaires, l'accord sujet-verbe et les déterminants (Gayo and Widodo, 2018).
 
 Les causes des fautes d'orthographe sont diverses et peuvent provenir de sources cognitives et typographiques (Peterson, 1980). Les erreurs cognitives surviennent lorsqu'une personne ne maîtrise pas l'orthographe correcte d'un mot, tandis que les erreurs typographiques se produisent lorsque des touches incorrectes sont frappées lors de la saisie. La littérature dans le domaine de la correction orthographique a généralement abordé ces types d'erreurs séparément, avec diverses techniques développées spécifiquement pour répondre à chaque type (Kukich, 1992). Malgré l'importance du traitement du langage, il y a eu un manque d'attention à la création d'outils de correction orthographique automatique pour les langues à faibles ressources en particulier. Bien que certaines tentatives aient été faites pour appliquer des techniques de correction orthographique automatique standard à quelques langues autochtones africaines (Boago Okgetheng et al., 2022; M'eric, 2014; Salifou et Naroua, 2014), aucun effort de ce type n'a été fait pour la langue wolof. À notre connaissance, la seule recherche exclusivement dédiée à la correction du wolof est (Lo et al., 2016), qui fournit un aperçu de l'état de l'art et esquisse des solutions potentielles pour développer un correcteur orthographique adapté au wolof. Cette recherche adopte des approches couramment utilisées dans le domaine et évalue les performances de notre système à l'aide de diverses métriques d'évaluation connues.
 
 ## 3 Méthodologie
 
-Le système décrit dans cette étude vise à identifier et à corriger les erreurs non verbales en langue wolof.
+Le système décrit dans cette étude vise à identifier et corriger les erreurs de non-mots dans la langue wolof.
 
 Pour atteindre cet objectif, nous avons conçu et mis en œuvre le diagramme de flux présenté à la Figure 1.
 
@@ -66,7 +66,7 @@ p03-01.png
 
 Figure 1 : Diagramme du correcteur orthographique
 
-L'organigramme de la Figure 1 fournit une représentation visuelle des différents composants et processus impliqués dans le système de correcteur orthographique proposé. Le système comprend des mécanismes d'entrée et de sortie, des algorithmes pour la détection et la correction des erreurs, ainsi que des structures de données et des modèles qui aident à sa fonctionnalité. Le but du système est d'identifier et de corriger avec précision les erreurs non verbales dans la langue wolof. Par la présentation de l'architecture globale du système, le lecteur pourra comprendre le fonctionnement du système et ses principes de conception visant à détecter et corriger les mots invalides dans la langue wolof.
+L'organigramme de la Figure 1 fournit une représentation visuelle des différents composants et processus impliqués dans le système de correcteur orthographique proposé. Le système comprend des mécanismes d'entrée et de sortie, des algorithmes pour la détection et la correction des erreurs, ainsi que des structures de données et des modèles qui aident à sa fonctionnalité. Le but du système est d'identifier et de corriger avec précision les erreurs de non-mots dans la langue wolof. Par la présentation de l'architecture globale du système, le lecteur pourra comprendre le fonctionnement du système et ses principes de conception visant à détecter et corriger les mots invalides dans la langue wolof.
 
 ## 3.1 Génération de lexique wolof
 
@@ -74,7 +74,7 @@ Notre approche pour générer un lexique Wolof fiable implique la combinaison de
 
 Tout d'abord, une annotation manuelle a été réalisée sur un corpus de texte wolof (James Cross et al., 2022) pour identifier les mots uniques et les extraire dans une liste. Cette méthodologie permet un examen approfondi de la langue wolof et garantit la précision du lexique en permettant un contrôle manuel de l'inclusion des mots.
 
-Deuxièmement, une extraction automatique a été réalisée à l'aide de méthodes de reconnaissance optique de caractères (OCR) et implémentée sous la forme de scripts Python, appliqués à plusieurs dictionnaires wolof-français (Fal et al., 1990 et Diouf et Kenkyjo, 2001). Cette méthodologie facilite l'expansion de la couverture du lexique et permet l'identification de mots supplémentaires qui pourraient ne pas avoir été capturés par l'annotation manuelle seule.
+Ensuite, une extraction automatique a été réalisée en utilisant des méthodes de reconnaissance optique de caractères (OCR) et mise en œuvre sous forme de scripts Python, appliqués à plusieurs dictionnaires wolof-français (Fal et al., 1990 et Diouf et Kenkyūjo, 2001). Cette méthodologie facilite l'expansion de la couverture du lexique et permet l'identification de mots supplémentaires qui pourraient ne pas avoir été capturés par l'annotation manuelle seule.
 
 Enfin, pour assurer l'exactitude du lexique, les données globales résultantes ont fait l'objet d'une relecture. Cette étape a validé la justesse des mots et de leur orthographe et a permis d'apporter les révisions nécessaires avant la génération du lexique final.
 
@@ -82,13 +82,13 @@ Il est important de noter que, en raison de la disponibilité limitée des resso
 
 ## 3.2 Prétraitement
 
-Notre système de correction orthographique met en œuvre une étape préliminaire, qui implique la suppression des entrées contenant des caractères numériques, des signes de ponctuation ou des mots empruntés à des langues étrangères. Le résultat de cette étape sert de base à la détection des erreurs non verbales dans le texte.
+Notre système de correction orthographique met en œuvre une étape préliminaire, qui implique la suppression des entrées contenant des caractères numériques, des signes de ponctuation ou des mots empruntés à des langues étrangères. Le résultat de cette étape sert de base à la détection des erreurs de non-mots dans le texte.
 
 La phase de prétraitement consiste en trois opérations principales : l'élimination des signes de ponctuation, la normalisation de l'entrée et la segmentation du texte en mots individuels.
 
 ## 3.2.1 Retrait de la ponctuation
 
-L'objectif de la suppression de la ponctuation dans notre étape de prétraitement est d'éliminer les signes de ponctuation non essentiels présents dans le texte d'entrée. Ces signes peuvent entraver l'efficacité du processus de correction orthographique et peuvent causer de la confusion lors de l'analyse du texte (Rahimi et Homayounpour, 2022). En supprimant ces signes, nous garantissons que les étapes ultérieures du système de correction orthographique peuvent traiter le texte de manière plus efficace et efficiente. L'algorithme utilisé dans cette étape scanne le texte d'entrée et supprime toutes les instances de points de ponctuation, y compris les virgules, les périodes, les points d'exclamation et les points d'interrogation. La sortie de cette étape est un texte nettoyé qui est libre des éléments étrangers et prêt pour l'analyse ciblée dans les étapes suivantes du système.
+L'objectif de la suppression de la ponctuation dans notre étape de prétraitement est d'éliminer les signes de ponctuation non essentiels présents dans le texte d'entrée. Ces signes peuvent entraver l'efficacité du processus de correction orthographique et peuvent causer de la confusion lors de l'analyse du texte (Rahimi et Homayounpour, 2022). En supprimant ces signes, nous garantissons que les étapes ultérieures du système de correction orthographique peuvent traiter le texte de manière plus efficace et efficiente. L'algorithme utilisé à cette étape analyse le texte d'entrée et supprime toutes les occurrences de signes de ponctuation, y compris les virgules, les points, les points d'exclamation et les points d'interrogation. La sortie de cette étape est un texte nettoyé qui est libre des éléments étrangers et prêt pour l'analyse ciblée dans les étapes suivantes du système.
 
 ## 3.2.2 Normalisation
 
@@ -104,7 +104,7 @@ La tokenisation est une étape critique dans le processus de correction orthogra
 
 Il existe une gamme de techniques utilisées pour la tokenisation qui varient en fonction de la langue et de la tâche à accomplir. Celles-ci peuvent inclure le découpage sur les espaces et la ponctuation, l'utilisation d'expressions régulières, ou le recours à des dictionnaires et à des règles morphologiques (Dalrymple et al., 2006).
 
-Le processus de tokenisation aboutit à des unités qui peuvent aller de caractères individuels ou de mots à des phrases ou même des phrases complètes. Cependant, la tokenisation de mots est la forme de segmentation la plus couramment utilisée dans les systèmes de correction orthographique, car elle sépare le texte en mots individuels et fournit une base solide pour l'identification des erreurs d'orthographe (Mosavi Miangah, 2013 ; Rahman et al., 2021 ; Abdulrahman et Hassani, 2022).
+Le processus de tokenisation aboutit à des unités qui peuvent aller de caractères individuels ou de mots à des syntagmes ou même des phrases complètes. Cependant, la tokenisation de mots est la forme de segmentation la plus couramment utilisée dans les systèmes de correction orthographique, car elle sépare le texte en mots individuels et fournit une base solide pour l'identification des erreurs d'orthographe (Mosavi Miangah, 2013 ; Rahman et al., 2021 ; Abdulrahman et Hassani, 2022).
 
 La tokenisation des mots améliore non seulement l'exactitude et l'efficacité du processus de correction orthographique, mais permet également une analyse du contexte dans lequel chaque mot apparaît. Cela permet au système de vérification orthographique de faire des suggestions plus éclairées pour les corrections orthographiques appropriées, améliorant ainsi la précision des résultats.
 
@@ -144,7 +144,7 @@ Prenant en compte les erreurs courantes observées dans l'analyse des données d
 
 Dans le système actuel, pour générer des alternatives potentielles pour les mots mal orthographiés, nous avons mis en œuvre une méthode de comparaison de distance lexicographique. Ce processus consiste à déterminer le nombre minimum d'opérations d'édition, telles que l'insertion, la suppression, la transposition et la substitution, nécessaires pour changer un mot en un autre (Vienney, 2004). Plus les disparités entre deux mots sont importantes, plus la distance lexicographique entre eux est grande. Parmi les différentes métriques de distance lexicographique, la Distance de Levenshtein (Levenshtein, 1965) est la plus couramment utilisée. Il quantifie la différence entre deux chaînes en fonction des trois opérations de chaîne fondamentales: substitution, insertion et suppression.
 
-Soit Levα,β la distance de Levenshtein entre la sous-séquence formée avec les α premiers caractères d'un mot W1 et la sous-séquence formée avec les β premiers caractères d'un mot W. La distance de Levenshtein entre les deux sous-séquences W1 et W2 (de longueur |W1| et |W2| respectivement) peut être calculée récursivement en utilisant la formule 1 (Levenshtein, 1965).
+Soit Levα,β la distance de Levenshtein entre la sous-séquence formée des α premiers caractères d'un mot W<sub>1</sub> et la sous-séquence formée des β premiers caractères d'un mot W. La distance de Levenshtein entre les deux sous-séquences W<sub>1</sub> et W<sub>2</sub> (de longueur |W<sub>1</sub>| et |W<sub>2</sub>| respectivement) peut être calculée récursivement à l'aide de la Formule 1 (Levenshtein, 1965).
 
 p05-02.png
 
@@ -180,7 +180,7 @@ Tableau 5 : Distance d'édition des fautes d'orthographe par rapport à leurs co
 
 ## 4.2 Sélection des métriques d'évaluation
 
-Il y a divers facteurs à prendre en compte dans l'évaluation des correcteurs orthographiques. Les mesures conventionnelles, y compris le rappel et la précision, ont été largement utilisées pendant un temps considérable pour évaluer la compétence linguistique de tels outils. néanmoins, d'un point de vue centré sur l'usage, ces paramètres d'évaluation présentent des limites en raison de l'absence de certaines variables intrinsèques à l'évaluation des correcteurs orthographiques dans ces métriques.
+Il y a divers facteurs à prendre en compte dans l'évaluation des correcteurs orthographiques. Les mesures conventionnelles, y compris le rappel et la précision, ont été largement utilisées pendant un temps considérable pour évaluer la compétence linguistique de tels outils. néanmoins, dans une approche centrée sur l'usage, ces paramètres d'évaluation présentent des limites en raison de l'absence, dans ces métriques, de certaines variables intrinsèques à l'évaluation des correcteurs orthographiques.
 
 Pour déterminer la fiabilité de notre correcteur orthographique, nous avons utilisé les mesures proposées dans (Starlander et Popescu-Belis, 2002), (Voorhees et Garofolo, 2000), (Paggio et Music, 1998), (Paggio et Underwood, 1998), (King, 1999), ainsi que les mesures suivantes:
 
@@ -196,37 +196,37 @@ Malgré leur ancienneté, ces métriques restent largement utilisées dans l'ét
 
 Les autres métriques utilisées dans ces évaluations sont décrites comme suit :
 
-## 4.2.1 Récall lexical ou Rc
+## 4.2.1 Rappel lexical ou R<sub>c</sub>
 
 Il est déterminé en calculant le rapport des mots valides correctement reconnus dans le texte par le correcteur orthographique, au nombre total de mots exacts dans le même texte, comme indiqué dans la formule 2 (Starlander et Popescu-Belis, 2002).
 
 p07-01.png
 
-## 4.2.2 Erreur de rappel ou Ri
+## 4.2.2 Rappel d'erreur ou R<sub>i</sub>
 
 Il est exprimé comme la fraction de mots incorrects dans le texte détecté par le correcteur orthographique, comparé au nombre total de mots incorrects dans le texte, comme indiqué dans la formule 3 (Starlander et Popescu-Belis, 2002).
 
 p07-02.png
 
-## 4.2.3 Précision lexicale ou Pc
+## 4.2.3 Précision lexicale ou P<sub>c</sub>
 
 Il est calculé en divisant le nombre total de mots valides reconnus avec précision par le correcteur orthographique par la somme des mots valides reconnus par le correcteur orthographique et la quantité de mots invalides qui n'ont pas été identifiés comme incorrects par le correcteur orthographique, comme le montre la formule 4 (Starlander et Popescu-Belis, 2002).
 
 p07-03.png
 
-## 4.2.4 Erreur de précision ou Pi
+## 4.2.4 Précision d'erreur ou P<sub>i</sub>
 
 Il est déterminé en divisant le nombre de marqueurs exacts établis par le correcteur orthographique par le nombre total de marqueurs émis par le système, comme le montre la formule 5 (Starlander et Popescu-Belis, 2002).
 
 p07-04.png
 
-## 4.2.5 F-mesure lexicale ou F mc
+## 4.2.5 F-mesure lexicale ou F m<sub>c</sub>
 
 Il permet de calculer la moyenne harmonique entre le rappel lexical et la précision lexicale, comme le montre la formule 6 (Starlander et Popescu-Belis, 2002).
 
 p07-05.png
 
-## 4.2.6 Erreur F-measure ou F mi
+## 4.2.6 Mesure F d'erreur ou F m<sub>i</sub>
 
 La mesure F de l'erreur est calculée en calculant la moyenne harmonique du rappel lexical et de la précision lexicale, comme le montre la formule 7 (Starlander et Popescu-Belis, 2002).
 
@@ -246,7 +246,7 @@ p07-08.png
 
 ## 4.2.9 Classement réciproque moyen ou MRR
 
-Comme indiqué précédemment, notre correcteur orthographique sélectionne systématiquement le premier mot de la liste de recommandations comme étant la substitution la plus probable pour le mot mal orthographié. Cependant, comme le choix de la première option dans la liste recommandée peut ne pas toujours être le choix approprié, nous utiliserons la métrique MRR pour évaluer la méthodologie de classement. Soit N le nombre total de mots incorrects et Ranki,c la position de la suggestion correcte dans la liste de suggestion pour le ie mot mal orthographié dans N. Le MRR est calculé en utilisant la Formule 10 (Voorhees et Garofolo, 2000).
+Comme indiqué précédemment, notre correcteur orthographique sélectionne systématiquement le premier mot de la liste de recommandations comme étant la substitution la plus probable pour le mot mal orthographié. Cependant, comme le choix de la première option dans la liste recommandée peut ne pas toujours être le choix approprié, nous utiliserons la métrique MRR pour évaluer la méthodologie de classement. Soit N le nombre total de mots incorrects et Rank<sub>i,c</sub> la position de la suggestion correcte dans la liste de suggestions pour le i-ème mot mal orthographié dans N. Le MRR est calculé en utilisant la Formule 10 (Voorhees and Garofolo, 2000).
 
 p08-01.png
 
@@ -260,9 +260,9 @@ p08-02.png
 
 Tableau 6 : Mesures de performance du correcteur orthographique
 
-Le score de rappel de 95,16% (Rc) et 100% (Ri) illustre la nature exhaustive du lexique utilisé par le correcteur orthographique, ainsi que son statut relativement intact.
+Le score de rappel de 95,16 % (R<sub>c</sub>) et 100 % (R<sub>i</sub>) illustre la nature exhaustive du lexique utilisé par le correcteur orthographique, ainsi que son état relativement intact.
 
-Le correcteur orthographique affiche un niveau de précision exceptionnel, avec un score de 100% (Pc) et 97,46% (Pi), ce qui indique sa fiabilité dans l'identification précise des fautes d'orthographe ainsi que des mots valides. Les scores de la mesure F de 97,52 % (F mc) et 98,71 % (F mi) démontrent l'évitement par le correcteur orthographique des stratégies simplistes, assurant ainsi son efficacité.
+Le correcteur orthographique affiche un niveau de précision exceptionnel, avec un score de 100 % (P<sub>c</sub>) et 97,46 % (P<sub>i</sub>), ce qui indique sa fiabilité dans l'identification précise des fautes d'orthographe ainsi que des mots valides. Les scores de la mesure F de 97,52 % (F mc) et 98,71 % (F mi) démontrent l'évitement par le correcteur orthographique des stratégies simplistes, assurant ainsi son efficacité.
 
 Le score de précision des suggestions du correcteur orthographique (SA) de 93,33% atteste de la pertinence et de la véracité de l'alternative la plus probable au mot mal orthographié présenté à l'utilisateur final.
 
@@ -276,9 +276,9 @@ Pour comprendre pleinement et identifier les limites linguistiques de notre corr
 
 p08-03.png
 
-Tableau 7: Modifier la distance des fautes d'orthographe avec des suggestions incorrectes
+Tableau 7 : Distance d'édition des fautes d'orthographe avec des suggestions incorrectes
 
-Après un examen approfondi des résultats affichés, nous avons surpris de constater qu'il n'y avait pas de corrélation linéaire significative entre la distance d'édition d'un mot mal orthographié et la probabilité que le correcteur orthographique génère des suggestions incorrectes. Ces constatations concordent avec celles présentées au tableau 5. La majorité des mots dans notre corpus de mots mal orthographiés avaient une distance d'édition de 3, ce qui augmentait la probabilité que le correcteur orthographique produise une suggestion erronée pour les mots mal orthographiés avec une distance d'édition de 3. De plus, comme les mots mal orthographiés avec des distances d'édition de 11, 12 et 13 étaient sous-représentés dans notre corpus, les suggestions du correcteur orthographique pour ces mots étaient toutes exactes. Cela renforce notre conclusion que plus la fréquence des mots mal orthographiés avec une distance d'édition spécifique est élevée, plus les chances que le correcteur orthographique génère des suggestions inexactes de mots mal orthographiés avec cette même distance d'édition sont grandes.
+Après un examen approfondi des résultats affichés, nous avons remarqué avec surprise qu'il n'y avait pas de corrélation linéaire significative entre la distance d'édition d'un mot mal orthographié et la probabilité que le correcteur orthographique génère des suggestions incorrectes. Ces constatations concordent avec celles présentées au tableau 5. La majorité des mots dans notre corpus de mots mal orthographiés avaient une distance d'édition de 3, ce qui augmentait la probabilité que le correcteur orthographique produise une suggestion erronée pour les mots mal orthographiés avec une distance d'édition de 3. De plus, comme les mots mal orthographiés avec des distances d'édition de 11, 12 et 13 étaient sous-représentés dans notre corpus, les suggestions du correcteur orthographique pour ces mots étaient toutes exactes. Cela renforce notre conclusion que plus la fréquence des mots mal orthographiés avec une distance d'édition spécifique est élevée, plus les chances que le correcteur orthographique génère des suggestions inexactes de mots mal orthographiés avec cette même distance d'édition sont grandes.
 
 ## 5 Limites
 
@@ -294,7 +294,7 @@ Cet article présente un correcteur orthographique novateur pour la langue wolof
 
 Les résultats de cette recherche fournissent des preuves convaincantes de la viabilité du correcteur orthographique pour la langue wolofe, ouvrant des voies pour une amélioration et une exploration ultérieures.
 
-Pour les recherches futures, il serait intéressant d'étudier l'effet de l'augmentation du lexique et du corpus de mots mal orthographiés sur la performance du correcteur orthographique. De plus, une comparaison de la performance du correcteur orthographique avec d'autres méthodes de correction orthographique utilisées dans les langues à ressources limitées, telles que les langues africaines indigènes, pourrait fournir des informations précieuses sur les forces et les faiblesses de l'approche actuelle. L'intégration de techniques de pointe, tenant compte du contexte, telles que celles basées sur l'apprentissage automatique et les réseaux de neurones profonds, dans le correcteur orthographique pourrait également être explorée pour améliorer davantage ses capacités.
+Pour les recherches futures, il serait intéressant d'étudier l'effet de l'augmentation du lexique et du corpus de mots mal orthographiés sur la performance du correcteur orthographique. De plus, une comparaison de la performance du correcteur orthographique avec d'autres méthodes de correction orthographique utilisées dans les langues à ressources limitées, telles que les langues africaines indigènes, pourrait fournir des informations précieuses sur les forces et les faiblesses de l'approche actuelle. L'intégration de techniques état de l'art, prenant en compte le contexte, telles que celles basées sur l'apprentissage automatique et les réseaux de neurones artificiels profonds, dans le correcteur orthographique pourrait également être explorée pour améliorer davantage ses capacités.
 
 ## Remerciements
 
@@ -314,7 +314,7 @@ Nous remercions également les participants de la communauté wolofe pour avoir 
 
 ## Références
 
-Roshna Omer Abdulrahman and Hossein Hassani. 2022. A language model for spell checking of educational texts in kurdish (sorani). 1st Annual Meeting of the ELRA/ISCA Special Interest Group on UnderResourced Languages, SIGUL 2022 - Held in Conjunction with the International Conference on Language Resources and Evaluation, LREC 2022 - Proceedings, pages 189-198.
+Roshna Omer Abdulrahman and Hossein Hassani. 2022. A language model for spell checking of educational texts in kurdish (sorani). 1st Annual Meeting of the ELRA/ISCA Special Interest Group on Under-Resourced Languages, SIGUL 2022 - Held in Conjunction with the International Conference on Language Resources and Evaluation, LREC 2022 - Proceedings, pages 189-198.
 
 Anthony Almudevar. 2001. A dynamic programming algorithm for the optimal control of piecewise deterministic markov processes. SIAM Journal on Control and Optimization, 40(2):525-539.
 
@@ -348,7 +348,7 @@ Yaakov HaCohen-Kerner, Daniel Miller, and Yair Yigal. 2020. The influence of pre
 
 James Cross, Maha Elbayad, and Kenneth Heafield. 2022. No language left behind: Scaling human-centered machine translation.
 
-M King. 1999. Evaluation design: The EAGLES framework. In Proceedings of the Konvens '98: Evaluation of the Linguistic Performance of Machine Translation Systems, Bonn, Germany. Rita Nübel, Uta SeewaldHeeg, Gardezi Verlag, St. Augustin.
+M King. 1999. Evaluation design: The EAGLES framework. In Proceedings of the Konvens '98: Evaluation of the Linguistic Performance of Machine Translation Systems, Bonn, Germany. Rita Nübel, Uta Seewald-Heeg, Gardezi Verlag, St. Augustin.
 
 Donald Knuth. 1998. Art of computer programming, the: Volume 3: Sorting and searching, 2nd edition. edition. Addison-Wesley Professional.
 
@@ -356,7 +356,7 @@ Karen Kukich. 1992. Techniques for automatically correcting words in text. Acm C
 
 Vladimir I. Levenshtein. 1965. Binary codes capable of correcting deletions, insertions, and reversals. Soviet physics. Doklady, 10:707-710.
 
-Alla Lo, Cheikh Bamba Dione, Mathieu Mangeot, Mouhamadou Khoule, Sokhna Bao-Diop, MameThierno Cissé, et al. 2016. Correction orthographique pour la langue wolof: état de l'art et perspectives. In JEP-TALN-RECITAL 2016: Traitement Automatique Des Langues Africaines TALAF 2016.
+Alla Lo, Cheikh Bamba Dione, Mathieu Mangeot, Mouhamadou Khoule, Sokhna Bao-Diop, Mame-Thierno Cissé, et al. 2016. Correction orthographique pour la langue wolof: état de l'art et perspectives. In JEP-TALN-RECITAL 2016: Traitement Automatique Des Langues Africaines TALAF 2016.
 
 Jean-Jacques M'eric. 2014. A spell-checker and thesaurus for Bambara (Bamanankan) (Un v'erificateur orthographique pour la langue bambara) [in French]. TALAf@TALN, pages 141-146.
 
@@ -382,6 +382,6 @@ Marianne Starlander and Andrei Popescu-Belis. 2002. Corpus-based evaluation of a
 
 Pius Ten Hacken and Cornelia Tschichold. 2001. Word Manager and CALL: Structured access to the lexicon as a tool for enriching learners' vocabulary. ReCALL, 13(1):121-131.
 
-S. Vienney. 2004. Correction Automatique : Bilan et Perspectives. Presses universitaires de FrancheComté.
+S. Vienney. 2004. Correction Automatique : Bilan et Perspectives. Presses universitaires de Franche-Comté.
 
 Ellen Voorhees and John Garofolo. 2000. The TREC Spoken Document Retrieval Track. Bulletin of the American Society for Information Science and Technology, 26(5):18-19.

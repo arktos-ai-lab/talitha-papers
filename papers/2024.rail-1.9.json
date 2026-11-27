@@ -1,0 +1,45 @@
+{
+ "id": "2024.rail-1.9",
+ "title": "Bootstrapping Syntactic Resources from isiZulu to Siswati",
+ "authors": [
+  "Laurette Marais",
+  "Laurette Pretorius",
+  "Lionel Clive Posthumus"
+ ],
+ "year": 2024,
+ "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+ "source_url": "https://aclanthology.org/2024.rail-1.9/",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "",
+ "original_language": "en",
+ "languages_studied": [
+  {
+   "iso639_3": "ssw",
+   "name": "Swati"
+  },
+  {
+   "iso639_3": "zul",
+   "name": "Zulu"
+  }
+ ],
+ "licence": {
+  "id": "cc-by-nc-4.0",
+  "name": "Creative Commons Attribution-NonCommercial 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+ },
+ "references": [],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 0,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2024.rail-1.9/",
+  "fr": "https://talithapapers.com/fr/papers/2024.rail-1.9/",
+  "sw": "https://talithapapers.com/sw/papers/2024.rail-1.9/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

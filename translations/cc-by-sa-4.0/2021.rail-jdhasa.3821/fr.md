@@ -84,7 +84,7 @@ p05-02.png
 
 Figure 4 : Résultats de la recherche de l'adjectif 'letinene'
 
-À partir de la figure 4, les occurrences montrent que tous les mots qui entrent en collocation avec l'adjectif letinene sont les mêmes que dans la figure 2. Les collocats tindlu (maisons) et timhaka (nouvelles) sont des noms classés dans la classe 10 du système de classes nominales du xitsonga. Le collocatif restant to hlaya (beaucoup) qui est mis en évidence dans la figure est un qualificatif relatif. Il a été formé par un accord relatif à et le radical relatif hlaya (compter) qui est dérivé d'un verbe.
+À partir de la figure 4, les occurrences montrent que tous les mots qui entrent en collocation avec l'adjectif letinene sont les mêmes que dans la figure 2. Les collocatifs tindlu (maisons) et timhaka (nouvelles) sont des noms classés dans la classe 10 du système de classes nominales du xitsonga. Le collocatif restant to hlaya (beaucoup) qui est mis en évidence dans la figure est un qualificatif relatif. Il a été formé par un accord relatif à et le radical relatif hlaya (compter) qui est dérivé d'un verbe.
 
 ## 5 Conclusion
 

@@ -43,161 +43,53 @@ Stop consonants are produced by a complete closure in the vocal tract. The compl
 
 Segments are not articulated in isolation in speech; rather, segments influence each other and are sensitive to context. Voicing is a phonological process that explains the varying qualities in sound production. It is the modification of the phonological features of a segment due to the influence of an adjacent segment. Different commands are given to the glottis to produce segments with different phonological specifications for voicing in running speech. In Ngamambo, we observe that a voiceless consonant becomes voiced at the word boundary. This process seems to be part of the native speaker ´ s intuition of the grammar of the language. For instance, in the "infinitive" form of the verb, the final segment is voiceless, and when, for example it is conjugated to mark tense, the segment becomes voiced at the word boundary. The examples below illustrate this phenomenon.
 
-́
-
-Table 1: Verbs ending in /k/ and with / / ɔ preceding the /k/
+Table 1: Verbs ending in /k/ and with /ɔ/ preceding the /k/
 
 p02-01.png
 
-̀
+Voicing occurs in Ngamambo when there is a boundary between the segments. When a voiceless consonant at the word boundary is followed by another segment, the voiceless sound becomes voiced. For instance, in the word gɔ̀k # gùgə́, the final plosive of the root form /k/ changes to /g/. As observed from the data above, this voicing phenomenon is expressed in this context when the verb form is conjugated to mark the progressive tense. Also, the vowel of the root verb changes from a mid-low back-rounded vowel /ɔ/ to a high-back round vowel /u/.
 
-́
-
-Voicing occurs in Ngamambo when there is a boundary between the segments. When a voiceless consonant at the word boundary is followed by another segment, the voiceless sound becomes voiced. For instance, in the word g k ɔ # gùgǝ , the final plosive of the root form /k/ changes to /g/. As observed from the data above, this voicing phenomenon is expressed in this context when the verb form is conjugated to mark the progressive tense. Also, the vowel of the root verb changes from a mid-low back-rounded vowel / / to a high-back round ɔ vowel /u/.
-
-́
-
-́
-
-Table 2. Nouns ending in /k/ and with / / ɔ preceding the /k/
+Table 2. Nouns ending in /k/ and with /ɔ/ preceding the /k/
 
 p02-02.png
 
-́
+Table 2 above shows that nouns ending in /k/ and preceded by /ɔ/ follow the same rule as verbs inflected for progressive tense. The common denominator in both cases is that the consonant change takes occurs across a word boundary and affects the preceding vowel.
 
-Table 2 above shows that nouns ending in /k/ and preceded by / / follow the same rule as ɔ verbs inflected for progressive tense. The
-
-̀
-
-́
-
-̀
-
-́
-
-́
-
-̀
-
-́
-
-́
-
-́
-
-́
-
-́
-
-́ common denominator in both cases is that the consonant change takes occurs across a word boundary and affects the preceding vowel.
-
-̀
-
-́
-
-́
-
-Table 3: Verbs ending in /k/ and with / / ǝ preceding the /k/.
+Table 3: Verbs ending in /k/ and with /ə̀/ preceding the /k/.
 
 p03-01.png
 
-́
+In the case of verbs ending in /k/ and preceded by /ə/, when conjugated in the present progressive tense, the /k/ changes to /g/ and the middle low vowel /ə/ changes to a back /ɨ/.
 
-́
-
-In the case of verbs ending in /k/ and preceded by / /, when conjugated in the present ǝ progressive tense, the /k/ changes to /g/ and the middle low vowel / / changes to a back / /. ǝ ɨ
-
-́
-
-Table 4: Nouns ending in /k/ and preceded by / /. ǝ
+Table 4: Nouns ending in /k/ and preceded by /ə́/.
 
 p03-02.png
 
-́
-
-́
-
-Where the noun ends in /k/ preceded by / / ǝ across a word boundary, the /k/ changes to /g/ and the / / changes to / /. ǝ ɨ
-
-́
-
-́
+Where the noun ends in /k/ preceded by /ə́/ across a word boundary, the /k/ changes to /g/ and the /ə́/ changes to /ɨ/.
 
 Table 5: Words (nouns and verbs) ending in /y/. Consider the following:
 
 p03-03.png
 
-Table 5 shows that voicing in Ngamambo is not limited to /k/ in word-final position changing to /g/ across word boundaries and causing a change in the vowel quality from / / to /u/.
+Table 5 shows that voicing in Ngamambo is not limited to /k/ in word-final position changing to /g/ across word boundaries and causing a change in the vowel quality from /ɔ/ to /u/.
 
-ɔ
-
-The examples show that /y/ in word-final position changes to /g/ and the preceding vowel / /, a front, mid low vowel changes to /i/, a ɛ front high vowel as in the case of /k/ where the
-
-́
-
-́ preceding back mid low / / vowel changes to ɔ the back high /u/. The data so far shows that the only vowel that precedes /y/ is / / which, as Ɛ shown, changes to /i/ while /y/ at the same time changes to /g/.
-
-́
+The examples show that /y/ in word-final position changes to /g/ and the preceding vowel /ɛ/, a front, mid low vowel changes to /i/, a front high vowel as in the case of /k/ where the preceding back mid low /ɔ/ vowel changes to the back high /u/. The data so far shows that the only vowel that precedes /y/ is /ɛ/ which, as shown, changes to /i/ while /y/ at the same time changes to /g/.
 
 Table 6: Verbs ending in /t/
 
 p03-04.png
 
-̀
-
 From the data in Table 6 it is noted that in Ngamambo, when verbs ending with /t/ are conjugated to mark the progressive tense, the voiceless alveolar oral stop /t/ changes to a fricative /r/. However, there is no concomitant change in the vowel quality as in the case of words ending /k/ In the case of /t/, the vowel in the root form of the verbs does not change.
-
-́
-
-́
 
 Table 7: Nouns ending in /t/
 
 p03-05.png
 
-́
-
-́
-
-́
-
-́
-
-The above examples in Table 7 show that nouns ending in /t/ do not change across word boundary, and there is also no vowel change. It was shown in table 5 that verbs ending in /t/ change when they are conjugated in the present
-
-̀
-
-̀
-
-́
-
-́
-
-́
-
-́
-
-́
-
-̀
-
-̀
-
-́
-
-̀
-
-́ progressive tense, but the vowel remains the same.
-
-́
-
-́
+The above examples in Table 7 show that nouns ending in /t/ do not change across word boundary, and there is also no vowel change. It was shown in table 5 that verbs ending in /t/ change when they are conjugated in the present progressive tense, but the vowel remains the same.
 
 Table 8: Words ending in /p/
 
 p04-01.png
-
-́
 
 The data in Table 8 shows words ending with the voiceless bilabial plosive /p/. This voiceless plosive /p/ changes to its voiced counterpart /b/ when the word is conjugated to mark tense. It behaves the same way as verbs ending in /t/.
 
@@ -207,17 +99,7 @@ Table 9 above further confirms the existence of voicing in Ngamambo in that the 
 
 This paper has adduced evidence to show that words ending in /t/,/p/ and /k/ undergo some form of voicing. However, there seem to be two types of voicing: one involving /t/ and /p/ where, when they are in final position, they maintain their voiceless character. However, across word boundaries, they become voiced but without a change in the vowel (quality or sonority of the vowel). It is proposed that this form of voicing in Ngamamba be called partial voicing since it only involves the consonant change.
 
-The other form of voicing involves /k/ and /y/ in word-final position and their change to /g/ across word boundaries. In this type of voicing, the / / infront of /y/ changes to /i/, the / / in ɛ ɔ front of /k/ changes to /u/ and the / / in front ǝ of /k/ changes to / / across a word boundary.
-
-ɨ
-
-́
-
-̀
-
-́
-
-́
+The other form of voicing involves /k/ and /y/ in word-final position and their change to /g/ across word boundaries. In this type of voicing, the /ɛ/ in front of /y/ changes to /i/, the /ɔ/ in front of /k/ changes to /u/ and the /ə/ in front of /k/ changes to /ɨ/ across a word boundary.
 
 It is proposed that this second type of voicing be called full voicing because it entails both a consonant and vowel change.
 
@@ -229,11 +111,7 @@ The question arises as to whether the consonants /k/ and /y/ trigger the vowel c
 
 Furthermore, it would seem from the data that in some cases the vowel triggers the consonant change rather than the other way round where one might also posit that the consonant triggers the vowel change. For example,
 
-̀
-
 p05-01.png
-
-́
 
 The argument in this case is that the word-final consonant generally remains constant until the vowel that precedes it changes. Usually the vowel that precedes the word-final consonant is not high. However, when it changes to become high, the word-final consonant (generally a voiceless consonant) changes to its voiced counterpart to "harmonize" the sonority of the new high vowel that has taken the place of the lower vowel.
 
@@ -245,11 +123,11 @@ From the data in this paper, it is clear that voicing occurs with verbs when inf
 
 While this paper is on voicing in Ngamambo, it is important to point out that there are instances of devoicing in the language. It has been shown that some generally voiceless consonants in word-final position become voiced across word boundaries and the vowel quality of the vowels that were in front of them also change. Devoicing occurs where sounds lose their voicing quality when they are either preceded or followed by specific consonantal or vowel segments (Fujimoto, 2015). This seems to be the case in Ngamambo. Consider the example below:
 
-Table 11: Verbs with / / ə
+Table 11: Verbs with /ə/
 
 p05-02.png
 
-From the data in Table 11, the quality of the vowel (the sonority of the vowel) changes from a front high unrounded vowel /i/ to a front midhigh unrounded vowel /έ/ which shows that the high vowel /ί/ has lost some of it high quality to become a mid vowel /έ/.
+From the data in Table 11, the quality of the vowel (the sonority of the vowel) changes from a front high unrounded vowel /i/ to a front midhigh unrounded vowel /ɛ́/ which shows that the high vowel /ı́/ has lost some of it high quality to become a mid vowel /ɛ́/.
 
 ## 1.5 Conclusion
 
@@ -273,7 +151,7 @@ Dawood, H. S. A. & Ahmad A. (2015). Assimilation of Consonants in English and As
 
 Keating, P. A. (1984). Phonetic and phonological representation of stop voicing. Language. 60:286-319.
 
-Dmitrieva, O. (2014). "Final voicing and devoicing in American English" . The Journal of the Acoustical Society of America. 136 (4): 2174. Bibcode:2014ASAJ..136.2174D. doi:10.112 1/1.4899867.
+Dmitrieva, O. (2014). "Final voicing and devoicing in American English" . The Journal of the Acoustical Society of America. 136 (4): 2174. Bibcode:2014ASAJ..136.2174D. doi:10.1121/1.4899867.
 
 Fujimoto, M. (2015). 4 vowel devoicing. In H. Kubozono (Ed.), Handbook of Japanese phonetics and Phonology (PP. 167.214). Berlin, Müchen, Boston: De Gruyter Mouton. https//doi. Org/10.1515/9781614511984.167.
 

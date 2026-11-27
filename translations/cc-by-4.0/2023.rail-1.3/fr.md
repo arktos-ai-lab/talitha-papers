@@ -1,4 +1,4 @@
-> Machine translation (fr) of "Preparing the Vuk’uzenzele and ZA-gov-multilingual South African multilingual corpora" by Richard Lastrucci, Isheanesu Dzingirai, Jenalea Rajab, Andani Madodonga, Matimba Shingange, Daniel Njini, Vukosi Marivate, https://aclanthology.org/2023.rail-1.3/, licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (glossary, madlad-7b, mistral-small3.2-24b, opus-mt, rescue-deepseek-v4-pro); not reviewed by a human; changes were made.
+> Machine translation (fr) of "Preparing the Vuk’uzenzele and ZA-gov-multilingual South African multilingual corpora" by Richard Lastrucci, Isheanesu Dzingirai, Jenalea Rajab, Andani Madodonga, Matimba Shingange, Daniel Njini, Vukosi Marivate, https://aclanthology.org/2023.rail-1.3/, licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (fix-deepseek-v4-pro, glossary, madlad-7b, mistral-small3.2-24b, opus-mt, rescue-deepseek-v4-pro); checked against the original by automated review, and sentences with errors were replaced by another open-model translation; not reviewed by a human; changes were made.
 
 ## Préparation des corpus multilingues sud-africains Vuk'uzenzele et ZA-gov-multilingual
 
@@ -15,7 +15,7 @@ Matimba Shingange1, Daniel Njini1, Vukosi Marivate1,3
 
 ## Résumé
 
-Cet article présente deux corpus multilingues à thème gouvernemental dans diverses langues sud-africaines. Les corpus ont été collectés en rassemblant le journal gouvernemental sud-africain (Vuk'uzenzele), ainsi que les discours du gouvernement sud-africain (ZA-gov-multilingual), qui sont traduits dans les 11 langues officielles sud-africaines. Les corpus peuvent être utilisés pour une myriade de tâches NLP en aval. Les corpus ont été créés pour permettre aux chercheurs d'étudier le langage utilisé dans les publications du gouvernement sud-africain, en mettant l'accent sur la compréhension de la façon dont les fonctionnaires sud-africains communiquent avec leurs électeurs.
+Cet article présente deux corpus multilingues à thème gouvernemental dans diverses langues sud-africaines. Les corpus ont été collectés en rassemblant le journal gouvernemental sud-africain (Vuk'uzenzele), ainsi que les discours du gouvernement sud-africain (ZA-gov-multilingual), qui sont traduits dans les 11 langues officielles sud-africaines. Les corpus peuvent être utilisés pour une myriade de tâches de TAL en aval. Les corpus ont été créés pour permettre aux chercheurs d'étudier le langage utilisé dans les publications du gouvernement sud-africain, en mettant l'accent sur la compréhension de la façon dont les fonctionnaires sud-africains communiquent avec leurs électeurs.
 
 Dans cet article, nous mettons en avant le processus de collecte, de nettoyage et de mise à disposition des corpus. Nous créons des corpus de phrases parallèles pour des tâches de traduction automatique neuronale (NMT) en utilisant des embeddings LASER (Language-Agnostic Sentence Representations). Avec ces phrases alignées, nous fournissons ensuite des benchmarks de NMT pour 9 langues indigènes en ajustant finement un modèle de langage pré-entraîné massivement multilingue.
 
@@ -23,9 +23,7 @@ Dans cet article, nous mettons en avant le processus de collecte, de nettoyage e
 
 L'avancement de la recherche en traitement automatique du langage naturel (TALN) en Afrique est entravé en raison de la rareté des données pour l'entraînement de modèles pour diverses tâches de TALN (Nekoto et al., 2020) ainsi que de la disponibilité de benchmarks et des moyens de les reproduire (Martinus et Abbott, 2019). Pour de nombreuses langues sud-africaines, il existe encore des défis pour trouver des jeux de données textuels facilement disponibles (Marivate et al., 2020) même s'il y a de nombreux locuteurs pour ces langues (Ranathunga et de Silva, 2022). Il est nécessaire de se concentrer sur le développement de ressources de TAL en langues locales (Joshi et al., 2020).
 
-Cet article s'appuie sur les travaux d'Autshumato (Groenewald et Fourie, 2009 ; Groenewald et du Plooy, 2010) en créant des corpus parallèles automatiquement alignés à partir de données textuelles gouvernementales dans les 11 langues officielles d'Afrique du Sud. Alors que le
-
-Le projet Autshumato s'est concentré sur la création d'outils de traduction automatique pour cinq langues autochtones, mais les corpus résultants manquaient d'informations sur leur origine ou leur contexte, limitant leur utilité pour d'autres tâches de TAL telles que la catégorisation, la modélisation thématique au fil du temps et d'autres tâches nécessitant des informations contextuelles sur le contenu. Notre approche fournit des données plus complètes qui peuvent prendre en charge un éventail plus large d'applications NLP.
+Cet article s'appuie sur les travaux d'Autshumato (Groenewald et Fourie, 2009 ; Groenewald et du Plooy, 2010) en créant des corpus parallèles automatiquement alignés à partir de données textuelles gouvernementales dans les 11 langues officielles d'Afrique du Sud. Alors que le projet Autshumato s'est concentré sur la création d'outils de traduction automatique pour cinq langues autochtones, les corpus qui en ont résulté manquaient d'informations sur leur origine ou leur contexte, ce qui limitait leur utilité pour d'autres tâches de TAL telles que la catégorisation, la modélisation thématique dans le temps et d'autres tâches nécessitant des informations contextuelles sur le contenu. Notre approche fournit des données plus complètes qui peuvent prendre en charge un éventail plus large d'applications de TAL.
 
 Notre conviction est qu'il existe une opportunité significative de créer un processus de collecte de données plus convivial, facilement maintenable et offrant des outils d'extraction pour les autres. Il est essentiel de préserver la source des données et de la structurer de manière à permettre des extensions. Notre objectif est d'améliorer les ressources de Traduction Automatique Neuronale (NMT) dans le domaine des données gouvernementales en incluant toutes les langues indigènes et en élargissant les directions de traduction au-delà de l'anglais comme langue source. De plus, nous reconnaissons l'importance de fournir des données alignées pour toutes les langues sud-africaines au-delà de l'anglais.
 
@@ -55,7 +53,7 @@ Ligne 3 : Auteur de l'article (si disponible. Sinon, la valeur par défaut est V
 
 Ligne 4: ligne vide
 
-## · Ligne 5-fin : corps de l'article
+Ligne 5-fin : corps de l'article
 
 Les données sont plus faciles à analyser et à visualiser après avoir été revues manuellement. L'effort intensif en main-d'œuvre était nécessaire pour fournir une analyse complète et significative du contenu du magazine. Le processus long et fastidieux de revue et d'extraction manuelle en valait finalement la peine, car il offre l'opportunité de créer une compréhension plus approfondie du contenu de Vuk'uzenzele. Au moment de la rédaction, nous avons 53 éditions du journal couvrant la période allant de janvier 2020 à juillet 2022. D'autres ajouts seront ajoutés dans le temps par l'équipe. Des automatisations ont été mises en place pour télécharger et archiver les PDF, mais un effort manuel est encore nécessaire pour extraire et identifier les articles traduits. Le jeu de données, le code et les outils d'extraction automatisés sont disponibles à l'adresse https://github.com/dsfsi/vukuzenzele-nlp et sur Zenodo (Marivate et al., 2023a). Nous le mettons à disposition dans un format qui permet à d'autres chercheurs de l'étendre, de le remixer et d'y ajouter des éléments (licence CC-4.0-BY-SA pour les données et licence MIT pour le code).
 
@@ -65,7 +63,7 @@ Le jeu de données du corpus multilingue ZA-Gov a été construit à partir des 
 
 ## 2.2.1 Création de ZA-Gov-multilingue
 
-Les données brutes ZA-Gov Multilingual sont extraites du site web du gouvernement sud-africain (https://www.gov.za/), où toutes les déclarations du cabinet et leurs traductions sont publiées. Les données ont été extraites et structurées dans un format JSON. La charge utile JSON pour chaque enregistrement vocal :
+Les données brutes ZA-Gov Multilingual sont extraites du site web du gouvernement sud-africain (https://www.gov.za/), où toutes les déclarations du cabinet et leurs traductions sont publiées. Les données ont été extraites et structurées dans un format JSON. La charge utile JSON de chaque discours enregistre :
 
 Date,
 
@@ -87,7 +85,7 @@ Cette structure permet aux chercheurs et analystes d'effectuer facilement divers
 
 ## 3 Les corpus comme fondement pour d'autres tâches de TAL et pour des études ultérieures
 
-En plus de soutenir la création de modèles de NMT (abordés dans la section suivante), nos ensembles de données ont le potentiel de servir de base à de nombreuses autres tâches de NLP au-delà de la traduction. Nous croyons que ces jeux de données seront une ressource précieuse pour l'étude de la communication gouvernementale sud-africaine, et qu'ils peuvent être utilisés pour la création directe de catégorisation/classification de documents multilingues (Schwenk et Li, 2018), de simplification (Lu et al., 2021; Siddharthan, 2014; Martin et al., 2022), d'extraction d'entités (Tedeschi et al., 2021; Chen et al., 2018; Pappu et al., 2017; Emelyanov et Artemova, 2019), et d'autres tâches de TAL. Pour étendre davantage l'utilité du jeu de données, nous recommandons d'examiner des travaux tels que le Parallel Meaning Bank (Abzianidze et al., 2017), qui peut servir d'inspiration pour transférer des connaissances d'une langue à une autre et fournir de nouveaux benchmarks qui pourraient être utiles pour les langues d'Afrique australe au-delà de l'Afrique du Sud. Nous envisageons ces jeux de données comme un point de départ pour des recherches supplémentaires dans le domaine du TAL multilingue pour les langues sud-africaines et africaines.
+En plus de soutenir la création de modèles NMT (abordés dans la section précédente), nos jeux de données ont le potentiel de servir de base à de nombreuses autres tâches de TAL au-delà de la traduction. Nous croyons que ces jeux de données seront une ressource précieuse pour l'étude de la communication gouvernementale sud-africaine, et qu'ils peuvent être utilisés pour la création directe de catégorisation/classification de documents multilingues (Schwenk et Li, 2018), de simplification (Lu et al., 2021; Siddharthan, 2014; Martin et al., 2022), d'extraction d'entités (Tedeschi et al., 2021; Chen et al., 2018; Pappu et al., 2017; Emelyanov et Artemova, 2019), et d'autres tâches de TAL. Pour étendre davantage l'utilité du jeu de données, nous recommandons d'examiner des travaux tels que le Parallel Meaning Bank (Abzianidze et al., 2017), qui peut servir d'inspiration pour transférer des connaissances d'une langue à une autre et fournir de nouveaux benchmarks qui pourraient être utiles pour les langues d'Afrique australe au-delà de l'Afrique du Sud. Nous envisageons ces jeux de données comme un point de départ pour des recherches supplémentaires dans le domaine du TAL multilingue pour les langues sud-africaines et africaines.
 
 ## 4 Méthodes de traitement et de compilation
 
@@ -119,11 +117,11 @@ Le texte brut issu des données collectées a été pré-traité de la manière 
 
 Supprimer les points (ou les nombres à un ou plusieurs chiffres) qui commençaient une ligne
 
-Insérer une période après une série de nombres au format x · y.
+Insérer un point après une série de nombres au format x · y.
 
-Ajoutant une période après une chaîne de nombres au format x.
+Ajouter un point après une chaîne de nombres au format x.
 
-Remplacer une séquence de signes de ponctuation, tels qu'une période, un deux-points, un point-virgule, ou une combinaison de ceux-ci, suivie d'une lettre par une seule période.
+Remplacer une séquence de signes de ponctuation, tels qu'un point, deux-points, point-virgule ou une combinaison de ceux-ci, suivie d'une lettre avec un seul point.
 
 ## 4.2 Alignement de corpus
 
@@ -131,7 +129,7 @@ Une fois pré-traité, le texte a été transmis au tokeniseur "punkt" de NLTK q
 
 ## 4.2.1 Encodages LASER
 
-Afin de comparer le texte pour la similitude, des encodeurs LASER ont été utilisés. LASER, qui signifie Language-Agnostic Sentence Representations, est un projet de recherche de Facebook AI Research. LASER génère des représentations de phrases en codant les phrases dans un vecteur. Les vecteurs servent de représentation machine de la phrase. Les vecteurs peuvent être comparés à l'aide de la similarité cosinus qui produit un score compris entre zéro et un. Les scores cosinus plus proches d'un indiquent une forte similarité. Ce score est enregistré dans les ensembles de données LASER (disponibles dans le référentiel des ensembles de données). Les observations présentes dans chaque ensemble de données avec un score supérieur à 0,65, ou une similitude de 65 %, sont énumérées dans les tableaux 2 et 3 suivants. Des tableaux complets présentant le nombre d'observations présentes dans tous les ensembles de données sont présentés dans les fichiers README des dépôts d'ensembles de données, https://github.com/dsfsi/gov-za-multilingual pour ZA-Gov-Multilingual et https://github.com/dsfsi/vukuzenzele-nlp pour Vuk'uzenzele.
+Afin de comparer le texte pour la similitude, des encodeurs LASER ont été utilisés. LASER, qui signifie Language-Agnostic Sentence Representations, est un projet de recherche de Facebook AI Research. LASER génère des représentations de phrases en codant les phrases dans un vecteur. Les vecteurs servent de représentation machine de la phrase. Les vecteurs peuvent être comparés à l'aide de la similarité cosinus qui produit un score compris entre zéro et un. Les scores cosinus plus proches d'un indiquent une forte similarité. Ce score est enregistré dans les jeux de données LASER (disponibles dans le dépôt de jeux de données). Les observations présentes dans chaque ensemble de données avec un score supérieur à 0,65, ou une similitude de 65 %, sont énumérées dans les tableaux 2 et 3 suivants. Des tableaux complets présentant le nombre d'observations présentes dans tous les ensembles de données sont présentés dans les fichiers README des dépôts d'ensembles de données, https://github.com/dsfsi/gov-za-multilingual pour ZA-Gov-Multilingual et https://github.com/dsfsi/vukuzenzele-nlp pour Vuk'uzenzele.
 
 Tableau 2 : Les dix ensembles de données comptant le plus grand nombre d'observations avec un score de cosinus supérieur ou égal à 0,65 à Vuk'uzenzele.
 
@@ -143,15 +141,15 @@ p04-02.png
 
 ## 4.3 Post-traitement
 
-Pour les jeux de données LASER, la phrase source, la phrase cible et le score cosinus des données alignées ont été écrits dans un fichier csv avec la convention de nommage 'aligned-{src_lang_code}-{tgt_lang_code}.csv'. csv', c'est-à-dire 'aligned-afr-zul.csv'. Reportez-vous à la liste des langues dans 1 pour connaître les codes linguistiques utilisés pour nommer les ensembles de données.
+Pour les jeux de données LASER, la phrase source, la phrase cible et le score cosinus des données alignées ont été écrits dans un fichier csv avec la convention de nommage « aligned-{src_lang_code}-{tgt_lang_code}.csv », c.-à-d. « aligned-afr-zul.csv ». Reportez-vous à la liste des langues dans 1 pour connaître les codes linguistiques utilisés pour nommer les ensembles de données.
 
 Pour les ensembles de données alignés simples, la phrase source et la phrase cible ont été écrites dans un fichier csv avec la même structure de nommage que les ensembles de données LASER.
 
-## 5 NMT Benchmarks
+## 5 Bancs d'essai NMT
 
 Les corpus de phrases alignés minimaux, pour les langues africaines à faibles ressources, entravent la qualité des modèles de NMT entraînés à partir de zéro (Martinus et Abbott, 2019; Nekoto et al., 2020; Adelani et al., 2022). Récemment, Adelani et al. (2022) ont abordé ce problème en ajustant finement des modèles massivement multilingues, y compris le modèle M2M100 (Fan et al., 2021), sur un petit nombre de phrases alignées. Le modèle M2M100 est un modèle de langage plusieurs-à-plusieurs non centré sur l'anglais, entraîné pour traduire directement entre 100 langues, dont cinq langues officielles sud-africaines (Fan et al., 2021). Adelani et al. (2022) ont démontré comment tirer efficacement parti de ce modèle pour de petites quantités de données, afin de créer des systèmes de NMT pour les langues et les domaines non inclus dans le pré-entraînement.
 
-S'appuyant sur leur travail, nous créons des repères de traduction de base pour les ensembles de données multilingues Vuk'uzenzele et ZA-gov, dans le domaine des publications gouvernementales, en peaufinant le modèle M2M100. Pour fournir nos résultats dans le contexte et à des fins de comparaison, nous avons également affiné le modèle M2M100 sur des sous-ensembles du corpus parallèle Autshumato existant obtenu du Centre sud-africain pour les ressources linguistiques numériques (McKellar, (2021,2,2,2,0,2) (https://sadilar.org). Nous concentrons nos efforts sur la fourniture de repères NMT pour les langues africaines à faible ressource dans les ensembles de données, car ces traductions en afrikaans ne sont pas incluses en raison de la disponibilité relativement élevée des ensembles de données numériques dans cette langue, et nous laissons cela pour des travaux futurs.
+En nous appuyant sur leurs travaux, nous créons des bancs d'essai de traduction de référence pour les jeux de données Vuk'uzenzele et ZA-gov-multilingual, dans le domaine des publications gouvernementales, en procédant à l'ajustement fin du modèle M2M100. Pour fournir nos résultats dans le contexte et à des fins de comparaison, nous avons également affiné le modèle M2M100 sur des sous-ensembles du corpus parallèle Autshumato existant obtenu du Centre sud-africain pour les ressources linguistiques numériques (McKellar, (2021,2,2,2,0,2) (https://sadilar.org). Nous concentrons nos efforts sur la fourniture de repères NMT pour les langues africaines à faible ressource dans les ensembles de données, car ces traductions en afrikaans ne sont pas incluses en raison de la disponibilité relativement élevée des ensembles de données numériques dans cette langue, et nous laissons cela pour des travaux futurs.
 
 ## 5.1 Prétraitement
 
@@ -268,8 +266,6 @@ Les statistiques sur les ensembles de données utilisés pour l'étalonnage des 
 Tableau 5 : Caractéristiques des données de traduction pour les ensembles de données Vuk'uzenzele (Vuk.)
 
 p08-01.png
-
-zul→eng zul→eng
 
 Tableau 6 : Caractéristiques des données de traduction pour les ensembles de données ZA-gov-multilingual (Gov.)
 

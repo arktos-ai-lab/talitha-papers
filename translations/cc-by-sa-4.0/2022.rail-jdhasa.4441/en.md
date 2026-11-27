@@ -77,9 +77,7 @@ In our opinion there are no safe generic copyright rules for text scanning excep
 
 The hardware used for converting audio material is USB Cassette Capture (tape to MP3 converter). Determining the quality of audio cassettes is the first step in the digitisation of audio material. Incorrect storage, deterioration because of age and physical damage to cassettes can all affect the quality of the digitised version. In cases where the quality of the original recording is less than perfect, a decision as to the usefulness of digitisation should be taken, based on the inherent value of the resource.
 
-Audacity
-
-(https://www.audacityteam.org/about/), released 20 years ago, is open source software and is regarded as being as effective as many premium paid-for applications (https://www.techradar.com/reviews/audacity).
+Audacity (https://www.audacityteam.org/about/), released 20 years ago, is open source software and is regarded as being as effective as many premium paid-for applications (https://www.techradar.com/reviews/audacity).
 
 For the purpose of the digitisation of audio cassettes, the software allows the user to digitise recordings from other media, edit the digitised file, i.e. cut, copy, paste and delete and export the digitised file to the desired format. It also has a noise reduction function that can reduce constant background sounds.
 

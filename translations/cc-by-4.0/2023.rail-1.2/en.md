@@ -92,7 +92,9 @@ p04-01.png
 
 p04-02.png
 
-Figure 1: UMAP representation of the monolingual embeddings (b) Representation of "uhulumeni"
+(b) Representation of "uhulumeni"
+
+Figure 1: UMAP representation of the monolingual embeddings
 
 ## 3.3 News Article Classifier
 

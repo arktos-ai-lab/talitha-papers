@@ -34,11 +34,11 @@ La section 2 du présent document décrit le processus de collecte des données 
 
 À l'origine, on s'attendait à ce que les données diffusées par diverses stations de radio soient transmises en continu à un serveur. Cependant, au cours du processus d'identification des sources de données possibles, d'autres options ont également émergé. Par exemple, certaines stations de radio ont offert de fournir des copies physiques de leur contenu tandis que d'autres étaient disposées à transférer des données via un lien dédié. Une autre possibilité identifiée était de transférer les données à partir d'un service d'hébergement de contenu. Une brève description de ces trois scénarios de capture de données est la suivante :
 
-1. 1. Flux de données depuis le cloud vers le stockage local
+1. Transmission en continu des données du cloud vers le stockage local
 
-2. 2. Transfert de données de prestataires individuels
+2. Transfert de données depuis des sous-traitants individuels
 
-3. 3. Transfert de données depuis un service d'hébergement.
+3. Transfert de données depuis un service d'hébergement.
 
 En outre, différents ensembles de données de diffusion pourraient être obtenus à partir de chaque scénario de capture de données. Par exemple, certaines émissions contiennent des bulletins d'information parfaitement scriptés avec un audio de haute qualité, mais seulement pour un nombre limité de lecteurs de nouvelles. Les émissions d'information scriptées n'étaient disponibles que dans le cadre du scénario 2 de capture de données. Il existe également des quantités beaucoup plus importantes de données audio non scriptées disponibles. Les services d'hébergement sud-africains fournissent de nombreux podcasts d'émissions de radio dans toutes les langues. La collecte d'émissions de la part de contractants individuels a été gravement affectée par la pandémie de Covid-19. Les opérations des petites stations de radio ont été réduites alors que les stations faisaient face à de nombreux nouveaux défis. Une station basée à l'université a même dû se retirer du projet. La conclusion d'accords de partage de données a également été un processus extrêmement lent et chronophage.
 
@@ -64,7 +64,7 @@ p03-01.png
 
 ## 4 Raffinement du système
 
-Des systèmes de transcription affinés ont été créés pour permettre la transcription automatique du contenu sélectionné présenté dans la section 2.1. Dans cet article, nous rapportons les résultats pour les trois types de systèmes suivants: 1) Base de référence, 2) Système affiné basé sur le texte et 3) Systèmes acoustiquement adaptés. Les systèmes de référence ont utilisé les modèles initiaux NCHLT TDNN-F (Badenhorst & de Wet 2019) en combinaison avec un modèle de langage ARPA plat constitué de uni-grammes de phones équiprobables. Les systèmes affinés basés sur le texte ont employé la modélisation de langage étant donné les corpus textuels limités disponibles dans les langues et les systèmes adaptés acoustiquement ont été construits en mettant à jour les modèles acoustiques au sein des configurations ci-dessus en utilisant des données automatiquement transcrites. La boîte à outils Kaldi a été utilisée pour créer tous les modèles acoustiques utilisés dans cette étude. Il a également été utilisé pour effectuer la segmentation et l'adaptation du modèle acoustique.
+Des systèmes de transcription affinés ont été créés pour permettre la transcription automatique du contenu sélectionné présenté dans la section 2.1. Dans cet article, nous rapportons les résultats pour les trois types de systèmes suivants: 1) Référence, 2) Affiné par texte et 3) Systèmes adaptés acoustiquement. Les systèmes de référence ont utilisé les modèles initiaux NCHLT TDNN-F (Badenhorst & de Wet 2019) en combinaison avec un modèle de langage ARPA plat constitué de uni-grammes de phones équiprobables. Les systèmes affinés basés sur le texte ont employé la modélisation de langage étant donné les corpus textuels limités disponibles dans les langues et les systèmes adaptés acoustiquement ont été construits en mettant à jour les modèles acoustiques au sein des configurations ci-dessus en utilisant des données automatiquement transcrites. La boîte à outils Kaldi a été utilisée pour créer tous les modèles acoustiques utilisés dans cette étude. Il a également été utilisé pour effectuer la segmentation et l'adaptation du modèle acoustique.
 
 ## 4.1 Affinement basé sur le texte
 
@@ -100,15 +100,15 @@ Comme indiqué dans la section 2.1, la collecte de données nécessite général
 
 Pour détecter le début des actualités (après le jingle), nous avons appliqué un algorithme heuristique. L'heuristique a utilisé une implémentation non supervisée de la diarisation des locuteurs, telle qu'implémentée dans la bibliothèque Python open-source pour l'analyse des signaux audio (Giannakopoulos 2015). L'application de la diarisation des locuteurs à chaque enregistrement et la définition du nombre prédéfini de clusters à trois et quatre étiquettes de locuteurs, respectivement, a abouti à des classes séparables. Les autres valeurs de paramètres choisies pour l'heuristique ont été déterminées par une brève analyse préalablement menée sur les segments de l'ensemble de test de Ven news segmentés manuellement. Comme indiqué dans le tableau 1, les segments de lecteurs de Ven News avaient une durée totale de près de 33 minutes et la durée moyenne et médiane des segments était d'environ 38 secondes. Cela signifiait que le segment typique du lecteur de nouvelles pouvait durer environ 40 secondes ou plus. Par la suite, les étiquettes de clusters de locuteurs des nouveaux enregistrements ont été validées pour vérifier si de tels longs segments étaient détectés dans les 120 premières secondes de chaque enregistrement. Pour 44 % des enregistrements, aucune détection n'a été effectuée, de sorte que la durée minimale du segment a été réduite à 20 secondes. Cela a encore réduit le taux de non-détection à 12 % des enregistrements. Compte tenu de ces résultats, les étapes heuristiques suivantes ont été mises en œuvre pour sélectionner le premier segment de nouvelles au début de l'enregistrement :
 
-1. 1. Sélectionnez uniquement les segments commençant au moins deux secondes après le début de l'enregistrement, car l'inspection a révélé que les segments plus longs commençant à zéro seconde contenaient généralement de la musique.
+1. Sélectionner uniquement les segments commençant au moins deux secondes après le début de l'enregistrement, car l'inspection a révélé que les segments plus longs débutant au temps zéro seconde contenaient généralement de la musique.
 
-2. 2. Sélectionnez uniquement des segments d'une durée minimale de 25 secondes.
+2. Sélectionnez uniquement les segments d'une durée minimale de 25 secondes.
 
-3. 3. Calculer le chevauchement temporel entre les segments créés par la diarisation à trois et quatre locuteurs pour les 180 premières secondes de l'audio.
+3. Calculez le chevauchement temporel entre les segments créés par la diarisation avec les étiquettes à trois et quatre locuteurs pour les 180 premières secondes de l'audio.
 
-4. 4. Pour tout segment chevauchant détecté lors de l'Étape 3, définir l'heure de début à celle du premier segment avec un chevauchement de 50 % ou plus.
+4. Pour tout segment chevauchant détecté lors de l'étape 3, définir l'instant de début sur celui du premier segment présentant un chevauchement de 50 % ou plus.
 
-5. 5. Coupez les fichiers audio de sorte que chaque fichier commence à l'heure de début mise à jour.
+5. Découper les fichiers audio de sorte que chaque fichier commence à l'heure de début mise à jour.
 
 L'application des étapes ci-dessus a permis de détecter les heures de début des nouvelles pour 90 % des enregistrements. Des vérifications ponctuelles ont confirmé des débuts de nouvelles valides.
 

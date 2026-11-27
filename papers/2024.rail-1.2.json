@@ -1,0 +1,36 @@
+{
+ "id": "2024.rail-1.2",
+ "title": "Kallaama: A Transcribed Speech Dataset about Agriculture in the Three Most Widely Spoken Languages in Senegal",
+ "authors": [
+  "Elodie Gauthier",
+  "Aminata Ndiaye",
+  "Abdoulaye Guissé"
+ ],
+ "year": 2024,
+ "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+ "source_url": "https://aclanthology.org/2024.rail-1.2/",
+ "doi": "",
+ "arxiv_id": "",
+ "openalex_id": "",
+ "original_language": "en",
+ "languages_studied": [],
+ "licence": {
+  "id": "cc-by-nc-4.0",
+  "name": "Creative Commons Attribution-NonCommercial 4.0 International",
+  "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+ },
+ "references": [],
+ "cited_by_internal": [],
+ "cited_by_count_openalex": 0,
+ "graph_license": "OpenAlex data, CC0 1.0 (https://openalex.org, https://creativecommons.org/publicdomain/zero/1.0/)",
+ "pages": {
+  "en": "https://talithapapers.com/en/papers/2024.rail-1.2/",
+  "fr": "https://talithapapers.com/fr/papers/2024.rail-1.2/",
+  "sw": "https://talithapapers.com/sw/papers/2024.rail-1.2/"
+ },
+ "translation_languages": [
+  "fr",
+  "sw"
+ ],
+ "text_licence_note": "The text of the paper and of its translations is under the paper's own licence (see 'licence'); the site design is not licensed for reuse."
+}

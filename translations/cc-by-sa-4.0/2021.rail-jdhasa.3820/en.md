@@ -34,11 +34,11 @@ Section 2 of this paper describes the data collection process and its associated
 
 Initially, it was anticipated that broadcast data from various radio stations would be streamed to a server. However, during the process of identifying possible data sources, other options also emerged. For example, some radio stations offered to provide physical copies of their content while others were willing to transfer data via a dedicated link. Another possibility identified was to transfer data from a content hosting service. A short description of these three data capturing scenarios are as follows:
 
-1. 1. Streaming data from the cloud to local storage
+1. Streaming data from the cloud to local storage
 
-2. 2. Transferring data from individual contractors
+2. Transferring data from individual contractors
 
-3. 3. Transferring data from a hosting service.
+3. Transferring data from a hosting service.
 
 In addition, various broadcast data sets could be obtained from each data capturing scenario. For example, some broadcasts contain accurately scripted news bulletins of high quality audio, but only for a limited number of news readers. Scripted news broadcasts were only available under data capturing scenario 2. There are also much larger quantities of unscripted audio data available. South African hosting services provide numerous radio show podcasts in all languages. Collection of broadcasts from individual contractors were severely impacted by the Covid-19 pandemic. Operations at smaller radio stations were diminished as the stations faced many new challenges. One university-based station even had to withdraw from the project. Agreeing on data sharing agreements was also an extremely slow and time-consuming process.
 
@@ -100,15 +100,15 @@ As said in Section 2.1, data harvesting usually requires audio segmentation. ASR
 
 To detect the start of news (after the news chime), we applied a heuristic algorithm. The heuristic utilised an unsupervised implementation of speaker diarisation, as implemented in the Open-Source Python library for audio signal analysis (Giannakopoulos 2015). Applying the speaker diarisation to each recording and setting the predefined number of clusters to three and four speaker labels, respectively, resulted in separable classes. The other chosen parameter values of the heuristic were informed by a short analysis previously conducted on the manually segmented Ven news test set segments. As reported in Table 1, the Ven News reader segments had a total duration of almost 33 minutes and the mean and median duration of the segments was about 38 seconds. This meant that the typical news reader segment may be about 40 seconds or longer. Subsequently, the speaker cluster labels of the new recordings were validated to check if such long segments were detected within the first 120 seconds of each recording. For 44% of the recordings, no detections were made, so the minimum segment duration was lowered to 20 seconds instead. This lowered the non-detection rate further to 12% of the recordings. Given these findings, the following heuristic steps were implemented to select the first news segment at the beginning of the recording:
 
-1. 1. Select only those segments starting at least two seconds after the start of the recording, since inspection revealed that longer segments starting at time zero seconds usually contained music.
+1. Select only those segments starting at least two seconds after the start of the recording, since inspection revealed that longer segments starting at time zero seconds usually contained music.
 
-2. 2. Select only segments with a minimum duration of 25 seconds.
+2. Select only segments with a minimum duration of 25 seconds.
 
-3. 3. Compute the overlap in time between segments created by the three- and four-speaker label diarisation for the first 180 seconds of audio.
+3. Compute the overlap in time between segments created by the three- and four-speaker label diarisation for the first 180 seconds of audio.
 
-4. 4. For any overlapping segments detected during Step 3, set the start time to that of the first segment with an overlap of 50% or more.
+4. For any overlapping segments detected during Step 3, set the start time to that of the first segment with an overlap of 50% or more.
 
-5. 5. Cut the audio files so that each file starts at the updated start time.
+5. Cut the audio files so that each file starts at the updated start time.
 
 Applying the steps above ensured that for 90% of the recordings news start times could be detected. Spot checks confirmed valid news starts.
 

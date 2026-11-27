@@ -41,7 +41,7 @@ Most adjectives combine with ho to express future tense, hence màro "is/was num
 
 However, other adjectives show morphological alternation associated with tense, e.g. m-a-fàna (PRS-ADJZ-heat) "is hot" , n-a-fàna (PAST-ADJZ-heat) " was hot" and h-a-fàna (FUT-ADJZ-heat) " will be hot" . Among the about 2,115 adjectives studied for this paper, about 365 take the m:n:h alternation.
 
-Traditional grammarians as Malzac (1950), Rajemisa (1969), and linguists like Rajaona (1972), Rajaonarimanana (1995) consider that m-, ma, mi, man-, -ina, -ana are adjective-forming affixes. Among these, we choose to segment ma-, mi, man-further into the tense markers m-, n-, h-and the adjective-forming affixes a-, i-, an-, whenever the morphological alternation mi, ma-, man-/ni, na, nan-/hi, ha, han-correlates with the difference of tense.
+Traditional grammarians as Malzac (1950), Rajemisa (1969), and linguists like Rajaona (1972), Rajaonarimanana (1995) consider that m-, ma-, mi-, man-, -ina, -ana are adjective-forming affixes. Among these, we choose to segment ma-, mi-, man- further into the tense markers m-, n-, h- and the adjective-forming affixes a-, i-, an-, whenever the morphological alternation mi-, ma-, man-/ni-, na-, nan-/hi-, ha-, han- correlates with the difference of tense.
 
 Some adjectives in Malagasy take imperative suffixes (cf. Rajaona, 1972; Catz & Catz, 2017) such as -a in m-a-heréz-a (PRS-ADJZ-power-IMP) "be powerful" vs. m-à-hery (PRS-ADJZ-power) "powerful" , m-a-zoto-a (PRS-ADJZ-diligence-IMP) "be industrious" vs. m-a-zòto (PRS-ADJZ-diligence) "industrious" . For now, the imperative mood is not taken into account in the resource.
 
@@ -73,7 +73,7 @@ as for a- in m-a-tètika "frequent" , from tètika "ornamental scarification; cu
 
 as for m- in m-èndrika "fit, proper, worthy " , from èndrika "face, likeness, image" , m- is derivational, but in m-ànitra "fragrant" , from hànitra "fragrance" , m- is inflectional.
 
-Consequently, during the construction of the resource, we face difficult decisions in classifying denominal adjectives as derived or inflected, especially when the prefix forming the adjective is m-. In such cases, we analyse the adjective as an inflected form of a noun only when we identify a pair of syntactic constructions such as Misy hànitra N0 "N0 has fragrance" = M-ànitra N0 "N0 is fragrant" , where mìsy "there is" or mànana "have" is a support verb (Ranaivoson, 1996; Lakoarisoa et al., 2011; Jaozandry, 2014; Hamitramalala, 2017), and N0 is an accepted subject noun. In the case of m-ày "on fire" , m-àfy "hard" , respectively from hày "burning" , hàfy "hardship" , there are no such pairs of syntactic constructions, since the nominal construction is not in use:
+Consequently, during the construction of the resource, we face difficult decisions in classifying denominal adjectives as derived or inflected, especially when the prefix forming the adjective is m-. In such cases, we analyse the adjective as an inflected form of a noun only when we identify a pair of syntactic constructions such as Misy hànitra N<sub>0</sub> "N0 has fragrance" = M-ànitra N<sub>0</sub> "N0 is fragrant" , where mìsy "there is" or mànana "have" is a support verb (Ranaivoson, 1996; Lakoarisoa et al., 2011; Jaozandry, 2014; Hamitramalala, 2017), and N<sub>0</sub> is an accepted subject noun. In the case of m-ày "on fire" , m-àfy "hard" , respectively from hày "burning" , hàfy "hardship" , there are no such pairs of syntactic constructions, since the nominal construction is not in use:
 
 p03-patch01.png
 
@@ -105,7 +105,7 @@ Through the two steps corresponding to these two levels, the inflected form som�
 
 The Unitex open-source platform of language processing (Paumier, 2003) is compatible with resources devised according to this approach and encoded in the DELA format (Gross 1989: 8). Unitex performs top-quality inflection, compression and lookup (Neme, Paumier, 2019) of lexical databases encoded in this format. In contrast, the Text encoding initiative's dictionary encoding formats are mainly designed for human-oriented dictionaries (TEI Consortium, 2022) and do not address the processing of lexical databases.
 
-In the electronic-dictionary approach, lexical databases mainly cover parts-of-speech and inflection. This contrasts with the lexicon-grammar approach, also proposed by Gross (Elia, 1978), which also investigates the applicability of syntactic operations. Due to this difference, sense distinctions are more finegrained in the latter approach (Laporte, 1991).
+In the electronic-dictionary approach, lexical databases mainly cover parts-of-speech and inflection. This contrasts with the lexicon-grammar approach, also proposed by Gross (Elia, 1978), which also investigates the applicability of syntactic operations. Due to this difference, sense distinctions are more fine-grained in the latter approach (Laporte, 1991).
 
 ## 4 Allomorphy
 
@@ -137,7 +137,7 @@ p05-01.png
 
 Figure 1: Graph of allomorphy '0v'
 
-Path 1 encodes pànda > pandá in pandáina "freckly, sunburnt" ; path 2, kilèma > kilemá in kilemáina "maimed" ; and path 3, kìbo > kibó in kibóina "bigbellied" . This technique of lexical marking facilitates updates. The '0v' identifier is the name of the graph and is attached to those words to encode these prosodic alternations. So, several lexical entries such as tràtra "breast" , tsikòko "scabs" share the same inflectional mode '0v' (identifier) to produce automatically lexical variants as tratrá, tsikokó.
+Path 1 encodes pànda > pandá in pandáina "freckly, sunburnt" ; path 2, kilèma > kilemá in kilemáina "maimed" ; and path 3, kìbo > kibó in kibóina "big-bellied" . This technique of lexical marking facilitates updates. The '0v' identifier is the name of the graph and is attached to those words to encode these prosodic alternations. So, several lexical entries such as tràtra "breast" , tsikòko "scabs" share the same inflectional mode '0v' (identifier) to produce automatically lexical variants as tratrá, tsikokó.
 
 Other lemmas have -ka, -tra, -na endings, and their final -a is missing in most of their allomorphs: the corresponding graphs specify the deletion of this vowel.
 
@@ -179,7 +179,7 @@ Figure 4: Graph of affixation "ad1" .
 
 In this graph, the 't1' box is a call to a subgraph that represents the m-:n-:h- morphological alternation. The <A+0+ad1> box stands for the relevant variant of the stem, i.e. arènina, akàka, among others.
 
-Among the about 2,000 adjectival entries, about 505 begin with m, about 300 of which take the m:n:h alternation. Adjectives without the m-:n-:h- lternation, such as mòana "speechless" (*nòana and *hòana are not in use), form a syntactic future with ho, as in ho mòana " will be speechless" .
+Among the about 2,000 adjectival entries, about 505 begin with m, about 300 of which take the m:n:h alternation. Adjectives without the m-:n-:h- alternation, such as mòana "speechless" (*nòana and *hòana are not in use), form a syntactic future with ho, as in ho mòana " will be speechless" .
 
 ## 5.3 Inflectional and grammatical codes
 

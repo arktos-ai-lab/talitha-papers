@@ -1,4 +1,4 @@
-> Machine translation (fr) of "GiellaLT: an infrastructure for rule-based language technology tool development" by Flammie A Pirinen, Trond Trosterud, Sjur N. Moshagen, Linda Wiechetek, https://upjournals.up.ac.za/index.php/dhasa/article/view/4451, licensed Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (glossary, madlad-7b, mistral-small3.2-24b, opus-mt, rescue-deepseek-v4-pro); not reviewed by a human; changes were made.
+> Machine translation (fr) of "GiellaLT: an infrastructure for rule-based language technology tool development" by Flammie A Pirinen, Trond Trosterud, Sjur N. Moshagen, Linda Wiechetek, https://upjournals.up.ac.za/index.php/dhasa/article/view/4451, licensed Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (fix-deepseek-v4-pro, glossary, madlad-7b, mistral-small3.2-24b, opus-mt, rescue-deepseek-v4-pro); checked against the original by automated review, and sentences with errors were replaced by another open-model translation; not reviewed by a human; changes were made.
 
 ## GiellaLT : une infrastructure pour le développement d'outils de technologies du langage à base de règles
 
@@ -24,7 +24,7 @@ Actuellement, l’apprentissage automatique est présenté comme la solution ult
 
 ## Mots-clés
 
-LT à base de règles, claviers, outils d'épreuvage, infrastructure LT, LT extrêmement faible en ressources
+Technologies du langage à base de règles, claviers, outils de vérification, infrastructure de technologies du langage, technologies du langage à ressources extrêmement faibles
 
 ## Introduction
 
@@ -44,11 +44,11 @@ Le fondement du travail présenté dans cet article est l'infrastructure multili
 
 L'exigence de base pour le développement d'outils linguistiques dans GiellaLT est une orthographe qui est soit définie au préalable, soit définie lors de la création des outils linguistiques. L'accès à un dictionnaire imprimé est d'une grande aide, encore plus s'il est disponible électroniquement. Une description grammaticale existante est également d'une aide considérable, mais pas une exigence.
 
-Nous construisons des systèmes qui incluent des données lexicales ainsi que des règles régissant la morphophonologie, la syntaxe et la sémantique, ainsi qu'un certain nombre d'informations spécifiques à l'application, par exemple des règles grammaticales pour la vérification grammaticale, des règles phonétiques pour le Text-To-Speech (TTS), etc.
+Nous construisons des systèmes qui incluent des données lexicales ainsi que des règles régissant la morphophonologie, la syntaxe et la sémantique, ainsi qu'un certain nombre d'informations spécifiques à l'application, par exemple des règles de grammaire pour la vérification de la grammaire, des règles phonétiques pour la synthèse vocale de texte (TTS), etc.
 
 Le travail dépendant de la langue est effectué au sein de l'infrastructure dans des dépôts spécifiques à la langue, les fonctionnalités et les mises à jour indépendantes de la langue qui sont pertinentes pour toutes les langues sont fusionnées de manière semi-automatique au fur et à mesure de leur développement. Pour s'assurer que les fonctionnalités et mises à jour communes et indépendantes de la langue ne détruisent pas les données linguistiques existantes ou ne dégradent pas les outils linguistiques, nous appliquons un régime de test rigoureux basé sur l'intégration continue. Le système actuel de test est une combinaison de notre investissement à long terme dans les tests au sein de l'infrastructure locale pour les développeurs, combiné avec les tests automatiques modernes actuellement fournis par les actions GitHub.
 
-Une autre partie de la philosophie GiellaLT est celle des ressources réutilisables et multipurpose, cf. Antonsen et al. (2010). C'est vrai pour l'ensemble de nos travaux, de la collecte de corpus à la coopération interlingue, et c'est crucial pour la durabilité des travaux dans les langues indigènes et moins dotées en ressources, où le temps de travail des experts en langues est rare et précieux.
+Une autre partie de la philosophie de GiellaLT est celle des ressources réutilisables et polyvalentes, cf. Antonsen et al. (2010). C'est vrai pour l'ensemble de nos travaux, de la collecte de corpus à la coopération interlingue, et c'est crucial pour la durabilité des travaux dans les langues indigènes et moins dotées en ressources, où le temps de travail des experts en langues est rare et précieux.
 
 Malgré le manque de données, il existe dans GiellaLT des outils de haut niveau tels que la traduction automatique (TA), la synthèse vocale de texte TTS, des correcteurs d'orthographe et de grammaire, et plus encore, qui ont été très bien accueillis dans les communautés linguistiques. Cela n'aurait pas été possible sans développer d'abord des outils de base tels que des claviers, des analyseurs morphologiques et des correcteurs d'orthographe.
 
@@ -66,13 +66,20 @@ Chacune de ces langues a besoin de sa propre configuration de clavier. Lorsque l
 
 Afin de relever ce défi, l'infrastructure GiellaLT est fournie avec un pipeline pour créer des claviers et les installer, ainsi que les outils de technologies du langage correspondants, sur différentes plateformes. Le cœur du pipeline est l'outil kbdgen, avec lequel on peut facilement spécifier une disposition de clavier dans un fichier YAML, imitant la disposition réelle du clavier. La liste ci-dessous montre la définition de la disposition du clavier pour les mobiles Android pour Lule Sámi. L'outil prend cette définition et un peu de métadonnées, les combine avec du code pour une application de clavier Android, compile tout, signe l'artefact construit et le télécharge sur le Google Play Store, prêt pour les tests.
 
-kbdgen prend en charge la génération d'applications clavier ou de packages d'installation pour Android, iOS, macOS, Windows, Linux (X11 et m17n) et Chrome OS. Il existe un support expérimental pour générer des fichiers XML CLDR (Common Language Data Repository), des fichiers SVG (Scalable Vector Graphics) pour un débogage rapide de la mise en page et des transducteurs à états finis pour les modèles d'erreur de mistypage de clés voisins. L'installateur Windows inclut un outil pour enregistrer des langues inconnues, de sorte que même les langues jamais vues sur un ordinateur Windows seront correctement enregistrées, le rendant ainsi prêt à prendre en charge les outils de vérification et autres outils de traitement des langues.
+modes:
+    android:
+        default: |
+            á w e r t y u i o p å
+            a s d f g h j k l ø æ
+            z x c v b n m ŋ
+
+kbdgen prend en charge la génération d'applications clavier ou de packages d'installation pour Android, iOS, macOS, Windows, Linux (X11 et m17n) et Chrome OS. Il existe un support expérimental pour la génération de fichiers XML du Common Language Data Repository (CLDR), de fichiers Scalable Vector Graphics (SVG) pour un débogage rapide des dispositions, et de transducteurs à états finis pour les modèles d'erreur de frappe sur touches voisines. L'installateur Windows inclut un outil pour enregistrer des langues inconnues, de sorte que même les langues jamais vues sur un ordinateur Windows seront correctement enregistrées, le rendant ainsi prêt à prendre en charge les outils de vérification et autres outils de traitement des langues.
 
 p04-01.png
 
 Figure 1 : Capture d'écran du clavier Lule Sámi pour Android, tel que défini dans la liste ci-dessus.
 
-L'application de clavier mobile comprend également un support pour les orthographes (voir plus tard), pour soutenir le processus d'écriture.
+L'application clavier mobile inclut également la prise en charge des correcteurs orthographiques (voir plus loin), pour soutenir le processus d'écriture.
 
 ## Analyseurs morphologiques et dictionnaires
 
@@ -88,13 +95,13 @@ Les principales familles linguistiques traitées dans l'infrastructure GiellaLT 
 
 Les outils de correction sont des logiciels essentiels pour soutenir l'écriture normative, c'est-à-dire les vérificateurs et correcteurs d'orthographe et de grammaire. Les analyseurs morphologiques décrits ci-dessus constituent la base de presque tous les autres outils que l'on peut construire en utilisant l'infrastructure GiellaLT, y compris les outils de relecture.
 
-## Spellers
+## Correcteurs orthographiques
 
-Un orthographe se compose essentiellement de deux parties: un dictionnaire morphologique qui contient l'information quant à savoir si un mot donné fait partie de la langue ou non. Il est supposé par la vérification orthographique que les mots qui ne sont pas dans le dictionnaire collecté sont des fautes d'orthographe de mots réels. La deuxième partie est un modèle d'erreur qui prend le mot inconnu saisi par l'utilisateur et tente de trouver des mots similaires qui sont présents dans la langue.
+Un correcteur orthographique se compose essentiellement de deux parties : un dictionnaire morphologique qui contient les informations permettant de déterminer si un mot donné fait partie de la langue ou non. Il est supposé par la vérification orthographique que les mots qui ne sont pas dans le dictionnaire collecté sont des fautes d'orthographe de mots réels. La deuxième partie est un modèle d'erreur qui prend le mot inconnu saisi par l'utilisateur et tente de trouver des mots similaires qui sont présents dans la langue.
 
 Des technologies similaires à celles présentées ici ont également été appliquées aux langues africaines. Un exemple est Bosch & Eiselen (2012), pour le zoulou, un autre est le correcteur orthographique swahili distribué par l'entreprise finlandaise Lingsoft.
 
-Dans l'infrastructure GiellaLT, les deux parties sont modélisées comme des transducteurs à états finis (FST). Le dictionnaire morphologiquement conscient est construit directement sur l'analyseur morphologique mentionné ci-dessus après avoir supprimé le contenu indésirable tel que la ponctuation et le langage non standard. Le modèle d'erreur est construit comme un modèle de distance Levenshtein edit Levenshtein (1965) plus les règles de remplacement pondérées spécifiques à la langue Pirinen & Lindén (2010).
+Dans l'infrastructure GiellaLT, les deux parties sont modélisées comme des transducteurs à états finis (FST). Le dictionnaire morphologiquement conscient est construit directement sur l'analyseur morphologique mentionné ci-dessus après avoir supprimé le contenu indésirable tel que la ponctuation et le langage non standard. Le modèle d'erreur est construit comme un modèle de distance d'édition de Levenshtein Levenshtein (1965) plus des règles de remplacement pondérées spécifiques à la langue Pirinen & Lindén (2010).
 
 Le paquet du correcteur orthographique est distribué via notre propre système d'installation et de mise à jour de bureau Páhkat, et un client pahkat fait également partie des applications de clavier mobile. Cela signifie que les correcteurs orthographiques sur tous les systèmes pris en charge, à la fois mobiles et de bureau, sont automatiquement maintenus à jour.
 
@@ -116,9 +123,9 @@ Le statut actuel des langues africaines au sein de notre infrastructure est limi
 
 ## Notes
 
-[1] Hajdu Róbert 2021 : Entraîner BERT-Large dans votre propre langue. Vers la science des données.
+[1] Hajdu Róbert 2021 : Entraîner BERT-Large dans votre propre langue. Towards Data Science.
 
-[2] Ce sont Akan, Amharic, Luo, Ndolo, Pedi, Somali, Tigrinya et Zulu. Le code source est disponible sur https://github.com/giellalt/lang-xxx, où xxx doit être remplacé par le code ISO 639-3 de la langue en question.
+[2] Il s’agit des langues akan, amharique, luo, ndolo, pedi, somali, tigrinya et zoulou. Le code source est disponible sur https://github.com/giellalt/lang-xxx, où xxx doit être remplacé par le code ISO 639-3 de la langue en question.
 
 ## Remerciements
 
@@ -154,6 +161,4 @@ Pretorius, L. & Bosch, S. (2009b), Exploiting cross-linguistic similarities in Z
 
 Treviso, M., Ji, T., Lee, J.-U., van Aken, B., Cao, Q., Ciosici, M. R., Hassid, M., Heafield, K., Hooker, S., Martins, P. H., Martins, A. F. T., Milder, P., Raffel, C., Simpson, E., Slonim, N., Balasubramanian, N., Derczynski, L. & Schwartz, R. (n.d.). URL: https: // arxiv. org/ abs/ 2209. 00099
 
-Wiechetek, L. (2012), Constraint Grammar based correction of grammatical errors for North Sámi, in G. D.
-
-Pauw, G.-M. de Schryver, M. Forcada, K. Sarasola, F. Tyers & P. Wagacha, eds, 'Proceedings of the Workshop on Language Technology for Normalisation of Less-Resourced Languages (SALTMIL 8/AFLAT 2012)', European Language Resources Association (ELRA), Istanbul, Turkey, pp. 35-40.
+Wiechetek, L. (2012), Constraint Grammar based correction of grammatical errors for North Sámi, in G. D. Pauw, G.-M. de Schryver, M. Forcada, K. Sarasola, F. Tyers & P. Wagacha, eds, 'Proceedings of the Workshop on Language Technology for Normalisation of Less-Resourced Languages (SALTMIL 8/AFLAT 2012)', European Language Resources Association (ELRA), Istanbul, Turkey, pp. 35-40.

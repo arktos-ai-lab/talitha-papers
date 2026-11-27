@@ -1,4 +1,4 @@
-> Machine translation (sw) of "Automatic Spell Checker and Correction for Under-represented Spoken Languages: Case Study on Wolof" by Thierno Ibrahima Cissé, Fatiha Sadat, https://aclanthology.org/2023.rail-1.1/, licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (glossary, madlad-7b, opus-mt, qwen3.6-27b, rescue-deepseek-v4-pro); not reviewed by a human; changes were made.
+> Machine translation (sw) of "Automatic Spell Checker and Correction for Under-represented Spoken Languages: Case Study on Wolof" by Thierno Ibrahima Cissé, Fatiha Sadat, https://aclanthology.org/2023.rail-1.1/, licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (fix-deepseek-v4-pro, glossary, madlad-7b, opus-mt, qwen3.6-27b, rescue-deepseek-v4-pro); checked against the original by automated review, and sentences with errors were replaced by another open-model translation; not reviewed by a human; changes were made.
 
 ## Kikagua na Kurekebisha Kosa la Uandishi kwa Lugha Zinazozungumzwa Zisizowakilishwa Vya Kutosha: Utafiti wa Kesi ya Wolof
 
@@ -14,7 +14,7 @@ Université du Québec à Montréal
 
 ## Muhtasari
 
-Karatasi hii inawasilisha kikagua tahajia na zana ya usahihishaji iliyoundwa mahsusi kwa Wolof, lugha inayozungumzwa isiyowakilishwa vya kutosha barani Afrika. Kikagua tahajia kinachopendekezwa kinatumia mchanganyiko wa muundo wa data wa trie, upangaji programu shirikishi, na umbali wa Levenshtein uliopimwa ili kutoa mapendekezo kwa maneno yaliyoandikwa vibaya. Tuliunda nyenzo mpya za kiisimu kwa Wolof, kama vile leksimu na mkusanyiko wa maneno yaliyoandikwa vibaya, kwa kutumia mbinu ya nusu-otomatiki inayochanganya mbinu za ufafanuzi wa mwongozo na za kiotomatiki. Licha ya data chache inayopatikana kwa lugha ya Wolof, utendaji wa kikagua tahajia ulionyesha Usahihi wa utabiri wa 98.31% na Usahihi wa pendekezo wa 93.33%.
+Karatasi hii inawasilisha kikagua tahajia na zana ya usahihishaji iliyoundwa mahsusi kwa Wolof, lugha inayozungumzwa isiyowakilishwa vya kutosha barani Afrika. Kikagua tahajia kinachopendekezwa kinatumia mchanganyiko wa muundo wa data wa trie, upangaji programu shirikishi, na umbali wa Levenshtein uliopimwa ili kutoa mapendekezo kwa maneno yaliyoandikwa vibaya. Tuliunda nyenzo mpya za kiisimu kwa Wolof, kama vile leksimu na korasi ya maneno yaliyoandikwa vibaya, kwa kutumia mbinu ya nusu-otomatiki inayochanganya mbinu za ufafanuzi wa kibinadamu na za kiotomatiki. Licha ya data chache inayopatikana kwa lugha ya Wolof, utendaji wa kikagua tahajia ulionyesha Usahihi wa utabiri wa 98.31% na Usahihi wa pendekezo wa 93.33%.
 
 Lengo letu kuu linasalia kuwa ufufuaji na uhifadhi wa Wolof kama lugha ya Kiasili na inayozungumzwa barani Afrika, ikitoa juhudi zetu za kuunda nyenzo mpya za kiisimu. Kazi hii inawakilisha mchango muhimu kwa ukuaji wa zana na nyenzo za kikompyuta kwa lugha ya Wolof na inatoa msingi imara kwa tafiti za baadaye katika uwanja wa kikagua tahajia na usahihishaji kiotomatiki.
 
@@ -36,9 +36,9 @@ Kadiri uandishi unavyozidi kuwa muhimu kutokana na enzi yetu ya kidijitali, kika
 
 p02-01.png
 
-Table 2: Wolof Shefels and Classifications
+Jedwali la 2: Irabu za Kiwolofu na Uainishaji
 
-Mchango wetu mkuu katika makala haya, ni uundaji wa nyenzo mpya kwa ajili ya lugha ya Wolof. Hasa, tumeunda kikagua tahajia kwa ajili ya usahihishaji otomatiki wa maandishi ya Wolof, pamoja na mkusanyiko wa maneno yaliyoandikwa vibaya ambao utawawezesha watafiti kutathmini utendaji wa mifumo ya usahihishaji otomatiki ya baadaye. Zaidi ya hayo, tumeunda leksimu ya Wolof ambayo inaweza kutumika kwa aina mbalimbali za kazi zaidi ya usahihishaji otomatiki, kama vile tafsiri ya mashine ya neva, utambuzi longo otomatiki, n.k.
+Mchango wetu mkuu katika makala haya, ni uundaji wa nyenzo mpya kwa ajili ya lugha ya Wolof. Hasa, tumeunda kikagua tahajia kwa ajili ya usahihishaji otomatiki wa maandishi ya Wolof, pamoja na mkusanyiko wa maneno yaliyoandikwa vibaya ambao utawawezesha watafiti kutathmini utendaji wa mifumo ya usahihishaji otomatiki ya baadaye. Zaidi ya hayo, tumeunda leksimu ya Wolof ambayo inaweza kutumika kwa aina mbalimbali za kazi zaidi ya usahihishaji otomatiki, kama vile tafsiri ya mashine ya neva, utambuzi wa usemi otomatiki, n.k.
 
 Nyenzo ambazo zimeundwa katika kipindi chote cha utafiti huu zinafanywa kupatikana kwa umma kwenye GitHub, hivyo kuwezesha usambazaji mpana na kuwezesha uzalishwaji tena wa matokeo ya utafiti.
 
@@ -52,57 +52,57 @@ Tafiti kadhaa kuhusu makosa ya tahajia zimefanywa, kukiwa na mchango mashuhuri k
 
 Makosa ya kileksika: Matokeo ya makosa yanayotumika kwa maneno binafsi, bila kujali muktadha wake ndani ya sentensi (Ten Hacken and Tschichold, 2001).
 
-Makosa ya kisarufi: Yanajumuisha makosa ya kimofolojia na kisintaksia. Makosa ya kimofolojia yanahusisha upungufu katika vipengele vya kiisimu kama vile unyambulishaji, uambishaji, viambishi, vielezi, viwakilishi vya nafsi, vitenzi visaidizi, na vibainishi. Makosa ya kisintaksia hutokana na matatizo katika vipengele vya kiisimu, vikiwemo kauli tendwa, wakati, vishazi nomino, vitenzi visaidizi, upatanisho wa kiima na kitenzi, na viambishi tamati (Gayo na Widodo, 2018).
+Makosa ya kisarufi: Yanajumuisha makosa ya kimofolojia na kisintaksia. Makosa ya kimofolojia yanahusisha upungufu katika vipengele vya kiisimu kama vile unyambulishaji, uambishaji, vihusishi, vibainishi, viwakilishi vya nafsi, vitenzi visaidizi, na vibainishi. Makosa ya kisintaksia hutokana na matatizo katika vipengele vya kiisimu, vikiwemo sauti tendwa, wakati, vishazi nomino, vitenzi visaidizi, upatanisho wa kiima na kitenzi, na vibainishi (Gayo na Widodo, 2018).
 
 Visababishi vya makosa ya tahajia ni vingi na vinaweza kutokana na vyanzo vya kiakili na vya uchapaji (Peterson, 1980). Makosa ya kiakili hutokea wakati mtu anapokosa uelewa sahihi wa tahajia sahihi ya neno huku makosa ya uchapaji yakitokea wakati vibonyezo visivyo sahihi vinapobonyezwa wakati wa kuandika. Fasihi katika uwanja wa usahihishaji wa tahajia kwa kawaida imeshughulikia aina hizi za makosa kivyake, huku mbinu mbalimbali zikitengenezwa mahususi kushughulikia kila aina (Kukich, 1992). Licha ya umuhimu wa uchakataji wa lugha, kumekuwa na upungufu wa mkazo katika uundaji wa zana za kusahihisha tahajia kiotomatiki kwa lugha zenye rasilimali chache hasa. Ingawa baadhi ya majaribio yamefanywa kutumia mbinu za kawaida za usahihishaji wa tahajia kiotomatiki kwa lugha chache za asili za Kiafrika (Boago Okgetheng et al., 2022; M'eric, 2014; Salifou na Naroua, 2014), hakuna juhudi kama hizo zilizofanywa kwa lugha ya Wolof. Kadiri tujuavyo, utafiti pekee uliojitolea kikamilifu kwa usahihishaji wa Wolof ni (Lo et al., 2016), ambao unatoa muhtasari wa hali ya kisasa na kuelezea suluhu zinazowezekana za kuunda kirekebishaji cha tahajia kilicholengwa mahususi kwa Wolof. Utafiti huu unachukua mbinu zinazotumiwa sana katika uwanja huu na kutathmini utendakazi wa mfumo wetu kwa kutumia vipimo mbalimbali vya tathmini vinavyojulikana.
 
 ## 3 Mbinu
 
-Mfumo ulioelezwa katika utafiti huu unalenga kutambua na kusahihisha makosa ya maneno yasiyo ya kawaida katika lugha ya Wolof.
+Mfumo ulioelezwa katika utafiti huu unalenga kutambua na kurekebisha makosa yasiyo ya neno katika lugha ya Wolof.
 
 Ili kufikia lengo hili, tulibuni na kutekeleza mchoro wa mtiririko katika Kielelezo 1.
 
 p03-01.png
 
-Picha 1: Mchoro wa mtiririko wa kifaa cha kusahihisha herufi
+Kielelezo 1: Mchoro wa mtiririko wa kikagua tahajia
 
-Mchoro wa mtiririko katika Kielelezo 1 unatoa uwakilishi wa kuona wa vipengele na michakato mbalimbali inayohusika katika mfumo wa kikagua tahajia unaopendekezwa. Mfumo huo unajumuisha mbinu za kuingiza na kutoa data, algoriti za kugundua na kusahihisha makosa, pamoja na miundo ya data na mifano inayosaidia utendakazi wake. Lengo la mfumo huo ni kutambua kwa usahihi na kurekebisha makosa ya maneno yasiyo ya kawaida katika lugha ya Wolof. Kupitia uwasilishaji wa usanifu wa jumla wa mfumo, msomaji ataweza kuelewa jinsi mfumo unavyofanya kazi na kanuni zake za kubuni zinazolenga kugundua na kusahihisha maneno batili katika lugha ya Wolof.
+Mchoro wa mtiririko katika Kielelezo 1 unatoa uwakilishi wa kuona wa vipengele na michakato mbalimbali inayohusika katika mfumo wa kikagua tahajia unaopendekezwa. Mfumo huo unajumuisha mbinu za kuingiza na kutoa data, algoriti za kugundua na kusahihisha makosa, pamoja na miundo ya data na mifano inayosaidia utendakazi wake. Lengo la mfumo huu ni kutambua kwa usahihi na kurekebisha makosa yasiyo ya maneno katika lugha ya Wolof. Kupitia uwasilishaji wa usanifu wa jumla wa mfumo, msomaji ataweza kuelewa jinsi mfumo unavyofanya kazi na kanuni zake za kubuni zinazolenga kugundua na kusahihisha maneno batili katika lugha ya Wolof.
 
 ## 3.1 Uzalishaji wa Leksimu ya Wolof
 
-Njia yetu ya kutengeneza kamusi ya Wolof yenye uaminifu inahusisha mchanganyiko wa njia za uainishaji wa mkono na utoleaji wa kiotomatiki.
+Njia yetu ya kutengeneza leksimu ya Wolof yenye uaminifu inahusisha mchanganyiko wa mbinu za ufafanuzi wa mkono na utoleaji wa kiotomatiki.
 
-Kwanza, ufafanuzi wa kibinafsi ulifanywa kwenye mkusanyiko wa maandishi ya Kiwolofu (James Cross et al., 2022) ili kutambua maneno ya kipekee na kuyachimbua katika orodha. Mbinu hii inatoa uchunguzi wa kina wa lugha ya Kiwolofu na inahakikisha usahihi wa leksimu kwa kuwezesha udhibiti wa kibinafsi juu ya ujumuishaji wa maneno.
+Kwanza, ufafanuzi kwa mkono ulifanywa kwenye korasi ya maandishi ya Kiwolofu (James Cross et al., 2022) ili kutambua maneno ya kipekee na kuyachimbua katika orodha. Mbinu hii inatoa uchunguzi wa kina wa lugha ya Kiwolofu na inahakikisha ushabaha wa leksimu kwa kuwezesha udhibiti wa mkono juu ya ujumuishaji wa maneno.
 
-Pili, uchimbaji otomatiki ulifanywa kwa kutumia mbinu za Optical Character Recognition (OCR) na kutekelezwa kwa namna ya hati za Python, zilizotumika kwenye kamusi kadhaa za Kiwolofu-Kifaransa (Fal et al., 1990 na Diouf na Kenkyūjo, 2001). Utaratibu huu unarahisisha upanuzi wa upatikanaji wa kamusi na kuwezesha utambuzi wa maneno ya ziada ambayo huenda hayakupatikana kupitia annotasheni ya mikono pekee.
+Pili, uchimbaji wa kiotomatiki ulifanywa kwa kutumia mbinu za Kutambua Herufi za Optiki (OCR) na zilizotekelezwa katika umbo la hati za Python, zikiwa zimetumika kwa kamusi kadhaa za Wolof-Kifaransa (Fal et al., 1990 na Diouf na Kenkyūjo, 2001). Mbinu hii inarahisisha upanuzi wa wigo wa kamusi na kuwezesha utambuzi wa maneno ya ziada ambayo huenda hayakupatikana kupitia ufafanuzi wa mkono pekee.
 
 Hatimaye, ili kuhakikisha usahihi wa leksimu, data yote iliyotokana ilipitiwa upya. Hatua hii ilithibitisha usahihi wa maneno na tahajia zao na kuruhusu marekebisho yoyote muhimu kabla ya leksimu ya mwisho kuzalishwa.
 
 Ni muhimu kutambua kwamba kutokana na upatikanaji mdogo wa rasilimali za Kiwolofu, leksimu iliyotokana ina maneno 1410 tu tofauti. Licha ya kizuizi hiki, mchanganyiko wa mbinu za ufafanuzi wa mikono na uchimbaji wa kiotomatiki uliruhusu uzalishaji wa leksimu ya kuaminika ya Kiwolofu.
 
-## 3.2 Preprocessing
+## 3.2 Usindikaji wa Awali
 
-Mfumo wetu wa kikagua tahajia unatekeleza hatua ya awali, ambayo inahusisha uondoaji wa pembejeo zenye herufi za nambari, alama za uakifishaji, au maneno yaliyokopwa kutoka lugha za kigeni. Matokeo ya hatua hii hutumika kama msingi wa ugunduzi wa makosa ya maneno yasiyo ya kawaida katika maandishi.
+Mfumo wetu wa kikagua tahajia unatekeleza hatua ya awali, ambayo inahusisha uondoaji wa pembejeo zenye herufi za nambari, alama za uakifishaji, au maneno yaliyokopwa kutoka lugha za kigeni. Matokeo ya hatua hii hutumika kuwa msingi wa kugundua makosa yasiyo ya maneno katika maandishi.
 
 Awamu ya uchakataji wa awali inajumuisha shughuli tatu za msingi: uondoaji wa alama za uakifishaji, usawazishaji wa pembejeo, na ugawaji wa maandishi katika maneno ya kibinafsi.
 
-## 3.2.1 Punctuation kuondolewa
+## 3.2.1 Uondoaji wa Alama za Uakifishaji
 
 Lengo la uondoaji wa alama za uakifishaji katika hatua yetu ya uchakataji wa awali ni kuondoa alama zozote za uakifishaji zisizo za lazima zilizopo katika maandishi ya pembejeo. Alama hizi zinaweza kuzuia ufanisi wa mchakato wa kikagua tahajia na zinaweza kusababisha mkanganyiko wakati wa uchambuzi wa maandishi (Rahimi na Homayounpour, 2022). Kwa kuondoa alama hizi, tunahakikisha kwamba hatua zinazofuata za mfumo wa kikagua tahajia zinaweza kuchakata maandishi kwa ufanisi zaidi na kwa haraka zaidi. Algoriti inayotumika katika hatua hii huchunguza maandishi ya pembejeo na kuondoa matukio yote ya alama ya uakifishaji, ikiwa ni pamoja na koma, nukta, alama za mshangao, na alama za swali. Matokeo ya hatua hii ni maandishi yaliyosafishwa ambayo hayana vipengele vya nje na yako tayari kwa uchambuzi makini katika hatua zinazofuata za mfumo.
 
-## 3.2.2 Normalization
+## 3.2.2 Usawazishaji
 
 Awamu ya usawazishaji katika hatua yetu ya uchakataji wa awali hubadilisha maandishi ya pembejeo kuwa umbo sanifu kwa kubadilisha herufi zote za kialfabeti kuwa herufi ndogo na kuondoa maneno yoyote nje ya lugha ya Kiwolofu.
 
-Ubadilishaji kuwa herufi ndogo ni muhimu kwani mbinu nyingi za NLP huchukulia maneno katika miandiko tofauti kama huluki tofauti, na kubadilisha maandishi kuwa herufi ndogo huondoa athari hii ya usikivu wa miandiko kwenye uchambuzi (HaCohen-Kerner et al., 2020).
+Ubadilishaji wa herufi kubwa kuwa ndogo ni muhimu kwa sababu mbinu nyingi za NLP huchukulia maneno yaliyoandikwa kwa herufi tofauti kama vitu tofauti, na kubadilisha maandishi kuwa na herufi ndogo hufuta athari ya utofauti wa herufi kwenye uchambuzi (HaCohen-Kerner et al., 2020).
 
 Kwa kuondoa maneno kutoka lugha za kigeni, tunalenga kuhakikisha kwamba maandishi yanayochambuliwa yako katika lugha lengwa pekee na kupunguza athari za maneno ambayo huenda yasiwe na umuhimu wa semantiki katika muktadha wa lugha ya Kiwolofu. Hii huongeza Usahihi wa uchambuzi na kupunguza uwezekano wa kuingiza makosa katika matokeo.
 
-## 3.2.3 Neno Tokenization
+## 3.2.3 Ugawaji wa Maneno
 
 Ugawaji wa tokeni ni hatua muhimu katika mchakato wa kikagua tahajia kiotomatiki, kwani hugawanya maandishi ya pembejeo kuwa vipande vidogo vinavyojulikana kama tokeni.
 
-Kuna mbinu mbalimbali zinazotumika kwa ugawaji wa tokeni ambazo hutofautiana kulingana na lugha na kazi husika. Hizi zinaweza kujumuisha kugawanya kwa nafasi na alama ya uakifishaji, kutumia semi za kawaida, au kutumia kamusi na kanuni za kimofolojia (Dalrymple et al., 2006).
+Kuna mbinu mbalimbali zinazotumika kwa ugawaji wa tokeni ambazo hutofautiana kulingana na lugha na kazi husika. Hizi zinaweza kujumuisha kugawanya kwenye nafasi nyeupe na alama ya uakifishaji, kutumia semi za kawaida, au kutumia kamusi na kanuni za kimofolojia (Dalrymple et al., 2006).
 
 Mchakato wa ugawaji wa tokeni husababisha vipashio vinavyoweza kuanzia herufi binafsi au maneno hadi vishazi au hata sentensi kamili. Hata hivyo, ugawaji wa maneno ndio aina inayotumika zaidi ya ugawaji katika mifumo ya kikagua tahajia, kwani hutenganisha maandishi kuwa maneno binafsi na hutoa msingi imara wa utambuzi wa makosa ya tahajia (Mosavi Miangah, 2013; Rahman et al., 2021; Abdulrahman and Hassani, 2022).
 
@@ -114,7 +114,7 @@ Katika uchunguzi wa sasa, tunatekeleza mchakato wa ugawaji wa tokeni kwa kuzinga
 
 Hatua ya utambuzi wa makosa katika mfumo wetu wa kikagua tahajia imeundwa kutambua makosa ya maneno yasiyo sahihi katika maandishi. Hili linafikiwa kupitia mchakato wa hatua mbili, unaojumuisha uthibitishaji dhidi ya kanuni za uandishi za Wolof na ulinganisho na leksimu iliyoundwa.
 
-## 3.3.1 Rules Validator
+## 3.3.1 Kithibitishaji cha Kanuni
 
 Tahajia ya maneno katika lugha ya Wolof hufuata kanuni fulani, kama inavyoelezwa na maumbo ya CVC na CVCV(C) kwa maneno ya silabi moja na mawili, mtawalia (Merrill, 2021). Kanuni hizi zinabainisha kwamba konsonanti ya mwisho na irabu ya silabi haziwezi zote kuwa ndefu, na konsonanti kali haziwezi kutokea baada ya irabu ndefu au mwanzoni mwa neno, isipokuwa kwa konsonanti zilizotangulizwa nazali.
 
@@ -132,7 +132,7 @@ Hatua ya mwisho ya utaratibu wa usahihishaji wa tahajia ni kutoa vibadala vinavy
 
 ## 3.4.1 Tafsiri ya sauti mchanganyiko za Kifaransa
 
-Kabla ya kutekeleza moduli inayohusika na kutafsiri sauti mchanganyiko za Kifaransa katika Kiwolofu, tulikusanya kiasi kidogo cha data ya Kiwolofu kutoka vyanzo mbalimbali. Data hii ilitolewa kutoka tovuti za habari, mitandao ya kijamii na tovuti za kidini. Uchambuzi wa kina wa data hii ulifanywa ili kubaini makosa ya kawaida ya tahajia yanayofanywa na wazungumzaji wa Kiwolofu wanapoandika katika lugha hiyo. Matokeo yetu yalionyesha kuwa idadi kubwa ya makosa haya yalitokana na matumizi ya alfabeti ya Kifaransa badala ya alfabeti ya Kiwolof. Hii mara nyingi ilisababisha uwepo wa sauti ambatani au herufi za Kifaransa ambazo si asili ya lugha ya Kiwolof. Zaidi ya hayo, ilibainika kuwa viakifishi, ambavyo vina jukumu muhimu katika kuhakikisha matamshi sahihi na maana ya maneno, vilipuuzwa mara kwa mara. Ili kuonyesha matokeo haya, Jedwali 3 linaonyesha baadhi ya makosa ya kisarufi yaliyoonekana na sawa yao sahihi ya Kiwolofu.
+Kabla ya kutekeleza moduli inayohusika na kutafsiri sauti mchanganyiko za Kifaransa katika Kiwolofu, tulikusanya kiasi kidogo cha data ya Kiwolofu kutoka vyanzo mbalimbali. Data hii ilitolewa kutoka tovuti za habari, mitandao ya kijamii na tovuti za kidini. Uchambuzi wa kina wa data hii ulifanywa ili kubaini makosa ya kawaida ya tahajia yanayofanywa na wazungumzaji wa Kiwolofu wanapoandika katika lugha hiyo. Matokeo yetu yalionyesha kuwa idadi kubwa ya makosa haya yalitokana na matumizi ya alfabeti ya Kifaransa badala ya alfabeti ya Kiwolof. Hii mara nyingi ilisababisha uwepo wa sauti ambatani au herufi za Kifaransa ambazo si asili ya lugha ya Kiwolof. Aidha, ilibainika kwamba lafudhi, ambayo ina jukumu muhimu katika kuhakikisha matamshi sahihi na maana ya maneno, mara nyingi hupuuzwa. Ili kuonyesha matokeo haya, Jedwali la 3 linawasilisha baadhi ya makosa ya tahajia yaliyobainika na visawe vyake sahihi vya Kiwolof.
 
 p05-01.png
 
@@ -144,11 +144,11 @@ Kwa kuzingatia makosa ya kawaida yaliyobainika katika uchanganuzi wa data ya lug
 
 Katika mfumo wa sasa, ili kuzalisha mbadala zinazowezekana kwa maneno yaliyoandikwa vibaya, tumetekeleza mbinu ya kulinganisha umbali wa kileksikografia. Mchakato huu unahusisha kubainisha idadi ya chini zaidi ya operesheni za kuhariri, kama vile kuingiza, kufuta, kupindua, na kubadilisha, zinazohitajika kubadilisha neno moja kuwa jingine (Vienney, 2004). Kadiri tofauti kati ya maneno mawili zinavyokuwa kubwa zaidi, ndivyo umbali wa kileksikografia kati yao unavyokuwa mkubwa zaidi. Kati ya vipimo mbalimbali vya umbali wa kileksikografia, Umbali wa Levenshtein (Levenshtein, 1965) ndio unaotumiwa sana. Unapima tofauti kati ya mifuatano miwili kwa kuzingatia operesheni tatu za msingi za mfuatano: kubadilisha, kuingiza, na kufuta.
 
-Acha Levα,β iwe umbali wa Levenshtein kati ya mfuatano mdogo unaoundwa na herufi α za kwanza za neno W1 na mfuatano mdogo unaoundwa na herufi β za kwanza za neno W. Umbali wa Levenshtein kati ya mifuatano midogo miwili W1 na W2 (yenye urefu |W1| na |W2| mtawalia) unaweza kuhesabiwa kwa kujirudia kwa kutumia Mfumo wa 1 (Levenshtein, 1965).
+Acha Levα,β iwe umbali wa Levenshtein kati ya mfuatano mdogo unaoundwa na herufi α za kwanza za neno W<sub>1</sub> na mfuatano mdogo unaoundwa na herufi β za kwanza za neno W. Umbali wa Levenshtein kati ya mifuatano midogo miwili W<sub>1</sub> na W<sub>2</sub> (yenye urefu |W<sub>1</sub>| na |W<sub>2</sub>| mtawalia) unaweza kuhesabiwa kwa kujirudia kwa kutumia Fomula 1 (Levenshtein, 1965).
 
 p05-02.png
 
-Umbali wa Levenshtein, unapotumika kupitia equation yake ya kurudia, unaweza kuwa ghali kwa hesabu (Gusfield, 1997), hasa kwa umbali mkubwa kwani una utata wa muda wa eksponensiali wa O(3min(|W1|,|W2|) ). Ili kushughulikia suala hili, mbinu yetu inachanganya mbinu mbili: upangaji programu badilifu na muundo wa data wa trie.
+Umbali wa Levenshtein, unapokokotolewa kwa kutumia mlingano wake wa kurudia, unaweza kuwa ghali kwa hesabu (Gusfield, 1997), hasa kwa umbali mkubwa kwani una utata wa muda wa eksponensiali wa O(3min(|W1|,|W2|) ). Ili kushughulikia suala hili, mbinu yetu inachanganya mbinu mbili: upangaji programu badilifu na muundo wa data wa trie.
 
 Upangaji programu badilifu (Almudevar, 2001), kama mbinu ya kutatua matatizo kwa kuyagawanya katika matatizo madogo yanayoweza kudhibitiwa na kuhifadhi masuluhisho, husaidia kupunguza idadi ya hesabu zisizo za lazima kwa kutoa uhifadhi bora zaidi wa matokeo ya kati. Inapotumika kwa umbali wa Levenshtein, inaruhusu matokeo ya kati ya hesabu za sehemu kuhifadhiwa katika matriki, na hivyo kusababisha ukokotoaji bora zaidi wa matokeo ya mwisho.
 
@@ -162,7 +162,7 @@ Jedwali 4: Gharama ya ubadilishaji wa jozi mahususi
 
 Moduli yetu ya pendekezo huzalisha maneno yanayowezekana kuwa sahihi kwa neno lililoandikwa vibaya kupitia ukokotoaji wa umbali wa hariri kati ya neno lililoandikwa vibaya na kila neno halali katika leksimu ya Kiwolof. Kwa kila neno linalowezekana kuwa sahihi, gharama ya kubadilisha neno lililoandikwa vibaya kuwa neno linalowezekana kuwa sahihi hutolewa.
 
-## 3.4.3 Ranking ya mapendekezo ya mgombea
+## 3.4.3 Upangaji wa mapendekezo yanayowezekana kuwa sahihi
 
 Katika awamu ifuatayo ya mbinu yetu, maneno yanayowezekana kuwa sahihi yaliyozalishwa kutoka hatua ya awali yanafanyiwa tathmini. Upangaji unafanywa kwa kuzingatia ukaribu wa maneno yaliyopendekezwa na neno lililoandikwa vibaya, ambapo neno linalopendekezwa lenye gharama ndogo zaidi ya uhariri linapewa cheo cha juu zaidi. Neno linalopendekezwa lenye gharama ndogo zaidi ya uhariri linabainishwa kuwa linalolingana kwa karibu zaidi na kwa hiyo linachaguliwa kama badala inayowezekana zaidi kwa neno lisilo sahihi.
 
@@ -172,7 +172,7 @@ Ili kutathmini utendaji wa mfumo wetu wa kikagua tahajia, kwanza tuliunda mkusan
 
 ## 4.1 Uundaji wa Mkusanyiko wa Maneno Yaliyoandikwa Vibaya
 
-Uundaji wa Corpus ya Maneno Yasiyoandikwa Vizuri ulifuata njia inayofanana na uundaji wa kamusi ya Wolof. Tulitumia mbinu mseto ya ufafanuzi wa mwongozo na wa kiotomatiki, ikifuatiwa na usahihishaji. Mbinu hiyo ilihusisha uteuzi wa maneno ya Kiwolofu yanayoandikwa vibaya kwa kawaida yaliyogunduliwa kupitia mitandao ya kijamii, tovuti za kidini, na tovuti za habari. Kwa kila makosa ya kuandika, tuliongeza marekebisho yake kwa mkono. Mchakato huu ulisababisha kuundwa kwa korasi inayojumuisha maneno 3070, ikiwa na maneno sahihi 1075 na maneno batili 1995. Umbali wa uhariri kati ya maneno yaliyoandikwa vibaya na maumbo yake yaliyosahihishwa umewasilishwa katika Jedwali la 5.
+Uundaji wa Mkusanyiko wa Maneno Yaliyoandikwa Vibaya ulifuata mbinu sawa na uundaji wa leksimu ya Kiwolofu. Tulitumia mbinu mseto ya ufafanuzi kwa mkono na wa kiotomatiki, ikifuatiwa na usahihishaji. Mbinu hiyo ilihusisha uteuzi wa maneno ya Kiwolofu yanayoandikwa vibaya kwa kawaida yaliyogunduliwa kupitia mitandao ya kijamii, tovuti za kidini, na tovuti za habari. Kwa kila makosa ya kuandika, tuliongeza marekebisho yake kwa mkono. Mchakato huu ulisababisha kuundwa kwa korasi inayojumuisha maneno 3070, ikiwa na maneno sahihi 1075 na maneno batili 1995. Umbali wa uhariri kati ya maneno yaliyoandikwa vibaya na maumbo yake yaliyosahihishwa umewasilishwa katika Jedwali la 5.
 
 p06-02.png
 
@@ -180,7 +180,7 @@ Jedwali la 5: Umbali wa uhariri wa makosa ya tahajia dhidi ya masahihisho yake
 
 ## 4.2 Uchaguzi wa Vipimo vya Tathmini
 
-Kuna vigezo mbalimbali vinavyohitaji kuzingatiwa wakati wa kutathmini vyombo vya kusahihisha herufi. Vigezo vya kawaida, ikiwemo kukumbuka na usahihi, vimeatumika kwa muda mrefu sana kupima uwezo wa lugha wa zana hizi. hata hivyo, kwa mtazamo unaozingatia matumizi, vigezo hivi vya tathmini vina mapungufu kutokana na kukosekana kwa vigeu fulani vya ndani vya tathmini ya vikagua tahajia katika vipimo hivi.
+Kuna vigezo mbalimbali vinavyohitaji kuzingatiwa wakati wa kutathmini vyombo vya kusahihisha herufi. Vipimo vya kawaida, vikijumuisha Kumbuko tambuzi na Ushabaha, vimetumika sana kwa muda mrefu kupima ustadi wa kiisimu wa zana hizo. hata hivyo, kwa mtazamo unaozingatia matumizi, vigezo hivi vya tathmini vina mapungufu kutokana na kukosekana kwa vigeu fulani vya kimsingi katika tathmini ya vikagua tahajia ndani ya vipimo hivi.
 
 Ili kubaini uaminifu wa kikagua tahajia chetu, tulitumia vipimo vilivyopendekezwa katika (Starlander and Popescu-Belis, 2002), (Voorhees and Garofolo, 2000), (Paggio and Music, 1998), (Paggio and Underwood, 1998), (King, 1999) pamoja na hatua zifuatazo:
 
@@ -188,65 +188,65 @@ Chanya halisi (TP): neno sahihi ambalo linatambuliwa kama sahihi na kifaa cha ku
 
 Chanya uongo (FP): neno lisilo sahihi ambalo linatambuliwa kama sahihi na kifaa cha kusahihisha herufi.
 
-Kosa bandia (FN): Ni neno sahihi ambalo linatambuliwa kuwa si sahihi na mkaguzi wa maandishi.
+Hasi uwongo (FN): neno sahihi ambalo linatambuliwa kuwa si sahihi na kikagua tahajia.
 
-Kosa la kweli (TN): neno lisilo sahihi ambalo hutambuliwa kuwa si sahihi na mkaguzi wa maandishi.
+Hasi halisi (TN): neno lisilo sahihi ambalo linatambuliwa kuwa si sahihi na kikagua tahajia.
 
-Licha ya umri wake, vipimo hivi vinaendelea kutumika sana katika hali ya sasa ya sanaa kwa ajili ya kutathmini vikagua tahajia, hasa vile vilivyoundwa kwa ajili ya lugha zenye rasilimali chache kama vile (Abdulrahman and Hassani, 2022) na (Boago Okgetheng et al., 2022).
+Licha ya umri wake, vipimo hivi vinaendelea kutumika sana katika teknolojia ya kisasa kwa ajili ya kutathmini vikagua tahajia, hasa vile vilivyoundwa kwa ajili ya lugha zenye rasilimali chache kama vile (Abdulrahman and Hassani, 2022) na (Boago Okgetheng et al., 2022).
 
 Vipimo vingine vilivyotumika katika tathmini hizi, vinaelezewa kama ifuatavyo:
 
-## 4.2.1 Ukumbusho wa maneno au Rc
+## 4.2.1 Kumbuko tambuzi la Kileksika au R<sub>c</sub>
 
-Inabainishwa kwa kukokotoa uwiano wa maneno halali yaliyotambuliwa kwa usahihi katika maandishi na kikagua tahajia, kwa jumla ya idadi ya maneno sahihi katika maandishi yale yale, kama inavyoonyeshwa katika Mfumo wa 2 (Starlander and Popescu-Belis, 2002).
+Inabainishwa kwa kukokotoa uwiano wa maneno halali yaliyotambuliwa kwa usahihi katika maandishi na kikagua tahajia, kwa jumla ya idadi ya maneno sahihi katika maandishi yale yale, kama inavyoonyeshwa katika Fomula 2 (Starlander and Popescu-Belis, 2002).
 
 p07-01.png
 
-## 4.2.2 Kosa Recall au Ri
+## 4.2.2 Kumbuko la Makosa au R<sub>i</sub>
 
-Inaonyeshwa kama sehemu ya maneno yasiyo sahihi katika maandishi yaliyotambuliwa na kikagua tahajia, ikilinganishwa na jumla ya idadi ya maneno yasiyo sahihi katika maandishi, kama inavyoonyeshwa katika Mfumo wa 3 (Starlander na Popescu-Belis, 2002).
+Inaonyeshwa kama sehemu ya maneno yasiyo sahihi katika maandishi yaliyotambuliwa na kikagua tahajia, ikilinganishwa na jumla ya idadi ya maneno yasiyo sahihi katika maandishi, kama inavyoonyeshwa katika Fomula 3 (Starlander na Popescu-Belis, 2002).
 
 p07-02.png
 
-## 4.2.3 Ushabaha wa Kileksika au Pc
+## 4.2.3 Ushabaha wa Kileksika au P<sub>c</sub>
 
-Inakokotolewa kwa kugawanya jumla ya idadi ya maneno sahihi yaliyotambuliwa kwa usahihi na kikagua tahajia kwa jumla ya maneno sahihi yaliyotambuliwa na kikagua tahajia na idadi ya maneno batili ambayo hayakutambuliwa na kikagua tahajia kuwa si sahihi, kama inavyoonyeshwa katika Mfumo wa 4 (Starlander na Popescu-Belis, 2002).
+Inakokotolewa kwa kugawanya jumla ya idadi ya maneno sahihi yaliyotambuliwa kwa usahihi na kikagua tahajia kwa jumla ya maneno sahihi yaliyotambuliwa na kikagua tahajia na idadi ya maneno batili ambayo hayakutambuliwa na kikagua tahajia kuwa si sahihi, kama inavyoonyeshwa katika Fomula 4 (Starlander na Popescu-Belis, 2002).
 
 p07-03.png
 
-## 4.2.4 Kosa usahihi au Pi
+## 4.2.4 Ushabaha wa Makosa au P<sub>i</sub>
 
-Inaamuliwa kwa kugawanya idadi ya alama sahihi zilizowekwa na kikagua tahajia kwa jumla ya idadi ya alama zilizotolewa na mfumo, kama inavyoonyeshwa katika Mfumo wa 5 (Starlander na Popescu-Belis, 2002).
+Inaamuliwa kwa kugawanya idadi ya alama sahihi zilizowekwa na kikagua tahajia kwa jumla ya idadi ya alama zilizotolewa na mfumo, kama inavyoonyeshwa katika Fomula 5 (Starlander na Popescu-Belis, 2002).
 
 p07-04.png
 
-## 4.2.5 F-measure ya Lexical au F mc
+## 4.2.5 Kipimo cha F cha Kileksika au F m<sub>c</sub>
 
-Inawezesha hesabu ya wastani wa harmoniki kati ya kumbukumbu ya maneno na usahihi wa maneno, kama ilivyoonyeshwa katika Fomula 6 (Starlander na Popescu-Belis, 2002).
+Inawezesha hesabu ya wastani wa harmoniki kati ya kumbuko tambuzi ya kileksika na ushabaha wa kileksika, kama ilivyoonyeshwa katika Fomula 6 (Starlander na Popescu-Belis, 2002).
 
 p07-05.png
 
-## 4.2.6 Error F-measure au F mi
+## 4.2.6 Kipimo cha F cha Makosa au F m<sub>i</sub>
 
-Kipimo cha F cha makosa huhesabiwa kwa kuhesabu wastani wa ulinganifu wa kumbukumbu ya maneno na usahihi wa maneno, kama ilivyoonyeshwa katika Fomula 7 (Starlander na Popescu-Belis, 2002).
+Kipimo cha F cha makosa huhesabiwa kwa kukokotoa wastani wa harmoniki wa kumbuko tambuzi ya kileksika na ushabaha wa kileksika, kama inavyoonyeshwa katika Fomula 7 (Starlander na Popescu-Belis, 2002).
 
 p07-06.png
 
 ## 4.2.7 Usahihi wa Kutabiri au P A
 
-Inakadiria uwezekano wa neno lolote, liwe ni sahihi au si sahihi, likishughulikiwa kwa usahihi na mkaguzi wa mwendelezo. Inahesabiwa kwa kutumia Fomula 8 (Starlander na Popescu-Belis, 2002).
+Inakadiria uwezekano wa neno lolote, liwe sahihi au si sahihi, kuchakatwa kwa usahihi na kikagua tahajia. Inahesabiwa kwa kutumia Fomula 8 (Starlander na Popescu-Belis, 2002).
 
 p07-07.png
 
 ## 4.2.8 Utoshelevu wa Pendekezo au SA
 
-Inapima uwezo wa kikagua tahajia chetu kupendekeza vibadala sahihi vya tahajia kwa neno lililoandikwa vibaya. Acha S iashirie pendekezo sahihi kwa neno lisilo sahihi na N iwakilishe jumla ya idadi ya maneno yaliyoandikwa vibaya. Utoshelevu wa Pendekezo wa mfumo wetu unakokotolewa kwa kutumia Mfumo wa 9 (Starlander na Popescu-Belis, 2002).
+Inapima uwezo wa kikagua tahajia chetu kupendekeza vibadala sahihi vya tahajia kwa neno lililoandikwa vibaya. Acha S iashirie pendekezo sahihi kwa neno lisilo sahihi na N iwakilishe jumla ya idadi ya maneno yaliyoandikwa vibaya. Utoshelevu wa Pendekezo wa mfumo wetu unakokotolewa kwa kutumia Fomula 9 (Starlander na Popescu-Belis, 2002).
 
 p07-08.png
 
 ## 4.2.9 Kiwango cha Wastani cha Uwiano au MRR
 
-Kama ilivyoelezwa hapo awali, kikagua tahajia chetu huchagua kwa utaratibu neno la kwanza katika orodha ya mapendekezo kama kibadala kinachowezekana zaidi kwa neno lililoandikwa vibaya. Hata hivyo, kwa kuwa kuchagua chaguo la awali katika orodha iliyopendekezwa huenda kusiwe chaguo sahihi kila wakati, tutatumia kipimo cha MRR kutathmini mbinu ya upangaji. Tuseme N ni jumla ya idadi ya maneno yasiyo sahihi na Ranki,c ni nafasi ya pendekezo sahihi katika orodha ya mapendekezo kwa neno lisiloandikwa kwa usahihi la i katika N. MRR inahesabiwa kwa kutumia Formula 10 (Voorhees na Garofolo, 2000).
+Kama ilivyoelezwa hapo awali, kikagua tahajia chetu huchagua kwa utaratibu neno la kwanza katika orodha ya mapendekezo kama kibadala kinachowezekana zaidi kwa neno lililoandikwa vibaya. Hata hivyo, kwa kuwa kuchagua chaguo la awali katika orodha iliyopendekezwa huenda kusiwe chaguo sahihi kila wakati, tutatumia kipimo cha MRR kutathmini mbinu ya upangaji. Acha N iwe jumla ya idadi ya maneno yasiyo sahihi na Rank<sub>i,c</sub> iwe nafasi ya pendekezo sahihi katika orodha ya mapendekezo kwa neno lisiloandikwa kwa usahihi la i katika N. MRR inakokotolewa kwa kutumia Fomula 10 (Voorhees na Garofolo, 2000).
 
 p08-01.png
 
@@ -260,9 +260,9 @@ p08-02.png
 
 Jedwali 6: Vipimo vya utendaji wa kifaa cha kusahihisha herufi
 
-Kiwango cha kumbukumbu ya 95.16% (Rc) na 100% (Ri) huonyesha asili kamili ya kamusi inayotumiwa na mkaguzi wa herufi, pamoja na hali yake isiyoharibika.
+Alama ya kumbuko tambuzi ya 95.16% (R<sub>c</sub>) na 100% (R<sub>i</sub>) inaonyesha asili kamili ya leksimu inayotumiwa na kikagua tahajia, pamoja na hali yake isiyoharibika kwa kiasi.
 
-Kikagua tahajia kinaonyesha kiwango cha kipekee cha Ushabaha, kikiwa na alama ya 100% (Pc) na 97.46% (Pi), ikionyesha utegemevu wake katika kutambua kwa usahihi makosa ya tahajia pamoja na maneno halali. Alama za kipimo cha F za 97.52% (F mc) na 98.71% (F mi) zinaonyesha kwamba kikagua tahajia kinaepuka mikakati rahisi, na hivyo kuhakikisha ufanisi wake.
+Kikagua tahajia kinaonyesha kiwango cha kipekee cha Ushabaha, kikiwa na alama ya 100% (P<sub>c</sub>) na 97.46% (P<sub>i</sub>), ikionyesha utegemevu wake katika kutambua kwa usahihi makosa ya tahajia pamoja na maneno halali. Alama za kipimo cha F za 97.52% (F mc) na 98.71% (F mi) zinaonyesha kwamba kikagua tahajia kinaepuka mikakati rahisi, na hivyo kuhakikisha ufanisi wake.
 
 Alama ya Usahihi wa pendekezo (SA) ya kikagua tahajia ya 93.33% inathibitisha ufaafu na ukweli wa mbadala unaowezekana zaidi kwa neno lililoandikwa vibaya linalowasilishwa kwa mtumiaji wa mwisho.
 
@@ -290,11 +290,11 @@ Tatu, miundo ya data ya upangaji programu nguvu na trie inayotumika inaweza kusa
 
 ## 6 Hitimisho
 
-Karatasi hii iliwasilisha kikagua tahajia kipya kwa lugha ya Wolof, ambacho kimeonyesha uwezo wake, kutokana na mchanganyiko wake mzuri wa muundo wa data wa trie, upangaji programu nguvu, na algoriti za umbali wa Levenshtein zenye uzani. Mbinu mseto ya ufafanuzi wa mwongozo na otomatiki iliwezesha ujenzi wa leksika pana na Kundi Imara la Maneno yenye Makosa ya Tahajia, ikiruhusu tathmini imara ya uwezo wa kikagua tahajia licha ya data chache inayopatikana kwa lugha hiyo. Kupitia juhudi hizi, tunatumai kuendeleza hali ya utafiti wa NLP kwa lugha ya Wolof na kuchangia katika kuhifadhi urithi wa kiisimu wa mataifa ya Kiafrika, kuhakikisha kwamba maonyesho yao tofauti ya kitamaduni yanalindwa kwa vizazi vijavyo.
+Karatasi hii iliwasilisha kikagua tahajia kipya kwa lugha ya Wolof, ambacho kimeonyesha uwezo wake, kutokana na mchanganyiko wake mzuri wa muundo wa data wa trie, upangaji programu nguvu, na algoriti za umbali wa Levenshtein zenye uzani. Mbinu mseto ya ufafanuzi kwa mkono na otomatiki iliwezesha ujenzi wa leksika pana na Korasi Imara ya Maneno yenye Makosa ya Tahajia, ikiruhusu tathmini imara ya uwezo wa kikagua tahajia licha ya data chache inayopatikana kwa lugha hiyo. Kupitia juhudi hizi, tunatumai kuendeleza hali ya utafiti wa NLP kwa lugha ya Wolof na kuchangia katika kuhifadhi urithi wa kiisimu wa mataifa ya Kiafrika, kuhakikisha kwamba maonyesho yao tofauti ya kitamaduni yanalindwa kwa vizazi vijavyo.
 
 Matokeo ya utafiti huu yanatoa ushahidi thabiti wa uwezo wa kifaa cha kusahihisha herufi kwa lugha ya Wolof, na kufungua njia za uboreshaji zaidi na uchunguzi.
 
-Kwa utafiti wa baadaye, itakuwa ya manufaa kuchunguza athari za kuongeza leksika na Misspelled Word Corpus kwenye utendaji wa kikagua tahajia. Zaidi ya hayo, ulinganisho wa utendaji wa kikagua tahajia na mbinu nyingine za kukagua tahajia zinazotumiwa katika lugha zenye rasilimali chache, kama vile Lugha za Afrika za Asili, unaweza kutoa maarifa muhimu kuhusu nguvu na udhaifu wa mkabala wa sasa. Ujumuishaji wa mbinu za kisasa, zikiwa zimezingatia muktadha, kama vile zile zinazotegemea kujifunza kwa mashine na Mtandao wa Neva wa Kina, ndani ya kifaa cha kusahihisha herufi pia kunaweza kuchunguzwa ili kuongeza zaidi uwezo wake.
+Kwa utafiti wa baadaye, itakuwa ya manufaa kuchunguza athari za kuongeza leksika na korasi ya maneno yaliyoandikwa vibaya kwenye utendaji wa kikagua tahajia. Zaidi ya hayo, ulinganisho wa utendaji wa kikagua tahajia na mbinu nyingine za kukagua tahajia zinazotumiwa katika lugha zenye rasilimali chache, kama vile Lugha za Afrika za Asili, unaweza kutoa maarifa muhimu kuhusu nguvu na udhaifu wa mkabala wa sasa. Ujumuishaji wa mbinu za kisasa, ukizingatia muktadha, kama zile zinazotegemea ujifunzaji wa mashine na Mitandao ya Neva ya Kina, ndani ya kikagua tahajia unaweza pia kuchunguzwa ili kuongeza zaidi uwezo wake.
 
 ## Shukrani
 
@@ -314,7 +314,7 @@ Pia tunawashukuru washiriki wa jamii ya Wolof kwa kutoa muda wao, hekima, na uta
 
 ## Marejeo
 
-Roshna Omer Abdulrahman and Hossein Hassani. 2022. A language model for spell checking of educational texts in kurdish (sorani). 1st Annual Meeting of the ELRA/ISCA Special Interest Group on UnderResourced Languages, SIGUL 2022 - Held in Conjunction with the International Conference on Language Resources and Evaluation, LREC 2022 - Proceedings, pages 189-198.
+Roshna Omer Abdulrahman and Hossein Hassani. 2022. A language model for spell checking of educational texts in kurdish (sorani). 1st Annual Meeting of the ELRA/ISCA Special Interest Group on Under-Resourced Languages, SIGUL 2022 - Held in Conjunction with the International Conference on Language Resources and Evaluation, LREC 2022 - Proceedings, pages 189-198.
 
 Anthony Almudevar. 2001. A dynamic programming algorithm for the optimal control of piecewise deterministic markov processes. SIAM Journal on Control and Optimization, 40(2):525-539.
 
@@ -348,7 +348,7 @@ Yaakov HaCohen-Kerner, Daniel Miller, and Yair Yigal. 2020. The influence of pre
 
 James Cross, Maha Elbayad, and Kenneth Heafield. 2022. No language left behind: Scaling human-centered machine translation.
 
-M King. 1999. Evaluation design: The EAGLES framework. In Proceedings of the Konvens '98: Evaluation of the Linguistic Performance of Machine Translation Systems, Bonn, Germany. Rita Nübel, Uta SeewaldHeeg, Gardezi Verlag, St. Augustin.
+M King. 1999. Evaluation design: The EAGLES framework. In Proceedings of the Konvens '98: Evaluation of the Linguistic Performance of Machine Translation Systems, Bonn, Germany. Rita Nübel, Uta Seewald-Heeg, Gardezi Verlag, St. Augustin.
 
 Donald Knuth. 1998. Art of computer programming, the: Volume 3: Sorting and searching, 2nd edition. edition. Addison-Wesley Professional.
 
@@ -356,7 +356,7 @@ Karen Kukich. 1992. Techniques for automatically correcting words in text. Acm C
 
 Vladimir I. Levenshtein. 1965. Binary codes capable of correcting deletions, insertions, and reversals. Soviet physics. Doklady, 10:707-710.
 
-Alla Lo, Cheikh Bamba Dione, Mathieu Mangeot, Mouhamadou Khoule, Sokhna Bao-Diop, MameThierno Cissé, et al. 2016. Correction orthographique pour la langue wolof: état de l'art et perspectives. In JEP-TALN-RECITAL 2016: Traitement Automatique Des Langues Africaines TALAF 2016.
+Alla Lo, Cheikh Bamba Dione, Mathieu Mangeot, Mouhamadou Khoule, Sokhna Bao-Diop, Mame-Thierno Cissé, et al. 2016. Correction orthographique pour la langue wolof: état de l'art et perspectives. In JEP-TALN-RECITAL 2016: Traitement Automatique Des Langues Africaines TALAF 2016.
 
 Jean-Jacques M'eric. 2014. A spell-checker and thesaurus for Bambara (Bamanankan) (Un v'erificateur orthographique pour la langue bambara) [in French]. TALAf@TALN, pages 141-146.
 
@@ -382,6 +382,6 @@ Marianne Starlander and Andrei Popescu-Belis. 2002. Corpus-based evaluation of a
 
 Pius Ten Hacken and Cornelia Tschichold. 2001. Word Manager and CALL: Structured access to the lexicon as a tool for enriching learners' vocabulary. ReCALL, 13(1):121-131.
 
-S. Vienney. 2004. Correction Automatique : Bilan et Perspectives. Presses universitaires de FrancheComté.
+S. Vienney. 2004. Correction Automatique : Bilan et Perspectives. Presses universitaires de Franche-Comté.
 
 Ellen Voorhees and John Garofolo. 2000. The TREC Spoken Document Retrieval Track. Bulletin of the American Society for Information Science and Technology, 26(5):18-19.

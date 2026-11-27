@@ -25,11 +25,11 @@ We shall start by presenting verbs with optional initial vowels in Zulu, contras
 
 ## 1 The corpus
 
-Zulu (or isiZulu) 2 is in terms of demography the main African (Bantu) language spoken in South-Africa, 3 being in its different sociolects the first or home language of close to 13 millions people, viz., 22% of a population of at least 59 millions. 4 Although there exists a number of regional or sub-regional dialects, its standard form, taught in schools and propagated through formal situations, including literature, the written and spoken press, as well as official ceremonies, is widely accepted. It also boasts a well-accepted orthography. This paper is based on the standard language and our data is taken mainly from secondary sources, id est, dictionaries as quoted in the paper, complemented by random observations taken from formal and informal written documents as well as informal speech, and the native-speaker fluency of one co-author.
+Zulu (or isiZulu)[2] is in terms of demography the main African (Bantu) language spoken in South-Africa,[3] being in its different sociolects the first or home language of close to 13 millions people, viz., 22% of a population of at least 59 millions.[4] Although there exists a number of regional or sub-regional dialects, its standard form, taught in schools and propagated through formal situations, including literature, the written and spoken press, as well as official ceremonies, is widely accepted. It also boasts a well-accepted orthography. This paper is based on the standard language and our data is taken mainly from secondary sources, id est, dictionaries as quoted in the paper, complemented by random observations taken from formal and informal written documents as well as informal speech, and the native-speaker fluency of one co-author.
 
 Zulu has a rather large inventory of what (Clement Martyn Doke 1992, 131) refers to as "vowel verbs with variant non-vowel forms" , such as
 
--edlula or -dlula, 5 pass 6
+-edlula or -dlula,[5] pass[6]
 
 -esutha or -sutha, be satiated with food
 
@@ -37,15 +37,13 @@ The initial vowel is mostly /e/, but /a/ and /o/ also occur, more often as furth
 
 -ehlula, -ahlula or -hlula, conquer, defeat
 
--ejwayela, -ojwayela or
+-ejwayela, -ojwayela or ⎯jwayela, be used to
 
-⎯jwayela, be used to
+-ephula, -aphula, -ophula, or ⎯phula, break
 
-## -ephula, -aphula, -ophula, or ⎯phula, break
+Whereas the presence in the standard of variant forms may proceed from the incorporation of regional features as, although based mainly on « the Central Zululand Dialect » (Kubeka 1979, 83), it includes arguably features of other varieties, it seems that the variation has now become evolutionary, as some of Doke's vowel-initial verbs do not seem valid today (but see further down):
 
-Whereas the presence in the standard of variant forms may proceed from the incorporation of regional features as, although based mainly on « the Central Zululand Dialect » (Kubeka 1979, 83), it includes arguably features of other varieties, it seems that the variation has now become evolutionary, as some of Doke's vowelinitial verbs do not seem valid today (but see further down):
-
-?-efunda for -funda study ? -egcwala for -gcwala, be full ? -emithi for -mithi be with small (animals); become pregnant ? -ojwayela for -jwayela, be used to
+?-efunda for -funda study ?-egcwala for -gcwala, be full ?-emithi for -mithi be with small (animals); become pregnant ?-ojwayela for -jwayela, be used to
 
 This would point to a phenomenon of vowel erosion. However the fact that some of those verbs, like -gcwala, seem to have their source in ideophones (gcwa, of being full to the brim) which are consonant-commencing suggests this explanation is not sufficient. The vowel would then have been added (or the ideophone would have been obtained by deletion of the vowel). We shall not investigate this issue further however, as it is not relevant to the problem at hand.
 
@@ -53,7 +51,7 @@ Nouns derived from the same root show the same alternative :
 
 abalusi or abelusi, herders (cf. ⎯elusa or -lusa, herd) but all possibilities are not always admitted:
 
-umelaphi 7 healer : ? umlaphi,
+umelaphi[7] healer : ? umlaphi,
 
 The same variation may apply to extended verbs and nouns derived from them:
 
@@ -63,7 +61,7 @@ It also happens that a variant ∂ does not cover all meanings of variant ß, su
 
 -phuza has now two meanings: ⎯phuza, drink and -phuza (variant of -ephuza) be late
 
-To this category we add the three (or four) verbs with /i/ as the initial vowel, that Doke in the passage quoted above refers to as "latent-vowel verbs" due to the fact that /i/ may only appear in conjugated forms when preceded by a vowel /a/ with which it then coalesces resulting in /e/: 8
+To this category we add the three (or four) verbs with /i/ as the initial vowel, that Doke in the passage quoted above refers to as "latent-vowel verbs" due to the fact that /i/ may only appear in conjugated forms when preceded by a vowel /a/ with which it then coalesces resulting in /e/:[8]
 
 -(i)ma: stand: ngiyema or ngiyama, I stand
 
@@ -91,7 +89,7 @@ ngiyezwa rather than ngiyazwa, I hear ngiyazwisisa rather than ngiyezwisisa, I u
 
 How are these facts dealt with in major Zulu dictionaries?
 
-Keeping to items already mentioned, we compare the main dictionaries presently available: 9 bilingual - Doke & al. Zulu-English and English-Zulu (Clement M. Doke et al. 1999), Dent and Nyembezi's Scholar's Zulu (Dent and Nyembezi 1995), de Schryver's (de Schryver 2015)- and monolingual - Nyembezi's (Nyembezi 1992) and Mbatha's (Mbatha 2006). We are aware that these dictionaries were not compiled within the same framework. Whereas the four older follow with small deviations between them the strategy set out by Doke for Zulu lexicography, which lemmatizes stems rather than words, de Schryver's, besides being corpus-based, introduces an approach which seeks to lemmatize words rather than stems (de Schryver and Wilkes 2008). However, this revolution in Zulu lemmatization does not really affect verbs. Even though Doke and Nyembezi quote verbs under the imperative while other dictionaries refer to the verb stem, appropriately defined in (Marlo 2013) as "an obligatory root, one or more possibly occurring derivational suffixes [also known as extensions] 10 and an inflectional final suffix commonly called the "Final Vowel", the form is segmentally similar, the singular imperative being none other in Zulu than the said stem with a specific tone structure.
+Keeping to items already mentioned, we compare the main dictionaries presently available:[9] bilingual - Doke & al. Zulu-English and English-Zulu (Clement M. Doke et al. 1999), Dent and Nyembezi's Scholar's Zulu (Dent and Nyembezi 1995), de Schryver's (de Schryver 2015)- and monolingual - Nyembezi's (Nyembezi 1992) and Mbatha's (Mbatha 2006). We are aware that these dictionaries were not compiled within the same framework. Whereas the four older follow with small deviations between them the strategy set out by Doke for Zulu lexicography, which lemmatizes stems rather than words, de Schryver's, besides being corpus-based, introduces an approach which seeks to lemmatize words rather than stems (de Schryver and Wilkes 2008). However, this revolution in Zulu lemmatization does not really affect verbs. Even though Doke and Nyembezi quote verbs under the imperative while other dictionaries refer to the verb stem, appropriately defined in (Marlo 2013) as "an obligatory root, one or more possibly occurring derivational suffixes [also known as extensions][10] and an inflectional final suffix commonly called the "Final Vowel", the form is segmentally similar, the singular imperative being none other in Zulu than the said stem with a specific tone structure.
 
 We use the following symbols:
 
@@ -121,7 +119,7 @@ It seems, even judging from such a limited and haphazard sample, that inconsiste
 
 Since Doke refers specifically to "vowel verbs with variant non-vowel forms" one would expect these verbs to be entered systematically under the vowel with an indication that a consonant-commencing variant exists : not so but most instances include a cross-reference, which mitigates the issue. In Dent on the other hand repetition is frequent: -ephula, -aphula and -phula among other such examples constitute three different entries with almost the same definitions repeated without any cross-referencing. De Schryver is more consistent in cross-referencing the (supposedly) less frequent form to the main one.
 
-Regarding the so-called latent vowel or i-commencing verbs, Doke is the only one to systematically make mention of "latent i" in the description of all corresponding entries. Dent and de Schryver make no explicit allusion to it while implying it nevertheless through examples: under -zwa, Dent gives ukungezwa nakutshelwa, to want to see by oneself ("not wanting to be told"), where the negative marker -nga-alters to nge as its /a/ vowel coalesces with the initial /i/; 1415. In a similar fashion, under -za de Schryver gives abantu beza ngobuningi, people came in their numbers, whereas beza cannot be obtained from the subject prefix ba- and the verb given as -za. Same situation under zwakala (separate entry from -zwa) with kuyezwakala it is understandable. 16
+Regarding the so-called latent vowel or i-commencing verbs, Doke is the only one to systematically make mention of "latent i" in the description of all corresponding entries. Dent and de Schryver make no explicit allusion to it while implying it nevertheless through examples: under -zwa, Dent gives ukungezwa nakutshelwa, to want to see by oneself ("not wanting to be told"), where the negative marker -nga-alters to nge as its /a/ vowel coalesces with the initial /i/; [14][15]. In a similar fashion, under -za de Schryver gives abantu beza ngobuningi, people came in their numbers, whereas beza cannot be obtained from the subject prefix ba- and the verb given as -za. Same situation under zwakala (separate entry from -zwa) with kuyezwakala it is understandable.[16]
 
 ## - English to Zulu
 
@@ -141,23 +139,51 @@ passer (to pass): -(e)dlula; aller (to come): -(i)za
 
 Thus all variants of conjugated forms can be deducted from the lemmas as they stand.
 
-Obviously the same strategy could not be followed in the Zulu to French part. In order to avoid repetition as well as omission, we opted to lemmatize the form which appeared to us the more common (based on native speaker's intuition), the other or possibly other form(s) being however systematically listed and crossreferred to the one chosen as lemma :
+Obviously the same strategy could not be followed in the Zulu to French part. In order to avoid repetition as well as omission, we opted to lemmatize the form which appeared to us the more common (based on native speaker's intuition), the other or possibly other form(s) being however systematically listed and cross-referred to the one chosen as lemma :
 
 -edlula : voir [see] -dlula
 
 -iza : voir [see] -za
 
-This strategy counterbalanced at least partially any wrong estimate on our side of the relative frequency of variants. The strategy obviously is not ignored by all of the dictionaries reviewed; 17 rather it is not applied systematically.
+This strategy counterbalanced at least partially any wrong estimate on our side of the relative frequency of variants. The strategy obviously is not ignored by all of the dictionaries reviewed;[17] rather it is not applied systematically.
 
 ## 5 Conclusion
 
-It would seem, from the review of lexicographical treatment of a few items in old as well as recent Zulu dictionaries, both bilingual and monolingual, traditional as well as recent and corpus- and frequencybased (de Schryver's), that the twin issues of "vowel verbs with variant non-vowel forms" and "latent-vowel verbs" have been largely overlooked. Minor as this may seem, it remains a blind spot. Our ad hoc solution, to consistently include all variants in the simplest and less cumbersome manner, might then go some way towards achieving better coverage in that particular instance. This reminds us that there is no Holy Grail to achieving consistency and userfriendliness in the lexicography of Zulu and cognate languages. Lexicographical issues have to be considered taking into account their specifics, this being the only manner to provide adequate, complete and easily accessible information.
+It would seem, from the review of lexicographical treatment of a few items in old as well as recent Zulu dictionaries, both bilingual and monolingual, traditional as well as recent and corpus- and frequency-based (de Schryver's), that the twin issues of "vowel verbs with variant non-vowel forms" and "latent-vowel verbs" have been largely overlooked. Minor as this may seem, it remains a blind spot. Our ad hoc solution, to consistently include all variants in the simplest and less cumbersome manner, might then go some way towards achieving better coverage in that particular instance. This reminds us that there is no Holy Grail to achieving consistency and user-friendliness in the lexicography of Zulu and cognate languages. Lexicographical issues have to be considered taking into account their specifics, this being the only manner to provide adequate, complete and easily accessible information.
 
 ## Notes
 
 1 Corresponding author
 
 2 It is considered appropriate in South Africa to refer to local African (Bantu) languages with their prefixes in the name of respecting self-identification. We have however opted to use consistently English language-naming conventions. Thus we maintain French rather than « français » in the text.
+
+3 Bantu is a convenient classificatory term for a family of languages indigenous to the African continent. The term has no implication outside the linguistic field. Languages of this family share a number of features, including a noun class system characterized by prefixes and agreement schemes.
+
+4 Extrapolated from the 2011 Census which included a question on ethnicity, and the population figures for 2020 (see https://www.statssa.gov.za). This figure probably does not give justice to recent immigration. The results of the 2022 census are not published to date.
+
+5 Verbs are quoted under their stem, preceded by a hyphen to indicate that any conjugated form - apart from the imperative-requires prepositioned elements. See also below.
+
+6 Translations are given so as to facilitate identification of each item but by no means claim to cover the whole shade of meaning of any given word or stem.
+
+7 Heard in one episode of the Zulu-spoken soapie Uzalo 207, November 2018, SABC 1
+
+8 Doke includes -iva, increase, but we keep it out due to its obsolescence. -ipha and -ikha are sometimes given as variants for -pha give and - kha draw water respectively, but these not being commonly accepted, we refrain from considering them either.
+
+9 We did not have access to previous substantial works, such as (Colenso 1861), (Samuelson 1923) or (Bryant 1905), by his own admission main sources of Doke.
+
+10 Our addition.
+
+11 Item apparently missed or omitted by de Schryver, which is puzzling as it does seem a frequent enough term with forms such as ngisuthi, I am satiated, etc
+
+12 -emithi and -mithi in Doke.
+
+13 No specific entry *-ahlula but passive -ahlulwa refered to -ehlulwa
+
+14 Cf. for instance ukungavumi ukutshelwa, not accepting to be told where -nga-remains unaffected as it precedes a consonant.
+
+15 As Dent's verb examples keep to the verbal stem, one is hard pressed to see if instances of "latent i " would surface.
+
+16 The failure to identify the presence of the initial vowel in such cases suggests that the same may have occurred elsewhere: hence, the absence of vowel initial verbs in the dictionary does not necessarily imply they were not encountered in the corpus; it would rather point to a failure of the parser to tear them out.
 
 17 Same situation in a Zimbabwean isiNdebele dictionary (Hadebe 2001)
 
@@ -191,4 +217,4 @@ Samuelson, R.C.A. 1923. The King Cetywayo Zulu Dictionary. Durban.
 
 Schryver, Gilles-Maurice de, ed. 2015. Funda IsiNgisi. Learn IsiZulu. IsiZulu-IsiNgisi IsiNgisi-IsiZulu. Isichazamazwi Sesikole. School Dictionary. 2nde ed. Cape Town: Oxford University Press.
 
-Schryver, Gilles-Maurice de, and Arnett Wilkes. 2008. 'User-Friendly Dictionaries for Zulu: An Exercise in Complexicography'. In Proceedings, edited by Elisenda Bernal and Janet DeCesaris, 827-36. Barcelone, Institut Universitari de Linguistica Applicada. 3 Bantu is a convenient classificatory term for a family of languages indigenous to the African continent. The term has no implication outside the linguistic field. Languages of this family share a number of features, including a noun class system characterized by prefixes and agreement schemes. 4 Extrapolated from the 2011 Census which included a question on ethnicity, and the population figures for 2020 (see https://www.statssa.gov.za). This figure probably does not give justice to recent immigration. The results of the 2022 census are not published to date. 5 Verbs are quoted under their stem, preceded by a hyphen to indicate that any conjugated form - apart from the imperative-requires prepositioned elements. See also below. 6 Translations are given so as to facilitate identification of each item but by no means claim to cover the whole shade of meaning of any given word or stem. 7 Heard in one episode of the Zulu-spoken soapie Uzalo 207, November 2018, SABC 1 8 Doke includes -iva, increase, but we keep it out due to its obsolescence. -ipha and -ikha are sometimes given as variants for -pha give and - kha draw water respectively, but these not being commonly accepted, we refrain from considering them either. 9 We did not have access to previous substantial works, such as (Colenso 1861), (Samuelson 1923) or (Bryant 1905), by his own admission main sources of Doke. 10 Our addition. 11 Item apparently missed or omitted by de Schryver, which is puzzling as it does seem a frequent enough term with forms such as ngisuthi, I am satiated, etc 12 -emithi and -mithi in Doke. 13 No specific entry *-ahlula but passive -ahlulwa refered to -ehlulwa 14 Cf. for instance ukungavumi ukutshelwa, not accepting to be told where -nga-remains unaffected as it precedes a consonant. 15 As Dent's verb examples keep to the verbal stem, one is hard pressed to see if instances of "latent i " would surface. 16 The failure to identify the presence of the initial vowel in such cases suggests that the same may have occurred elsewhere: hence, the absence of vowel initial verbs in the dictionary does not necessarily imply they were not encountered in the corpus; it would rather point to a failure of the parser to tear them out.
+Schryver, Gilles-Maurice de, and Arnett Wilkes. 2008. 'User-Friendly Dictionaries for Zulu: An Exercise in Complexicography'. In Proceedings, edited by Elisenda Bernal and Janet DeCesaris, 827-36. Barcelone, Institut Universitari de Linguistica Applicada.

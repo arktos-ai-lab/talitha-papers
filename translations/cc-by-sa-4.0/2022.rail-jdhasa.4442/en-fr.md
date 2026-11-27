@@ -1,4 +1,4 @@
-> Machine translation (fr) of "Deriving lexical statistics for psycholinguistic research on isiXhosa" by Robyn Berghoff, https://upjournals.up.ac.za/index.php/dhasa/article/view/4442, licensed Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (glossary, madlad-7b, mistral-small3.2-24b, opus-mt, rescue-deepseek-v4-pro); not reviewed by a human; changes were made.
+> Machine translation (fr) of "Deriving lexical statistics for psycholinguistic research on isiXhosa" by Robyn Berghoff, https://upjournals.up.ac.za/index.php/dhasa/article/view/4442, licensed Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Translation by Ernst van Gassen (Arktos AI Lab), made with open models (fix-deepseek-v4-pro, glossary, madlad-7b, mistral-small3.2-24b, opus-mt, rescue-deepseek-v4-pro); checked against the original by automated review, and sentences with errors were replaced by another open-model translation; not reviewed by a human; changes were made.
 
 | English | Français |
 |---|---|
