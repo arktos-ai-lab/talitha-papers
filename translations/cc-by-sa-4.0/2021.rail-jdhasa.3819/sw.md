@@ -17,13 +17,13 @@ The University of the Witwatersrand, Johannesburg
 
 ## Muhtasari
 
-Gazeti hili lilieleza juu ya Corpus ya vitabu 104. Vitabu viliorodheshwa katika metadata sanifu ya maktaba na kumbukumbu: Dublin core. Sehemu ya chini ilikuwa digitalized na kusafishwa. Vitabu kisha viligawanywa katika vikundi vidogo vitano na kulinganishwa kati yao na Kopora nzima. Tulikisia kwamba Corpus kwa ujumla ingeweza kutumiwa kama kitabu cha kawaida cha kuandikisha lugha. Mifano mingine pia inatolewa ya sifa za seti za aina. Karatasi inalenga kuwatambulisha watafiti wa uchakataji wa lugha asilia (NLP) kwa Kopora na kuitoa kwa utafiti zaidi.
+Gazeti hili lilieleza juu ya Corpus ya vitabu 104. Vitabu viliorodheshwa katika metadata sanifu ya maktaba na kumbukumbu: Dublin core. Sehemu ya chini ilikuwa digitalized na kusafishwa. Vitabu kisha viligawanywa katika vikundi vidogo vitano na kulinganishwa kati yao na Korasi nzima. Tulikisia kwamba Corpus kwa ujumla ingeweza kutumiwa kama kitabu cha kawaida cha kuandikisha lugha. Mifano mingine pia inatolewa ya sifa za seti za aina. Makala hii inalenga kuwatambulisha watafiti wa uchakataji wa lugha asilia (NLP) Korasi na kuitoa kwa utafiti zaidi.
 
 ## 1 Utangulizi
 
 "Kushindwa kuwasiliana na binadamu katika lugha yao wenyewe kunaweza kuwa mojawapo ya vizuizi muhimu zaidi katika kupitisha teknolojia ya habari na mawasiliano katika ulimwengu wa tatu na kuziba pengo la kidijitali" (Getao & Evans, 2000: 128).
 
-Wakati huohuo, NLP ni mojawapo ya matatizo tata zaidi ya hesabu ambayo yamewakabili wanasayansi wa kompyuta. Wito wa hatua za kuunda rasilimali kwa lugha hizi, ikiwezekana kwa njia iliyoratibiwa na ya kimfumo, umejibiwa katika karatasi hii. Watafiti wa NLP katika Kiingereza wamekuwa na faida ya Corpora nyingi kwa utafiti na upimaji. Katika karatasi hii, tunawasilisha mkusanyiko wa lugha ya Afrika: Setswana sub-collection, kwa watafiti wa lugha ya Afrika NLP katika warsha ya 2 juu ya rasilimali kwa ajili ya lugha za asili za Afrika.
+Wakati huohuo, NLP ni mojawapo ya matatizo tata zaidi ya hesabu ambayo yamewakabili wanasayansi wa kompyuta. Wito wa hatua za kuunda rasilimali kwa lugha hizi, ikiwezekana kwa njia iliyoratibiwa na ya kimfumo, umejibiwa katika makala haya. Watafiti wa NLP katika Kiingereza wamekuwa na faida ya Corpora nyingi kwa utafiti na upimaji. Katika makala hii, tunawasilisha mkusanyiko wa lugha ya Kiafrika: kikusanyiko kidogo cha Setswana, kwa watafiti wa NLP wa Lugha za Kiafrika katika Warsha ya 2 ya Rasilimali za Lugha Asilia za Kiafrika.
 
 ## 1.1 Usuli
 

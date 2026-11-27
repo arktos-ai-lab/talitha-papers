@@ -24,7 +24,7 @@ Ingawa si lugha ya kawaida yenye rasilimali chache kwa ujumla, hakuna miti ya si
 
 Katika mchakato wa kubadilisha taarifa za kimofolojia na kisintaksia kuwa mfumo wa Universal Dependency, tulikumbana na changamoto zilizotokana na ukweli kwamba kazi ndogo imefanywa kuhusu ufafanuzi wa UD kwa Lugha za Kibantu. Tutajadili baadhi ya visa hivi pamoja na maamuzi ya ufafanuzi ambayo tumefanya. treebank, sheria zote na msimbo zinapatikana katika https://git.steimel.info/ksteimel/SWH_UDT. treebank itajumuishwa katika toleo lijalo la UD.
 
-Sehemu iliyobaki ya karatasi hii imeundwa kama ifuatavyo: sehemu ya 2 inaripoti kazi zinazohusiana, sehemu ya 3 inatoa muhtasari wa mfumo uliotumika kubadilisha ufafanuzi, na sehemu ya 4 inaeleza korasi tunazotumia. Katika sehemu ya 5, tunaeleza ufafanuzi wa kiwango cha neno, na katika sehemu ya 6, tunaeleza sheria za ufafanuzi wa utegemezi. Sehemu ya 7 inachunguza ubora wa ufafanuzi wetu, na sehemu ya 8 inahitimisha.
+Sehemu iliyobaki ya makala hii imeundwa kama ifuatavyo: sehemu ya 2 inaripoti kazi zinazohusiana, sehemu ya 3 inatoa muhtasari wa mfumo uliotumika kubadilisha ufafanuzi, na sehemu ya 4 inaeleza korasi tunazotumia. Katika sehemu ya 5, tunaeleza ufafanuzi wa kiwango cha neno, na katika sehemu ya 6, tunaeleza sheria za ufafanuzi wa utegemezi. Sehemu ya 7 inachunguza ubora wa ufafanuzi wetu, na sehemu ya 8 inahitimisha.
 
 ## 2 Kazi Husika: Mbinu za NLP kwa Kiswahili
 

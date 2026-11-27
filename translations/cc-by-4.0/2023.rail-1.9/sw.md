@@ -150,7 +150,7 @@ Pia tuliona aina tatu za silabi-c. Moja, silabi m ilikuwa dhahiri katika maneno 
 
 ## 4.2.2 Maneno yaliyotumika mara chache zaidi
 
-Maneno yanayotofauti zaidi kutoka kwenye korpusi ya Setswana yalionekana mara moja tu au siyo zaidi ya mara moja katika korpusi. Maneno ya awali pamoja na silabi huonyeshwa katika meza ya 5. Sawa na orodha ya Sepedi, orodha ya Setswana ina baadhi ya matukio ya tahajia isiyo sahihi kama vile adiminsanang [a-di-mi-n-sa-na-ng-]. Hata hivyo, mfumo wa usilabishaji uliweza kuingiza mipaka ya silabi inayoweza kuhalalishwa katika nafasi zilizotarajiwa. Kwa mfano, n ya ziada katika adimi-n-sanang inafuatwa na mpaka sahihi wa silabi. Pia, kama orodha ya Sepedi, kuna mifano mingi ya maneno yasiyo ya Setswana katika orodha hii.
+Maneno adimu zaidi kutoka kwenye korasi ya Setswana yalionekana si zaidi ya mara moja katika korasi. Maneno ya awali pamoja na silabi huonyeshwa katika meza ya 5. Sawa na orodha ya Sepedi, orodha ya Setswana ina baadhi ya matukio ya tahajia isiyo sahihi kama vile adiminsanang [a-di-mi-n-sa-na-ng-]. Hata hivyo, mfumo wa usilabishaji uliweza kuingiza mipaka ya silabi inayoweza kuhalalishwa katika nafasi zilizotarajiwa. Kwa mfano, n ya ziada katika adimi-n-sanang inafuatwa na mpaka sahihi wa silabi. Pia, kama orodha ya Sepedi, kuna mifano mingi ya maneno yasiyo ya Setswana katika orodha hii.
 
 Miundo mitatu ya silabi-v ilionekana. Yaani, katika nafasi ya mwanzo wa neno katika maneno kama adileng [a-di-le-ng-] 'iliyowekwa wazi', nafasi ya katikati ya neno katika maneno kama abiotiki [a-bi-o-ti-ki-] 'abiotic', na eneo la mwisho wa neno katika kifupi cha Kiingereza kisichotafsiriwa cha Autism Centers of Excellence, yaani acae [a-ca-e-].
 

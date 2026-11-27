@@ -18,11 +18,11 @@ Kwa mradi huu, tulikusanya na kufafanua data ili kuendeleza rasilimali za lugha 
 
 ## Maneno Muhimu
 
-Uendelezaji wa rasilimali, lugha za Nguni, kopora zilizo na maelezo ya kiisimu, kopora sambamba, utaratibu wa ufafanuzi
+Uendelezaji wa rasilimali, lugha za Nguni, korasi zilizo na maelezo ya kiisimu, korasi sambamba, utaratibu wa ufafanuzi
 
 ## 1 Utangulizi
 
-Lengo la mradi ulioelezwa hapa lilikuwa la pande mbili: kwanza kujenga kopora zilizo na maelezo kwa lugha nne za Afrika Kusini na pili kuendeleza teknolojia za msingi kulingana na data zilizo na maelezo, yaani vichanganuzi vya mofolojia vinavyojitegemea, vitambulishi vya aina za maneno na virekebishaji vya lemma. Katika makala haya tutazingatia tu uundaji wa mkusanyiko wa maandishi. Kwa maelezo kuhusu maendeleo na tathmini ya teknolojia za msingi, angalia (du Toit & Puttkammer 2021).
+Lengo la mradi ulioelezwa hapa lilikuwa la pande mbili: kwanza kujenga korasi zilizo na maelezo kwa lugha nne za Afrika Kusini na pili kuendeleza teknolojia za msingi kulingana na data zilizo na maelezo, yaani vichanganuzi vya mofolojia vinavyojitegemea, vitambulishi vya aina za maneno na virekebishaji vya lemma. Katika makala haya tutazingatia tu uundaji wa mkusanyiko wa maandishi. Kwa maelezo kuhusu maendeleo na tathmini ya teknolojia za msingi, angalia (du Toit & Puttkammer 2021).
 
 Kwanza tutaelezea kwa kifupi asili ya lugha katika sehemu ya 2 ikifuatiwa na muhtasari wa vipengele muhimu kwa ajili ya maendeleo ya mafanikio ya rasilimali zilizopendekezwa (sehemu ya 3). Kila moja ya vipengele hivi kisha vitatajwa kwa maelezo zaidi: data (sehemu 4), mahitaji ya awali ya uainishaji wa lugha (sehemu 5) pamoja na mchakato wa uainishaji wenyewe (sehemu 6). Sehemu ya 7 inatoa mfano wa data ya mwisho. Hitimisho na kazi za baadaye zinajadiliwa katika sehemu ya 8.
 
@@ -86,7 +86,7 @@ Kwa ulemishaji, lengo lilikuwa kutambua lemma ya shina kwa kila tokeni (Prinsloo
 
 ## 5.2 Wataalamu wa lugha
 
-Mara tu seti za lebo na itifaki zilipokuwa zimeanzishwa, kopusu zetu zilihitaji kuwekewa alama za taarifa muhimu za kiisimu. Tulichunguza uwezekano wafuatao mbili wa jinsi ya kufanya uainishaji wa data: wataalamu wa lugha au wanafunzi wangeajiriwa na kupewa mafunzo au utafutaji wa watu wengi (crowdsourcing) ungetumika (Zaidan 2012).
+Mara tu seti za lebo na itifaki zilipokuwa zimeanzishwa, korasi zetu zilihitaji kuwekewa alama za taarifa muhimu za kiisimu. Tulichunguza uwezekano wafuatao mbili wa jinsi ya kufanya uainishaji wa data: wataalamu wa lugha au wanafunzi wangeajiriwa na kupewa mafunzo au utafutaji wa watu wengi (crowdsourcing) ungetumika (Zaidan 2012).
 
 Hasa kwa ufafanuzi wa kimofolojia, maarifa ya kina ya kiisimu yanahitajika ili kufafanua kwa usahihi lugha zinazoshughulikiwa katika mradi huu. Kwa crowdsourcing, hatukutarajia umma kuwa na ujuzi wa kutosha wala kupata watu wa kutosha wanaozungumza lugha nne za Nguni. Kutumia wanafunzi (wa sayansi ya lugha) ingekuwa imewezekana, lakini tena maarifa ya msingi yalikuwa sababu ya wasiwasi pamoja na kiasi cha data cha kuainishwa katika muda uliopewa. Hiyo ndiyo ilikuwa sababu kuu tuliyoamua kuwa na wataalamu wa kiisimu wafanye ufafanuzi wa korasi.
 
@@ -188,7 +188,7 @@ Pia tulijifunza kuwa ni muhimu kuwa na mizunguko ya maoni ya haraka kati ya mare
 
 Jambo moja la kutaja ni kwamba ni vigumu sana kupata wataalamu wa lugha kwa Lugha za Afrika Kusini ambao wanapatikana na wana sifa za kufanya ufafanuzi kwa mradi kama wetu. Katika siku zijazo, huenda tukahitaji kuwafunza wataalamu wapya wa lugha jambo ambalo kwa hakika litaathiri ratiba pamoja na bajeti za jumla za miradi ya ufafanuzi. Hitimisho la kuchukua kutokana na hili ni kwamba Lugha za Kibantu za Afrika Kusini sio tu kwamba hazina rasilimali za kutosha kuhusiana na data, bali pia maendeleo ya rasilimali watu ni kipengele muhimu cha ukuzaji wa rasilimali kwa lugha hizi.
 
-Tunatumai kwamba hizi kumbukumbu za lugha zilizofafanuliwa kiisimu sambamba zitavutia watafiti kutoka asili tofauti na zitasaidia kupata ufahamu zaidi kuhusu utendaji kazi wa lugha hizi nne za Kinguni, iwe ni michakato ya kimofolojia, maswali ya ulematishaji au miundo ya kisintaksia.
+Tunatumai kwamba korasi hizi sambamba zilizofafanuliwa kiisimu zitavutia watafiti kutoka asili tofauti na zitasaidia kupata ufahamu zaidi kuhusu utendaji kazi wa lugha hizi nne za Kinguni, iwe ni michakato ya kimofolojia, maswali ya ulematishaji au miundo ya kisintaksia.
 
 ## Maelezo
 

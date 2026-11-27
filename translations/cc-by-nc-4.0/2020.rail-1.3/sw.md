@@ -73,7 +73,7 @@ Seti kamili ya data imewekwa wazi mtandaoni (Marivate na Sefara, 2020b) kwa matu
 
 ## 3.1.2. Vectorizers
 
-Kabla ya kuingia kwenye seti ya data iliyofafanuliwa, tulihitaji kuunda vektaishaji vilivyofunzwa awali ili tuweze kujenga waainishaji zaidi ambao wanajumlisha vizuri zaidi baadaye. Kwa sababu hii tulikusanya korpus tofauti kwa kila lugha kwa namna ambayo tunaweza kuunda Bag of Words, TFIDF, Word2vec (Mikolov et al., 2013) na FastText (Bojanowski et al., 2017) vectorizers (Jedwali 3). Pia tunawapa watafiti wengine vectorizers hizi ili waweze kuzitumia.
+Kabla ya kuingia kwenye seti ya data iliyofafanuliwa, tulihitaji kuunda vektaishaji vilivyofunzwa awali ili tuweze kujenga waainishaji zaidi ambao wanajumlisha vizuri zaidi baadaye. Kwa sababu hii tulikusanya korasi tofauti kwa kila lugha kwa namna ambayo tunaweza kuunda vektaishaji wa mfuko wa maneno, TFIDF, Word2vec (Mikolov et al., 2013) na FastText (Bojanowski et al., 2017) (Jedwali 3). Pia tunawapa watafiti wengine vectorizers hizi ili waweze kuzitumia.
 
 p03-02.png
 

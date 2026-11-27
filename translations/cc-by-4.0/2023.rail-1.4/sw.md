@@ -50,7 +50,7 @@ Katika mradi, tunafanya kazi na maandishi (ya mdomo na ya maandishi) na si kwa d
 
 Pia tulibana aina ya matini tunazozifanyia kazi. Korasi hiyo imefafanuliwa kwa mazungumzo yaliyoripotiwa (tazama Sehemu ya 6), na hivyo, tulichagua hadithi za kichawi kama chanzo kikuu cha data, kwa kuwa katika hadithi nyingi za kichawi nguvu inayoendesha masimulizi ni mawasiliano kati ya wahusika.
 
-Licha ya kujaribu kuweka aina ya matini ikiwa thabiti katika lugha zote, data bado ni tofauti sana. Kwa mfano, inajumuisha manukuu yaliyohifadhiwa, data kutoka uwandani, rekodi za wasimuliaji wa kitaalamu na vilevile za watu wa kawaida, mshiriki mmoja au wengi. Jedwali 2 lina habari kuhusu muundo wa korpusi.
+Licha ya kujaribu kuweka aina ya matini ikiwa thabiti katika lugha zote, data bado ni tofauti sana. Kwa mfano, inajumuisha manukuu yaliyohifadhiwa, data kutoka uwandani, rekodi za wasimuliaji wa kitaalamu na vilevile za watu wa kawaida, mshiriki mmoja au wengi. Jedwali 2 lina habari kuhusu muundo wa korasi.
 
 p02-02.png
 
@@ -100,7 +100,7 @@ Picha 2: Mfano wa utafutaji ndani ya Tsakorpus, sentensi katika Bandial (Jóola 
 
 p04-02.png
 
-Korpusi ya mtandaoni inajumuisha lugha zote zinazopatikana katika hifadhidata ya ripoti za Discourse. Wakati wa kutafuta katika korasi, mtumiaji anaweza kuchagua kati ya kuchagua lugha maalum na kutafuta katika korasi ndogo zote za lugha kwa wakati mmoja. Katika hali ya pili, hoja ya utafutaji lazima ijumuishe ufafanuzi ambao ni sawa katika korasi ndogo zote. Hii inajumuisha ufafanuzi wa usemi ulioripotiwa (tazama Sehemu ya 5) na vitambulisho vya aina za maneno katika muundo wa UD (de Marneffe et al., 2021).
+Korasi ya mtandaoni ina lugha zote zilizopo katika hifadhidata ya ripoti za Discourse. Wakati wa kutafuta katika korasi, mtumiaji anaweza kuchagua kati ya kuchagua lugha maalum na kutafuta katika korasi ndogo zote za lugha kwa wakati mmoja. Katika hali ya pili, hoja ya utafutaji lazima ijumuishe ufafanuzi ambao ni sawa katika korasi ndogo zote. Hii inajumuisha ufafanuzi wa usemi ulioripotiwa (tazama Sehemu ya 5) na vitambulisho vya aina za maneno katika muundo wa UD (de Marneffe et al., 2021).
 
 Kwa sasa, kiolesura cha korasi kinapatikana kwa Kiingereza na Kirusi. Kiolesura cha Kifaransa kiko katika ujenzi.
 

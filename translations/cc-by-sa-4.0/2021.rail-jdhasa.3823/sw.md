@@ -87,7 +87,7 @@ Programu imetafsiriwa kwa sehemu katika Kiswahili. Kwa sasa hili linafanywa kwa 
 
 Kazi zaidi ya kufanya kibodi za programu kuwa rahisi kutumia pia inahitajika, hasa kwa lugha za Kiegeo-Semiti kama vile Kiamhari. Kibodi laini ziliongezwa kwenye programu ili kuwezesha matumizi ya tahajia ambayo huenda haipatikani kwenye kibodi za kawaida za kompyuta za Kiingereza na Kifaransa zinazopatikana kwenye kompyuta katika nchi nyingi za Afrika. Sio lugha zote zina tahajia sanifu, hivyo marekebisho na ushirikiano na wanaisimu unahitajika ili kufanya hili vizuri. Idadi ya wachangiaji walionyesha kutumia kibodi kwenye simu zao za mkononi ambazo zina herufi zote wanazohitaji kwa lugha zao. Kuwezesha uundaji, uwasilishaji na utazamaji wa hadithi kupitia programu ya simu ya mkononi pamoja na tovuti kunaweza pia kuwa jambo la kuzingatia kuongeza.
 
-Maelezo haya yamejikita hasa katika mazingatio ya kiufundi katika kuunda programu ya kuandaa shindano la mtandaoni la hadithi katika Lugha za Afrika ili kukusanya korasi. Makala ya ziada itachambua korpusi zilizokusanywa, na kujumuisha maoni ya wale waliosaidia kupata, kuandika na kutafsiri hadithi fupi.
+Maelezo haya yamejikita hasa katika mazingatio ya kiufundi katika kuunda programu ya kuandaa shindano la mtandaoni la hadithi katika Lugha za Afrika ili kukusanya korasi. Makala ya ziada itachambua korasi zilizokusanywa, na kujumuisha maoni ya wale waliosaidia kupata, kuandika na kutafsiri hadithi fupi.
 
 ## 5 Hitimisho
 

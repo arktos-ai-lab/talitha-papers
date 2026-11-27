@@ -156,9 +156,9 @@ Picha 6: Mchoraji ramani Bill Kemp, akifanya kazi pamoja na mtaalamu wa lugha Le
 
 ## 7. Muhtasari
 
-Karatasi hii inaangazia muktadha wa kijamii, kihistoria na kiisimu wa mkusanyiko wa ǂKhomani San | Hugh Brody kwa msisitizo maalum kwenye mchakato wa uwekaji kidijitali uliotumiwa na Huduma za Maktaba ya Kidijitali ya Chuo Kikuu cha Cape Town ili kutoa bidhaa ya mwisho inayofikika.
+Makala haya yanaangazia muktadha wa kijamii, kihistoria na kiisimu wa mkusanyiko wa ǂKhomani San | Hugh Brody kwa msisitizo maalum kwenye mchakato wa uwekaji kidijitali uliotumiwa na Huduma za Maktaba ya Kidijitali ya Chuo Kikuu cha Cape Town ili kutoa bidhaa ya mwisho inayofikika.
 
-Hadi URL ya mwisho itakapopatikana tafadhali wasiliana na Michal Singer, Special Collections, UCT Libraries,  kwa maelezo ya sasa ya upatikanaji wa mkusanyiko au yeyote kati ya waandishi wa karatasi hii.
+Hadi URL ya mwisho itakapopatikana tafadhali wasiliana na Michal Singer, Special Collections, UCT Libraries,  kwa maelezo ya sasa ya upatikanaji wa mkusanyiko au yeyote kati ya waandishi wa makala haya.
 
 ## 8. Shukrani
 

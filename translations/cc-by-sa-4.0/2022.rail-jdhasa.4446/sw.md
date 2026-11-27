@@ -44,7 +44,7 @@ Tunachunguza na kutathmini kwenye kazi ya NMT, mbinu tatu za Ujalizaji data amba
 
 4. Tunatoa matokeo ya msingi ya NMT katika alama za BLEU, Meteor na ChrF.
 
-Karatasi hii imepangwa kama ifuatavyo; Tunaangalia kazi iliyofanywa na waandishi wa awali juu ya Ujalizaji data kwa lugha yenye rasilimali chache kwanza. Pia tunaangalia mbinu za Ujalizaji data na mikabala tuliyotumia katika utafiti wetu ambao umefafanuliwa katika Sehemu ya 3. Sehemu ya 4 inafafanua mipangilio ya modeli iliyozingatiwa kwa kila mkabala wa Ujalizaji data, Sehemu ya 5 inajadili matokeo ya majaribio na kisha tunahitimisha kwa kutaja vikwazo na kazi ya baadaye na pia kuhitimisha katika Sehemu za 6 na 7.
+Makala hii imepangwa kama ifuatavyo; Tunaangalia kazi iliyofanywa na waandishi wa awali juu ya Ujalizaji data kwa lugha yenye rasilimali chache kwanza. Pia tunaangalia mbinu za Ujalizaji data na mikabala tuliyotumia katika utafiti wetu ambao umefafanuliwa katika Sehemu ya 3. Sehemu ya 4 inafafanua mipangilio ya modeli iliyozingatiwa kwa kila mkabala wa Ujalizaji data, Sehemu ya 5 inajadili matokeo ya majaribio na kisha tunahitimisha kwa kutaja vikwazo na kazi ya baadaye na pia kuhitimisha katika Sehemu za 6 na 7.
 
 ## 2 Mapitio ya Maandiko
 
@@ -130,7 +130,7 @@ Sehemu hii inaelezea matokeo ya mbinu tatu; msingi (S-NMT), ujalizaji wa word2ve
 
 Mojawapo ya changamoto kubwa katika tafsiri ya mashine leo ni kujifunza kutafsiri jozi za lugha yenye rasilimali chache pamoja na changamoto za kiufundi kama vile kujifunza kwa data ndogo au kushughulikia lugha zilizo mbali kati yao.
 
-Karatasi hii inaonyesha kwamba tunaweza kutumia mbinu rahisi za Ujalizaji data katika tafsiri ya mashine. Katika majaribio yetu, tunajaliza tu lugha chanzo kwa mbinu ya ujalizaji inayotegemea Word2Vec na tunajaliza tu sentensi za Kiingereza kwa ujalizaji unaotegemea MLM. Katika kazi ya baadaye, tunapanga kuchunguza ujalizaji wa upande lengwa wa data sambamba katika ujalizaji unaotegemea Word2Vec na kulinganisha utendaji na ujalizaji wa lugha chanzo pamoja na kupima uwezo wa modeli wa kujumlisha kwa kutumia seti za data zilizo nje ya kikoa. Jaribio lingine linaloweza kuchunguzwa ni matumizi ya mbinu ya Ujalizaji data ya Word2Vec pekee bila matumizi ya mbinu ya ubadilishaji wa neno ya Tf-idf kwani inaongeza kelele zaidi kwenye sentensi. Tunapanga kuendeleza utafiti huu na tutafanya algoriti zilizotumika katika karatasi hii zipatikane katika https://github.com/dsfsi/translate-augmentationhttps://github.com/dsfsi/translate-augmentation
+Makala hii inaonyesha kwamba tunaweza kutumia mbinu rahisi za Ujalizaji data katika tafsiri ya mashine. Katika majaribio yetu, tunajaliza tu lugha chanzo kwa mbinu ya ujalizaji inayotegemea Word2Vec na tunajaliza tu sentensi za Kiingereza kwa ujalizaji unaotegemea MLM. Katika kazi ya baadaye, tunapanga kuchunguza ujalizaji wa upande lengwa wa data sambamba katika ujalizaji unaotegemea Word2Vec na kulinganisha utendaji na ujalizaji wa lugha chanzo pamoja na kupima uwezo wa modeli wa kujumlisha kwa kutumia seti za data zilizo nje ya kikoa. Jaribio lingine linaloweza kuchunguzwa ni matumizi ya mbinu ya Ujalizaji data ya Word2Vec pekee bila matumizi ya mbinu ya ubadilishaji wa neno ya Tf-idf kwani inaongeza kelele zaidi kwenye sentensi. Tunapanga kuendeleza utafiti huu na tutafanya algoriti zilizotumika katika makala hii zipatikane katika https://github.com/dsfsi/translate-augmentationhttps://github.com/dsfsi/translate-augmentation
 
 ## 6.0.1 Mazingatio ya Kikokotoo
 

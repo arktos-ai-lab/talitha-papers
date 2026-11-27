@@ -34,9 +34,9 @@ Leo, teknolojia za kidijitali zinawasaidia wakulima kupanua biashara zao kwa kuw
 
 Kwa nia ya ukuzaji wa suluhu za usemi, seti hii ya data inakusudiwa kuziba pengo katika eneo hili.
 
-Mchango wa karatasi. Karatasi hii inawasilisha seti ya data iliyoundwa kutoka kwa data ya usemi iliyozalishwa na kufafanuliwa wakati wa mradi wa Kallaama, pamoja na data ya kimaandishi iliyokusanywa kutoka kwenye wavuti, kwa lengo la kuunda suluhu za kutumia sauti katika lugha za kienyeji.
+Mchango wa makala. Makala hii inawasilisha seti ya data iliyoundwa kutoka kwa data ya usemi iliyozalishwa na kufafanuliwa wakati wa mradi wa Kallaama, pamoja na data ya kimaandishi iliyokusanywa kutoka kwenye wavuti, kwa lengo la kuunda suluhu za kutumia sauti katika lugha za kienyeji.
 
-Muhtasari wa karatasi. Baada ya utangulizi, tunawasilisha mradi katika sehemu ya 2. Lugha zilizolengwa zinaelezewa katika sehemu ya 3 na rasilimali zilizopo katika lugha hizi zimeorodheshwa katika sehemu ya 4. Sehemu ya 5 inawasilisha mbinu ya ukusanyaji, wakati sehemu ya 6 inatoa maelezo kuhusu seti ya data. Kisha, tunawasilisha baadhi ya nyakati zenye changamoto tulizokumbana nazo wakati wa mradi katika sehemu ya 7 na tunataja baadhi ya vikwazo vilivyotokana katika sehemu ya 8. Hatimaye, sehemu ya 9 inahitimisha na kutoa baadhi ya mitazamo kuhusu matumizi ya Kallaama.
+Muhtasari wa makala. Baada ya utangulizi, tunawasilisha mradi katika sehemu ya 2. Lugha zilizolengwa zinaelezewa katika sehemu ya 3 na rasilimali zilizopo katika lugha hizi zimeorodheshwa katika sehemu ya 4. Sehemu ya 5 inawasilisha mbinu ya ukusanyaji, wakati sehemu ya 6 inatoa maelezo kuhusu seti ya data. Kisha, tunawasilisha baadhi ya nyakati zenye changamoto tulizokumbana nazo wakati wa mradi katika sehemu ya 7 na tunataja baadhi ya vikwazo vilivyotokana katika sehemu ya 8. Hatimaye, sehemu ya 9 inahitimisha na kutoa baadhi ya mitazamo kuhusu matumizi ya Kallaama.
 
 ## 2. Mradi wa Kallaama
 
@@ -86,7 +86,7 @@ Wolof pia inapendekezwa katika FLEURS, seti ya data ya lugha nyingi inayojumuish
 
 Nelson (2022) aliendesha mradi wa ukusanyaji mkubwa wa usemi wa Wolof unaojumuisha saa 519 za rekodi za sauti, ambapo saa 6.45 zimenakiliwa hadi sasa. Kati ya manukuu 2,018 ya Wolof, tulihesabu tafsiri 608 katika Pulaar, 571 katika Sereer lakini rekodi 156 pekee za sauti zilizotafsiriwa katika lugha zote mbili.
 
-Hatimaye, kazi kubwa ya mwisho tuliyoipata inayohusisha lugha tatu za Kisenegali zilizoshughulikiwa katika karatasi hii, ni sehemu ya mradi wa ukusanyaji wa data wa maneno yaliyojitenga kwa ajili ya utambuzi wa maneno muhimu, unaoongozwa na jumuiya ya Kisenegali ya Galsen AI (Djiba, 2021).
+Hatimaye, kazi kubwa ya mwisho tuliyoipata inayohusisha lugha tatu za Kisenegali zilizoshughulikiwa katika makala hii, ni sehemu ya mradi wa ukusanyaji wa data wa maneno yaliyojitenga kwa ajili ya utambuzi wa maneno muhimu, unaoongozwa na jumuiya ya Kisenegali ya Galsen AI (Djiba, 2021).
 
 ## 5. Mbinu ya ukusanyaji
 

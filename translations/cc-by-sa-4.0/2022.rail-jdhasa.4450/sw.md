@@ -27,7 +27,7 @@ Kamati hukutana mara mbili kwa mwezi. Mijadala ya vikundi yenye kulenga hufanyik
 
 MLC imewasilisha hadi sasa alfabeti iliyopendekezwa ya Kingamambo na mfumo wa uandishi kwa ajili ya kukaguliwa kwa jamii inayozungumza Kingamambo kupitia mikutano miwili ya zoom ya kimataifa ya jamii ya Mbu iliyohudhuriwa vizuri.
 
-Karatasi hii imegawanywa katika sehemu mbili: sehemu ya 1 ni utangulizi wa jumla wa hali ya utoaji sauti, na sehemu ya 2 inajadili mahali pa utoaji sauti katika Kingamambo.
+Makala hii imegawanywa katika sehemu mbili: sehemu ya 1 ni utangulizi wa jumla wa hali ya utoaji sauti, na sehemu ya 2 inajadili mahali pa utoaji sauti katika Kingamambo.
 
 Utafiti umeonyesha kwamba utoaji sauti kwa kawaida hutokea wakati wa usemi wa haraka (Nollan & Holst, 1993). Katika Ngamambo, badiliko katika ubora wa sauti latukia katika usemi wa haraka na wa polepole pia. Lengo la uchunguzi ni vikwazo vya kati ya vokali vyenye sauti na visivyo na sauti katika kiwango cha mwisho wa neno na kiwango cha kirai. Data ya utafiti inategemea rekodi ya wazungumzaji asilia 13 wa Kingamambo. Data inachambuliwa katika vikundi vitatu vinavyozingatia (1) vikwazo vya mwisho wa neno, (2) utoaji sauti kwenye mpaka wa neno na (3) mchakato wa kutokuwa na sauti kuvuka mpaka wa neno.
 
@@ -97,7 +97,7 @@ Jedwali la 9 hapo juu linathibitisha zaidi kuwepo kwa ughuna katika Kingamambo k
 
 ## 1.3 Mahali pa kichochezi cha ughuna
 
-Karatasi hii imetoa ushahidi kuonyesha kwamba maneno yanayoishia kwa /t/,/p/ na /k/ hupitia aina fulani ya ughuna. Hata hivyo, inaonekana kuna aina mbili za ughuna: moja ikihusisha /t/ na /p/ ambapo, yanapokuwa katika nafasi ya mwisho, hudumisha tabia yao isiyoghuna. Hata hivyo, kuvuka mipaka ya maneno, huwa ghuna lakini bila mabadiliko katika irabu (ubora au uling'ara wa irabu). Inapendekezwa kwamba aina hii ya ughuna katika Ngamamba iitwe ughuna wa sehemu kwa sababu inahusisha tu mabadiliko ya konsonanti.
+Makala hii imetoa ushahidi kuonyesha kwamba maneno yanayoishia kwa /t/,/p/ na /k/ hupitia aina fulani ya ughuna. Hata hivyo, inaonekana kuna aina mbili za ughuna: moja ikihusisha /t/ na /p/ ambapo, yanapokuwa katika nafasi ya mwisho, hudumisha tabia yao isiyoghuna. Hata hivyo, kuvuka mipaka ya maneno, huwa ghuna lakini bila mabadiliko katika irabu (ubora au uling'ara wa irabu). Inapendekezwa kwamba aina hii ya ughuna katika Ngamamba iitwe ughuna wa sehemu kwa sababu inahusisha tu mabadiliko ya konsonanti.
 
 Aina nyingine ya ughuna inahusisha /k/ na /y/ katika nafasi ya mwisho wa neno na mabadiliko yake kuwa /g/ kuvuka mipaka ya maneno. Katika aina hii ya ughuna, /ɛ/ mbele ya /y/ hubadilika kuwa /i/, /ɔ/ mbele ya /k/ hubadilika kuwa /u/ na /ə/ mbele ya /k/ hubadilika kuwa /ɨ/ kuvuka mpaka wa neno.
 

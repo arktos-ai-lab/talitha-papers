@@ -299,7 +299,7 @@ Utafiti huu una matumizi kadhaa yanayowezekana. Matokeo yake yanaweza kutumiwa k
 
 ## Shukrani
 
-Tunatoa shukrani zetu za pekee kwa wakaguzi kwa maoni na mapendekezo yao muhimu kwa ajili ya uwazi wa karatasi yetu.
+Tunatoa shukrani zetu za pekee kwa wakaguzi kwa maoni na mapendekezo yao muhimu kwa ajili ya uwazi wa makala yetu.
 
 ## Marejeo
 

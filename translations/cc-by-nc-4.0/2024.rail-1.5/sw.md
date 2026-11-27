@@ -62,7 +62,7 @@ Katika makala hii, tunategemea korasi za jumla na si maandishi ambayo yamelengwa
 
 ## 4. Mbinu
 
-Tulikusanya korasi tano ili kuunda orodha ya maneno ya marudio, tukilenga kujumuisha aina mbalimbali za maandishi kwa kukusanya matini kutoka vyanzo tofauti. Maandalizi ya kila kumbukumbu kwa ajili ya uchanganuzi yalihusisha kubadilisha herufi kuwa ndogo kwa kutumia bash na ugawaji wa vipashio kwa kutumia ucto, ikijumuisha mahitaji mahsusi ya ugawaji wa sentensi. Taarifa za sentensi husika zimefafanuliwa kwa kina katika Jedwali la 1. Hapa chini ni muhtasari mfupi wa korasi tano.
+Tulikusanya korasi tano ili kuunda orodha ya maneno ya marudio, tukilenga kujumuisha aina mbalimbali za maandishi kwa kukusanya matini kutoka vyanzo tofauti. Maandalizi ya kila korasi kwa ajili ya uchanganuzi yalihusisha kubadilisha herufi kuwa ndogo kwa kutumia bash na ugawaji wa vipashio kwa kutumia ucto, ikijumuisha mahitaji mahsusi ya ugawaji wa sentensi. Taarifa za sentensi husika zimefafanuliwa kwa kina katika Jedwali la 1. Hapa chini ni muhtasari mfupi wa korasi tano.
 
 ## 4.1. Korasi 1: NCHLT
 
@@ -196,7 +196,7 @@ Zaidi ya hayo, kupanua uchanganuzi wa orodha ya marudio kama ile iliyopendekezwa
 
 1 Fikia korasi ya NCHLT kwa https://repo.sadilar.org/handle/20.500.12185/343
 
-2 Fikia korpusi ya Autshumato kwenye https://repo.sadilar.org/handle/20.500.12185/404
+2 Fikia korasi ya Autshumato kwenye https://repo.sadilar.org/handle/20.500.12185/404
 
 ## 7. Marejeo
 

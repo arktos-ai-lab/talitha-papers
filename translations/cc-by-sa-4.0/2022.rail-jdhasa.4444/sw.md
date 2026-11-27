@@ -47,7 +47,7 @@ Tafiti zimeonyesha kwamba kuna uchache au ukosefu wa data ya maandishi yenye uba
 
 Sepedi ni mojawapo ya lugha rasmi za Afrika Kusini na imeainishwa kama lugha yenye rasilimali chache. Kwa sasa, korasi za mchanganyiko wa msimbo zinazopatikana kwa jozi ya lugha ya Sepedi-Kiingereza hazitoshi kwa matumizi ya mbinu za Ujifunzajikina. Katika utafiti huu, tunajadili na kuchambua mchakato wa awali wa kukusanya data ya maandishi yenye mchanganyiko wa msimbo wa Sepedi-Kiingereza kwa ajili ya uundaji wa miundo yenye mchanganyiko wa msimbo kwa jozi hii ya lugha. Korasi iliyokusanywa kisha inatumika kwa muundo wa lugha wa uzalishaji wa maandishi ili kuangalia utendaji wa muundo huo kwa kutumia data ya maandishi yenye mchanganyiko wa msimbo isiyozalishwa kisanisi.
 
-Karatasi imeundwa kama ifuatavyo: Sehemu ya 2 inajadili usuli wa utafiti. Sehemu ya 3 inajadili seti za data zilizotumika kufunza modeli ya uzalishaji wa maandishi. Katika Sehemu ya 4 tunajadili majaribio yaliyofanywa, huku katika Sehemu ya 5 tunazingatia matokeo yaliyopatikana na tathmini ya modeli hiyo. Maelezo ya kuhitimisha na kazi ya baadaye yanawasilishwa katika Sehemu ya 6.
+Makala imeundwa kama ifuatavyo: Sehemu ya 2 inajadili usuli wa utafiti. Sehemu ya 3 inajadili seti za data zilizotumika kufunza modeli ya uzalishaji wa maandishi. Katika Sehemu ya 4 tunajadili majaribio yaliyofanywa, huku katika Sehemu ya 5 tunazingatia matokeo yaliyopatikana na tathmini ya modeli hiyo. Maelezo ya kuhitimisha na kazi ya baadaye yanawasilishwa katika Sehemu ya 6.
 
 ## 2 Usuli
 
