@@ -72,7 +72,7 @@
    "id": "lang:nso",
    "type": "language",
    "iso639_3": "nso",
-   "name": "Pedi"
+   "name": "Sepedi"
   },
   {
    "id": "lang:sdj",
@@ -653,6 +653,20 @@
    "match_confidence": 0
   },
   {
+   "id": "paper:2023.rail-1.13",
+   "type": "paper",
+   "paper_id": "2023.rail-1.13",
+   "title": "Investigating Sentiment-Bearing Words- and Emoji-based Distant Supervision Approaches for Sentiment Analysis",
+   "year": 2023,
+   "venue": "Proceedings of the Fourth workshop on Resources for African Indigenous Languages (RAIL 2023)",
+   "authors": "Koena Ronny Mabokela, Mpho Raborife, Turgay Celik",
+   "licence": "cc-by-4.0",
+   "source_url": "https://aclanthology.org/2023.rail-1.13/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
    "id": "paper:2023.rail-1.14",
    "type": "paper",
    "paper_id": "2023.rail-1.14",
@@ -835,6 +849,20 @@
    "match_confidence": 0
   },
   {
+   "id": "paper:2024.rail-1.13",
+   "type": "paper",
+   "paper_id": "2024.rail-1.13",
+   "title": "Resources for Annotating Hate Speech in Social Media Platforms Used in Ethiopia: A Novel Lexicon and Labelling Scheme",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Nuhu Ibrahim, Felicity Mulford, Matt Lawrence, Riza Batista-Navarro",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.13/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
    "id": "paper:2024.rail-1.14",
    "type": "paper",
    "paper_id": "2024.rail-1.14",
@@ -956,6 +984,20 @@
    "authors": "Nkazimlo N. Ngcungca, Johannes Sibeko, Sharon Rudman",
    "licence": "cc-by-nc-4.0",
    "source_url": "https://aclanthology.org/2024.rail-1.6/",
+   "openalex": "",
+   "match_method": "",
+   "match_confidence": 0
+  },
+  {
+   "id": "paper:2024.rail-1.7",
+   "type": "paper",
+   "paper_id": "2024.rail-1.7",
+   "title": "The First Universal Dependency Treebank for Tswana: Tswana-Popapolelo",
+   "year": 2024,
+   "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous Languages @ LREC-COLING 2024",
+   "authors": "Tanja Gaustad, Ansu Berg, Rigardt Pretorius, Roald Eiselen",
+   "licence": "cc-by-nc-4.0",
+   "source_url": "https://aclanthology.org/2024.rail-1.7/",
    "openalex": "",
    "match_method": "",
    "match_confidence": 0
@@ -5038,6 +5080,11 @@
   {
    "source": "paper:2024.rail-1.6",
    "target": "lang:afr",
+   "type": "studies_language"
+  },
+  {
+   "source": "paper:2024.rail-1.7",
+   "target": "lang:tsn",
    "type": "studies_language"
   },
   {

@@ -17,8 +17,8 @@ paper's original language reproduces, stays under the licence its authors chose.
 
 | Original paper | Translation | What you may do | Papers |
 |---|---|---|---|
-| CC BY 4.0 | CC BY 4.0 | Reuse allowed, including commercial, with attribution. | 13 |
-| CC BY-NC 4.0 | CC BY-NC 4.0 | Reuse allowed with attribution, non-commercial only. | 24 |
+| CC BY 4.0 | CC BY 4.0 | Reuse allowed, including commercial, with attribution. | 14 |
+| CC BY-NC 4.0 | CC BY-NC 4.0 | Reuse allowed with attribution, non-commercial only. | 26 |
 | CC BY-SA 4.0 | CC BY-SA 4.0 | Reuse allowed with attribution; share adaptations alike. | 24 |
 
 **Authorship.** Copyright in each original paper stays with its authors. The translations are by
