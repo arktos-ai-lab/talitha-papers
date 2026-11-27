@@ -14,7 +14,7 @@ University, South Africa
 
 ## Muhtasari
 
-Karatasi hii inawasilisha uchunguzi wa upachikaji wa maneno kwa Kiafrikana kwa kutumia mbinu za mlinganisho na majirani wa karibu. Tunalinganisha matokeo kwenye aina tatu za upachikaji (fastText, FLAIR na GloVe) kwenye seti mpya ya data ya mlinganisho kwa Kiafrikana, iliyochochewa na Bigger Analogy Test Set: BATS (Gladkova et al. 2016). Uchambuzi wetu unaonyesha kwamba kwa Kiafrikana, sawa na Kiingereza, aina za upachikaji huathiri ubora wa mlinganisho unaopatikana kwa kazi tofauti za kiisimu. Uchunguzi wetu pia unaonyesha, hata hivyo, kwamba upachikaji huu wa Kiafrikana hausimbi uwakilishi wa kiisimu ulio wazi kama ule wa upachikaji wa Kiingereza. Sababu kamili ya hili ni mada ya kazi ya baadaye, lakini ongezeko la uchangamano wa kimofolojia na ukosefu wa data kwa uwezekano mkubwa vina mchango.
+Makala haya yanawasilisha uchunguzi wa upachikaji wa maneno kwa Kiafrikana kwa kutumia mbinu za mlinganisho na majirani wa karibu. Tunalinganisha matokeo kwenye aina tatu za upachikaji (fastText, FLAIR na GloVe) kwenye seti mpya ya data ya mlinganisho kwa Kiafrikana, iliyochochewa na Bigger Analogy Test Set: BATS (Gladkova et al. 2016). Uchambuzi wetu unaonyesha kwamba kwa Kiafrikana, sawa na Kiingereza, aina za upachikaji huathiri ubora wa mlinganisho unaopatikana kwa kazi tofauti za kiisimu. Uchunguzi wetu pia unaonyesha, hata hivyo, kwamba upachikaji huu wa Kiafrikana hausimbi uwakilishi wa kiisimu ulio wazi kama ule wa upachikaji wa Kiingereza. Sababu kamili ya hili ni mada ya kazi ya baadaye, lakini ongezeko la uchangamano wa kimofolojia na ukosefu wa data kwa uwezekano mkubwa vina mchango.
 
 ## Maneno Muhimu
 

@@ -32,7 +32,7 @@ Aina za maneno za Setswana zinajumuisha vitenzi, nomino, vifafanuzi, vielezi na 
 
 Tafiti chache zimefanywa kuhusu ugawaji wa maneno na uwekaji tagi wa aina za maneno kwa Setswana na Kisotho cha Kaskazini ambacho kinahusiana kwa karibu na Setswana (Faaß et al 2009 na Malema et al 2017). Utafiti huu haukufunika utenganishaji wa alama za sehemu changamano za lugha. Vielezi, vimilikishi na virejeshi vina muundo wa kujirudia ambao unaviruhusu kupanuliwa na kusababisha miundo changamano iliyo na POS kadhaa. Katika kisa hiki, twamaanisha urefu na matumizi ya POS kadhaa ili kujenga sehemu moja ya usemi.
 
-Karatasi hii inachunguza utambuzi wa vivumishi changamano na vielezi vya Setswana kwa kutumia kitambulishi cha aina za maneno. Tunatoa kanuni za msingi za jinsi ya kutambua POS ngumu kama vile vielezi, vimilikishi na virejeshi. Njia inayopendekezwa inaweka alama za maneno moja kisha inajenga alama tata zinazotegemea sheria zilizobuniwa za upanuzi. Kanuni hizo zimejaribiwa kwa virejeshi na matokeo ya awali yanaonyesha kuwa kanuni nyingi ni thabiti na hufanya kazi mara nyingi.
+Makala hii inachunguza utambuzi wa vivumishi changamano na vielezi vya Setswana kwa kutumia kitambulishi cha aina za maneno. Tunatoa kanuni za msingi za jinsi ya kutambua POS ngumu kama vile vielezi, vimilikishi na virejeshi. Njia inayopendekezwa inaweka alama za maneno moja kisha inajenga alama tata zinazotegemea sheria zilizobuniwa za upanuzi. Kanuni hizo zimejaribiwa kwa virejeshi na matokeo ya awali yanaonyesha kuwa kanuni nyingi ni thabiti na hufanya kazi mara nyingi.
 
 ## 2. POS Changamano za Setswana
 

@@ -63,7 +63,7 @@ Kielelezo 2: Wingu la Maneno la Sepedi
 
 Kama inavyoonekana, seti za data ni ndogo kiasi na kwa hivyo, tunapaswa kutafuta njia nyingine za kujenga vektaiza ambazo zinaweza kujumlisha vizuri zaidi kwa sababu utofauti wa tokeni za maneno ungekuwa mdogo sana.
 
-Sisi tuliorodhesha makundi ya data kwa kugawanya vichwa vya habari katika: Sheria, Habari za Jumla, Michezo, Nyingine, Siasa, Habari za Usafiri, Shughuli za Jamii, Uhalifu, Biashara na Mambo ya Nje. Uwekaji wa maelezo ulifanyika baada ya kusoma vichwa vya habari na kubuni kategoria zinazolingana na seti zote mbili za data. Tunaonyesha usambazaji wa lebo katika seti za data za Setswana na Sepedi katika Kielelezo 3 na 4 mtawalia. Kwa kazi hii, tunachunguza tu uainishaji wa lebo moja kwa kila makala. Inabaki kuwa kazi ya baadaye kuangalia kisa cha lebo nyingi. Kwa hivyo, kunaweza kuwa na kelele fulani katika lebo. Mifano kutoka kwa kopusu ya habari ya Sepedi iliyo na vidokezo imeonyeshwa hapa chini:
+Sisi tuliorodhesha makundi ya data kwa kugawanya vichwa vya habari katika: Sheria, Habari za Jumla, Michezo, Nyingine, Siasa, Habari za Usafiri, Shughuli za Jamii, Uhalifu, Biashara na Mambo ya Nje. Uwekaji wa maelezo ulifanyika baada ya kusoma vichwa vya habari na kubuni kategoria zinazolingana na seti zote mbili za data. Tunaonyesha usambazaji wa lebo katika seti za data za Setswana na Sepedi katika Kielelezo 3 na 4 mtawalia. Kwa kazi hii, tunachunguza tu uainishaji wa lebo moja kwa kila makala. Inabaki kuwa kazi ya baadaye kuangalia kisa cha lebo nyingi. Kwa hivyo, kunaweza kuwa na kelele fulani katika lebo. Mifano kutoka kwa korasi ya habari ya Sepedi iliyo na vidokezo imeonyeshwa hapa chini:
 
 Tsela ya N1 ka Borwa kgauswi le Mantsole Weighbridge ka mo Limpopo ebe e tswaletswe lebakanyana ka morago ga kotsi yeo e hlagilego. Traffic
 
@@ -83,7 +83,7 @@ p03-03.png
 
 Kielelezo 4: Usambazaji wa kategoria za vichwa vya habari vya Sepedi
 
-Jedwali 3: Ukubwa wa Korpora za Vektaiza kwa idadi ya mistari (idadi ya tokeni)
+Jedwali 3: Ukubwa wa Korasi za Vektaiza kwa idadi ya mistari (idadi ya tokeni)
 
 p03-04.png
 
@@ -99,7 +99,7 @@ Sehemu hii inawasilisha majaribio na matokeo. Kwa kuwa hii bado ni kazi inayoend
 
 ## 4.1. Mpangilio wa Majaribio
 
-Kwa kila tatizo la uainishaji, tunafanya uthibitishaji mtambuka wa mikunjo 5. Kwa vektaishaji wa mfuko wa maneno na TFIDF, tunatumia ukubwa wa juu wa tokeni wa 20,000. Kwa upachikaji wa maneno na upachikaji wa lugha tunatumia ukubwa 50. Vektaishaji wote walifunzwa kwenye kumbukumbu kubwa zilizowasilishwa awali.
+Kwa kila tatizo la uainishaji, tunafanya uthibitishaji mtambuka wa mikunjo 5. Kwa vektaishaji wa mfuko wa maneno na TFIDF, tunatumia ukubwa wa juu wa tokeni wa 20,000. Kwa upachikaji wa maneno na upachikaji wa lugha tunatumia ukubwa 50. Vektaishaji wote walifunzwa kwenye korasi kubwa zilizowasilishwa awali.
 
 ## 4.1.1. Majaribio ya Msingi
 

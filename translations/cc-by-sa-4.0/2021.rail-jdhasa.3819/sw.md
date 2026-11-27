@@ -59,7 +59,7 @@ p03-01.png
 
 ## 4.1 Baadhi ya vipengele vya Corpus
 
-Korpusi inaweza kusaidia aina nyingi za utafiti. Yafuatayo yalikuwa baadhi ya vipengele vya awali vya kuvutia ambavyo tulivipata katika uchunguzi wa awali. Korasi bado inawekewa maelezo.
+Korasi inaweza kusaidia aina nyingi za utafiti. Yafuatayo yalikuwa baadhi ya vipengele vya awali vya kuvutia ambavyo tulivipata katika uchunguzi wa awali. Korasi bado inawekewa maelezo.
 
 ## Tahajia
 

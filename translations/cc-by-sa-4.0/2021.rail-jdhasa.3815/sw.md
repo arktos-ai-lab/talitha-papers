@@ -14,7 +14,7 @@ North-West University, South Africa
 
 ## Muhtasari
 
-Kwa mradi huu, tulikusanya na kufafanua data ili kuendeleza rasilimali za lugha kwa lugha nne rasmi za Nguni za Afrika Kusini zinazoandikwa kwa tahajia unganishi. Data za lugha hizi nne ni sambamba ili kuruhusu tafiti linganishi za kiisimu (kikokotozi). Kopora zimefafanuliwa kwa aina tatu za taarifa za kiisimu (mofolojia, aina za maneno na lemma). Makala inaangazia utaratibu wa ufafanuzi, maamuzi ya muundo yaliyofanywa njiani pamoja na hatua za udhibiti wa ubora zilizotumika. Tunatumai maelezo haya yataipa mwongozo fulani kwa miradi inayofanana kwenye lugha zisizo na rasilimali za kutosha katika siku zijazo.
+Kwa mradi huu, tulikusanya na kufafanua data ili kuendeleza rasilimali za lugha kwa lugha nne rasmi za Nguni za Afrika Kusini zinazoandikwa kwa tahajia unganishi. Data za lugha hizi nne ni sambamba ili kuruhusu tafiti linganishi za kiisimu (kikokotozi). Korasi zimefafanuliwa kwa aina tatu za taarifa za kiisimu (mofolojia, aina za maneno na lemma). Makala inaangazia utaratibu wa ufafanuzi, maamuzi ya muundo yaliyofanywa njiani pamoja na hatua za udhibiti wa ubora zilizotumika. Tunatumai maelezo haya yataipa mwongozo fulani kwa miradi inayofanana kwenye lugha zisizo na rasilimali za kutosha katika siku zijazo.
 
 ## Maneno Muhimu
 
@@ -88,11 +88,11 @@ Kwa ulemishaji, lengo lilikuwa kutambua lemma ya shina kwa kila tokeni (Prinsloo
 
 Mara tu seti za lebo na itifaki zilipokuwa zimeanzishwa, kopusu zetu zilihitaji kuwekewa alama za taarifa muhimu za kiisimu. Tulichunguza uwezekano wafuatao mbili wa jinsi ya kufanya uainishaji wa data: wataalamu wa lugha au wanafunzi wangeajiriwa na kupewa mafunzo au utafutaji wa watu wengi (crowdsourcing) ungetumika (Zaidan 2012).
 
-Hasa kwa ufafanuzi wa kimofolojia, maarifa ya kina ya kiisimu yanahitajika ili kufafanua kwa usahihi lugha zinazoshughulikiwa katika mradi huu. Kwa crowdsourcing, hatukutarajia umma kuwa na ujuzi wa kutosha wala kupata watu wa kutosha wanaozungumza lugha nne za Nguni. Kutumia wanafunzi (wa sayansi ya lugha) ingekuwa imewezekana, lakini tena maarifa ya msingi yalikuwa sababu ya wasiwasi pamoja na kiasi cha data cha kuainishwa katika muda uliopewa. Hiyo ndiyo ilikuwa sababu kuu tuliyoamua kuwa na wataalamu wa kiisimu wafanye ufafanuzi wa kopusi.
+Hasa kwa ufafanuzi wa kimofolojia, maarifa ya kina ya kiisimu yanahitajika ili kufafanua kwa usahihi lugha zinazoshughulikiwa katika mradi huu. Kwa crowdsourcing, hatukutarajia umma kuwa na ujuzi wa kutosha wala kupata watu wa kutosha wanaozungumza lugha nne za Nguni. Kutumia wanafunzi (wa sayansi ya lugha) ingekuwa imewezekana, lakini tena maarifa ya msingi yalikuwa sababu ya wasiwasi pamoja na kiasi cha data cha kuainishwa katika muda uliopewa. Hiyo ndiyo ilikuwa sababu kuu tuliyoamua kuwa na wataalamu wa kiisimu wafanye ufafanuzi wa korasi.
 
 ## 5.3 Vifaa
 
-Wataalamu wa kiisimu walifanya kazi katika zana ya ufafanuzi ya Lara II[1] kwa ngazi zote tatu za ufafanuzi wa kiisimu. Lara II, iliyotengenezwa na Centre for Text Technology (CTexT®), ni programu maalum ya kikoa kwa ajili ya ufafanuzi wa tokeni, lemma, lebo za POS, na mofolojia. Lengo la zana hii ni kuwawezesha watumiaji walio na ujuzi mdogo au wa msingi wa kompyuta kuunda kopusi zilizofafanuliwa na zinazoweza kusomeka kwa mashine. Zana hiyo imeonyesha kuongeza Usahihi wa ufafanuzi huku wakati huo huo ikipunguza muda wa ufafanuzi (Puttkammer 2014).
+Wataalamu wa kiisimu walifanya kazi katika zana ya ufafanuzi ya Lara II[1] kwa ngazi zote tatu za ufafanuzi wa kiisimu. Lara II, iliyotengenezwa na Centre for Text Technology (CTexT®), ni programu maalum ya kikoa kwa ajili ya ufafanuzi wa tokeni, lemma, lebo za POS, na mofolojia. Lengo la zana hii ni kuwawezesha watumiaji walio na ujuzi mdogo au wa msingi wa kompyuta kuunda korasi zilizofafanuliwa na zinazoweza kusomeka kwa mashine. Zana hiyo imeonyesha kuongeza Usahihi wa ufafanuzi huku wakati huo huo ikipunguza muda wa ufafanuzi (Puttkammer 2014).
 
 p04-01.png
 

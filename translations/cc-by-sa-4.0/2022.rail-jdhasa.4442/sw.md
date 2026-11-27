@@ -11,7 +11,7 @@ Stellenbosch University
 
 ## Muhtasari
 
-Utafiti wa kisaikolojia-lugha kuhusu isiXhosa na Lugha za Kibantu zinazohusiana ni haba. Kwa utafiti wa uchakataji wa kileksika hasa, sharti la awali ni data kuhusu sifa za kileksika zinazoathiri utambuzi wa neno, kama vile marudio ya neno na msongamano wa ujirani. Karatasi hii inaelezea ukokotoaji wa takwimu hizi na takwimu za kileksika zinazohusiana kutoka kwenye korasi mpya ya isiXhosa yenye maneno milioni 4.8 iliyoundwa hivi karibuni. Kisha inapitia matumizi yanayowezekana ya hifadhidata hiyo ya kileksika kwa ajili ya utafiti kuhusu upataji wa lugha, ukuzaji wa lugha, na uchakataji wa lugha. Karatasi inahitimisha kwa mapendekezo ya kazi zaidi katika kikoa hiki.
+Utafiti wa kisaikolojia-lugha kuhusu isiXhosa na Lugha za Kibantu zinazohusiana ni haba. Kwa utafiti wa uchakataji wa kileksika hasa, sharti la awali ni data kuhusu sifa za kileksika zinazoathiri utambuzi wa neno, kama vile marudio ya neno na msongamano wa ujirani. Makala hii inaelezea ukokotoaji wa takwimu hizi na takwimu za kileksika zinazohusiana kutoka kwenye korasi mpya ya isiXhosa yenye maneno milioni 4.8 iliyoundwa hivi karibuni. Kisha inapitia matumizi yanayowezekana ya hifadhidata hiyo ya kileksika kwa ajili ya utafiti kuhusu upataji wa lugha, ukuzaji wa lugha, na uchakataji wa lugha. Makala inahitimisha kwa mapendekezo ya kazi zaidi katika kikoa hiki.
 
 ## Maneno Muhimu
 

@@ -27,7 +27,7 @@ Ingawa watu wengi katika Afrika, hutumia simu kwa ajili ya mawasiliano badala ya
 
 Lugha nyingi za Afrika zinahusishwa kwa karibu na utambulisho wa kikabila. Hii inaweza kuwa chanzo cha mvutano na imesababisha migogoro. Mtandao unapaswa kuruhusu uwasilishaji usiotambulika na/au uwasilishaji kwa njia ya mwakilishi.
 
-Nchi nyingi za Afrika zinalenga sana lugha za Kiingereza na Kifaransa kama lugha za elimu. Tafsiri kutoka lugha za Kiafrika pia kimsingi imelenga kutafsiri kwa Kiingereza au Kifaransa, hata hivyo lugha nyingi za Kiafrika zinahusiana kwa karibu na zinaweza kuwa na dhana ambazo hazijaelezwa vizuri kwa Kiingereza na Kifaransa, kwa hivyo ni muhimu kuendeleza korpus ambazo zitawezesha uundaji wa zana za tafsiri kati ya lugha za Kiafrika.
+Nchi nyingi za Afrika zinalenga sana lugha za Kiingereza na Kifaransa kama lugha za elimu. Tafsiri kutoka lugha za Kiafrika pia kimsingi imelenga kutafsiri kwa Kiingereza au Kifaransa, hata hivyo lugha nyingi za Kiafrika zinahusiana kwa karibu na zinaweza kuwa na dhana ambazo hazijaelezwa vizuri kwa Kiingereza na Kifaransa, kwa hivyo ni muhimu kuendeleza korasi ambazo zitawezesha uundaji wa zana za tafsiri kati ya lugha za Kiafrika.
 
 Waandishi na watafsiri wengi wanaojitiisha huenda wasijue Kiingereza, kwa hiyo jukwaa la ujitiisho lapaswa lipatikane katika lugha kadhaa, kwa kufaa kabisa kila ujitiisho wa lugha waweza kufanywa.
 
